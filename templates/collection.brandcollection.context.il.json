@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "collection.brandcollection.json",
+  "context": {
+    "market": "il"
+  },
+  "sections": {
+    "image_hero_pGGXt": {
+      "type": "image-hero",
+      "disabled": false,
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "paragraph-c7f71558bb52b2993d16d26e179d9820": null,
+        "image": "{{ collection.metafields.custom.banner_img.value }}",
+        "image_mobile": null,
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "header-71e5d0a1eed1748022d957653b94f8e8": null,
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "header-2efe0fb9b08d120bf9895dbce4bcfc54": null,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "t:sections.image_hero.presets.name"
+    },
+    "rich_text_ri4cr": {
+      "type": "rich-text",
+      "disabled": false,
+      "settings": {
+        "alignment": "center_center",
+        "header-50e7816830ec46b7a0814de5daedba25": null,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-bottom-only",
+        "content_width": "custom",
+        "custom_content_width": 700
+      },
+      "blocks": {
+        "text_m6mU8": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "text_m6mU8"
+      ],
+      "name": "t:sections.rich_text.presets.name"
+    },
+    "banner": {
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "image": "shopify://shop_images/Attar_Al_Has-logo.webp"
+      },
+      "blocks": {}
+    },
+    "collection-list-slider": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "main-collection-product-grid": {
+      "settings": {
+        "columns_desktop": "3",
+        "show_sort": true,
+        "enable_sticky_filter_bar": false,
+        "desktop_filter_location": "sidebar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": false,
+        "collapse_filter_groups_desktop": false,
+        "collapse_filter_groups_mobile": false,
+        "show_swatch_filters": true
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "image_hero_pGGXt",
+    "rich_text_ri4cr",
+    "banner",
+    "collection-list-slider",
+    "main-collection-product-grid"
+  ]
+}

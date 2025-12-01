@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product-kit-selector",
+      "blocks": {
+        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz": {
+          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {
+            "button_style": "solid_accent_2",
+            "button_alignment": "center",
+            "button_content_alignment": "center",
+            "button_margin_top": 0,
+            "button_margin_bottom": 0,
+            "button_max_width": 0,
+            "button_padding_horizontal": 15,
+            "button_full_width": true,
+            "button_show_text": true,
+            "button_show_icon": true,
+            "icon_size": 18,
+            "icon_stroke_width": 1,
+            "icon_offset_vertical": 0
+          }
+        },
+        "inventory_counter_FFa7z": {
+          "type": "inventory-counter",
+          "settings": {
+            "label": "זמינות",
+            "inventory_max": "100",
+            "low_inventory_threshold": "40",
+            "show_status_bar": false,
+            "show_untracked_quantity": false
+          }
+        },
+        "product_callouts-1": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts-2": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p>Free shipping over $50</p>",
+            "icon_2": "paper-airplane",
+            "text_2": "<p>Free Returns & Exchanges</p>",
+            "icon_3": "chat",
+            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "featured_products": {
+          "type": "featured_products",
+          "disabled": true,
+          "settings": {
+            "heading": "Customers also love",
+            "heading_tag": "h3",
+            "column_placement": "left",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": true,
+            "expand_by_default": true
+          }
+        },
+        "quantity_selector_MXiHF": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_labels": true
+          }
+        },
+        "custom_liquid_r8aaL": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
+          }
+        },
+        "accordion_edidn": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "תיאור",
+            "heading_tag": "h3",
+            "content": "<p>Add your collapsible row content here.</p>",
+            "page_for_content": "",
+            "custom_liquid": "{{ product.description }}"
+          }
+        },
+        "accordion_cjJX3": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "אודות המותג",
+            "heading_tag": "h3",
+            "content": "<p>Add your collapsible row content here.</p>",
+            "page_for_content": "",
+            "custom_liquid": "{% liquid\n  assign vendor_handle = product.vendor | handleize\n  assign brand_entry = shop.metaobjects['brand_info'][vendor_handle]\n%}\n\n{% if brand_entry and brand_entry.brand_collection and brand_entry.brand_collection.value %}\n  {{ brand_entry.brand_collection.value.description }}\n{% endif %}"
+          }
+        },
+        "accordion_L7d3X": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "זמני משלוח",
+            "heading_tag": "h3",
+            "content": "<p>הזמנות שנעשו עד השעה 12 , ישלחו באותו היום משלוח סטנדרטי תוך 48 שעות מקבלת ההזמנה</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz",
+        "inventory_counter_FFa7z",
+        "product_callouts-1",
+        "product_callouts-2",
+        "product_callouts",
+        "featured_products",
+        "quantity_selector_MXiHF",
+        "custom_liquid_r8aaL",
+        "accordion_edidn",
+        "accordion_cjJX3",
+        "accordion_L7d3X"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "grid",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "2",
+        "enable_video_looping": true,
+        "enable_product_lightbox": true,
+        "image_aspect_ratio": "portrait",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

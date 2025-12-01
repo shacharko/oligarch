@@ -1,0 +1,381 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "il"
+  },
+  "sections": {
+    "rich_text_bh47h": {
+      "type": "rich-text",
+      "disabled": false,
+      "settings": {
+        "alignment": "center_center",
+        "header-4846318e8cc0903677f6281a5b2d8047": null,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      },
+      "blocks": {
+        "heading_GdM4r": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "title": "THE ESSENTIAL CHRISTMAS",
+            "heading_tag": "h2",
+            "paragraph-cd34d5421e0321d298109b292ec5f8d2": null,
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_mLU7e": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Give the gift. to someone do you care of</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_CCf97": {
+          "type": "button",
+          "disabled": false,
+          "settings": {
+            "link": "",
+            "link_text": "DISCOVER THE GIFT GUIDE",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GdM4r",
+        "text_mLU7e",
+        "button_CCf97"
+      ],
+      "name": "t:sections.rich_text.presets.name"
+    },
+    "1763495511c382e929": {
+      "type": "_blocks",
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "ai_gen_block_9b03d50_3kVgP": {
+          "type": "ai_gen_block_9b03d50",
+          "disabled": false,
+          "settings": {
+            "header-26a741909373cacae8b9489a7219cad2": null,
+            "line_style": "solid",
+            "line_width": "full",
+            "line_thickness": 1,
+            "line_color": "#aaaaaa",
+            "header-4ca4c1aaa6d8eaf056d1f6550ca2dcfd": null,
+            "spacing_top": 20,
+            "spacing_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "ai_gen_block_9b03d50_3kVgP"
+      ]
+    },
+    "collection_list_slider_with_desc_ReTUc": {
+      "type": "collection-list-slider-with-desc",
+      "disabled": false,
+      "settings": {
+        "heading": "הקולקציות שלנו",
+        "heading_tag": "h2",
+        "paragraph-7ab4530cea8b6ef20cd08a4cd2121a7f": null,
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "לכל הקולקציות",
+        "button_style": "btn--callout",
+        "header-8aa16711dfbb46261851dee139cee47c": null,
+        "columns": "3",
+        "mobile_columns": "2",
+        "collection_list": [
+          "andy-tauer",
+          "attar-al-has",
+          "attar",
+          "borouj"
+        ],
+        "header-e23f065709b43d71280449d3c3718c61": null,
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "header-21ec047b1bb210891a6709c3fed86e6f": null,
+        "show_desc": true,
+        "desc_lines": 3,
+        "show_read_more": true,
+        "read_more_label": "קרא/י עוד",
+        "header-ad759fafafe137f0f03bffa7f31c7372": null,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Collection list slider (with description)"
+    },
+    "custom_liquid_3qjtn": {
+      "type": "custom-liquid",
+      "disabled": false,
+      "settings": {
+        "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 120, gap_px: 80, link_to_collections: true %}",
+        "header-2e302243f38e2d093c440530083ae5b2": null,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "t:sections.custom_liquid.presets.name"
+    },
+    "blogs_slider_description_GwX7n": {
+      "type": "blogs-slider-description",
+      "disabled": false,
+      "settings": {
+        "heading": "מהבלוגים שלנו",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "לכל הבלוגים",
+        "button_style": "btn--callout",
+        "header-2988a0a23e623d39927f8fab8b58342e": null,
+        "columns": "4",
+        "mobile_columns": "1",
+        "header-3cacf6942bc21cc72c1acaee17313d6d": null,
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "header-1c30f62187dbdc9bb1247adbacc212e7": null,
+        "show_desc": true,
+        "desc_lines": 3,
+        "show_read_more": true,
+        "read_more_label": "קרא/י עוד"
+      },
+      "blocks": {
+        "blog_item_M6X9x": {
+          "type": "blog_item",
+          "disabled": false,
+          "settings": {
+            "blog": "gift-experience-אמנות-המתנה"
+          }
+        },
+        "blog_item_ffmzC": {
+          "type": "blog_item",
+          "disabled": false,
+          "settings": {
+            "blog": "the-art-of-layering-אמנות-השכבות"
+          }
+        },
+        "blog_item_EgdK4": {
+          "type": "blog_item",
+          "disabled": false,
+          "settings": {
+            "blog": "news"
+          }
+        },
+        "blog_item_xhRx7": {
+          "type": "blog_item",
+          "disabled": false,
+          "settings": {
+            "blog": "zodiac-scents-מזלות-וריח"
+          }
+        },
+        "blog_item_AVE9d": {
+          "type": "blog_item",
+          "disabled": false,
+          "settings": {
+            "blog": "perfume-stories"
+          }
+        }
+      },
+      "block_order": [
+        "blog_item_M6X9x",
+        "blog_item_ffmzC",
+        "blog_item_EgdK4",
+        "blog_item_xhRx7",
+        "blog_item_AVE9d"
+      ],
+      "name": "Blog slider-description"
+    },
+    "image_hero_split_JV7U3": {
+      "type": "image-hero-split",
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "paragraph-cf65d151f7920ceaf463470c7403c9ca": null,
+        "text_position": "flex-end",
+        "header-bec47437b5e40f96ddec54380ebd95d1": null,
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 30,
+        "header-7d435d4f57fa1a07b4f443b504a0357c": null,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      },
+      "blocks": {
+        "image_tiU8y": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/s2822070-av-4-zoom.jpg",
+            "image_mobile": "shopify://shop_images/s2822070-av-4-zoom.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "title": "Image hero split",
+            "heading_tag": "h2",
+            "paragraph-7fa43fecb1a5d3935e5b39675761e72c": null,
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_7QCaw": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/roja-parfums-720094.webp",
+            "image_mobile": "shopify://shop_images/roja-parfums-720094.webp",
+            "focal_point": "bottom",
+            "mobile_focal_point": "bottom",
+            "title": "Image hero split",
+            "heading_tag": "h2",
+            "paragraph-36d55545fa282d31c28212683c1f18ed": null,
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_tiU8y",
+        "image_7QCaw"
+      ],
+      "name": "t:sections.image_hero_split.presets.name"
+    },
+    "video_hero_VY4jBe": {
+      "settings": {
+        "section_padding": "section--vertical-padding-none"
+      },
+      "blocks": {}
+    },
+    "custom_liquid_97CHAd": {
+      "settings": {
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-none"
+      },
+      "blocks": {}
+    },
+    "slideshow_KrHxxB": {
+      "settings": {},
+      "blocks": {
+        "slide_mYTqh": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "header-7f2c167f5e84974b764ecf3b76797de3": null,
+            "image": "shopify://shop_images/ATTAR_COLLECTION_Annabella_100ml_EDP_02.webp",
+            "image_mobile": null,
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "header-688b846763f25f1335abc1bc12ab0714": null,
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "Slide",
+            "heading_tag": "h2",
+            "paragraph-c9ecb1e9ea118b0fd34ce0db45687fcd": null,
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "paragraph-7fd09ebf1afeeb3afc1eed0c5cf49606": null,
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement</p>",
+            "text_font_class": "fs-body-100",
+            "header-abbaab78dc701bd6c03a99ba21ac350e": null,
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "header-2a7428cba13c626eb4200a72cfb6a98e": null,
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "header-a3a62205cbd551bf80ed57f60819aecc": null,
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_akRbMi": {
+          "settings": {
+            "link_1": "shopify://pages/scent-families"
+          }
+        }
+      },
+      "block_order": [
+        "slide_akRbMi",
+        "slide_mYTqh"
+      ]
+    },
+    "behind_brands_9YJ8yF": {
+      "settings": {
+        "centered": true
+      },
+      "blocks": {}
+    },
+    "image_with_text_LTRzQN": {
+      "settings": {
+        "focal_point": "image_presentation",
+        "text_alignment": "center",
+        "image_small_focal_point": "image_presentation"
+      },
+      "blocks": {}
+    }
+  },
+  "order": [
+    "video_hero_VY4jBe",
+    "rich_text_bh47h",
+    "custom_liquid_97CHAd",
+    "1763495511c382e929",
+    "collection_list_slider_with_desc_ReTUc",
+    "custom_liquid_3qjtn",
+    "featured_collection_slider_iJpRtV",
+    "featured_collection_slider_aE4DjX",
+    "slideshow_KrHxxB",
+    "rich_text_arA9fN",
+    "collection_list_slider_mR8grQ",
+    "collection_list_slider_FWw4BR",
+    "rich_text_qF8Ria",
+    "behind_brands_9YJ8yF",
+    "grid_hd3m4p",
+    "image_with_text_split_XQD3a6",
+    "image_with_text_split_pcVmAB",
+    "blogs_slider_description_GwX7n",
+    "rich_text_HYfzAm",
+    "image_with_text_LTRzQN",
+    "behind_brands_zwbyaH",
+    "image_hero_split_JV7U3"
+  ]
+}

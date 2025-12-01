@@ -1,0 +1,50 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "il"
+  },
+  "sections": {
+    "header": {
+      "custom_css": [],
+      "settings": {
+        "logo": "shopify://shop_images/Oligarch_Logo_SVG.svg"
+      },
+      "blocks": {
+        "compact_meganav_aWXCW4": {
+          "settings": {
+            "columns_width": 300,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 300,
+            "promo_height": 280,
+            "overlay_opacity": 30
+          }
+        },
+        "compact_meganav_6JGmJU": {
+          "settings": {
+            "columns_width": 300,
+            "promo_width": 300
+          }
+        },
+        "full_width_meganav_WXyTTy": {
+          "settings": {
+            "secondary_position": "right"
+          }
+        }
+      }
+    },
+    "announcement-bar": {
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}

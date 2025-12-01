@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.sample-sets.json",
+  "context": {
+    "market": "il"
+  },
+  "sections": {
+    "image_hero_HBddn": {
+      "type": "image-hero",
+      "disabled": false,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 100,
+        "paragraph-3afa4f7751857669d84e9879027eac56": null,
+        "image": "shopify://shop_images/S25-STUDIO-EDP-Discovery-Set-4130-1-WEB-2000x882.jpg",
+        "image_mobile": null,
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "header-6616830363d2cdf563fae517784b4b93": null,
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "header-7e505281b5a95f5b74eba069a6259477": null,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      },
+      "blocks": {
+        "heading_xirht": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "title": "קיט דוגמיות בהתאמה אישית",
+            "heading_tag": "h2",
+            "paragraph-efac2b285d496e649e82a45e75cf4862": null,
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "heading_U6Wa3": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "title": "Mix & Match",
+            "heading_tag": "h2",
+            "paragraph-4c0034a0e15dc11020a6077a3c63c64f": null,
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_QiGpA": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "<p>בחרו מותג והוסיפו 5 דוגמיות בגודל 2ml. דרך חדשה, חכמה ומרגשת לגלות את עולם הניחוחות.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xirht",
+        "heading_U6Wa3",
+        "text_QiGpA"
+      ],
+      "name": "t:sections.image_hero.presets.name"
+    },
+    "rich_text_nkggR": {
+      "type": "rich-text",
+      "disabled": false,
+      "settings": {
+        "alignment": "left_left",
+        "header-97d456ac7aee80a5cd89d66f36335404": null,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      },
+      "blocks": {
+        "heading_4VAmV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_tag": "h2",
+            "paragraph-5b976767076b6160565e031448d069a4": null,
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_xLrfq": {
+          "type": "border",
+          "disabled": true,
+          "settings": {}
+        },
+        "text_xhgpN": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_tpXmx": {
+          "type": "spacer",
+          "disabled": false,
+          "settings": {
+            "space": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_4VAmV",
+        "border_xLrfq",
+        "text_xhgpN",
+        "spacer_tpXmx"
+      ],
+      "name": "t:sections.rich_text.presets.name"
+    },
+    "brands_logos_mo_YNfGd": {
+      "type": "brands-logos-MO",
+      "disabled": false,
+      "settings": {},
+      "blocks": {},
+      "block_order": [],
+      "name": "Brands logos grid -MO-"
+    }
+  },
+  "order": [
+    "image_hero_HBddn",
+    "rich_text_nkggR",
+    "brands_logos_mo_YNfGd"
+  ]
+}

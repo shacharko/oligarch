@@ -1,0 +1,1062 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_hero_VY4jBe": {
+      "type": "video-hero",
+      "blocks": {
+        "accent_rJjFCP": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "play_button_PzAGEr": {
+          "type": "play-button",
+          "disabled": true,
+          "settings": {
+            "video_source": "external",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "aspect_ratio": "square",
+            "text": "Watch now",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "accent_rJjFCP",
+        "play_button_PzAGEr"
+      ],
+      "name": "t:sections.video_hero.presets.name",
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "video": "shopify://files/videos/v12044gd0000ctnabmnog65j714oaip0.MP4",
+        "video_mobile": "shopify://files/videos/v12044gd0000ctnabmnog65j714oaip0.MP4",
+        "media_link": "",
+        "focal_point": "center",
+        "focal_point_mobile": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_dmzFYM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WayWMR": {
+          "type": "heading",
+          "settings": {
+            "title": "OLIGARCH NICHE PERFUMERY",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_4CTBzy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>הבית לבשמי נישה ויוקרה בישראל . כל בקבוק יצירת אמנות , כל ריח הוא חותם אישי , בחירה מדויקת ,חוויה יוקרתית, ללא פשרות</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "button_FymrAL": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "DISCOVERY THE GIFT",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WayWMR",
+        "text_4CTBzy",
+        "button_FymrAL"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 400
+      }
+    },
+    "custom_liquid_97CHAd": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% render 'new-benefits-bar'%}",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "collection_list_slider_X66xn8": {
+      "type": "collection-list-slider",
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections/seasons",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "columns": "3",
+        "mobile_columns": "2",
+        "collection_list": [
+          "seasons",
+          "brands",
+          "scent-profiles",
+          "mood"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "slideshow_KrHxxB": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Bt8taz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/58735f07-6d59-4692-9022-49de47d76a06.png",
+            "image_mobile": "shopify://shop_images/58735f07-6d59-4692-9022-49de47d76a06.png",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-4-base",
+            "text": "<p> גלו את הבושם המדויק שלכם</p><p>בלי להמר, בלי לבזבז זמן ובלי לשלם יותר מדי.</p><p>500+ בשמים יוקרתיים, 100% מקוריים, בדוגמיות ומארזים מהודרים.</p><p>בחרו, התנסו, והזמינו בביטחון מלא – עם משלוח מהיר לכל הארץ.</p>",
+            "text_font_class": "fs-body-200",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--secondary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--secondary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_akRbMi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/homepage-media-cta.png",
+            "image_mobile": "shopify://shop_images/homepage-media-cta.png",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-4-base",
+            "text": "<p>גלו את המארז שמדבר אליכם</p><p>כל ריח הוא מסע, וכל מארז – חוויה שמחכה להתגלות.</p><p>סיטרוס מרענן, פרחוני קסום, פירותי שובב, מתובל חם או עץ עמוק – לכל אחד יש את הריח שמספר את סיפורו.</p><p>בחרו את המארז שלכם עכשיו והתחילו לחוות רגעים בלתי נשכחים.</p>",
+            "text_font_class": "fs-body-200",
+            "link_1": "shopify://collections/wenter-collection",
+            "link_text_1": "",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--secondary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_Bt8taz",
+        "slide_akRbMi"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "enable_autoplay": true,
+        "duration_autoplay": 5,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#ffffff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "collection_list_slider_mR8grQ": {
+      "type": "collection-list-slider",
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "דיסקברי סט לפי משפחות ריח",
+        "heading_tag": "h2",
+        "subheading": "<p>גלו את הניחוח שמדבר אליכם - פרחוני, פירותי, עצי, אוריינטלי, פרשי ועוד ... תנו לריחות להוביל אתכם למסע אישי ומרגש.</p>",
+        "link": "shopify://pages/scent-families",
+        "link_text": "כל הקולקציות",
+        "button_style": "btn--callout",
+        "columns": "5",
+        "mobile_columns": "2",
+        "collection_list": [
+          "amber-collection",
+          "chypre-collection",
+          "gourmand-collection",
+          "floral-collection",
+          "woody-collection"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "custom_liquid_Yhm46m": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 80, gap_px: 80, link_to_collections: true %}",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "collection_list_slider_FWw4BR": {
+      "type": "collection-list-slider",
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "דיסקברי סט לפי מזלות",
+        "heading_tag": "h2",
+        "subheading": "<p>גלה את הניחוח שמעצים את המזל שלך. כל סט מותאם לאנרגיה הייחודית שלך, מחבר אותך לאופי שלך ומזמין חוויה ריחנית אישית, מדויקת ובלתי נשכחת</p>",
+        "link": "shopify://pages/zodiac",
+        "link_text": "לקולקציה המלאה",
+        "button_style": "btn--callout",
+        "columns": "5",
+        "mobile_columns": "2",
+        "collection_list": [
+          "aquarius",
+          "aries",
+          "cancer",
+          "capricorn",
+          "gemini",
+          "leo",
+          "libra",
+          "pisces",
+          "sagittarius",
+          "virgo",
+          "taurus",
+          "scorpio"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "featured_collection_slider_aE4DjX": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "collection_EJq4FB": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-seller",
+            "collection_name": "הנמכרים ביותר",
+            "show_view_all": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_EJq4FB"
+      ],
+      "name": "t:sections.featured_collection_slider.presets.name",
+      "settings": {
+        "heading": "Best seller",
+        "heading_tag": "h5",
+        "subheading": "<p><strong>הכירו את הריחות שכבשו אלפי לבבות והפכו לאייקונים של עולם הבישום. ניחוחות עם נוכחות, עומק ואיזון מושלם — הבחירה האולטימטיבית של אלו שמחפשים איכות, חוויה וזיכרון שמלווה לאורך זמן</strong></p>",
+        "link": "shopify://collections/best-seller",
+        "link_text": "הנמכרים ביותר",
+        "button_style": "btn--callout",
+        "maximum_products": 15,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "grid_JtqcCU": {
+      "type": "grid",
+      "blocks": {
+        "item_Jyqhed": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 700,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/o.H516cXBht3P.jpg",
+            "mobile_image": "shopify://shop_images/o.H516cXBht3P.jpg",
+            "media_fit": "cover",
+            "focal_point": "center",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>גלו את הקולקציה</p>",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/מוצרים-לבית-אקססוריז",
+            "link_text": "",
+            "button_style": "btn--secondary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "item_4UJy4U": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 700,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/kzdcg32t.fbs_MP_ca61d78d-bf76-4d7d-9ad8-aa5a5d2beedc_3_07325380223980085413410062923_549.jpg",
+            "mobile_image": "shopify://shop_images/kzdcg32t.fbs_MP_ca61d78d-bf76-4d7d-9ad8-aa5a5d2beedc_3_07325380223980085413410062923_549.jpg",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>גלו את הקולקציה</p>",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "shopify://collections/מוצרים-לבית-אקססוריז",
+            "link_text": "",
+            "button_style": "btn--secondary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "item_Jyqhed",
+        "item_4UJy4U"
+      ],
+      "name": "t:sections.grid.presets.name",
+      "settings": {
+        "heading": "אקססוריז לבית , נרות ומפיצי ריח",
+        "heading_tag": "h2",
+        "subheading": "<p>קולקציית האקססוריז, הנרות ומפיצי הריח מביאה עיצוב, איכות וניחוחות יוקרתיים ממותגים מובילים להשלמת האווירה בכל חלל הבית.</p>",
+        "content_alignment": "center",
+        "enable_animation": true,
+        "full_width": true,
+        "spacing": 24,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "featured_collection_slider_iJpRtV": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "collection_6NdMxx": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "collection_name": "חדש כל המדף",
+            "show_view_all": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_6NdMxx"
+      ],
+      "name": "t:sections.featured_collection_slider.presets.name",
+      "settings": {
+        "heading": "New arrivals",
+        "heading_tag": "h5",
+        "subheading": "<p><strong>הטרנדים הכי חמים לשנת 2026, ההשקות הכי מדוברות— כאן תמצאו את החידושים שמציתים סקרנות, מעוררים השראה ומחכים רק לכם</strong></p>",
+        "link": "shopify://collections/new-arrivals",
+        "link_text": "חדש על המדף",
+        "button_style": "btn--callout",
+        "maximum_products": 15,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_arA9fN": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3eGfiy": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "גלו עכשיו",
+            "button_style": "btn--primary"
+          }
+        },
+        "border_cJcrgm": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "button_3eGfiy",
+        "border_cJcrgm"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_qF8Ria": {
+      "type": "rich-text",
+      "blocks": {
+        "border_GgWGF6": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "border_GgWGF6"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "behind_brands_9YJ8yF": {
+      "type": "behind-brands",
+      "blocks": {
+        "video_card_ceUYd9": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v24044gl0000cv8ss8fog65mnge7nm20 2.MP4",
+            "video_url": "",
+            "product_ref": "creed-eladaria",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_7czYHn": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/ScreenRecording_11-18-2025 17-42-25_1.mov",
+            "video_url": "",
+            "product_ref": "widian-london",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_AiLj6G": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v12044gd0000co24iv7og65n0a13kejg.MP4",
+            "video_url": "",
+            "product_ref": "le-labo-santal-33",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_q7fwd3": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v09044g40000co01q67og65ubetnrbbg.MP4",
+            "video_url": "",
+            "product_ref": "ממו-פריז-מארפה-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_UVbDix": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/ScreenRecording_10-29-2025 16-55-24_1.mov",
+            "video_url": "",
+            "product_ref": "byredo-blanche",
+            "product_link": "",
+            "product_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_card_ceUYd9",
+        "video_card_7czYHn",
+        "video_card_AiLj6G",
+        "video_card_q7fwd3",
+        "video_card_UVbDix"
+      ],
+      "name": "Behind the brands",
+      "settings": {
+        "heading": "BEHIND THE BRANDS",
+        "subheading": "",
+        "centered": true,
+        "loop": true
+      }
+    },
+    "grid_hd3m4p": {
+      "type": "grid",
+      "blocks": {
+        "item_GUhGiT": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/Img-2.webp",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Grid item",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>Perfect for lookbooks and editorial photography</p>",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "item_C33Vk3": {
+          "type": "item",
+          "settings": {
+            "width": "50",
+            "height": 500,
+            "mobile_height": 500,
+            "image": "shopify://shop_images/Img-1.webp",
+            "media_fit": "cover",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "text_position": "center_flex-end",
+            "accent": "",
+            "title": "Grid item",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-2-base",
+            "subheading": "<p>Perfect for lookbooks and editorial photography</p>",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary",
+            "background_color": "",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "item_GUhGiT",
+        "item_C33Vk3"
+      ],
+      "disabled": true,
+      "name": "t:sections.grid.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "content_alignment": "center",
+        "enable_animation": true,
+        "full_width": false,
+        "spacing": 24,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "blogs_slider_description_QNtjM8": {
+      "type": "blogs-slider-description",
+      "blocks": {
+        "blog_item_4XJWCx": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "zodiac-scents-מזלות-וריח"
+          }
+        },
+        "blog_item_88UWLP": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "perfume-stories"
+          }
+        },
+        "blog_item_n8xnHN": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "news"
+          }
+        },
+        "blog_item_btfpXj": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "gift-experience-אמנות-המתנה"
+          }
+        },
+        "blog_item_XGjhcH": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "the-art-of-layering-אמנות-השכבות"
+          }
+        }
+      },
+      "block_order": [
+        "blog_item_4XJWCx",
+        "blog_item_88UWLP",
+        "blog_item_n8xnHN",
+        "blog_item_btfpXj",
+        "blog_item_XGjhcH"
+      ],
+      "name": "Blog list slider (with description)",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://blogs/news",
+        "link_text": "לכל הבלוגים",
+        "button_style": "btn--callout",
+        "columns": "3",
+        "mobile_columns": "2",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "show_desc": true,
+        "desc_lines": 3,
+        "show_read_more": true,
+        "read_more_label": "קרא/י עוד"
+      }
+    },
+    "image_with_text_split_XQD3a6": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_X6CKeW": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "heading_X3NDEq": {
+          "type": "heading",
+          "settings": {
+            "title": "Zoologist Perfumes",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "heading_WkFJeQ": {
+          "type": "heading",
+          "settings": {
+            "title": "בשמים נישתיים שמספרים סיפור כל בקבוק הוא חוויה חושית ייחודית",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_iMFGaV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "ריחות יוצאי דופן, יוקרתיים ומקוריים שמובילים אתכם למסע אישי ומסתורי.תנו לעצמכם להיסחף – כל תו, כל ניחוח, כל מארז מזמין אתכם לגלות עולם שאין שני לו.התחילו עכשיו את החוויה – כיבואן הרשמי של Zoologist Perfumes בישראל, אנחנו מביאים את הבשמים האותנטיים ישירות אליכם",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "button_KBh3UD": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/zoologist-1",
+            "link_text": "גלו את הקולקציה",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "accent_X6CKeW",
+        "heading_X3NDEq",
+        "heading_WkFJeQ",
+        "subheading_iMFGaV",
+        "button_KBh3UD"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/IMG_4212.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_split_pcVmAB": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_3dqFUL": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "heading_CybfiF": {
+          "type": "heading",
+          "settings": {
+            "title": "Attar Al Has",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "heading_enLrTT": {
+          "type": "heading",
+          "settings": {
+            "title": "היוקרה שמסתתרת בכל טיפה",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_xtyHwd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "ניחוחות נדירים, עמוקים ומסעירים שנוגעים בנשמה ומחכים להתעורר על העור שלכם.הקולקציה מגיעה אליכם ישירות מהמותג, בייבוא רשמי ובלעדי שלנו בישראל, כדי להעניק חוויית בישום נקייה, אמיתית ומלאת עוצמה.התחילו את המסע שלכם עם Attar Al Has.",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "button_VNneiR": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/attar-al-has",
+            "link_text": "גלו את הקולקציה",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "accent_3dqFUL",
+        "heading_CybfiF",
+        "heading_enLrTT",
+        "subheading_xtyHwd",
+        "button_VNneiR"
+      ],
+      "name": "t:sections.image_with_text_split.presets.name",
+      "settings": {
+        "image_position": "left",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/IMG_4214.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "content_alignment": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "quote_LdCLgk": {
+      "type": "quote",
+      "blocks": {
+        "quote_D4c9MF": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>“שירות מדהים!<br/>נכנסתי במקרה לחנות ויצאתי עם הבושם המושלם. המוכר ידע מיד לכוון אותי לסגנון שאני אוהבת, ונתן לי להרגיש הכי בבית. אין ספק שאחזור שוב!”</p><p>⭐️⭐️⭐️⭐️⭐️</p>",
+            "title": "סיוון דהן",
+            "quote_tag": "h2",
+            "font_size": "medium"
+          }
+        },
+        "quote_ixKetg": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>“מבחר נדיר ושירות מקצועי<br/>אני חובב בישום שנים, אבל בחנות הזו מצאתי ריחות שלא ראיתי בשום מקום אחר. הצוות בקיא בטירוף בכל ניחוח ויודע להתאים לפי אופי. פשוט תענוג.”</p><p>⭐⭐⭐⭐⭐</p>",
+            "title": "שרון חיימוב",
+            "quote_tag": "h2",
+            "font_size": "medium"
+          }
+        },
+        "quote_YM6bXE": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>“אווירה מפנקת ושירות VIP<br/>מהרגע שנכנסתי קיבלתי יחס חם, הסברים מקצועיים והרבה סבלנות. יצאתי עם בושם שאני מאוהבת בו, ומחמאות לא מפסיקות להגיע.”</p><p>⭐⭐⭐⭐⭐</p>",
+            "title": "רוני אשכנזי",
+            "quote_tag": "h2",
+            "font_size": "medium"
+          }
+        },
+        "quote_dRPp7J": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>“יופי של חנות הגעתי לחפש מתנה, ובזכות השירות האדיב מצאתי משהו מיוחד ובדיוק בתקציב שרציתי. העטיפה הייתה מהממת והמתנה התקבלה בהתלהבות גדולה.”</p><p>⭐⭐⭐⭐⭐</p>",
+            "title": "עדי לוי",
+            "quote_tag": "h2",
+            "font_size": "medium"
+          }
+        },
+        "quote_M7LQDG": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>“חוויית קנייה בלתי נשכחת<br/>החנות מעוצבת בצורה קסומה, ומרגיש שכל בושם נבחר בקפידה. קיבלתי יחס אישי וסבלני, והמלצה שהתגלתה כבינגו מוחלט. תודה ענקית!”</p><p>⭐️⭐️⭐️⭐️⭐️</p>",
+            "title": "דניאל גולן",
+            "quote_tag": "h2",
+            "font_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "quote_D4c9MF",
+        "quote_ixKetg",
+        "quote_YM6bXE",
+        "quote_dRPp7J",
+        "quote_M7LQDG"
+      ],
+      "name": "t:sections.quotes.presets.name",
+      "settings": {
+        "autoplay_enabled": true,
+        "autoplay_delay": 9,
+        "pagination_style": "dots",
+        "font_choice": "ff-heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_HYfzAm": {
+      "type": "rich-text",
+      "blocks": {
+        "border_MtU3EM": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "border_MtU3EM"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "image_with_text_LTRzQN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mcEJ96": {
+          "type": "heading",
+          "settings": {
+            "title": "חווית ריח בלתי נשכחת",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "border_wcTkTx": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_C3FcyY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "בחירת בושם היא תהליך אינטימי ומורכב.לכן יצרנו חוויה אישית וייחודית – מסע חושי אמיתי בלב החללים האלגנטיים של חנויות הבוטיק שלנו.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "spacer_YewjHr": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "border_bc34a8": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_QiMwbV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "כרטיס מתנה יוקרתי",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_grB76m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>הפתרון המושלם למי שמחפש את המתנה האידיאלית, בלחיצה אחת בלבד.</p><h4></h4>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "button_zegRjH": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/gift-card-product",
+            "link_text": "גלו את החוויה",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mcEJ96",
+        "border_wcTkTx",
+        "subheading_C3FcyY",
+        "spacer_YewjHr",
+        "border_bc34a8",
+        "subheading_QiMwbV",
+        "text_grB76m",
+        "button_zegRjH"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "left",
+        "image": "shopify://shop_images/429F5A94-94ED-4808-9176-EEA946A2DBF6.jpg",
+        "aspect_ratio": "portrait",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "text_alignment": "center",
+        "show_small_image": false,
+        "image_small_aspect": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "behind_brands_zwbyaH": {
+      "type": "behind-brands",
+      "disabled": true,
+      "name": "Behind the brands",
+      "settings": {
+        "heading": "BEHIND THE BRANDS",
+        "subheading": "",
+        "centered": false,
+        "loop": true
+      }
+    }
+  },
+  "order": [
+    "video_hero_VY4jBe",
+    "rich_text_dmzFYM",
+    "custom_liquid_97CHAd",
+    "collection_list_slider_X66xn8",
+    "slideshow_KrHxxB",
+    "collection_list_slider_mR8grQ",
+    "custom_liquid_Yhm46m",
+    "collection_list_slider_FWw4BR",
+    "featured_collection_slider_aE4DjX",
+    "grid_JtqcCU",
+    "featured_collection_slider_iJpRtV",
+    "rich_text_arA9fN",
+    "rich_text_qF8Ria",
+    "behind_brands_9YJ8yF",
+    "grid_hd3m4p",
+    "blogs_slider_description_QNtjM8",
+    "image_with_text_split_XQD3a6",
+    "image_with_text_split_pcVmAB",
+    "quote_LdCLgk",
+    "rich_text_HYfzAm",
+    "image_with_text_LTRzQN",
+    "behind_brands_zwbyaH"
+  ]
+}
