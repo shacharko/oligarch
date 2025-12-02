@@ -70,7 +70,7 @@
         "text_4CTBzy": {
           "type": "text",
           "settings": {
-            "text": "<p>הבית לבשמי נישה ויוקרה בישראל . כל בקבוק יצירת אמנות , כל ריח הוא חותם אישי , בחירה מדויקת ,חוויה יוקרתית, ללא פשרות</p>",
+            "text": "<p>...Fragrance Speaks Louder Than Words</p><p>Discover over 500 niche perfumes from 50+ luxury brands<br/>Express Yourself. Leave an Unforgettable Impression.</p>",
             "text_font_class": "fs-body-75"
           }
         },
@@ -150,7 +150,7 @@
             "text_position_mobile": "center_center",
             "accent": "",
             "title": "",
-            "heading_tag": "h2",
+            "heading_tag": "h4",
             "heading_font_class": "fs-heading-display-3",
             "subheading": "",
             "subheading_tag": "h2",

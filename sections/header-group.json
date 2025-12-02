@@ -17,7 +17,7 @@
         "announcement_ez6fEr": {
           "type": "announcement",
           "settings": {
-            "title": "<h4><strong>משלוח חינם בקנייה מעל 299₪</strong></h4>",
+            "title": "<h4><em>משלוח חינם בקנייה מעל 300₪</em></h4>",
             "title_mobile": "",
             "link": ""
           }
@@ -25,7 +25,7 @@
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
           "settings": {
-            "title": "<h4><strong>15% הנחה על כל מארזי ה־Discovery – משתלם יותר בקנייה מרוכזת</strong></h4>",
+            "title": "<h4><em><strong>15% הנחה על כל מארזי ה־Discovery – משתלם </strong></em></h4><h4><em>יותר בקנייה מרוכזת</em></h4>",
             "title_mobile": "",
             "link": "shopify://collections/קולקציית-מארזים-כללית"
           }
