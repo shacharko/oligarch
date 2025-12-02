@@ -104,7 +104,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p>המחיר כולל מיסים משלוח יחושב בעת התשלום </p>",
+            "text": "<p>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 300 ש״ח</p>",
             "column_placement": "right"
           }
         },

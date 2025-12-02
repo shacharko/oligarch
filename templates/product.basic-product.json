@@ -82,14 +82,6 @@
             "divider_width": "shadow--small"
           }
         },
-        "text_YLEgV": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p>המחיר כולל מיסים משלוח יחושב בעת התשלום </p>",
-            "column_placement": "right"
-          }
-        },
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6": {
           "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
           "settings": {
@@ -106,6 +98,14 @@
             "icon_size": 18,
             "icon_stroke_width": 1,
             "icon_offset_vertical": 0
+          }
+        },
+        "text_YLEgV": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 300 ש״ח</p>",
+            "column_placement": "right"
           }
         },
         "accordion_XpdCx": {
@@ -252,8 +252,8 @@
         "quantity_selector",
         "custom_liquid_aQhpT",
         "buy_buttons",
-        "text_YLEgV",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
+        "text_YLEgV",
         "accordion_XpdCx",
         "accordion_fHfiW",
         "accordion_3q6Rn",

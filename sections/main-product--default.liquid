@@ -420,7 +420,9 @@
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               </div>
             {%- endfor %}
-
+             <div class="product__media-strip product__media-strip--mobile">
+    {% render 'aroma-notes-strip', prod: product %}
+  </div>
             {% if over_media_show_limit_mobile -%}
               <div class="product__media-show-more" data-more-media-bar>
                 <button
@@ -470,6 +472,7 @@
               --overflow-gallery-transition-multiplier: {{ transition_multiplier }};
             "
           {%- endif %}
+          
         >
           {% for media in product.media -%}
             {% liquid
@@ -514,7 +517,9 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
           {%- endfor %}
-
+          <div class="product__media-strip">
+    {% render 'aroma-notes-strip', prod: product %}
+  </div>
           {% if over_media_show_limit -%}
             <div class="product__media-show-more" data-more-media-bar>
               <button

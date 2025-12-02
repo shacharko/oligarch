@@ -149,13 +149,15 @@
         {% endif %}
 
         <div class="footer__credits fs-body-50">
-          <p>
-            {{ 'sections.footer.copyright' | t }} &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: '/' }}.
-            {{ 'sections.footer.rights' | t }}
-            {{ 'sections.footer.see_terms' | t }}
-          </p>
-          {{ section.settings.additional_copyright_text }}
-          <p>{{ powered_by_link | replace: 'rel="nofollow"', 'rel="nofollow noopener"' }}</p>
+         
+          <p style="text-align:center; font-size:13px; color:#777; direction:rtl;">
+    Powered by 
+    <a href="https://yybranding.co.il" target="_blank" style="color:#555; font-weight:600; text-decoration:none;">
+        YY Branding
+    </a>
+</p>
+
+         
         </div>
       </div>
 
