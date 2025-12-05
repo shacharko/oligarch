@@ -1,52 +1,4 @@
-@font-face {
-  font-family: 'IBMPlexSansHebrew-Bold';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/IBMPlexSansHebrew-Bold.ttf?v=1760888277') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansHebrew-Thin';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/IBMPlexSansHebrew-Thin.ttf?v=1760888277') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansHebrew';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/IBMPlexSansHebrew-Regular.ttf?v=1760888277') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansHebrew-Medium';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/IBMPlexSansHebrew-Medium.ttf?v=1760888277') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansHebrew-ExtraLight';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/IBMPlexSansHebrew-ExtraLight.ttf?v=1760888277') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'NotoSansHebrew';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/NotoSansHebrew-VariableFont_wdth_wght.ttf?v=1760043101') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'IBMPlexSansHebrew-ExtraLight';
-  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/IBMPlexSansHebrew-ExtraLight.ttf?v=1760888277') format('truetype');
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
+
 @font-face {
   font-family: 'NotoSansHebrew';
   src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/NotoSansHebrew-VariableFont_wdth_wght.ttf?v=1760043101') format('truetype');
@@ -63,8 +15,8 @@
 }
 
 :root{
-  --font-body:'IBMPlexSansHebrew',sans-serif;
-  --font-heading:'IBMPlexSansHebrew-Medium',sans-serif;
+  --font-body:'TinosHebrew',sans-serif;
+  --font-heading:'TinosHebrew',sans-serif;
   --font-body-weight:300;      /* גוף הטקסט דק */
   --font-heading-weight:400;   /* כותרות מעט עבות */
   --font-body-style:normal;

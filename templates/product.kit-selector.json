@@ -12,24 +12,6 @@
     "main": {
       "type": "main-product-kit-selector",
       "blocks": {
-        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz": {
-          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
-          "settings": {
-            "button_style": "solid_accent_2",
-            "button_alignment": "center",
-            "button_content_alignment": "center",
-            "button_margin_top": 0,
-            "button_margin_bottom": 0,
-            "button_max_width": 0,
-            "button_padding_horizontal": 15,
-            "button_full_width": true,
-            "button_show_text": true,
-            "button_show_icon": true,
-            "icon_size": 18,
-            "icon_stroke_width": 1,
-            "icon_offset_vertical": 0
-          }
-        },
         "inventory_counter_FFa7z": {
           "type": "inventory-counter",
           "settings": {
@@ -140,6 +122,24 @@
             "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
+        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz": {
+          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+          "settings": {
+            "button_style": "solid_accent_2",
+            "button_alignment": "center",
+            "button_content_alignment": "center",
+            "button_margin_top": 0,
+            "button_margin_bottom": 0,
+            "button_max_width": 0,
+            "button_padding_horizontal": 15,
+            "button_full_width": true,
+            "button_show_text": true,
+            "button_show_icon": true,
+            "icon_size": 18,
+            "icon_stroke_width": 1,
+            "icon_offset_vertical": 0
+          }
+        },
         "accordion_edidn": {
           "type": "accordion",
           "settings": {
@@ -150,6 +150,18 @@
             "content": "<p>Add your collapsible row content here.</p>",
             "page_for_content": "",
             "custom_liquid": "{{ product.description }}"
+          }
+        },
+        "accordion_tNUMwN": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "למה כדאי לקנות את המארז?",
+            "heading_tag": "h3",
+            "content": "<p>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</p><p>✔ מגיע באריזה יוקרתית ומהודרת </p><p>✔ מושלם כמתנה / להתנסות בקולקציה</p><p><strong>הכי משתלם: </strong></p><p>✔ קונים כמות - משלמים פחות </p><p>✔ משלוח מהיר 1-3 ימים </p><p>✔ חיסכון שמורגש בקופה</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
           }
         },
         "accordion_cjJX3": {
@@ -178,7 +190,6 @@
         }
       },
       "block_order": [
-        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz",
         "inventory_counter_FFa7z",
         "product_callouts-1",
         "product_callouts-2",
@@ -186,7 +197,9 @@
         "featured_products",
         "quantity_selector_MXiHF",
         "custom_liquid_r8aaL",
+        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz",
         "accordion_edidn",
+        "accordion_tNUMwN",
         "accordion_cjJX3",
         "accordion_L7d3X"
       ],

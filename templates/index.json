@@ -77,7 +77,7 @@
         "button_FymrAL": {
           "type": "button",
           "settings": {
-            "link": "",
+            "link": "shopify://collections/all",
             "link_text": "DISCOVERY THE GIFT",
             "button_style": "btn--primary"
           }
@@ -123,7 +123,8 @@
           "seasons",
           "brands",
           "scent-profiles",
-          "mood"
+          "mood",
+          "notes"
         ],
         "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
@@ -155,7 +156,7 @@
             "subheading": "",
             "subheading_tag": "h2",
             "subheading_font_class": "fs-heading-4-base",
-            "text": "<p> גלו את הבושם המדויק שלכם</p><p>בלי להמר, בלי לבזבז זמן ובלי לשלם יותר מדי.</p><p>500+ בשמים יוקרתיים, 100% מקוריים, בדוגמיות ומארזים מהודרים.</p><p>בחרו, התנסו, והזמינו בביטחון מלא – עם משלוח מהיר לכל הארץ.</p>",
+            "text": "<p><strong> גלו את הבושם המדויק שלכם</strong></p><p><strong>בלי להמר, בלי לבזבז זמן ובלי לשלם יותר מדי.</strong></p><p><strong>500+ בשמים יוקרתיים, 100% מקוריים, בדוגמיות ומארזים מהודרים.</strong></p><p><strong>בחרו, התנסו, והזמינו בביטחון מלא – עם משלוח מהיר לכל הארץ.</strong></p>",
             "text_font_class": "fs-body-200",
             "link_1": "",
             "link_text_1": "Read more",
@@ -187,10 +188,10 @@
             "heading_font_class": "fs-heading-display-3",
             "subheading": "",
             "subheading_tag": "h2",
-            "subheading_font_class": "fs-heading-4-base",
-            "text": "<p>גלו את המארז שמדבר אליכם</p><p>כל ריח הוא מסע, וכל מארז – חוויה שמחכה להתגלות.</p><p>סיטרוס מרענן, פרחוני קסום, פירותי שובב, מתובל חם או עץ עמוק – לכל אחד יש את הריח שמספר את סיפורו.</p><p>בחרו את המארז שלכם עכשיו והתחילו לחוות רגעים בלתי נשכחים.</p>",
+            "subheading_font_class": "fs-heading-6-base",
+            "text": "<p><strong>גלו את המארז שמדבר אליכם</strong></p><p><strong>כל ריח הוא מסע, וכל מארז – חוויה שמחכה להתגלות.</strong></p><p><strong>סיטרוס מרענן, פרחוני קסום, פירותי שובב, מתובל חם או עץ עמוק – לכל אחד יש את הריח שמספר את סיפורו.</strong></p><p><strong>בחרו את המארז שלכם עכשיו והתחילו לחוות רגעים בלתי נשכחים.</strong></p>",
             "text_font_class": "fs-body-200",
-            "link_1": "shopify://collections/wenter-collection",
+            "link_1": "shopify://collections",
             "link_text_1": "",
             "button_style_1": "btn--primary",
             "link_2": "",
@@ -230,7 +231,7 @@
       "settings": {
         "heading": "דיסקברי סט לפי משפחות ריח",
         "heading_tag": "h2",
-        "subheading": "<p>גלו את הניחוח שמדבר אליכם - פרחוני, פירותי, עצי, אוריינטלי, פרשי ועוד ... תנו לריחות להוביל אתכם למסע אישי ומרגש.</p>",
+        "subheading": "<p><strong>גלו את הניחוח שמדבר אליכם - פרחוני, פירותי, עצי, אוריינטלי, פרשי ועוד ... תנו לריחות להוביל אתכם למסע אישי ומרגש.</strong></p>",
         "link": "shopify://pages/scent-families",
         "link_text": "כל הקולקציות",
         "button_style": "btn--callout",
@@ -238,6 +239,7 @@
         "mobile_columns": "2",
         "collection_list": [
           "amber-collection",
+          "fresh-collection",
           "chypre-collection",
           "gourmand-collection",
           "floral-collection",
@@ -268,7 +270,7 @@
       "settings": {
         "heading": "דיסקברי סט לפי מזלות",
         "heading_tag": "h2",
-        "subheading": "<p>גלה את הניחוח שמעצים את המזל שלך. כל סט מותאם לאנרגיה הייחודית שלך, מחבר אותך לאופי שלך ומזמין חוויה ריחנית אישית, מדויקת ובלתי נשכחת</p>",
+        "subheading": "<p><strong>גלה את הניחוח שמעצים את המזל שלך. כל סט מותאם לאנרגיה הייחודית שלך, מחבר אותך לאופי שלך ומזמין חוויה ריחנית אישית, מדויקת ובלתי נשכחת</strong></p>",
         "link": "shopify://pages/zodiac",
         "link_text": "לקולקציה המלאה",
         "button_style": "btn--callout",
@@ -315,7 +317,7 @@
       ],
       "name": "t:sections.featured_collection_slider.presets.name",
       "settings": {
-        "heading": "Best seller",
+        "heading": "BEST SELLER",
         "heading_tag": "h5",
         "subheading": "<p><strong>הכירו את הריחות שכבשו אלפי לבבות והפכו לאייקונים של עולם הבישום. ניחוחות עם נוכחות, עומק ואיזון מושלם — הבחירה האולטימטיבית של אלו שמחפשים איכות, חוויה וזיכרון שמלווה לאורך זמן</strong></p>",
         "link": "shopify://collections/best-seller",
@@ -407,7 +409,7 @@
       "settings": {
         "heading": "אקססוריז לבית , נרות ומפיצי ריח",
         "heading_tag": "h2",
-        "subheading": "<p>קולקציית האקססוריז, הנרות ומפיצי הריח מביאה עיצוב, איכות וניחוחות יוקרתיים ממותגים מובילים להשלמת האווירה בכל חלל הבית.</p>",
+        "subheading": "<p><strong>קולקציית האקססוריז, הנרות ומפיצי הריח מביאה עיצוב, איכות וניחוחות יוקרתיים ממותגים מובילים להשלמת האווירה בכל חלל הבית.</strong></p>",
         "content_alignment": "center",
         "enable_animation": true,
         "full_width": true,
@@ -433,9 +435,9 @@
       ],
       "name": "t:sections.featured_collection_slider.presets.name",
       "settings": {
-        "heading": "New arrivals",
+        "heading": "NEW ARRIVALS",
         "heading_tag": "h5",
-        "subheading": "<p><strong>הטרנדים הכי חמים לשנת 2026, ההשקות הכי מדוברות— כאן תמצאו את החידושים שמציתים סקרנות, מעוררים השראה ומחכים רק לכם</strong></p>",
+        "subheading": "<p><strong>הטרנדים הכי חמים לשנת 2025, ההשקות הכי מדוברות— כאן תמצאו את החידושים שמציתים סקרנות, מעוררים השראה ומחכים רק לכם</strong></p>",
         "link": "shopify://collections/new-arrivals",
         "link_text": "חדש על המדף",
         "button_style": "btn--callout",
@@ -489,6 +491,7 @@
       "block_order": [
         "border_GgWGF6"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "alignment": "left_left",
@@ -562,8 +565,8 @@
       ],
       "name": "Behind the brands",
       "settings": {
-        "heading": "BEHIND THE BRANDS",
-        "subheading": "",
+        "heading": "",
+        "subheading": "<h3><strong>BEHIND THE BRANDS</strong></h3>",
         "centered": true,
         "loop": true
       }
@@ -721,6 +724,7 @@
       "blocks": {
         "accent_X6CKeW": {
           "type": "accent",
+          "disabled": true,
           "settings": {
             "accent": ""
           }
@@ -733,16 +737,23 @@
             "heading_font_class": "fs-heading-display-3"
           }
         },
-        "heading_WkFJeQ": {
-          "type": "heading",
+        "text_q7Ctmk": {
+          "type": "text",
           "settings": {
-            "title": "בשמים נישתיים שמספרים סיפור כל בקבוק הוא חוויה חושית ייחודית",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "text": "<h4><strong>בשמים נישתיים שמספרים סיפור כל בקבוק הוא חוויה חושית ייחודית</strong></h4>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "text_Dknewh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ריחות יוצאי דופן, יוקרתיים ומקוריים שמובילים אתכם למסע אישי ומסתורי.תנו לעצמכם להיסחף – כל תו, כל ניחוח, כל מארז מזמין אתכם לגלות עולם שאין שני לו.התחילו עכשיו את החוויה – כיבואן הרשמי של Zoologist Perfumes בישראל, אנחנו מביאים את הבשמים האותנטיים ישירות אליכם.</strong></p>",
+            "text_font_class": "fs-body-100"
           }
         },
         "subheading_iMFGaV": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "ריחות יוצאי דופן, יוקרתיים ומקוריים שמובילים אתכם למסע אישי ומסתורי.תנו לעצמכם להיסחף – כל תו, כל ניחוח, כל מארז מזמין אתכם לגלות עולם שאין שני לו.התחילו עכשיו את החוויה – כיבואן הרשמי של Zoologist Perfumes בישראל, אנחנו מביאים את הבשמים האותנטיים ישירות אליכם",
             "subheading_tag": "h3",
@@ -761,7 +772,8 @@
       "block_order": [
         "accent_X6CKeW",
         "heading_X3NDEq",
-        "heading_WkFJeQ",
+        "text_q7Ctmk",
+        "text_Dknewh",
         "subheading_iMFGaV",
         "button_KBh3UD"
       ],
@@ -799,16 +811,23 @@
             "heading_font_class": "fs-heading-1-base"
           }
         },
-        "heading_enLrTT": {
-          "type": "heading",
+        "text_wfzQFk": {
+          "type": "text",
           "settings": {
-            "title": "היוקרה שמסתתרת בכל טיפה",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "text": "<h4><strong>היוקרה שמסתתרת בכל טיפה</strong></h4>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "text_q8biPD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ניחוחות נדירים, עמוקים ומסעירים שנוגעים בנשמה ומחכים להתעורר על העור שלכם.הקולקציה מגיעה אליכם ישירות מהמותג, בייבוא רשמי ובלעדי שלנו בישראל, כדי להעניק חוויית בישום נקייה, אמיתית ומלאת עוצמה.התחילו את המסע שלכם עם Attar Al Has.</strong></p>",
+            "text_font_class": "fs-body-100"
           }
         },
         "subheading_xtyHwd": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "ניחוחות נדירים, עמוקים ומסעירים שנוגעים בנשמה ומחכים להתעורר על העור שלכם.הקולקציה מגיעה אליכם ישירות מהמותג, בייבוא רשמי ובלעדי שלנו בישראל, כדי להעניק חוויית בישום נקייה, אמיתית ומלאת עוצמה.התחילו את המסע שלכם עם Attar Al Has.",
             "subheading_tag": "h4",
@@ -827,7 +846,8 @@
       "block_order": [
         "accent_3dqFUL",
         "heading_CybfiF",
-        "heading_enLrTT",
+        "text_wfzQFk",
+        "text_q8biPD",
         "subheading_xtyHwd",
         "button_VNneiR"
       ],
@@ -939,67 +959,67 @@
     "image_with_text_LTRzQN": {
       "type": "image-with-text",
       "blocks": {
-        "heading_mcEJ96": {
-          "type": "heading",
+        "text_YygntL": {
+          "type": "text",
           "settings": {
-            "title": "חווית ריח בלתי נשכחת",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
+            "text": "<h3><em><strong>חווית ריח בלתי נשכחת</strong></em></h3>",
+            "text_font_class": "fs-body-100"
           }
         },
         "border_wcTkTx": {
           "type": "border",
           "settings": {}
         },
+        "text_9cEDFy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>בחירת בושם היא תהליך אינטימי ומורכב.לכן יצרנו חוויה אישית וייחודית – מסע חושי אמיתי בלב החללים האלגנטיים של חנויות הבוטיק שלנו.</strong></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
         "subheading_C3FcyY": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "בחירת בושם היא תהליך אינטימי ומורכב.לכן יצרנו חוויה אישית וייחודית – מסע חושי אמיתי בלב החללים האלגנטיים של חנויות הבוטיק שלנו.",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-6-base"
           }
         },
-        "spacer_YewjHr": {
-          "type": "spacer",
-          "settings": {
-            "space": 12
-          }
-        },
         "border_bc34a8": {
           "type": "border",
           "settings": {}
         },
-        "subheading_QiMwbV": {
-          "type": "subheading",
+        "text_xaUeb7": {
+          "type": "text",
           "settings": {
-            "subheading": "כרטיס מתנה יוקרתי",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-6-base"
+            "text": "<h3><em><strong>כרטיס מתנה יוקרתי</strong></em></h3>",
+            "text_font_class": "fs-body-100"
           }
         },
         "text_grB76m": {
           "type": "text",
           "settings": {
-            "text": "<p>הפתרון המושלם למי שמחפש את המתנה האידיאלית, בלחיצה אחת בלבד.</p><h4></h4>",
-            "text_font_class": "fs-body-75"
+            "text": "<p><strong>הפתרון המושלם למי שמחפש את המתנה האידיאלית, בלחיצה אחת בלבד.</strong></p>",
+            "text_font_class": "fs-body-100"
           }
         },
         "button_zegRjH": {
           "type": "button",
           "settings": {
             "link": "shopify://products/gift-card-product",
-            "link_text": "גלו את החוויה",
+            "link_text": "המתנה המושלמת",
             "button_style": "btn--primary"
           }
         }
       },
       "block_order": [
-        "heading_mcEJ96",
+        "text_YygntL",
         "border_wcTkTx",
+        "text_9cEDFy",
         "subheading_C3FcyY",
-        "spacer_YewjHr",
         "border_bc34a8",
-        "subheading_QiMwbV",
+        "text_xaUeb7",
         "text_grB76m",
         "button_zegRjH"
       ],

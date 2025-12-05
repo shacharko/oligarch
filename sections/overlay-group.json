@@ -16,8 +16,8 @@
       "settings": {
         "enable_quick_cart": true,
         "show_product_currency": true,
-        "continue_shopping_link": "shopify://collections",
-        "promotion_text": "<p></p><p>Not sure where to start? <br>Try these collections:</p>",
+        "continue_shopping_link": "",
+        "promotion_text": "Not sure where to start? Try these collections:",
         "collection_list": [],
         "collection_list_button_style": "btn--secondary"
       }

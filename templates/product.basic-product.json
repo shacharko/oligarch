@@ -300,7 +300,7 @@
       "settings": {
         "custom_liquid": "{% render 'aroma-notes-slider' %}",
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "recommendations": {
