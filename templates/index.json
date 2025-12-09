@@ -238,12 +238,11 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "amber-collection",
-          "fresh-collection",
-          "chypre-collection",
-          "gourmand-collection",
-          "floral-collection",
-          "woody-collection"
+          "discovery-set-sweet",
+          "discovery-set-fresh",
+          "discovery-set-spicy",
+          "discovery-set-amber",
+          "discovery-set-woody"
         ],
         "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
@@ -660,16 +659,10 @@
     "blogs_slider_description_QNtjM8": {
       "type": "blogs-slider-description",
       "blocks": {
-        "blog_item_4XJWCx": {
+        "blog_item_btfpXj": {
           "type": "blog_item",
           "settings": {
-            "blog": "zodiac-scents-מזלות-וריח"
-          }
-        },
-        "blog_item_88UWLP": {
-          "type": "blog_item",
-          "settings": {
-            "blog": "perfume-stories"
+            "blog": "gift-experience-אמנות-המתנה"
           }
         },
         "blog_item_n8xnHN": {
@@ -678,10 +671,16 @@
             "blog": "news"
           }
         },
-        "blog_item_btfpXj": {
+        "blog_item_88UWLP": {
           "type": "blog_item",
           "settings": {
-            "blog": "gift-experience-אמנות-המתנה"
+            "blog": "perfume-stories"
+          }
+        },
+        "blog_item_4XJWCx": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "zodiac-scents-מזלות-וריח"
           }
         },
         "blog_item_XGjhcH": {
@@ -692,10 +691,10 @@
         }
       },
       "block_order": [
-        "blog_item_4XJWCx",
-        "blog_item_88UWLP",
-        "blog_item_n8xnHN",
         "blog_item_btfpXj",
+        "blog_item_n8xnHN",
+        "blog_item_88UWLP",
+        "blog_item_4XJWCx",
         "blog_item_XGjhcH"
       ],
       "name": "Blog list slider (with description)",
@@ -962,7 +961,7 @@
         "text_YygntL": {
           "type": "text",
           "settings": {
-            "text": "<h3><em><strong>חווית ריח בלתי נשכחת</strong></em></h3>",
+            "text": "<h3><strong>חווית ריח בלתי נשכחת</strong></h3>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -973,7 +972,7 @@
         "text_9cEDFy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>בחירת בושם היא תהליך אינטימי ומורכב.לכן יצרנו חוויה אישית וייחודית – מסע חושי אמיתי בלב החללים האלגנטיים של חנויות הבוטיק שלנו.</strong></p>",
+            "text": "<p><strong>בחירת בושם היא תהליך אינטימי ומורכב.לכן יצרנו חוויה אישית וייחודית – מסע חושי אמיתי בלב החללים האלגנטיים של חנות הבוטיק שלנו</strong></p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -993,7 +992,7 @@
         "text_xaUeb7": {
           "type": "text",
           "settings": {
-            "text": "<h3><em><strong>כרטיס מתנה יוקרתי</strong></em></h3>",
+            "text": "<h3><strong>כרטיס מתנה יוקרתי</strong></h3>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -1043,15 +1042,60 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "behind_brands_zwbyaH": {
-      "type": "behind-brands",
-      "disabled": true,
-      "name": "Behind the brands",
+    "faq_sento_KrhhAw": {
+      "type": "faq-sento",
+      "blocks": {
+        "item_YhfjbX": {
+          "type": "item",
+          "settings": {
+            "question": "אילו מותגים זמינים באוליגרך?",
+            "answer": "<p>אנחנו מציעים מעל 500 בשמי מעצבים ובשמי נישה ממותגים מובילים כגון:<br/>Tom Ford, Creed, Amouage, Dior, Byredo, Le Labo, Maison Margiela, Jo Malone ועוד רבים אחרים.<br/>הקטלוג שלנו כולל גם מותגי יוקרה מוכרים וגם בתי בישום נישתיים וייחודיים, עם תוספות חדשות המתעדכנות מדי שבוע.</p>"
+          }
+        },
+        "item_rxe6tN": {
+          "type": "item",
+          "settings": {
+            "question": "לכמה זמן מחזיק הבושם?",
+            "answer": "<p>טרבל 10 מ״ל<br/>מכיל כ־150 התזות.<br/>בשימוש ממוצע של 4 התזות ביום, הכמות מספיקה ליותר מ־30 יום.<br/><br/>טרבל 5 מ״ל<br/>מכיל כ־75 התזות.<br/>בשימוש ממוצע של 4 התזות ביום, הכמות מספיקה ליותר מ־15 יום.<br/><br/>הגדלים האלו מאפשרים להתנסות במגוון רחב של ריחות מבלי לרכוש בקבוק מלא ויקר.<br/><br/>בנוסף, קיימת גם אפשרות לרכוש דוגמית 2 מ״ל לבדיקת הריח לפני התחייבות.</p>"
+          }
+        },
+        "item_ttYiCH": {
+          "type": "item",
+          "settings": {
+            "question": "תוך כמה זמן מגיע המשלוח ולאן שולחים?",
+            "answer": "<p>המשלוחים שלנו מהירים ונשלחים לכל הארץ.<br/>החבילות מגיעות לנקודת חלוקה או עד הבית – לבחירתכם – בתוך 1–4 ימי עסקים.<br/>ברגע שהמשלוח יוצא לדרך, תקבלו מספר מעקב כדי שתוכלו לעקוב אחר ההזמנה בכל רגע.</p>"
+          }
+        },
+        "item_8F7YDE": {
+          "type": "item",
+          "settings": {
+            "question": "האם הבשמים מקוריים וידידותיים לסביבה?",
+            "answer": "<p>בהחלט. כל הבשמים באוליגראך הם 100% מקוריים, ומגיעים ישירות מספקים מורשים ומפיצים רשמיים בלבד.<br/>אנחנו לא עובדים עם חיקויים, העתקות או בשמים באיכות נמוכה — רק מותגים אמיתיים ומקוריים.<br/><br/>בנוסף, אנו פועלים בצורה ידידותית יותר לסביבה:<br/>הטרבלים שלנו מפחיתים משמעותית את כמות הפלסטיק ואריזות הבזבוז לעומת רכישת בקבוקים מלאים, ורוב חומרי האריזה שלנו ניתנים למחזור.</p>"
+          }
+        },
+        "item_3BEBGR": {
+          "type": "item",
+          "settings": {
+            "question": "איך בוחרים את הסטים והמארזים באוליגראך ומה מיוחד בהם?",
+            "answer": "<p>באוליגרך אנחנו בונים עבורכם סטים ומארזים חכמים המותאמים לפי מזלות, עונות, משפחות ריח, תווים דומיננטיים, סגנון בישום, או אפילו מותג ספציפי.<br/><br/>כל מארז מורכב בקפידה כך שכל הבשמים שבתוכו יתחברו זה לזה וישקפו את ההעדפות, האישיות והסטייל שלכם. כל מארז כולל 5 ניחוחות שונים שנבחרו בקפידה על ידי יועצי הבישום המקצועיים שלנו, כדי ליצור חוויה עשירה ומדויקת.<br/><br/>המארזים מגיעים מהודרים ויוקרתיים במיוחד, מה שהופך אותם למתנה מושלמת או חוויה אישית מרגשת.<br/><br/>השירות שלנו מאפשר לכם לגלות בשמים חדשים בצורה חכמה ומדויקת, בלי לנחש ובלי להסתמך רק על תיאור כללי. בנוסף, אנחנו נותנים לכם את האופציה לבצע בחירה חכמה לפני התחייבות לבקבוק גדול ויקר — כך תוכלו להתנסות, לגלות את הריחות שאתם אוהבים, ולחסוך החלטה שגויה שעלולה לעלות אלפי שקלים.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_YhfjbX",
+        "item_rxe6tN",
+        "item_ttYiCH",
+        "item_8F7YDE",
+        "item_3BEBGR"
+      ],
+      "name": "FAQ – שתי עמודות",
       "settings": {
-        "heading": "BEHIND THE BRANDS",
-        "subheading": "",
-        "centered": false,
-        "loop": true
+        "eyebrow": "",
+        "heading_line_1": "שאלות ותשובות",
+        "heading_line_2": "",
+        "text": "",
+        "button_label": "למעבר לכל השאלות",
+        "button_link": ""
       }
     }
   },
@@ -1077,6 +1121,6 @@
     "quote_LdCLgk",
     "rich_text_HYfzAm",
     "image_with_text_LTRzQN",
-    "behind_brands_zwbyaH"
+    "faq_sento_KrhhAw"
   ]
 }

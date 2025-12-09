@@ -6,7 +6,7 @@
     - form_id: { String } A unique ID that's used for the form and input IDs.
     - success_msg: { String } The success message for the form.
 
-    Optional parameters:
+  Optional parameters:
     - additional_form_classes: { String } Classes to apply to the form.
     - button_label: { String } The label for the submit button.
     - custom_button: { Boolean } Whether to use a custom "floating" button or the dedicated "button-block" snippet.
@@ -91,21 +91,53 @@
         >
 
         {% if custom_button %}
-          {% comment %} Floating button used for password and footer signup forms. {% endcomment %}
+          {%- comment -%} טפסים אחרים שמשתמשים ב-custom_button - נשארים כמו במקור {%- endcomment -%}
           <button type="submit" name="commit" id="{{ custom_button_id }}" class="{{ custom_button_class }}">
             {{ custom_button_label }}
           </button>
         {% else %}
-          {% render 'button-block',
-            wrapper_class: button_wrapper_class,
-            label: button_label,
-            is_full: true,
-            is_overlay: true,
-            allow_linkless: true,
-            type: 'submit'
-          %}
+          {%- comment -%}
+            בפוטר (footer__newsletter) הכפתור משתמש במחלקות של "הוסף לסל".
+            במקומות אחרים נשמרת הקריאה המקורית עם is_full + is_overlay.
+          {%- endcomment -%}
+          {% if base_class == 'footer__newsletter' %}
+            {% render 'button-block',
+              wrapper_class: button_wrapper_class,
+              label: button_label,
+              allow_linkless: true,
+              type: 'submit',
+              button_style: 'product-form__cart-submit btn--medium btn--full btn--primary'
+            %}
+          {% else %}
+            {% render 'button-block',
+              wrapper_class: button_wrapper_class,
+              label: button_label,
+              is_full: true,
+              is_overlay: true,
+              allow_linkless: true,
+              type: 'submit'
+            %}
+          {% endif %}
         {% endif %}
       </div>
+
+      {%- comment -%} צ'קבוקס אישור – רק בפוטר {%- endcomment -%}
+      {% if base_class == 'footer__newsletter' %}
+        <div class="footer__newsletter-consent">
+          <label for="{{ form_id }}-marketing-consent">
+            <input
+              type="checkbox"
+              id="{{ form_id }}-marketing-consent"
+              name="marketing_opt_in"
+              required
+            >
+            אני מאשר/ת קבלת דואר פרסומי
+          </label>
+        </div>
+      {% endif %}
     </div>
   {% endunless %}
 {% endform %}
+
+
+

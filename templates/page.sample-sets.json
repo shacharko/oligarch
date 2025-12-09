@@ -79,7 +79,7 @@
       ],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
-        "alignment": "left_left",
+        "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only",

@@ -12,6 +12,19 @@
     "main": {
       "type": "main-product-kit-selector",
       "blocks": {
+        "product_header_3RafWG": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": true,
+            "show_vendor": true,
+            "show_sku": true,
+            "show_discount": true,
+            "discount_format": "percent_off",
+            "show_product_rating": false,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
         "inventory_counter_FFa7z": {
           "type": "inventory-counter",
           "settings": {
@@ -183,13 +196,14 @@
             "column_placement": "left",
             "heading": "זמני משלוח",
             "heading_tag": "h3",
-            "content": "<p>הזמנות שנעשו עד השעה 12 , ישלחו באותו היום משלוח סטנדרטי תוך 48 שעות מקבלת ההזמנה</p>",
+            "content": "<p>הזמנות שיבוצעו עד השעה 12:00 יטופלו ויישלחו באותו יום עסקים. </p><p>זמן אספקת משלוח סטנדרטי: עד 3 ימי עסקים מרגע אישור ההזמנה.</p>",
             "page_for_content": "",
             "custom_liquid": ""
           }
         }
       },
       "block_order": [
+        "product_header_3RafWG",
         "inventory_counter_FFa7z",
         "product_callouts-1",
         "product_callouts-2",

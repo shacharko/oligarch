@@ -51,7 +51,7 @@
             "show_title_on_desktop": true,
             "enable_collect_customer_name": false,
             "text": "<h5>הצטרפו וקבלו עדכונים והנחות בלעדיות.</h5>",
-            "show_social_icons": true,
+            "show_social_icons": false,
             "enable_follow_on_shop": true
           }
         }

@@ -17,13 +17,13 @@
           "settings": {
             "title": "מארזי דיסקברי סט לפי עונות",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-3-base"
+            "heading_font_class": "fs-heading-1-base"
           }
         },
         "subheading_AqADC": {
           "type": "subheading",
           "settings": {
-            "subheading": "הבשמים שישלימו כל רגע טבעי.",
+            "subheading": "",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-5-base"
           }

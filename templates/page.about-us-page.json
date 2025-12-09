@@ -24,7 +24,7 @@
         "heading_g6jrtk": {
           "type": "heading",
           "settings": {
-            "title": "מי אנחנו",
+            "title": "מי אנחנו ?",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-2-base"
           }
@@ -32,7 +32,7 @@
         "text_DrDDfM": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p><strong>אוליגארך – Niche Perfumery היא הרבה יותר מחנות בשמים . <br/>זו תפיסת עולם, חוויה,הצהרה . <br/><br/>המותג נולד מתוך אהבה אובססיבית לאומנות הבישום, ומתוך חזון ברור: להביא לישראל תרבות של ניחוחות - לא כטרנד, אלא כדרך חיים . <br/>מקום שבו כל בושם הוא יצירה, וכל לקוח הוא מסע .<br/><br/>מאחורי המותג עומדים ירין ואור, חברים ושותפים לדרך, שחיים ונושמים בשמי נישה, ומאמינים שבושם אינו רק ריח - הוא זיכרון שמתעורר, רגש שמתעצם, ונוכחות שנשארת הרבה אחרי שהרגע חלף . <br/><br/>אנחנו מתמחים בקולקציות בוטיק נדירות ממותגי הנישה הנחשקים בעולם, שנבחרו בקפידה בלתי מתפשרת - <br/>איכות חומרי גלם, עומק ארומטי, שובל ממכר ועמידות שמספרת סיפור .<br/><br/>חוויית הגילוי שלנו<br/><br/>ב־אוליגארך, אתם לא “קונים בושם”. אתם מגלים אותו . <br/><br/>אנו מציעים מארזי Discovery יוקרתיים שמעניקים לכם את החופש להתנסות, להעמיק, וליצור חיבור אמיתי עם מגוון רחב של בשמי יוקרה - לכל סגנון ולכל תקציב . <br/>זוהי הדרך האלגנטית והבטוחה לבחור את הניחוח המושלם עבורכם - בלי ניחושים, בלי פשרות . <br/><br/>לפני רכישת הבקבוק המלא, אתם חווים,בודקים,חיים את הבושם <br/>כך אנחנו מבטיחים לכם רכישה מדויקת - ובחירה מתוך ביטחון מוחלט . <br/><br/>בנוסף, אנו מציעים:<br/>- דוגמיות אקסקלוסיביות בנפח 2 מ״ל<br/>- מארזי טראבל יוקרתיים בנפחים 5 מ״ל ו־10 מ״ל<br/>שמאפשרים לכם לקחת את הניחוח שלכם לכל מקום — באלגנטיות, בנוכחות, בסטייל . <br/><br/>החוויה בחנות<br/><br/>החלל של אוליגארך נבנה כמקדש קטן לאמנות הבישום . <br/>מקום שבו הזמן מאט, החושים מתחדדים, ואתם נמצאים במרכז . <br/><br/>התאמה אישית מדויקת, ייעוץ מקצועי, ליווי אישי, ושירות שמכוון לשלמות - לא כסטנדרט, אלא כהתחייבות . <br/><br/>אנחנו כאן כדי ליצור עבורכם חוויה <br/>לא עוד בושם - אלא חתימה אישית . <br/><br/>ברוכים הבאים לעולם של אוליגארך . <br/><br/>את חנות הבוטיק שלנו תוכלו למצוא ברחוב : </strong></p><p><strong>ההסתדרות 4, פתח תקווה <br/><br/>ומבטיחים לכם - כבר מהשנייה הראשונה, תרגישו את הקסם .</strong></p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -70,6 +70,60 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "full",
         "custom_content_width": 700
+      }
+    },
+    "slideshow_zDeHqh": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_rFULGA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/297ffc9c-24f2-4eda-95c0-407035b8467d_2.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_rFULGA"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 70,
+        "enable_autoplay": true,
+        "duration_autoplay": 3,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#FFFFFF",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich-text-1": {
@@ -172,6 +226,7 @@
     "main",
     "rich_text_n6BE6k",
     "rich_text_HkGzGj",
+    "slideshow_zDeHqh",
     "rich-text-1",
     "contact-form"
   ]

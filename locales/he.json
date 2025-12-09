@@ -463,12 +463,12 @@
         "title": "אזל מהמלאי",
         "items_unavailable_notice": "חלק מהפריטים אינם זמינים עוד.",
         "product_column_header": "מוצרים",
-        "quantity_column_header": "כַּמוּת",
-        "price_column_header": "מְחִיר",
-        "status_column_header": "סטָטוּס",
+        "quantity_column_header": "כמות",
+        "price_column_header": "מחיר",
+        "status_column_header": "סטאטוס",
         "removed_from_cart_notice": "הוסר מהעגלה",
         "sold_out_label": "אזל מהמלאי",
-        "reduced_label": "מוּפחָת",
+        "reduced_label": "מופחת",
         "reduced_with_quantity_label": "נותרו רק %{quantity_available}",
         "remove_from_cart_button_label": "הסר מהעגלה",
         "continue_shopping_button_label": "המשך",
@@ -674,7 +674,7 @@
           "other": "הצג את כל %{count} הפריטים"
         },
         "more_items_modal": {
-          "search_item": "לְחַפֵּשׂ",
+          "search_item": "חפש",
           "clear_search": "נקה חיפוש",
           "empty_results": "לא נמצאו תוצאות עבור \"%{searchText}\". בדוק את האיות או השתמש במילה או בביטוי אחר.",
           "number_items_shown": "%{shownNumber} מתוך %{totalNumber} פריטים"
@@ -1197,7 +1197,7 @@
         "no_pickup_location_notice": "לפחות אחד מהמוצרים שלך אינו זמין לאיסוף",
         "no_rates_for_country_notice": "לא נמצאו תעריפי משלוח עבור כתובת זו.",
         "no_rates_contact_notice": "צרו קשר לקבלת מידע נוסף",
-        "free_rate_label": "לְשַׁחְרֵר",
+        "free_rate_label": "משלוח חינם",
         "cheapest_rate_label": "הזול ביותר",
         "please_enter_your_shipping_information_notice": "אנא הזן את פרטי המשלוח שלך.",
         "estimated_delivery_date": {
@@ -4070,14 +4070,14 @@
       "view_product": "צפה בפרטי המוצר המלאים"
     },
     "footer": {
-      "copyright": "זְכוּת יְוֹצרִים",
+      "copyright": "זכויות וצרים",
       "headings": {
         "cross_border": "מטבע ושפה",
-        "currency": "מַטְבֵּעַ",
+        "currency": "מטבע",
         "language": "שָׂפָה",
-        "payment": "תַשְׁלוּם"
+        "payment": "תשלום"
       },
-      "rights": "כֹּל הַזְכוּיוֹת שְׁמוּרוֹת.",
+      "rights": "כל הזכויות שמורות",
       "see_terms": "עיין בתנאי השימוש ובהודעת הפרטיות שלנו.",
       "social_platform": ""
     },

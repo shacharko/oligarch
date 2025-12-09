@@ -19162,6 +19162,7 @@ ul, ol {
 }
 
 
+
 /* ריווח רשימות ב-RTL */
 .menu-drawer__menu ul,
 ul, ol {
@@ -19212,6 +19213,66 @@ button, input, textarea, select {
 html[lang="he"] body {
   direction: rtl;
 }
+
+/* Hide ONLY the floating wishlist button */
+wishlist-link-floating,
+wishlist-link-floating wk-button,
+wishlist-link-floating .wk-button {
+    display: none !important;
+}
+/* עיבוי עדין לפונט בתפריט מובייל */
+@media (max-width: 768px) {
+  .drawer-menu__link-title span {
+    font-weight: 500 !important;  /* עבה קצת, לא בולד */
+     font-size: 15px;
+  }
+}
+
+/* Skip to content – נגישות מקלדת */
+.skip-to-content-link {
+  position: fixed;
+  top: -80px;          /* מוסתר מחוץ למסך */
+  right: 10px;         /* צד ימין באתר RTL */
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 99999;
+  text-decoration: none;
+  border-radius: 0 0 6px 6px;
+  font-size: 14px;
+  transition: top 0.25s ease;
+}
+
+/* כשהלינק בפוקוס (TAB) – הוא נכנס למסך */
+.skip-to-content-link:focus,
+.skip-to-content-link:focus-visible {
+  top: 0;
+}
+/* פוקוס ברור לנגישות מקלדת */
+:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
+
+/* ליתר ביטחון, אם התבנית מחקה outline */
+a:focus,
+button:focus {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
+/* פוקוס ברור למשתמשי מקלדת */
+:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
+
+/* לוודא שזה עובד גם על לינקים וכפתורים */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
+
 
 
 

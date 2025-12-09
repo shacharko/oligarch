@@ -78,7 +78,7 @@
     "social_instagram_link": "https://www.instagram.com/oligarch_niche?igsh=MWFremdhNnVxcmtkbw%3D%3D&utm_source=qr",
     "social_tiktok_link": "https://www.tiktok.com/@oligarch.niche?_r=1&_t=ZS-91iiLcZ0MjP",
     "social_twitter_link": "",
-    "social_whatsapp_link": "we.me/972523311312",
+    "social_whatsapp_link": "",
     "favicon": "shopify://shop_images/Oligarch_Logo_SVG.svg",
     "enable_back_to_top": true,
     "capitalize_headings": false,
@@ -199,6 +199,11 @@
       },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "13429640401162358610": {
+        "type": "shopify://apps/google-reviews/blocks/app-embed-block/4eeaae1c-902b-481c-bec5-3f32291a58d5",
         "disabled": false,
         "settings": {}
       }

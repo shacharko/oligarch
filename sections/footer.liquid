@@ -111,15 +111,19 @@
 
                 {% assign custom_button_label = 'general.newsletter_form.submit' | t %}
 
-                {% render 'newsletter-form',
-                  form_id: 'footer-subscribe',
-                  base_class: 'footer__newsletter',
-                  enable_collect_customer_name: block.settings.enable_collect_customer_name,
-                  custom_button: true,
-                  custom_button_id: 'Subscribe-footer',
-                  custom_button_class: 'footer__newsletter-button',
-                  custom_button_label: custom_button_label
-                %}
+                {% assign custom_button_label = 'general.newsletter_form.submit' | t %}
+
+{% render 'newsletter-form',
+  base_class: 'footer__newsletter',
+  form_id: 'footer-subscribe',
+  success_msg: section.settings.newsletter_success,
+  custom_button: true,
+  custom_button_id: 'Subscribe-footer',
+  custom_button_class: 'footer__newsletter-button product-form__cart-submit btn btn--medium btn--primary',
+  custom_button_label: custom_button_label,
+  button_label: custom_button_label
+%}
+
 
                 {%- if block.settings.show_social_icons -%}
                   {% render 'social-icons' %}
@@ -149,15 +153,12 @@
         {% endif %}
 
         <div class="footer__credits fs-body-50">
-         
           <p style="text-align:center; font-size:13px; color:#777; direction:rtl;">
-    Powered by 
-    <a href="https://yybranding.co.il" target="_blank" style="color:#555; font-weight:600; text-decoration:none;">
-        YY Branding
-    </a>
-</p>
-
-         
+            Powered by
+            <a href="https://yybranding.co.il" target="_blank" style="color:#555; font-weight:600; text-decoration:none;">
+              YY Branding
+            </a>
+          </p>
         </div>
       </div>
 
@@ -171,7 +172,6 @@
 </div>
 
 <style>
-
 /* === FOOTER refined === */
 :root {
   --footer-link-color: #b8bdc2;
@@ -196,7 +196,7 @@
   font-family: "IBM Plex Sans Hebrew", sans-serif !important;
   font-size: 14px !important;
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(184,189,194,0.4);
+  border-bottom: 1px solid rgba(184, 189, 194, 0.4);
   padding-bottom: 2px;
   transition: color .2s, border-color .2s;
 }
@@ -213,45 +213,86 @@
   text-align: right;
 }
 
-/* עיצוב בסיס לשדה + כפתור */
+/* טיפוגרפיה */
 .footer__newsletter-input,
 .footer__newsletter-button {
   font-family: "IBM Plex Sans Hebrew", sans-serif !important;
   font-size: 14px !important;
-  color: #000 !important;
 }
 
-/* --- תיקון RTL מלא לתיבת ניוזלטר --- */
-html[dir="rtl"] .footer__newsletter .footer__newsletter-email {
+/* ============================
+        ניוזלטר RTL – שורה אחת
+   ============================ */
+
+html[dir="rtl"] body .footer__newsletter-email {
   display: flex !important;
-  flex-direction: row-reverse !important; /* שדה מימין, כפתור משמאל */
-  align-items: center !important;
-  gap: 8px !important;
-  flex-wrap: nowrap !important;           /* שלא יישבר לשורות */
+  flex-direction: row-reverse !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+  max-width: 480px;
+  margin: 0 auto;
 }
 
-/* השדה */
-html[dir="rtl"] .footer__newsletter .footer__newsletter-input {
-  flex: 1 1 auto !important;
-  width: auto !important;
+/* השדה – 65% */
+html[dir="rtl"] body .footer__newsletter-email input[type="email"] {
+  flex: 0 0 65% !important;
+  max-width: 65% !important;
   min-width: 0 !important;
+
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 0;
+  padding: 0.75rem 0;
+  background: transparent;
+  outline: none;
 }
 
-/* הכפתור */
-html[dir="rtl"] .footer__newsletter .footer__newsletter-button {
-  flex: 0 0 auto !important;
+/* הכפתור – 35% */
+html[dir="rtl"] body .footer__newsletter-button {
+  flex: 0 0 35% !important;
+  max-width: 35% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   width: auto !important;
   white-space: nowrap !important;
-  
+  margin: 0 !important;
 }
-/* RTL: להזיז את כפתור ההרשמה לצד שמאל */
-html[dir="rtl"] .footer__newsletter .footer__newsletter-button {
-  right: auto !important;
-  left: 0 !important;
+
+/* טקסט לבן בכפתור */
+html[dir="rtl"] body .footer__newsletter-button,
+html[dir="rtl"] body .footer__newsletter-button span {
+  color: #fff !important;
 }
+
+/* ================
+   צ'קבוקס ניוזלטר
+   ================ */
+
+html[dir="rtl"] body .footer__newsletter-consent {
+  max-width: 480px;
+  font-size: 0.75rem;
+  text-align: right;
+  display: flex;
+  align-items: right;
+  gap: 0.5rem;
+}
+
+html[dir="rtl"] body .footer__newsletter-consent input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+}
+
+html[dir="rtl"] body .footer__newsletter-consent label {
+  cursor: pointer;
+}
+
+/* אייקונים הפוכים */
 .footer .social-icons .icon svg {
   transform: scaleX(-1) !important;
 }
+
 
 </style>
 

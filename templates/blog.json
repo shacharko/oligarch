@@ -73,13 +73,117 @@
         "show_date": true,
         "show_excerpt": true,
         "show_featured_image": true,
-        "aspect_ratio": "square",
+        "aspect_ratio": "landscape",
         "enable_animation": true
+      }
+    },
+    "blog_posts_XrgyM6": {
+      "type": "blog-posts",
+      "name": "t:sections.blog_posts.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "display_type": "all",
+        "blog": "perfume-stories",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "blog_posts_ErRLVb": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_MMih7K": {
+          "type": "article",
+          "settings": {
+            "article": "gift-experience-אמנות-המתנה/איך-הופכים-בושם-למתנה-שמרגישה-אישית"
+          }
+        },
+        "article_QBtWEY": {
+          "type": "article",
+          "settings": {
+            "article": "perfume-stories/המסע-של-וניל-ממדגסקר-לבקבוק-הבושם-שלך"
+          }
+        }
+      },
+      "block_order": [
+        "article_MMih7K",
+        "article_QBtWEY"
+      ],
+      "name": "t:sections.blog_posts.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "display_type": "selected",
+        "blog": "",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "blog_posts_DgDw3g": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_dHy7dx": {
+          "type": "article",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_dHy7dx"
+      ],
+      "name": "t:sections.blog_posts.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "display_type": "all",
+        "blog": "zodiac-scents-מזלות-וריח",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     }
   },
   "order": [
     "image_hero",
-    "main"
+    "main",
+    "blog_posts_XrgyM6",
+    "blog_posts_ErRLVb",
+    "blog_posts_DgDw3g"
   ]
 }

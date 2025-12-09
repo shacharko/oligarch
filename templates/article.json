@@ -64,13 +64,13 @@
         "article_1": {
           "type": "article",
           "settings": {
-            "article": ""
+            "article": "news/הבנת-הריכוז-eau-de-parfum-edt-או-קולון-מה-ההבדל"
           }
         },
         "article_2": {
           "type": "article",
           "settings": {
-            "article": ""
+            "article": "perfume-stories/ענבר-הזהב-של-עולם-הבישום"
           }
         }
       },
@@ -79,10 +79,13 @@
         "article_2"
       ],
       "settings": {
-        "heading": "Featured stories",
+        "heading": "",
+        "heading_tag": "h2",
         "subheading": "",
-        "link_text": "View all posts",
-        "display_type": "all",
+        "link": "",
+        "link_text": "כל הבלוגים",
+        "button_style": "btn--callout",
+        "display_type": "selected",
         "blog": "",
         "max_articles": 2,
         "show_tags": true,
