@@ -206,6 +206,19 @@
         "type": "shopify://apps/google-reviews/blocks/app-embed-block/4eeaae1c-902b-481c-bec5-3f32291a58d5",
         "disabled": false,
         "settings": {}
+      },
+      "12613470449828698166": {
+        "type": "shopify://apps/tabnav-web-accessibility/blocks/app/6e7da68b-b18e-4550-b9fe-b12dd1396395",
+        "disabled": false,
+        "settings": {
+          "widget_position": "left",
+          "widget_language": "he",
+          "button_size": "small",
+          "color": "#8e56dc",
+          "use_default_widget_color": false,
+          "button_color": "#8e56dc",
+          "use_default_button_color": false
+        }
       }
     }
   },
