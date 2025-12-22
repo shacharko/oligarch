@@ -19272,6 +19272,33 @@ button:focus-visible {
   outline: 2px solid #000;
   outline-offset: 3px;
 }
+.product__price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px !important;
+}
+.product__price s,
+.product__price [data-price] {
+  margin-inline-end: 8px;
+}
+/* Notify Me – RTL support */
+.notify-me-widget,
+.notify-me-modal,
+.notify-me-popup {
+  direction: rtl;
+  text-align: right;
+}
+
+.notify-me-widget input,
+.notify-me-widget select {
+  text-align: right;
+}
+
+/* טלפון – להשאיר מספרים משמאל לימין */
+.notify-me-widget input[type="tel"] {
+  direction: ltr;
+  text-align: left;
+}
 
 
 

@@ -252,6 +252,12 @@
           </h5>
         {% endif %}
 
+
+<!-- Start of Judge.me code -->
+  <div class='jdgm-widget jdgm-preview-badge'>
+    {{ prod.metafields.judgeme.badge }}
+  </div>
+<!-- End of Judge.me code -->
         {% if settings.product_listing_show_rating %}
           {% render 'product-rating', prod: prod %}
         {% endif %}

@@ -117,7 +117,7 @@
         "link": "shopify://collections/seasons",
         "link_text": "",
         "button_style": "btn--secondary",
-        "columns": "3",
+        "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
           "seasons",
@@ -142,27 +142,27 @@
         "slide_Bt8taz": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/58735f07-6d59-4692-9022-49de47d76a06.png",
-            "image_mobile": "shopify://shop_images/58735f07-6d59-4692-9022-49de47d76a06.png",
+            "image": "shopify://shop_images/f2460ce2-b735-4aa9-b31d-b3fa5c35ce18.png",
+            "image_mobile": "shopify://shop_images/f2460ce2-b735-4aa9-b31d-b3fa5c35ce18.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
-            "accent": "",
-            "title": "",
+            "accent": "TAX FREE",
+            "title": "off 18%",
             "heading_tag": "h4",
             "heading_font_class": "fs-heading-display-3",
             "subheading": "",
             "subheading_tag": "h2",
             "subheading_font_class": "fs-heading-4-base",
-            "text": "<p><strong> גלו את הבושם המדויק שלכם</strong></p><p><strong>בלי להמר, בלי לבזבז זמן ובלי לשלם יותר מדי.</strong></p><p><strong>500+ בשמים יוקרתיים, 100% מקוריים, בדוגמיות ומארזים מהודרים.</strong></p><p><strong>בחרו, התנסו, והזמינו בביטחון מלא – עם משלוח מהיר לכל הארץ.</strong></p>",
+            "text": "<h4><strong>על מארזי דיסקברי סט באתר !</strong></h4><h4><strong>יותר מוצרים , פחות תשלום , הדרך המשתלמת ביותר לרכוש </strong></h4><h4><strong>בלי להמר, בלי לשלם יותר מדי  ובלי לבזבז זמן</strong></h4>",
             "text_font_class": "fs-body-200",
-            "link_1": "",
-            "link_text_1": "Read more",
+            "link_1": "shopify://collections/קולקציית-מארזים-כללית",
+            "link_text_1": "DECEBER 2025",
             "button_style_1": "btn--secondary",
             "link_2": "",
-            "link_text_2": "Read more",
+            "link_text_2": "DECEBER 2025",
             "button_style_2": "btn--secondary",
             "text_color": "#ffffff",
             "button_background_color": "#ffffff",
@@ -174,9 +174,10 @@
         },
         "slide_akRbMi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/homepage-media-cta.png",
-            "image_mobile": "shopify://shop_images/homepage-media-cta.png",
+            "image": "shopify://shop_images/IMG_4588.jpg",
+            "image_mobile": "shopify://shop_images/IMG_4588.jpg",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "",
@@ -509,6 +510,7 @@
           "settings": {
             "video": "shopify://files/videos/v24044gl0000cv8ss8fog65mnge7nm20 2.MP4",
             "video_url": "",
+            "poster": "shopify://shop_images/IMG_4422.jpg",
             "product_ref": "creed-eladaria",
             "product_link": "",
             "product_title": ""
@@ -519,6 +521,7 @@
           "settings": {
             "video": "shopify://files/videos/ScreenRecording_11-18-2025 17-42-25_1.mov",
             "video_url": "",
+            "poster": "shopify://shop_images/IMG_4423.jpg",
             "product_ref": "widian-london",
             "product_link": "",
             "product_title": ""
@@ -529,6 +532,7 @@
           "settings": {
             "video": "shopify://files/videos/v12044gd0000co24iv7og65n0a13kejg.MP4",
             "video_url": "",
+            "poster": "shopify://shop_images/IMG_4428.jpg",
             "product_ref": "le-labo-santal-33",
             "product_link": "",
             "product_title": ""
@@ -539,6 +543,7 @@
           "settings": {
             "video": "shopify://files/videos/v09044g40000co01q67og65ubetnrbbg.MP4",
             "video_url": "",
+            "poster": "shopify://shop_images/IMG_4427.jpg",
             "product_ref": "ממו-פריז-מארפה-יוניסקס",
             "product_link": "",
             "product_title": ""
@@ -549,6 +554,7 @@
           "settings": {
             "video": "shopify://files/videos/ScreenRecording_10-29-2025 16-55-24_1.mov",
             "video_url": "",
+            "poster": "shopify://shop_images/IMG_4426.jpg",
             "product_ref": "byredo-blanche",
             "product_link": "",
             "product_title": ""
@@ -1042,42 +1048,78 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "newsletter_compact_trl_cJwCCh": {
+      "type": "newsletter-compact-trl",
+      "name": "Newsletter RTL (Custom)",
+      "settings": {
+        "heading_text": "הירשמו לניוזלטר שלנו וקבלו 10% הנחה לרכישה ראשונה (כולל כפל מבצעים)",
+        "email_placeholder": "האימייל שלך",
+        "button_label": "הרשמה",
+        "consent_required": false,
+        "consent_text": "אני רוצה לקבל עדכונים",
+        "privacy_link_label": "מדיניות פרטיות",
+        "privacy_link_url": "shopify://policies/privacy-policy",
+        "background_color": "#ffffff",
+        "text_color": "#000000"
+      }
+    },
     "faq_sento_KrhhAw": {
       "type": "faq-sento",
       "blocks": {
         "item_YhfjbX": {
           "type": "item",
           "settings": {
-            "question": "אילו מותגים זמינים באוליגרך?",
-            "answer": "<p>אנחנו מציעים מעל 500 בשמי מעצבים ובשמי נישה ממותגים מובילים כגון:<br/>Tom Ford, Creed, Amouage, Dior, Byredo, Le Labo, Maison Margiela, Jo Malone ועוד רבים אחרים.<br/>הקטלוג שלנו כולל גם מותגי יוקרה מוכרים וגם בתי בישום נישתיים וייחודיים, עם תוספות חדשות המתעדכנות מדי שבוע.</p>"
+            "question": "אילו מותגים וסוגי בשמים זמינים אצלנו?",
+            "answer": "<p>באוליגרך אנו מציעים מעל 500 בשמים – שילוב של מותגי יוקרה מוכרים ובתי בישום נישתיים ייחודיים. בין המותגים שתוכלו למצוא אצלנו:<br/><br/>Tom Ford, Creed, Amouage, Dior, Byredo, Le Labo, Jo Malone, Initio, Widian, Zoologist, Marly, Louis Vuitton, Xerjoff, Roja, Ex Nihilo, MFK ועוד רבים אחרים.<br/><br/>בקטלוג שלנו תמצאו מגוון רחב של סוגי בשמים:<br/><br/>בשמי יוקרה קלאסיים<br/>בשמי נישה ייחודיים<br/>בשמים יוניסקס<br/><br/>ניחוחות בעוצמות שונות – מרעננים ועד חושניים, רכים ועד דרמטיים.<br/><br/>כל בושם נבחר בקפידה כדי להבטיח איכות, עמידות ונוכחות, עם חוויית שימוש ייחודית.</p>"
           }
         },
         "item_rxe6tN": {
           "type": "item",
           "settings": {
-            "question": "לכמה זמן מחזיק הבושם?",
-            "answer": "<p>טרבל 10 מ״ל<br/>מכיל כ־150 התזות.<br/>בשימוש ממוצע של 4 התזות ביום, הכמות מספיקה ליותר מ־30 יום.<br/><br/>טרבל 5 מ״ל<br/>מכיל כ־75 התזות.<br/>בשימוש ממוצע של 4 התזות ביום, הכמות מספיקה ליותר מ־15 יום.<br/><br/>הגדלים האלו מאפשרים להתנסות במגוון רחב של ריחות מבלי לרכוש בקבוק מלא ויקר.<br/><br/>בנוסף, קיימת גם אפשרות לרכוש דוגמית 2 מ״ל לבדיקת הריח לפני התחייבות.</p>"
+            "question": "איך אפשר להתנסות בבושם לפני רכישת בקבוק מלא?",
+            "answer": "<p>כדי שתוכלו לגלות את הבושם שלכם לפני התחייבות לבקבוק גדול, אנו מציעים:<br/><br/>דוגמיות 2 מ”ל – להתנסות ראשונית בבושם חדש.<br/><br/>טרבל 5 מ”ל ו-10 מ”ל – למי שרוצה שימוש ממושך יותר או לבדוק את הבושם באופן מדויק לפני רכישת בקבוק מלא.<br/><br/>מארזי דיסקברי סט – חבילות גילוי שמאפשרות להכיר מספר בשמים בו זמנית. ניתן לבחור דיסקברי סטים לפי:<br/><br/>מזלות<br/>עונות השנה<br/>תווים ומאפייני ריח<br/>משפחות ריח<br/>מותג ספציפי<br/><br/><br/>כך תוכלו לגלות את הבושם שלכם בנוחות, לבדוק את העמידות וההתפתחות שלו על העור, ולבחור את הבושם המושלם לפני רכישת בקבוק מלא.</p>"
           }
         },
         "item_ttYiCH": {
           "type": "item",
           "settings": {
-            "question": "תוך כמה זמן מגיע המשלוח ולאן שולחים?",
-            "answer": "<p>המשלוחים שלנו מהירים ונשלחים לכל הארץ.<br/>החבילות מגיעות לנקודת חלוקה או עד הבית – לבחירתכם – בתוך 1–4 ימי עסקים.<br/>ברגע שהמשלוח יוצא לדרך, תקבלו מספר מעקב כדי שתוכלו לעקוב אחר ההזמנה בכל רגע.</p>"
+            "question": "מהם היתרונות ברכישת דוגמיות, טרבלים או דיסקברי סט?",
+            "answer": "<p>מאפשר התנסות בבושם לפני רכישת בקבוק מלא.<br/><br/>נותן לכם הזדמנות לבדוק עמידות, התפתחות וריח לאורך זמן.<br/><br/>מאפשר לגלות ניחוחות ייחודיים ומותגים חדשים בלי התחייבות ראשונית.<br/><br/>אידיאלי גם לנסיעות או כמתנה מיוחדת.</p>"
           }
         },
         "item_8F7YDE": {
           "type": "item",
           "settings": {
-            "question": "האם הבשמים מקוריים וידידותיים לסביבה?",
-            "answer": "<p>בהחלט. כל הבשמים באוליגראך הם 100% מקוריים, ומגיעים ישירות מספקים מורשים ומפיצים רשמיים בלבד.<br/>אנחנו לא עובדים עם חיקויים, העתקות או בשמים באיכות נמוכה — רק מותגים אמיתיים ומקוריים.<br/><br/>בנוסף, אנו פועלים בצורה ידידותית יותר לסביבה:<br/>הטרבלים שלנו מפחיתים משמעותית את כמות הפלסטיק ואריזות הבזבוז לעומת רכישת בקבוקים מלאים, ורוב חומרי האריזה שלנו ניתנים למחזור.</p>"
+            "question": "לכמה זמן מספיק בושם בדוגמית או בטרבל?",
+            "answer": "<p>דוגמית 2 מ”ל – כ־30 התזות, מספיקה למספר ימים של שימוש ממוצע.<br/><br/>טרבל 5 מ”ל – כ־75 התזות, מספיק לכ־15 יום שימוש ממוצע (4 התזות ביום).<br/><br/>טרבל 10 מ”ל – כ־150 התזות, מספיק ליותר מ־30 יום שימוש ממוצע (4 התזות ביום).</p>"
+          }
+        },
+        "item_AcYc66": {
+          "type": "item",
+          "settings": {
+            "question": "איך בוחרים את הסטים והמארזים באוליגרך ומה מיוחד בהם?",
+            "answer": "<p>באוליגרך אנו יוצרים סטים ומארזים חכמים ומדויקים, שמותאמים אישית להעדפותיכם:<br/><br/>לפי מזלות, עונות, תווים ומשפחות ריח, סגנון בישום, או מותג ספציפי.<br/><br/>כל מארז כולל 5 ניחוחות שונים שנבחרו בקפידה על ידי יועצי הבישום שלנו, ליצירת חוויה עשירה ומדויקת.<br/><br/>המארזים מגיעים מהודרים ויוקרתיים במיוחד, מה שהופך אותם למתנה מושלמת או חוויה אישית מרגשת.<br/><br/>השירות מאפשר לכם לגלות בשמים חדשים בצורה חכמה ומדויקת, לבדוק ולהתנסות לפני רכישת בקבוק גדול, ולחסוך החלטות שגויות שעלולות לעלות אלפי שקלים.</p>"
+          }
+        },
+        "item_JTLYwF": {
+          "type": "item",
+          "settings": {
+            "question": "תוך כמה זמן מגיע המשלוח שלי?",
+            "answer": "<p>הזמנות עד השעה 12:00 מטופלות ונשלחות באותו יום עסקים.<br/><br/>זמן אספקת משלוח סטנדרטי: 1–3 ימי עסקים מרגע אישור ההזמנה.<br/><br/>ניתן לבחור משלוח עד הבית או לנקודת חלוקה.<br/><br/>ברגע שהמשלוח יוצא לדרך, תקבלו מספר מעקב למעקב בזמן אמת.</p>"
+          }
+        },
+        "item_bhTeKb": {
+          "type": "item",
+          "settings": {
+            "question": "איך לבחור את הבושם המושלם?",
+            "answer": "<p>התחל עם דוגמית, טרבל או דיסקברי סט כדי להכיר את הריחות.<br/><br/>בדוק את הבושם על העור לאורך מספר שעות – כך תוכל להרגיש את שכבות הריח והעמידות.<br/><br/>בחר בשמים שמתאימים לאופי שלך ולאירועים שונים.</p>"
           }
         },
         "item_3BEBGR": {
           "type": "item",
           "settings": {
-            "question": "איך בוחרים את הסטים והמארזים באוליגראך ומה מיוחד בהם?",
-            "answer": "<p>באוליגרך אנחנו בונים עבורכם סטים ומארזים חכמים המותאמים לפי מזלות, עונות, משפחות ריח, תווים דומיננטיים, סגנון בישום, או אפילו מותג ספציפי.<br/><br/>כל מארז מורכב בקפידה כך שכל הבשמים שבתוכו יתחברו זה לזה וישקפו את ההעדפות, האישיות והסטייל שלכם. כל מארז כולל 5 ניחוחות שונים שנבחרו בקפידה על ידי יועצי הבישום המקצועיים שלנו, כדי ליצור חוויה עשירה ומדויקת.<br/><br/>המארזים מגיעים מהודרים ויוקרתיים במיוחד, מה שהופך אותם למתנה מושלמת או חוויה אישית מרגשת.<br/><br/>השירות שלנו מאפשר לכם לגלות בשמים חדשים בצורה חכמה ומדויקת, בלי לנחש ובלי להסתמך רק על תיאור כללי. בנוסף, אנחנו נותנים לכם את האופציה לבצע בחירה חכמה לפני התחייבות לבקבוק גדול ויקר — כך תוכלו להתנסות, לגלות את הריחות שאתם אוהבים, ולחסוך החלטה שגויה שעלולה לעלות אלפי שקלים.</p>"
+            "question": "האם אנו מציעים ייעוץ אישי בבחירת בושם?",
+            "answer": "<p>כן. הצוות שלנו מספק ייעוץ מקצועי מותאם אישית, ומסייע לבחור את הבושם המתאים ביותר לפי סגנון, טעם אישי והעדפות ריח.</p>"
           }
         }
       },
@@ -1086,6 +1128,9 @@
         "item_rxe6tN",
         "item_ttYiCH",
         "item_8F7YDE",
+        "item_AcYc66",
+        "item_JTLYwF",
+        "item_bhTeKb",
         "item_3BEBGR"
       ],
       "name": "FAQ – שתי עמודות",
@@ -1121,6 +1166,7 @@
     "quote_LdCLgk",
     "rich_text_HYfzAm",
     "image_with_text_LTRzQN",
+    "newsletter_compact_trl_cJwCCh",
     "faq_sento_KrhhAw"
   ]
 }

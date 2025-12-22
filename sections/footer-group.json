@@ -17,7 +17,7 @@
         "footer-0": {
           "type": "text",
           "settings": {
-            "desktop_width": 34,
+            "desktop_width": 30,
             "desktop_padding": 0,
             "collapse_on_mobile": false,
             "title": "",
@@ -33,7 +33,7 @@
         "footer-2": {
           "type": "links",
           "settings": {
-            "desktop_width": 33,
+            "desktop_width": 35,
             "desktop_padding": 0,
             "collapse_on_mobile": true,
             "title": "קישורים",
@@ -44,8 +44,8 @@
         "newsletter_EgW87N": {
           "type": "newsletter",
           "settings": {
-            "desktop_width": 30,
-            "desktop_padding": 2,
+            "desktop_width": 35,
+            "desktop_padding": 0,
             "collapse_on_mobile": true,
             "title": "ניוזלטר",
             "show_title_on_desktop": true,

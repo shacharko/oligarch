@@ -263,10 +263,26 @@ button.slideshow-navigation__navigation-button--previous .icon svg {
   transform-origin: center;
   transform: rotate(180deg) !important;
 }
+/* Quick Product (Stiletto Quick View) — force RTL + right align */
+.quick-product .product__description .rte,
+.quick-product .product__description .rte p,
+.quick-product .product__description .rte li,
+.quick-product .product__description .rte span {
+  direction: rtl;
+  text-align: right !important;
+}
 
+/* Override inline text-align:center inside Quick Product */
+.quick-product .product__description .rte p[style],
+.quick-product .product__description .rte span[style] {
+  text-align: right !important;
+}
 
-
-
+/* הצמדה מלאה לימין */
+.quick-product .product__description .rte {
+  padding-right: 0 !important;
+  padding-left: 20px;
+}
 
 
 

@@ -16,7 +16,7 @@
     "main": {
       "settings": {
         "display_type": "selected",
-        "columns": "3",
+        "columns": "5",
         "rows": "3",
         "collection_listing_aspect_ratio": "square"
       },

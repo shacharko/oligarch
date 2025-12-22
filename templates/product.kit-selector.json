@@ -135,22 +135,15 @@
             "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
-        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz": {
-          "type": "shopify://apps/swish-formerly-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "variant_picker_GqjkAV": {
+          "type": "variant_picker",
           "settings": {
-            "button_style": "solid_accent_2",
-            "button_alignment": "center",
-            "button_content_alignment": "center",
-            "button_margin_top": 0,
-            "button_margin_bottom": 0,
-            "button_max_width": 0,
-            "button_padding_horizontal": 15,
-            "button_full_width": true,
-            "button_show_text": true,
-            "button_show_icon": true,
-            "icon_size": 18,
-            "icon_stroke_width": 1,
-            "icon_offset_vertical": 0
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "chip_layout": "3col"
           }
         },
         "accordion_edidn": {
@@ -172,7 +165,7 @@
             "column_placement": "right",
             "heading": "למה כדאי לקנות את המארז?",
             "heading_tag": "h3",
-            "content": "<p>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</p><p>✔ מגיע באריזה יוקרתית ומהודרת </p><p>✔ מושלם כמתנה / להתנסות בקולקציה</p><p><strong>הכי משתלם: </strong></p><p>✔ קונים כמות - משלמים פחות </p><p>✔ משלוח מהיר 1-3 ימים </p><p>✔ חיסכון שמורגש בקופה</p>",
+            "content": "<p><strong>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</strong></p><p><strong>✔ מגיע באריזה יוקרתית ומהודרת </strong></p><p><strong>✔ מושלם כמתנה / להתנסות בקולקציה</strong></p><p><strong>הכי משתלם: </strong></p><p><strong>✔ קונים כמות - משלמים פחות </strong></p><p><strong>✔ משלוח מהיר 1-3 ימים </strong></p><p><strong>✔ חיסכון שמורגש בקופה</strong></p>",
             "page_for_content": "",
             "custom_liquid": ""
           }
@@ -196,7 +189,7 @@
             "column_placement": "left",
             "heading": "זמני משלוח",
             "heading_tag": "h3",
-            "content": "<p>הזמנות שיבוצעו עד השעה 12:00 יטופלו ויישלחו באותו יום עסקים. </p><p>זמן אספקת משלוח סטנדרטי: עד 3 ימי עסקים מרגע אישור ההזמנה.</p>",
+            "content": "<p><strong>הזמנות שיבוצעו עד השעה 12:00 יטופלו ויישלחו באותו יום עסקים. </strong></p><p><strong>זמן אספקת משלוח סטנדרטי: עד 3 ימי עסקים מרגע אישור ההזמנה.</strong></p>",
             "page_for_content": "",
             "custom_liquid": ""
           }
@@ -211,12 +204,13 @@
         "featured_products",
         "quantity_selector_MXiHF",
         "custom_liquid_r8aaL",
-        "swish_formerly_wishlist_king_wishlist_button_block_Wefxz",
+        "variant_picker_GqjkAV",
         "accordion_edidn",
         "accordion_tNUMwN",
         "accordion_cjJX3",
         "accordion_L7d3X"
       ],
+      "custom_css": [],
       "settings": {
         "enable_sticky_product_details": true,
         "show_breadcrumbs": true,

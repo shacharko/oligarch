@@ -18,7 +18,7 @@
       "disabled": false,
       "settings": {
         "alignment": "center_center",
-        "header-4846318e8cc0903677f6281a5b2d8047": null,
+        "header-7c38a285a990c258804442f81f8a15a6": null,
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
@@ -30,9 +30,9 @@
           "type": "heading",
           "disabled": false,
           "settings": {
-            "title": "THE ESSENTIAL CHRISTMAS",
+            "title": "OLIGARCH NICHE PERFUMERY",
             "heading_tag": "h2",
-            "paragraph-cd34d5421e0321d298109b292ec5f8d2": null,
+            "paragraph-91885834d578fb69743b996acb9a8467": null,
             "heading_font_class": "fs-heading-2-base"
           }
         },
@@ -40,7 +40,7 @@
           "type": "text",
           "disabled": false,
           "settings": {
-            "text": "<p>Give the gift. to someone do you care of</p>",
+            "text": "<p>...Fragrance Speaks Louder Than Words</p><p>Discover over 500 niche perfumes from 50+ luxury brands<br/>Express Yourself. Leave an Unforgettable Impression.</p>",
             "text_font_class": "fs-body-100"
           }
         },
@@ -70,12 +70,12 @@
           "type": "ai_gen_block_9b03d50",
           "disabled": false,
           "settings": {
-            "header-26a741909373cacae8b9489a7219cad2": null,
+            "header-59dd7ecffb83f88d09a7e1cd62fab3a9": null,
             "line_style": "solid",
             "line_width": "full",
             "line_thickness": 1,
             "line_color": "#aaaaaa",
-            "header-4ca4c1aaa6d8eaf056d1f6550ca2dcfd": null,
+            "header-d581674ab55702af3445d714b2045b20": null,
             "spacing_top": 20,
             "spacing_bottom": 20
           }
@@ -89,34 +89,35 @@
       "type": "collection-list-slider-with-desc",
       "disabled": false,
       "settings": {
-        "heading": "הקולקציות שלנו",
+        "heading": "",
         "heading_tag": "h2",
-        "paragraph-7ab4530cea8b6ef20cd08a4cd2121a7f": null,
+        "paragraph-44e7ec247cf5dfb43035d280c8e22ccd": null,
         "subheading": "",
-        "link": "shopify://collections",
-        "link_text": "לכל הקולקציות",
+        "link": "",
+        "link_text": "",
         "button_style": "btn--callout",
-        "header-8aa16711dfbb46261851dee139cee47c": null,
-        "columns": "3",
+        "header-a9a1eee189e62abe9643fac8acca5cdb": null,
+        "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "andy-tauer",
-          "attar-al-has",
-          "attar",
-          "borouj"
+          "seasons",
+          "brands",
+          "scent-profiles",
+          "mood",
+          "notes"
         ],
-        "header-e23f065709b43d71280449d3c3718c61": null,
-        "collection_listing_aspect_ratio": "square",
+        "header-02e2a8c49a717dc255d0cbda7f743271": null,
+        "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
         "overlay_title_background_style": "gradient",
         "overlay_text_color": "#ffffff",
         "overlay_title_background": "#000000",
-        "header-21ec047b1bb210891a6709c3fed86e6f": null,
-        "show_desc": true,
-        "desc_lines": 3,
-        "show_read_more": true,
-        "read_more_label": "קרא/י עוד",
-        "header-ad759fafafe137f0f03bffa7f31c7372": null,
+        "header-b7fecd3c1e111da70871017982a29305": null,
+        "show_desc": false,
+        "desc_lines": 2,
+        "show_read_more": false,
+        "read_more_label": "",
+        "header-4afa452b920b201583f12be172ffb204": null,
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
@@ -130,7 +131,7 @@
       "disabled": false,
       "settings": {
         "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 120, gap_px: 80, link_to_collections: true %}",
-        "header-2e302243f38e2d093c440530083ae5b2": null,
+        "header-660f78f717116bdf0fa1241a6f286481": null,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
       },
@@ -148,16 +149,16 @@
         "link": "",
         "link_text": "לכל הבלוגים",
         "button_style": "btn--callout",
-        "header-2988a0a23e623d39927f8fab8b58342e": null,
+        "header-f82b7982e7a6a36b458525fdf638d29a": null,
         "columns": "4",
         "mobile_columns": "1",
-        "header-3cacf6942bc21cc72c1acaee17313d6d": null,
+        "header-21abfd04cd09d316f623b2df34d5308f": null,
         "collection_listing_aspect_ratio": "square",
         "label_style": "beneath",
         "overlay_title_background_style": "gradient",
         "overlay_text_color": "#ffffff",
         "overlay_title_background": "#000000",
-        "header-1c30f62187dbdc9bb1247adbacc212e7": null,
+        "header-6957dd9ae87a3a4aa5af1e5b2e9f6521": null,
         "show_desc": true,
         "desc_lines": 3,
         "show_read_more": true,
@@ -216,16 +217,16 @@
         "image_aspect": "custom",
         "desktop_height": 50,
         "mobile_height": 50,
-        "paragraph-cf65d151f7920ceaf463470c7403c9ca": null,
+        "paragraph-548eab4225c90c456b7b0dad3a05b818": null,
         "text_position": "flex-end",
-        "header-bec47437b5e40f96ddec54380ebd95d1": null,
+        "header-344480809130043bbd9144d0e5c455c8": null,
         "text_color": "#ffffff",
         "button_background_color": "#ffffff",
         "button_text_color": "#000000",
         "color_overlay": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 30,
-        "header-7d435d4f57fa1a07b4f443b504a0357c": null,
+        "header-46d505838cb7a4ecc2c896334b0b21d7": null,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-bottom"
       },
@@ -240,7 +241,7 @@
             "mobile_focal_point": "image_presentation",
             "title": "Image hero split",
             "heading_tag": "h2",
-            "paragraph-7fa43fecb1a5d3935e5b39675761e72c": null,
+            "paragraph-082d1860f9ecfb786571752bf3fde8fd": null,
             "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
             "link": "",
             "link_text": "Read more",
@@ -257,7 +258,7 @@
             "mobile_focal_point": "bottom",
             "title": "Image hero split",
             "heading_tag": "h2",
-            "paragraph-36d55545fa282d31c28212683c1f18ed": null,
+            "paragraph-7e08d5fc167ed723de33a77b5cb6b95d": null,
             "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
             "link": "",
             "link_text": "Read more",
@@ -285,41 +286,45 @@
       "blocks": {}
     },
     "slideshow_KrHxxB": {
-      "settings": {},
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100
+      },
       "blocks": {
         "slide_mYTqh": {
           "type": "slide",
           "disabled": false,
           "settings": {
-            "header-7f2c167f5e84974b764ecf3b76797de3": null,
-            "image": "shopify://shop_images/ATTAR_COLLECTION_Annabella_100ml_EDP_02.webp",
+            "header-50731bb6f5b5e6d47fff39b834d4c556": null,
+            "image": "shopify://shop_images/IMG_4614.jpg",
             "image_mobile": null,
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "",
-            "header-688b846763f25f1335abc1bc12ab0714": null,
+            "header-c0a30275a1cb120af5f39a1567339c41": null,
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
-            "title": "Slide",
+            "title": "",
             "heading_tag": "h2",
-            "paragraph-c9ecb1e9ea118b0fd34ce0db45687fcd": null,
+            "paragraph-1221cca80f51686c39bb7ef064ff7e1d": null,
             "heading_font_class": "fs-heading-display-2",
             "subheading": "",
             "subheading_tag": "h2",
-            "paragraph-7fd09ebf1afeeb3afc1eed0c5cf49606": null,
+            "paragraph-4d82a2bb698634a643d20d1612ccdf59": null,
             "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>Use this section to make a bold statement</p>",
+            "text": "",
             "text_font_class": "fs-body-100",
-            "header-abbaab78dc701bd6c03a99ba21ac350e": null,
+            "header-57fe38bc7f33c674f362f04351614862": null,
             "link_1": "",
             "link_text_1": "Read more",
             "button_style_1": "btn--primary",
-            "header-2a7428cba13c626eb4200a72cfb6a98e": null,
+            "header-67191f635fdd2bb5f743e89b39cebfac": null,
             "link_2": "",
             "link_text_2": "Read more",
             "button_style_2": "btn--primary",
-            "header-a3a62205cbd551bf80ed57f60819aecc": null,
+            "header-80f1b66138339336809588dd99870a71": null,
             "text_color": "#ffffff",
             "button_background_color": "#ffffff",
             "button_text_color": "#000000",
@@ -327,15 +332,9 @@
             "color_overlay_gradient": "",
             "overlay_opacity": 40
           }
-        },
-        "slide_akRbMi": {
-          "settings": {
-            "link_1": "shopify://pages/scent-families"
-          }
         }
       },
       "block_order": [
-        "slide_akRbMi",
         "slide_mYTqh"
       ]
     },
@@ -352,6 +351,11 @@
         "image_small_focal_point": "image_presentation"
       },
       "blocks": {}
+    },
+    "grid_hd3m4p": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
@@ -360,10 +364,10 @@
     "custom_liquid_97CHAd",
     "1763495511c382e929",
     "collection_list_slider_with_desc_ReTUc",
+    "slideshow_KrHxxB",
     "custom_liquid_3qjtn",
     "featured_collection_slider_iJpRtV",
     "featured_collection_slider_aE4DjX",
-    "slideshow_KrHxxB",
     "rich_text_arA9fN",
     "collection_list_slider_mR8grQ",
     "collection_list_slider_FWw4BR",

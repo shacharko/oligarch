@@ -683,7 +683,7 @@
         "shopping_cart_label": "עגלת קניות",
         "discount_title": "הנחה",
         "discount_title_stacking": {
-          "one": "דִיסקוֹנט",
+          "one": "הנחה",
           "other": "הנחות"
         },
         "discount_order_stacking": {
@@ -4380,7 +4380,7 @@
       },
       "choose_options": "בחר אפשרויות",
       "country_placeholder": "מדינה/אזור",
-      "description": "תֵאוּר",
+      "description": "תיאור",
       "estimate_shipping": "הערכת משלוח",
       "from_lowest_price_html": "החל מ {{ lowest_price }}",
       "include_taxes": "כולל מס.",
@@ -4392,12 +4392,12 @@
       "on_sale_format_amount_off": "הנחה של {{ value }}",
       "on_sale_format_minus_amount": "- {{ value }}",
       "on_sale_format_minus_percent": "- {{ value }} %",
-      "on_sale_format_percent_off": "הנחה {{ value }} %",
+      "on_sale_format_percent_off": "הנחה % {{ value }} ",
       "on_sale_format_save_amount": "שמור {{ value }}",
       "on_sale_format_save_amount_varied": "חסכו עד {{ value }}",
       "on_sale_format_save_percent": "חסכו {{ value }} %",
       "on_sale_format_save_percent_varied": "חסכו עד {{ value }} %",
-      "on_sale_from_html": "החל מ {{ price }}",
+      "on_sale_from_html": "{{ price }}",
       "on_sale_varied_prefix": "עד",
       "preorder": "הזמנה מראש",
       "quantity": "כמות",
