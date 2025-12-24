@@ -214,8 +214,8 @@
             "text_4": "<p><strong>דוגמית חינם עם כל רכישה </strong></p>",
             "icon_5": "padlock",
             "text_5": "<p><strong>רכישות מאובטחות </strong></p>",
-            "icon_6": "none",
-            "text_6": "",
+            "icon_6": "moving-truck",
+            "text_6": "<p><strong>החזרות\\החלפות  </strong><a href=\"/pages/shipping_info\" title=\"shipping\"><strong> מדיניות החזרות</strong></a></p>",
             "display_as_collapsible_row": false,
             "expand_by_default": true
           }
