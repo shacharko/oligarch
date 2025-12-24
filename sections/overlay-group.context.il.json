@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "collection.brandcollection.json",
+  "parent": "overlay-group.json",
   "context": {
     "market": "il"
   },

@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "collection.brandcollection.json",
+  "parent": "blog.json",
   "context": {
     "market": "il"
   },

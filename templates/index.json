@@ -671,16 +671,10 @@
             "blog": "gift-experience-אמנות-המתנה"
           }
         },
-        "blog_item_n8xnHN": {
+        "blog_item_XGjhcH": {
           "type": "blog_item",
           "settings": {
-            "blog": "news"
-          }
-        },
-        "blog_item_88UWLP": {
-          "type": "blog_item",
-          "settings": {
-            "blog": "perfume-stories"
+            "blog": "the-art-of-layering-אמנות-השכבות"
           }
         },
         "blog_item_4XJWCx": {
@@ -689,19 +683,25 @@
             "blog": "zodiac-scents-מזלות-וריח"
           }
         },
-        "blog_item_XGjhcH": {
+        "blog_item_88UWLP": {
           "type": "blog_item",
           "settings": {
-            "blog": "the-art-of-layering-אמנות-השכבות"
+            "blog": "perfume-stories"
+          }
+        },
+        "blog_item_n8xnHN": {
+          "type": "blog_item",
+          "settings": {
+            "blog": "news"
           }
         }
       },
       "block_order": [
         "blog_item_btfpXj",
-        "blog_item_n8xnHN",
-        "blog_item_88UWLP",
+        "blog_item_XGjhcH",
         "blog_item_4XJWCx",
-        "blog_item_XGjhcH"
+        "blog_item_88UWLP",
+        "blog_item_n8xnHN"
       ],
       "name": "Blog list slider (with description)",
       "settings": {
@@ -712,7 +712,7 @@
         "link_text": "לכל הבלוגים",
         "button_style": "btn--callout",
         "columns": "3",
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "collection_listing_aspect_ratio": "square",
         "label_style": "overlay",
         "overlay_title_background_style": "gradient",

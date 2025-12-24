@@ -12,15 +12,5 @@
   "context": {
     "market": "il"
   },
-  "sections": {
-    "main": {
-      "settings": {
-        "display_type": "selected",
-        "columns": "5",
-        "rows": "3",
-        "collection_listing_aspect_ratio": "square"
-      },
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
