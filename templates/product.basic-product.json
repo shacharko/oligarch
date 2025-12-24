@@ -210,7 +210,7 @@
             "icon_5": "padlock",
             "text_5": "<p><strong>רכישות מאובטחות </strong></p>",
             "icon_6": "moving-truck",
-            "text_6": "<p><strong>החזרות והחלפות  </strong><a href=\"/pages/shipping_info\" title=\"shipping\"><strong> מדיניות החזרים</strong></a></p>",
+            "text_6": "<p><strong>החזרות\\החלפות  </strong><a href=\"/pages/shipping_info\" title=\"shipping\"><strong> מדיניות החזרות</strong></a></p>",
             "display_as_collapsible_row": false,
             "expand_by_default": true
           }
