@@ -291,7 +291,7 @@
           "scorpio"
         ],
         "collection_listing_aspect_ratio": "portrait",
-        "label_style": "overlay",
+        "label_style": "beneath",
         "overlay_title_background_style": "gradient",
         "overlay_text_color": "#ffffff",
         "overlay_title_background": "#000000",
