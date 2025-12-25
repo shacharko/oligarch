@@ -66,13 +66,6 @@
             "show_labels": true
           }
         },
-        "custom_liquid_6eTRz": {
-          "type": "custom_liquid",
-          "settings": {
-            "column_placement": "right",
-            "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -253,7 +246,6 @@
         "variant_picker",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
         "quantity_selector",
-        "custom_liquid_6eTRz",
         "buy_buttons",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
         "text_YLEgV",
