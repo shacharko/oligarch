@@ -12,5 +12,12 @@
   "context": {
     "market": "il"
   },
-  "sections": {}
+  "sections": {
+    "image_hero_m_wrkGwt": {
+      "settings": {
+        "mobile_height": 50
+      },
+      "blocks": {}
+    }
+  }
 }
