@@ -68,7 +68,7 @@
     "product_listing_discount_format": "percent_off",
     "product_listing_badge_position": "top_left",
     "enable_free_shipping_bar": true,
-    "free_shipping_threshold": "250",
+    "free_shipping_threshold": "299",
     "enable_cross_sells": true,
     "cross_sells_heading": "Last chance to save",
     "collection": "all-sale",
