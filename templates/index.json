@@ -571,7 +571,7 @@
       "name": "Behind the brands",
       "settings": {
         "heading": "",
-        "subheading": "<h3><strong>BEHIND THE BRANDS</strong></h3>",
+        "subheading": "<h1><strong>BEHIND THE BRANDS</strong></h1>",
         "centered": true,
         "loop": true
       }
