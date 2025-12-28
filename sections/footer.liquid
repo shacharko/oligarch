@@ -152,7 +152,24 @@
           %}
         {% endif %}
 
+       
         <div class="footer__credits fs-body-50">
+          <div class="payment-icons__icon", style="text-align:center">
+            <img alt="visa" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/visa.sxIq5Dot.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">
+            <img alt="master" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/master.CzeoQWmc.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">
+            <img alt="american express" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/american_express.C3z4WB9r.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">    
+            <img alt="discover" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/discover.C7UbFpNb.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">
+            <img alt="diners" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/diners_club.B9hVEmwz.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">
+            <img alt="jcb" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/jcb.BgZHqF0u.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">
+            <img alt="maestro" src="/cdn/shopifycloud/checkout-web/assets/c1/assets/maestro.ByfUQi1c.svg" role="img" width="38" height="24" class="_1tgdqw61 _1tgdqw60 _1fragemud _1fragemu8 _1fragemun _1tgdqw66">  
+        </div>
+      </div>
+      <div class="footer__bottom-right">
+        {%- if payment_icons -%}
+          {% render 'payment-icons' %}
+        {%- endif %}
+      </div>
+       <div class="footer__credits fs-body-50">
           <p style="text-align:center; font-size:13px; color:#777; direction:rtl;">
             Powered by
             <a href="https://yybranding.co.il" target="_blank" style="color:#555; font-weight:600; text-decoration:none;">
@@ -160,13 +177,8 @@
             </a>
           </p>
         </div>
-      </div>
 
-      <div class="footer__bottom-right">
-        {%- if payment_icons -%}
-          {% render 'payment-icons' %}
-        {%- endif %}
-      </div>
+      
     </div>
   </div>
 </div>
