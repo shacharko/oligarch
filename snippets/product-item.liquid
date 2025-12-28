@@ -258,9 +258,7 @@
     {{ prod.metafields.judgeme.badge }}
   </div>
 <!-- End of Judge.me code -->
-        {% if settings.product_listing_show_rating %}
-          {% render 'product-rating', prod: prod %}
-        {% endif %}
+        
 
         {% liquid
           assign price_content_type = 'price'
