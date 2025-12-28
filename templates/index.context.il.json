@@ -12,5 +12,17 @@
   "context": {
     "market": "il"
   },
-  "sections": {}
+  "sections": {
+    "slideshow_KrHxxB": {
+      "settings": {},
+      "blocks": {
+        "slide_Bt8taz": {
+          "settings": {
+            "image": "shopify://shop_images/PHOTO-2025-12-28-10-04-09.jpg",
+            "image_mobile": "shopify://shop_images/PHOTO-2025-12-28-10-04-08.jpg"
+          }
+        }
+      }
+    }
+  }
 }
