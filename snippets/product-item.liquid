@@ -258,7 +258,11 @@
     {{ prod.metafields.judgeme.badge }}
   </div>
 <!-- End of Judge.me code -->
-        
+        {%- comment -%}
+        {% if settings.product_listing_show_rating %}
+          {% render 'product-rating', prod: prod %}
+        {% endif %}
+        {%- endcomment -%}
 
         {% liquid
           assign price_content_type = 'price'
