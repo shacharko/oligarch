@@ -12,5 +12,12 @@
   "context": {
     "market": "il"
   },
-  "sections": {}
+  "sections": {
+    "footer": {
+      "settings": {
+        "show_payment_icons": false
+      },
+      "blocks": {}
+    }
+  }
 }
