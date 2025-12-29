@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify://shop_images/PHOTO-2025-12-28-10-04-09.jpg",
             "image_mobile": "shopify://shop_images/PHOTO-2025-12-28-10-04-08.jpg",
-            "focal_point": "image_presentation",
+            "focal_point": "center",
             "mobile_focal_point": "image_presentation",
             "media_link": "",
             "text_position": "center_center",
