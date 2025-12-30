@@ -150,6 +150,9 @@
     },
     "collection_list_slider_X66xn8": {
       "type": "collection-list-slider",
+      "custom_css": [
+        "h4 {font-weight: 600;}"
+      ],
       "name": "t:sections.collection_list_slider.presets.name",
       "settings": {
         "heading": "",
