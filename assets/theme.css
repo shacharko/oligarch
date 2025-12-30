@@ -14,9 +14,17 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('https://cdn.shopify.com/s/files/1/0968/7010/5371/files/PlayfairDisplay-VariableFont_wght.ttf?v=1767084307') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root{
-  --font-body:'TinosHebrew',sans-serif;
-  --font-heading:'TinosHebrew',sans-serif;
+  --font-body:'PlayfairDisplay',"NotoSansHebrew";
+  --font-heading:'PlayfairDisplay',"NotoSansHebrew";
   --font-body-weight:300;      /* גוף הטקסט דק */
   --font-heading-weight:400;   /* כותרות מעט עבות */
   --font-body-style:normal;
@@ -19206,7 +19214,7 @@ ul, ol {
 
 html, body,
 button, input, textarea, select {
-  font-family: 'TinosHebrew', 'IBMPlexSansHebrew', 'NotoSansHebrew', sans-serif !important;
+  font-family: 'PlayfairDisplay', 'NotoSansHebrew', sans-serif !important;
 }
 
 /* ליתר ביטחון – כיוון RTL כששפת האתר היא עברית */
