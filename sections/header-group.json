@@ -133,7 +133,9 @@
         "full_width_meganav_WXyTTy",
         "mobile_menu_images_cpJiWE"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "nav span {font-weight: 500;}"
+      ],
       "settings": {
         "layout": "logo-center_nav-below",
         "enable_sticky_header": true,
