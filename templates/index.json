@@ -164,11 +164,11 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "seasons",
-          "brands",
-          "scent-profiles",
           "mood",
-          "notes"
+          "seasons",
+          "notes",
+          "scent-profiles",
+          "brands"
         ],
         "collection_listing_aspect_ratio": "square",
         "label_style": "beneath",
