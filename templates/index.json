@@ -1096,10 +1096,9 @@
     },
     "newsletter_compact_trl_cJwCCh": {
       "type": "newsletter-compact-trl",
-      "disabled": true,
       "name": "Newsletter RTL (Custom)",
       "settings": {
-        "heading_text": "הירשמו לניוזלטר שלנו וקבלו 10% הנחה לרכישה ראשונה (כולל כפל מבצעים)",
+        "heading_text": "הצטרפו למועדון הלקוחות - מבצעים , קופונים ומתנות מפנקות הרשמו לניוזלטר שלנו ונהיה בקשר",
         "email_placeholder": "האימייל שלך",
         "button_label": "הרשמה",
         "consent_required": false,
