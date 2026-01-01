@@ -17,7 +17,7 @@
         "announcement_ez6fEr": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><strong>3 דוגמיות מתנה בכל רכישה</strong></h2><h2><strong>מעל  299 ש״ח</strong></h2>",
+            "title": "<h3><strong>3 דוגמיות מתנה בכל רכישה</strong></h3><h3><strong>מעל  299 ש״ח</strong></h3>",
             "title_mobile": "",
             "link": "shopify://collections/קולקציית-מארזים-כללית"
           }
@@ -25,7 +25,7 @@
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><strong>מארזי Discovery  ב-18% הנחה </strong></h2><h2><strong>קוד קופון : OLIGARCH18 </strong></h2>",
+            "title": "<h3><strong>מארזי Discovery  ב-18% הנחה </strong></h3><h3><strong>קוד קופון : OLIGARCH18 </strong></h3>",
             "title_mobile": "",
             "link": "shopify://collections/קולקציית-מארזים-כללית"
           }
