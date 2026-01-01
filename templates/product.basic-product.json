@@ -404,7 +404,7 @@
         "heading": "",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-only"
       }
     },
     "quote_y9BE8A": {
@@ -451,7 +451,7 @@
         "font_choice": "ff-heading",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-only"
       }
     }
   },
