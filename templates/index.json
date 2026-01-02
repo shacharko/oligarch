@@ -164,13 +164,13 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "mood",
           "seasons",
-          "notes",
+          "brands",
           "scent-profiles",
-          "brands"
+          "notes",
+          "mood"
         ],
-        "collection_listing_aspect_ratio": "square",
+        "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
         "overlay_title_background_style": "gradient",
         "overlay_text_color": "#ffffff",
