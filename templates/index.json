@@ -170,7 +170,7 @@
           "notes",
           "mood"
         ],
-        "collection_listing_aspect_ratio": "portrait",
+        "collection_listing_aspect_ratio": "square",
         "label_style": "beneath",
         "overlay_title_background_style": "gradient",
         "overlay_text_color": "#ffffff",
