@@ -59,12 +59,11 @@
     "rich_text_dmzFYM": {
       "type": "rich-text",
       "blocks": {
-        "heading_WayWMR": {
-          "type": "heading",
+        "text_b6UTK7": {
+          "type": "text",
           "settings": {
-            "title": "OLIGARCH NICHE PERFUMERY",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-3-base"
+            "text": "<h3><strong>OLIGARCH NICHE PERFUMERY</strong></h3>",
+            "text_font_class": "fs-body-100"
           }
         },
         "text_4CTBzy": {
@@ -84,7 +83,7 @@
         }
       },
       "block_order": [
-        "heading_WayWMR",
+        "text_b6UTK7",
         "text_4CTBzy",
         "button_FymrAL"
       ],
@@ -93,7 +92,7 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
+        "section_padding": "section--vertical-padding-none",
         "content_width": "custom",
         "custom_content_width": 400
       }
