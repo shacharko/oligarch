@@ -289,7 +289,7 @@
           "sweet-collection",
           "aquatic-collection"
         ],
-        "collection_listing_aspect_ratio": "square",
+        "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
         "overlay_title_background_style": "gradient",
         "overlay_text_color": "#ffffff",
@@ -981,7 +981,7 @@
         "font_choice": "ff-heading",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "rich_text_HYfzAm": {
