@@ -105,6 +105,38 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "collection_list_slider_X66xn8": {
+      "type": "collection-list-slider",
+      "custom_css": [
+        "h4 {font-weight: 600;}"
+      ],
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections/seasons",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "columns": "5",
+        "mobile_columns": "2",
+        "collection_list": [
+          "scent-profiles",
+          "brands",
+          "notes",
+          "seasons",
+          "mood"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "countdown_banner_xtFCr7": {
       "type": "countdown-banner",
       "name": "t:sections.countdown_banner.presets.name",
@@ -143,38 +175,6 @@
         "enable_animation": true,
         "show_frame": true,
         "full_width": false,
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "collection_list_slider_X66xn8": {
-      "type": "collection-list-slider",
-      "custom_css": [
-        "h4 {font-weight: 600;}"
-      ],
-      "name": "t:sections.collection_list_slider.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "link": "shopify://collections/seasons",
-        "link_text": "",
-        "button_style": "btn--secondary",
-        "columns": "5",
-        "mobile_columns": "2",
-        "collection_list": [
-          "brands",
-          "scent-profiles",
-          "notes",
-          "mood",
-          "seasons"
-        ],
-        "collection_listing_aspect_ratio": "landscape",
-        "label_style": "beneath",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#ffffff",
-        "overlay_title_background": "#000000",
-        "enable_animation": true,
-        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -1195,8 +1195,8 @@
     "video_hero_VY4jBe",
     "rich_text_dmzFYM",
     "custom_liquid_97CHAd",
-    "countdown_banner_xtFCr7",
     "collection_list_slider_X66xn8",
+    "countdown_banner_xtFCr7",
     "slideshow_KrHxxB",
     "collection_list_slider_mR8grQ",
     "custom_liquid_Yhm46m",
