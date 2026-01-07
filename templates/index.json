@@ -283,10 +283,10 @@
         "mobile_columns": "2",
         "collection_list": [
           "gourmand-collection",
-          "woody-collection",
-          "fruity-collection",
           "chypre-collection",
           "sweet-collection",
+          "woody-collection",
+          "fruity-collection",
           "aquatic-collection"
         ],
         "collection_listing_aspect_ratio": "portrait",
