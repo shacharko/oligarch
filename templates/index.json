@@ -682,24 +682,13 @@
     "behind_brands_9YJ8yF": {
       "type": "behind-brands",
       "blocks": {
-        "video_card_ceUYd9": {
-          "type": "video_card",
-          "settings": {
-            "video": "shopify://files/videos/v24044gl0000cv8ss8fog65mnge7nm20 2.MP4",
-            "video_url": "",
-            "poster": "shopify://shop_images/IMG_4422.jpg",
-            "product_ref": "creed-eladaria",
-            "product_link": "",
-            "product_title": ""
-          }
-        },
         "video_card_7czYHn": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/ScreenRecording_11-18-2025 17-42-25_1.mov",
+            "video": "shopify://files/videos/v09044g40000cbelqlrc77ufretu4thg.MP4",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_4423.jpg",
-            "product_ref": "widian-london",
+            "poster": "shopify://shop_images/IMG_5232.jpg",
+            "product_ref": "כריסטיאן-דיור-בויס-דרזה-יוניסקס",
             "product_link": "",
             "product_title": ""
           }
@@ -715,6 +704,17 @@
             "product_title": ""
           }
         },
+        "video_card_UVbDix": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/ScreenRecording_10-29-2025 16-55-24_1.mov",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_4426.jpg",
+            "product_ref": "byredo-blanche",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
         "video_card_q7fwd3": {
           "type": "video_card",
           "settings": {
@@ -726,24 +726,24 @@
             "product_title": ""
           }
         },
-        "video_card_UVbDix": {
+        "video_card_ceUYd9": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/ScreenRecording_10-29-2025 16-55-24_1.mov",
+            "video": "shopify://files/videos/v24044gl0000cv8ss8fog65mnge7nm20 2.MP4",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_4426.jpg",
-            "product_ref": "byredo-blanche",
+            "poster": "shopify://shop_images/IMG_4422.jpg",
+            "product_ref": "creed-eladaria",
             "product_link": "",
             "product_title": ""
           }
         }
       },
       "block_order": [
-        "video_card_ceUYd9",
         "video_card_7czYHn",
         "video_card_AiLj6G",
+        "video_card_UVbDix",
         "video_card_q7fwd3",
-        "video_card_UVbDix"
+        "video_card_ceUYd9"
       ],
       "name": "Behind the brands",
       "settings": {
