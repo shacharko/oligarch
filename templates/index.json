@@ -653,7 +653,7 @@
         "link": "shopify://pages/zodiac",
         "link_text": "לקולקציה המלאה",
         "button_style": "btn--callout",
-        "columns": "5",
+        "columns": "4",
         "mobile_columns": "2",
         "collection_list": [
           "aquarius",
