@@ -273,7 +273,7 @@
           "settings": {
             "link": "shopify://collections/all",
             "link_text": "DISCOVERY THE GIFT",
-            "button_style": "btn--primary"
+            "button_style": "btn--secondary"
           }
         }
       },
