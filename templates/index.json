@@ -36,8 +36,8 @@
             "link_2": "",
             "link_text_2": "Read more",
             "button_style_2": "btn--primary",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
@@ -68,8 +68,8 @@
             "link_2": "",
             "link_text_2": "Read more",
             "button_style_2": "btn--primary",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
@@ -100,8 +100,8 @@
             "link_2": "",
             "link_text_2": "Read more",
             "button_style_2": "btn--primary",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
@@ -164,8 +164,8 @@
             "link_2": "",
             "link_text_2": "Read more",
             "button_style_2": "btn--primary",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
@@ -188,11 +188,20 @@
         "enable_autoplay": true,
         "duration_autoplay": 2,
         "navigation_alignment": "center",
-        "navigation_color_foreground": "#FFFFFF",
+        "navigation_color_foreground": "#ffffff",
         "navigation_color_background": "",
         "navigation_background_opacity": 100,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "custom_liquid_Yhm46m": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 80, gap_px: 80, link_to_collections: true %}",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "video_hero_VY4jBe": {
@@ -292,39 +301,6 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "collection_list_slider_X66xn8": {
-      "type": "collection-list-slider",
-      "disabled": true,
-      "custom_css": [
-        "h4 {font-weight: 600;}"
-      ],
-      "name": "t:sections.collection_list_slider.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "link": "shopify://collections/seasons",
-        "link_text": "",
-        "button_style": "btn--secondary",
-        "columns": "5",
-        "mobile_columns": "2",
-        "collection_list": [
-          "scent-profiles",
-          "brands",
-          "notes",
-          "seasons",
-          "mood"
-        ],
-        "collection_listing_aspect_ratio": "portrait",
-        "label_style": "beneath",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#ffffff",
-        "overlay_title_background": "#000000",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "countdown_banner_xtFCr7": {
       "type": "countdown-banner",
       "name": "t:sections.countdown_banner.presets.name",
@@ -363,6 +339,69 @@
         "enable_animation": true,
         "show_frame": true,
         "full_width": false,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collection_list_slider_X66xn8": {
+      "type": "collection-list-slider",
+      "disabled": true,
+      "custom_css": [
+        "h4 {font-weight: 600;}"
+      ],
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections/seasons",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "columns": "5",
+        "mobile_columns": "2",
+        "collection_list": [
+          "scent-profiles",
+          "brands",
+          "notes",
+          "seasons",
+          "mood"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collection_list_slider_mR8grQ": {
+      "type": "collection-list-slider",
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "דיסקברי סט לפי משפחות ריח",
+        "heading_tag": "h2",
+        "subheading": "<p><strong>גלו את הניחוח שמדבר אליכם - פרחוני, פירותי, עצי, אוריינטלי, פרשי ועוד ... תנו לריחות להוביל אתכם למסע אישי ומרגש.</strong></p>",
+        "link": "shopify://pages/scent-families",
+        "link_text": "כל הקולקציות",
+        "button_style": "btn--callout",
+        "columns": "5",
+        "mobile_columns": "2",
+        "collection_list": [
+          "gourmand-collection",
+          "chypre-collection",
+          "sweet-collection",
+          "woody-collection",
+          "fruity-collection",
+          "aquatic-collection"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -455,45 +494,6 @@
         "navigation_background_opacity": 100,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-only"
-      }
-    },
-    "collection_list_slider_mR8grQ": {
-      "type": "collection-list-slider",
-      "name": "t:sections.collection_list_slider.presets.name",
-      "settings": {
-        "heading": "דיסקברי סט לפי משפחות ריח",
-        "heading_tag": "h2",
-        "subheading": "<p><strong>גלו את הניחוח שמדבר אליכם - פרחוני, פירותי, עצי, אוריינטלי, פרשי ועוד ... תנו לריחות להוביל אתכם למסע אישי ומרגש.</strong></p>",
-        "link": "shopify://pages/scent-families",
-        "link_text": "כל הקולקציות",
-        "button_style": "btn--callout",
-        "columns": "5",
-        "mobile_columns": "2",
-        "collection_list": [
-          "gourmand-collection",
-          "chypre-collection",
-          "sweet-collection",
-          "woody-collection",
-          "fruity-collection",
-          "aquatic-collection"
-        ],
-        "collection_listing_aspect_ratio": "portrait",
-        "label_style": "beneath",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#ffffff",
-        "overlay_title_background": "#000000",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "custom_liquid_Yhm46m": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 80, gap_px: 80, link_to_collections: true %}",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "collection_list_slider_FWw4BR": {
@@ -1379,6 +1379,7 @@
   },
   "order": [
     "slideshow_iTpG6H",
+    "custom_liquid_Yhm46m",
     "video_hero_VY4jBe",
     "rich_text_dmzFYM",
     "custom_liquid_97CHAd",
@@ -1386,7 +1387,6 @@
     "collection_list_slider_X66xn8",
     "collection_list_slider_mR8grQ",
     "slideshow_KrHxxB",
-    "custom_liquid_Yhm46m",
     "collection_list_slider_FWw4BR",
     "featured_collection_slider_aE4DjX",
     "grid_JtqcCU",
