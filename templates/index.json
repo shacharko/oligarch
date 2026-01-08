@@ -294,6 +294,7 @@
     },
     "collection_list_slider_X66xn8": {
       "type": "collection-list-slider",
+      "disabled": true,
       "custom_css": [
         "h4 {font-weight: 600;}"
       ],
@@ -1381,10 +1382,10 @@
     "video_hero_VY4jBe",
     "rich_text_dmzFYM",
     "custom_liquid_97CHAd",
-    "collection_list_slider_X66xn8",
     "countdown_banner_xtFCr7",
-    "slideshow_KrHxxB",
+    "collection_list_slider_X66xn8",
     "collection_list_slider_mR8grQ",
+    "slideshow_KrHxxB",
     "custom_liquid_Yhm46m",
     "collection_list_slider_FWw4BR",
     "featured_collection_slider_aE4DjX",
