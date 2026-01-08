@@ -942,7 +942,7 @@
         "link_text": "",
         "button_style": "btn--callout",
         "columns": "3",
-        "mobile_columns": "1",
+        "mobile_columns": "2",
         "collection_listing_aspect_ratio": "square",
         "label_style": "overlay",
         "overlay_title_background_style": "gradient",
