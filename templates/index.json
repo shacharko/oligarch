@@ -16,7 +16,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_5250.jpg",
-            "image_mobile": "shopify://shop_images/louis-vuitton-imagination--LP0219_PM1_Interior_view_1.webp",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/louis-vuitton-collection",
@@ -49,7 +48,6 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_5251.jpg",
-            "image_mobile": "shopify://shop_images/pdm-c.webp",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/parfums-de-marly-1",
@@ -119,7 +117,7 @@
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "image_aspect": "original",
-        "desktop_height": 80,
+        "desktop_height": 100,
         "mobile_height": 100,
         "enable_autoplay": true,
         "duration_autoplay": 2,
