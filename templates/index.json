@@ -521,7 +521,6 @@
     },
     "collection_list_slider_X66xn8": {
       "type": "collection-list-slider",
-      "disabled": true,
       "custom_css": [
         "h4 {font-weight: 600;}"
       ],
@@ -1382,13 +1381,13 @@
     "custom_liquid_Yhm46m",
     "video_hero_VY4jBe",
     "rich_text_dmzFYM",
+    "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
     "featured_collection_slider_aE4DjX",
     "countdown_banner_xtFCr7",
     "featured_collection_slider_iJpRtV",
     "collection_list_slider_mR8grQ",
     "grid_JtqcCU",
-    "collection_list_slider_X66xn8",
     "slideshow_KrHxxB",
     "collection_list_slider_FWw4BR",
     "behind_brands_9YJ8yF",
