@@ -15,10 +15,10 @@
         "slide_tHcika": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/PHOTO-2026-01-07-01-11-40.jpg",
+            "image": "shopify://shop_images/IMG_5250.jpg",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/notes",
+            "media_link": "shopify://collections/louis-vuitton-collection",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
@@ -47,10 +47,10 @@
         "slide_fnbBfN": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/PHOTO-2026-01-07-01-19-32.jpg",
+            "image": "shopify://shop_images/IMG_5251.jpg",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/seasons",
+            "media_link": "shopify://collections/parfums-de-marly-1",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
@@ -79,74 +79,10 @@
         "slide_J9PAED": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/196e7b05-96dd-4c20-88d5-b3c3c03a8410.jpg",
+            "image": "shopify://shop_images/IMG_5252.jpg",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/scent-profiles",
-            "text_position": "center_center",
-            "text_position_mobile": "center_center",
-            "accent": "",
-            "title": "",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2",
-            "subheading": "",
-            "subheading_tag": "h2",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link_1": "",
-            "link_text_1": "Read more",
-            "button_style_1": "btn--primary",
-            "link_2": "",
-            "link_text_2": "Read more",
-            "button_style_2": "btn--primary",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 40
-          }
-        },
-        "slide_LJCxyW": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2026-01-07-00-35-34.jpg",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/brands",
-            "text_position": "center_center",
-            "text_position_mobile": "center_center",
-            "accent": "",
-            "title": "",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2",
-            "subheading": "",
-            "subheading_tag": "h2",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link_1": "",
-            "link_text_1": "Read more",
-            "button_style_1": "btn--primary",
-            "link_2": "",
-            "link_text_2": "Read more",
-            "button_style_2": "btn--primary",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 40
-          }
-        },
-        "slide_meDKfF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2026-01-07-01-16-51.jpg",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/mood",
+            "media_link": "shopify://collections/ex-nihilo",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
@@ -176,9 +112,7 @@
       "block_order": [
         "slide_tHcika",
         "slide_fnbBfN",
-        "slide_J9PAED",
-        "slide_LJCxyW",
-        "slide_meDKfF"
+        "slide_J9PAED"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
@@ -290,6 +224,38 @@
         "section_padding": "section--vertical-padding-none",
         "content_width": "custom",
         "custom_content_width": 400
+      }
+    },
+    "collection_list_slider_X66xn8": {
+      "type": "collection-list-slider",
+      "custom_css": [
+        "h4 {font-weight: 600;}"
+      ],
+      "name": "t:sections.collection_list_slider.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections/seasons",
+        "link_text": "",
+        "button_style": "btn--secondary",
+        "columns": "5",
+        "mobile_columns": "2",
+        "collection_list": [
+          "scent-profiles",
+          "brands",
+          "notes",
+          "seasons",
+          "mood"
+        ],
+        "collection_listing_aspect_ratio": "portrait",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "custom_liquid_97CHAd": {
@@ -517,38 +483,6 @@
         "spacing": 24,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "collection_list_slider_X66xn8": {
-      "type": "collection-list-slider",
-      "custom_css": [
-        "h4 {font-weight: 600;}"
-      ],
-      "name": "t:sections.collection_list_slider.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "link": "shopify://collections/seasons",
-        "link_text": "",
-        "button_style": "btn--secondary",
-        "columns": "5",
-        "mobile_columns": "2",
-        "collection_list": [
-          "scent-profiles",
-          "brands",
-          "notes",
-          "seasons",
-          "mood"
-        ],
-        "collection_listing_aspect_ratio": "portrait",
-        "label_style": "beneath",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#ffffff",
-        "overlay_title_background": "#000000",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "slideshow_KrHxxB": {
