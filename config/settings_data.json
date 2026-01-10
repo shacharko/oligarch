@@ -12,7 +12,7 @@
     "color_background_body": "#ffffff",
     "color_text_link": "#22292d",
     "color_text": "#22292d",
-    "color_border": "#ffffff",
+    "color_border": "#000000",
     "color_header_text": "#22292d",
     "color_header_bg": "#ffffff",
     "color_text_footer": "{{ shop.brand.colors.primary[0].background }}",
