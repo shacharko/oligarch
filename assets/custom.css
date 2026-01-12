@@ -283,6 +283,14 @@ button.slideshow-navigation__navigation-button--previous .icon svg {
   padding-right: 0 !important;
   padding-left: 20px;
 }
+/* Force Add to Cart button to always be black */
+button.product-form__cart-submit,
+button.product-form__cart-submit.btn,
+button.product-form__cart-submit.btn--secondary {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
 
 
 
