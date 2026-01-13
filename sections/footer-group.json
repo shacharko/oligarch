@@ -50,8 +50,8 @@
             "title": "ניוזלטר",
             "show_title_on_desktop": true,
             "enable_collect_customer_name": false,
-            "text": "<h5>הצטרפו וקבלו עדכונים והנחות בלעדיות.</h5>",
-            "show_social_icons": false,
+            "text": "<h5><strong>הצטרפו למועדון הלקוחות - מבצעים , קופונים ומתנות מפנקות הרשמו לניוזלטר שלנו ונהיה בקשר</strong></h5>",
+            "show_social_icons": true,
             "enable_follow_on_shop": true
           }
         }
