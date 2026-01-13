@@ -23,7 +23,7 @@
             "title": "",
             "show_title_on_desktop": false,
             "text": "<h4><strong>הבית לבשמי נישה ויוקרה בישראל</strong></h4>",
-            "image": "shopify://shop_images/Oligarch_Logo_SVG.svg",
+            "image": "shopify://shop_images/cde2f493-4947-4e30-aa80-91efdccf75bc.png",
             "image_max_width": 150,
             "image_placement": "above_text",
             "show_social_icons": true,
@@ -35,8 +35,8 @@
           "settings": {
             "desktop_width": 35,
             "desktop_padding": 0,
-            "collapse_on_mobile": true,
-            "title": "קישורים",
+            "collapse_on_mobile": false,
+            "title": "",
             "show_title_on_desktop": false,
             "link_list": "footer-1"
           }
@@ -46,7 +46,7 @@
           "settings": {
             "desktop_width": 35,
             "desktop_padding": 0,
-            "collapse_on_mobile": true,
+            "collapse_on_mobile": false,
             "title": "ניוזלטר",
             "show_title_on_desktop": true,
             "enable_collect_customer_name": false,

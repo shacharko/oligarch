@@ -16,7 +16,7 @@
     "color_header_text": "#22292d",
     "color_header_bg": "#ffffff",
     "color_text_footer": "{{ shop.brand.colors.primary[0].background }}",
-    "color_background_footer": "#ffffff",
+    "color_background_footer": "#000000",
     "color_background_button": "#111111",
     "color_text_button": "#FFFFFF",
     "color_products_sale_price": "#d21404",
