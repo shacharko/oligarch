@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/v57ik-1650x800.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Jan_13_2026_06_35_14_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/attar-al-has",
@@ -48,6 +49,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_5250.jpg",
+            "image_mobile": "shopify://shop_images/4544.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/louis-vuitton-collection",
@@ -80,6 +82,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Jan_13_2026_02_26_33_PM-1650x800.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Jan_13_2026_06_35_16_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/zoologist-1",
@@ -112,6 +115,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_5252.jpg",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Jan_13_2026_06_35_12_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/ex-nihilo",
@@ -144,6 +148,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_5251.jpg",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Jan_13_2026_06_35_09_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/parfums-de-marly-1",
