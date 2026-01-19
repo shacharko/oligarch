@@ -572,11 +572,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      ".product-form__cart-submit.btn--full.btn--secondary,.product-form__cart-submit.btn--full {background-color: #684e97 !important; color: white !important; border-color: #684e97 !important;}",
-      ".product-form__cart-submit.btn--full.btn--secondary:hover,.product-form__cart-submit.btn--full:hover {background-color: #7b5fad !important; color: white !important; border-color: #7b5fad !important;}",
-      ".accordion__button {display: flex; flex-direction: row-reverse; justify-content: space-between;}",
-      ".product-form__controls-group .quantity-selector {display: flex; flex-direction: row-reverse;}"
-    ]
+    "custom_css": []
   }
 }
