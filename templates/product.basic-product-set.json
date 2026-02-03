@@ -25,6 +25,18 @@
             "show_custom_badges": true
           }
         },
+        "judge_me_reviews_preview_badge_9p4LFQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "text_YLEgV": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299 ש״ח</strong></p><p><strong>עד 3 ימי עסקים מרגע אישור ההזמנה.</strong></p>",
+            "column_placement": "right"
+          }
+        },
         "text_44R9J9": {
           "type": "text",
           "settings": {
@@ -42,10 +54,6 @@
             "show_status_bar": false,
             "show_untracked_quantity": false
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -77,6 +85,15 @@
             "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_sticky_atc_bar_desktop": true,
+            "enable_sticky_atc_bar_mobile": true,
+            "divider_width": "shadow--small"
+          }
+        },
         "text_w3G6kr": {
           "type": "text",
           "settings": {
@@ -85,14 +102,9 @@
             "column_placement": "right"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "enable_sticky_atc_bar_desktop": false,
-            "enable_sticky_atc_bar_mobile": false,
-            "divider_width": "shadow--small"
-          }
+        "share": {
+          "type": "share",
+          "settings": {}
         },
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6": {
           "type": "shopify://apps/swish-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
@@ -112,18 +124,6 @@
             "icon_stroke_width": 1,
             "icon_offset_vertical": 0
           }
-        },
-        "text_YLEgV": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299 ש״ח</strong></p>",
-            "column_placement": "right"
-          }
-        },
-        "judge_me_reviews_preview_badge_9p4LFQ": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
         },
         "accordion_XpdCx": {
           "type": "accordion",
@@ -250,18 +250,18 @@
       },
       "block_order": [
         "product_header",
+        "judge_me_reviews_preview_badge_9p4LFQ",
+        "text_YLEgV",
         "text_44R9J9",
         "inventory_counter_nnj7H",
-        "share",
         "variant_picker",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
         "quantity_selector",
         "custom_liquid_6eTRz",
-        "text_w3G6kr",
         "buy_buttons",
+        "text_w3G6kr",
+        "share",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
-        "text_YLEgV",
-        "judge_me_reviews_preview_badge_9p4LFQ",
         "accordion_XpdCx",
         "accordion_fHfiW",
         "accordion_3q6Rn",
