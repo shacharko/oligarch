@@ -798,6 +798,10 @@ input.spr-form-input{
 input.input.has-errors, select.input.has-errors, input.spr-form-input.has-errors{
     border-color:var(--color-text-error);
   }
+
+.sticky-atc-bar__inner span[data-add-to-cart-text]{
+  color: white;
+}  
 textarea.input,
 textarea.spr-form-input{
   resize:vertical;
