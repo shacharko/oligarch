@@ -48,10 +48,6 @@
             "column_placement": "right"
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -90,6 +86,10 @@
             "enable_sticky_atc_bar_mobile": true,
             "divider_width": "shadow--small"
           }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
         },
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6": {
           "type": "shopify://apps/swish-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
@@ -249,12 +249,12 @@
         "judge_me_reviews_preview_badge_ECh4zK",
         "inventory_counter_nnj7H",
         "text_YLEgV",
-        "share",
         "variant_picker",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
         "quantity_selector",
         "custom_liquid_aQhpT",
         "buy_buttons",
+        "share",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
         "accordion_XpdCx",
         "accordion_fHfiW",
