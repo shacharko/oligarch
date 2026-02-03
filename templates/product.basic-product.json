@@ -44,7 +44,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299 ש״ח עד 3 ימי עסקים מרגע אישור ההזמנה.</strong></p>",
+            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299₪ </strong></p><p><strong>עד 3 ימי עסקים מרגע אישור ההזמנה .</strong></p>",
             "column_placement": "right"
           }
         },
