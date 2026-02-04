@@ -262,14 +262,14 @@
         "text_b6UTK7": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>OLIGARCH NICHE PERFUMERY</strong></h3>",
+            "text": "<h2>❤️ <strong>VALENTINE’S DAY </strong>❤️</h2>",
             "text_font_class": "fs-body-100"
           }
         },
         "text_4CTBzy": {
           "type": "text",
           "settings": {
-            "text": "<p>...Fragrance Speaks Louder Than Words</p><p>Discover over 500 niche perfumes from 50+ luxury brands<br/>Express Yourself. Leave an Unforgettable Impression</p>",
+            "text": "<h5><strong>יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם.</strong></h5>",
             "text_font_class": "fs-body-75"
           }
         },
@@ -292,9 +292,60 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none",
+        "section_padding": "section--vertical-padding-bottom-only",
         "content_width": "custom",
         "custom_content_width": 400
+      }
+    },
+    "image_hero_rhEJhE": {
+      "type": "image-hero",
+      "blocks": {
+        "accent_BGMc6X": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "heading_DRPFUT": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_MiD8xL": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_BGMc6X",
+        "heading_DRPFUT",
+        "text_MiD8xL"
+      ],
+      "name": "t:sections.image_hero.presets.name",
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image_mobile": "shopify://shop_images/5y6.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "collection_list_slider_X66xn8": {
@@ -430,7 +481,7 @@
         "background_color": "#ffffff",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
       }
@@ -1325,6 +1376,7 @@
     "custom_liquid_Yhm46m",
     "video_hero_VY4jBe",
     "rich_text_dmzFYM",
+    "image_hero_rhEJhE",
     "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
     "featured_collection_slider_aE4DjX",
