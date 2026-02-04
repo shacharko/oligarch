@@ -269,7 +269,7 @@
         "text_4CTBzy": {
           "type": "text",
           "settings": {
-            "text": "<h5><strong>יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם.</strong></h5>",
+            "text": "<h5><strong>יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם.</strong></h5><h3><strong>15% על כל המוצרים באתר ! <br/>כולל טרבלים / דוגמיות / מארזים</strong></h3>",
             "text_font_class": "fs-body-75"
           }
         },
@@ -418,72 +418,6 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "image_with_text_split_a7aDPT": {
-      "type": "image-with-text-split",
-      "blocks": {
-        "accent_F6NdDb": {
-          "type": "accent",
-          "settings": {
-            "accent": ""
-          }
-        },
-        "heading_LFyWwG": {
-          "type": "heading",
-          "settings": {
-            "title": "VALENTINE’S DAY",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
-          }
-        },
-        "subheading_f8GBqh": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם.",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-4-base"
-          }
-        },
-        "subheading_mcirFj": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "15% על כל המוצרים באתר! כולל טרבלים/דוגמיות/מארזים",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-4-base"
-          }
-        },
-        "button_NyA6kY": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://collections/all",
-            "link_text": "כל המוצרים",
-            "button_style": "btn--secondary"
-          }
-        }
-      },
-      "block_order": [
-        "accent_F6NdDb",
-        "heading_LFyWwG",
-        "subheading_f8GBqh",
-        "subheading_mcirFj",
-        "button_NyA6kY"
-      ],
-      "name": "t:sections.image_with_text_split.presets.name",
-      "settings": {
-        "image_position": "right",
-        "image_mobile_position": "below-content",
-        "image_padding": "none",
-        "image": "shopify://shop_images/5y6.jpg",
-        "aspect_ratio": "square",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "featured_collection_slider_iJpRtV": {
@@ -1380,7 +1314,6 @@
     "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
     "featured_collection_slider_aE4DjX",
-    "image_with_text_split_a7aDPT",
     "featured_collection_slider_iJpRtV",
     "collection_list_slider_mR8grQ",
     "grid_JtqcCU",
