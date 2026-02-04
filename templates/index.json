@@ -389,9 +389,17 @@
         "subheading_f8GBqh": {
           "type": "subheading",
           "settings": {
-            "subheading": "יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם15% על כל המוצרים באתר! כולל טרבלים/דוגמיות/מארזים",
+            "subheading": "יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם.",
             "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "subheading_mcirFj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "15% על כל המוצרים באתר! כולל טרבלים/דוגמיות/מארזים",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-4-base"
           }
         },
         "button_NyA6kY": {
@@ -407,6 +415,7 @@
         "accent_F6NdDb",
         "heading_LFyWwG",
         "subheading_f8GBqh",
+        "subheading_mcirFj",
         "button_NyA6kY"
       ],
       "name": "t:sections.image_with_text_split.presets.name",
