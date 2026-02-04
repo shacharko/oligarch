@@ -369,58 +369,52 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "slideshow_xLVzFR": {
-      "type": "slideshow",
+    "image_with_text_split_a7aDPT": {
+      "type": "image-with-text-split",
       "blocks": {
-        "slide_zExawc": {
-          "type": "slide",
+        "accent_F6NdDb": {
+          "type": "accent",
           "settings": {
-            "image": "shopify://shop_images/5y6.jpg",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "media_link": "",
-            "text_position": "center_center",
-            "text_position_mobile": "center_center",
-            "accent": "",
-            "title": "",
+            "accent": ""
+          }
+        },
+        "heading_LFyWwG": {
+          "type": "heading",
+          "settings": {
+            "title": "VALENTINE’S DAY",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2",
-            "subheading": "",
-            "subheading_tag": "h2",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link_1": "",
-            "link_text_1": "",
-            "button_style_1": "btn--primary",
-            "link_2": "",
-            "link_text_2": "",
-            "button_style_2": "btn--primary",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "subheading_f8GBqh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "יש מתנות שמרגישות כאילו נבחרו במיוחד, כאלה שמזכירות לנו להאט, לחשוב ולבחור מתוך תשומת לב – ביום האהבה הזה, זו ההזדמנות להעניק משהו שמדבר מהלב ומותיר חותם15% על כל המוצרים באתר! כולל טרבלים/דוגמיות/מארזים",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
           }
         }
       },
       "block_order": [
-        "slide_zExawc"
+        "accent_F6NdDb",
+        "heading_LFyWwG",
+        "subheading_f8GBqh"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
-        "image_aspect": "original",
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "enable_autoplay": true,
-        "duration_autoplay": 6,
-        "navigation_alignment": "center",
-        "navigation_color_foreground": "#FFFFFF",
-        "navigation_color_background": "",
-        "navigation_background_opacity": 100,
+        "image_position": "right",
+        "image_mobile_position": "below-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/5y6.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "featured_collection_slider_iJpRtV": {
@@ -821,92 +815,6 @@
         "section_padding": "section--vertical-padding-none",
         "content_width": "full",
         "custom_content_width": 700
-      }
-    },
-    "grid_hd3m4p": {
-      "type": "grid",
-      "blocks": {
-        "item_GUhGiT": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 500,
-            "mobile_height": 500,
-            "image": "shopify://shop_images/Img-2.webp",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "",
-            "title": "Grid item",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "subheading": "<p>Perfect for lookbooks and editorial photography</p>",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary",
-            "background_color": "",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 30
-          }
-        },
-        "item_C33Vk3": {
-          "type": "item",
-          "settings": {
-            "width": "50",
-            "height": 500,
-            "mobile_height": 500,
-            "image": "shopify://shop_images/Img-1.webp",
-            "media_fit": "cover",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "text_position": "center_flex-end",
-            "accent": "",
-            "title": "Grid item",
-            "heading_tag": "h3",
-            "heading_font_class": "fs-heading-2-base",
-            "subheading": "<p>Perfect for lookbooks and editorial photography</p>",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary",
-            "background_color": "",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "item_GUhGiT",
-        "item_C33Vk3"
-      ],
-      "disabled": true,
-      "name": "t:sections.grid.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_tag": "h2",
-        "subheading": "",
-        "content_alignment": "center",
-        "enable_animation": true,
-        "full_width": false,
-        "spacing": 24,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "blogs_slider_description_QNtjM8": {
@@ -1402,7 +1310,7 @@
     "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
     "featured_collection_slider_aE4DjX",
-    "slideshow_xLVzFR",
+    "image_with_text_split_a7aDPT",
     "featured_collection_slider_iJpRtV",
     "collection_list_slider_mR8grQ",
     "grid_JtqcCU",
@@ -1411,7 +1319,6 @@
     "behind_brands_9YJ8yF",
     "rich_text_arA9fN",
     "rich_text_qF8Ria",
-    "grid_hd3m4p",
     "blogs_slider_description_QNtjM8",
     "image_with_text_split_XQD3a6",
     "image_with_text_split_pcVmAB",
