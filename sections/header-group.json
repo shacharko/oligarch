@@ -17,7 +17,7 @@
         "announcement_ez6fEr": {
           "type": "announcement",
           "settings": {
-            "title": "<h3>❤️<strong>מבצעי יום האהבה באוליגארך </strong>❤️</h3>",
+            "title": "<h2>❤️<strong>מבצעי יום האהבה באוליגארך </strong>❤️</h2>",
             "title_mobile": "",
             "link": "shopify://collections/קולקציית-מארזים-כללית"
           }
@@ -25,13 +25,14 @@
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
           "settings": {
-            "title": "<h3>❤️<strong> 15% הנחה על כל האתר </strong>❤️</h3>",
+            "title": "<h2>❤️<strong> 15% הנחה על כל האתר </strong>❤️</h2>",
             "title_mobile": "",
             "link": "shopify://collections/קולקציית-מארזים-כללית"
           }
         },
         "announcement_hxMbYD": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "title": "<h3><strong> </strong>❤️ <strong>קוד קופון : LOVE15 </strong>❤️</h3>",
             "title_mobile": "",
