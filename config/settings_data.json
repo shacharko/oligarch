@@ -237,6 +237,11 @@
         "settings": {
           "position": "right"
         }
+      },
+      "13549935337288218858": {
+        "type": "shopify://apps/labeler/blocks/app-embed/38a5b8ec-f58a-4fa4-8faa-69ddd0f10a60",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
