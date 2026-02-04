@@ -276,8 +276,8 @@
         "button_FymrAL": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/all",
-            "link_text": "DISCOVERY THE GIFT",
+            "link": "shopify://collections/all-collection",
+            "link_text": "למעבר לכל המוצרים",
             "button_style": "btn--secondary"
           }
         }
