@@ -10560,6 +10560,10 @@ html.no-js .product-tabs__tab-item{
   .product-item__price .displayed-discount{
     color:var(--color-products-sale-price);
   }
+
+.product-item__price .old_price {
+  text-decoration: line-through;
+}  
 button{
   border:0;
   border-radius:0;

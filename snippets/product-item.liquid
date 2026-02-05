@@ -309,8 +309,16 @@
               {% unless prod.compare_at_price_varies or has_null_compare_at_price %}
                 <s class="t-subdued">{{ prod.compare_at_price | money }}</s>
               {% endunless %}
-
-              {% if prod.price_varies or prod.compare_at_price_varies or has_null_compare_at_price %}
+              {% if prod.compare_at_price > prod.price %}
+                <span class="text_price"> החל מ- </span>  
+                <span class="old_price">{{ prod.compare_at_price | money }}</span>  
+                <span class="sale">{{ prod.price_min | money }}</span>  
+              {% else %}
+                <span class="text_price"> החל מ- </span>  
+                <span class="old_price">{{ prod.price_min | money }}</span>  
+              {% endif %}
+                             
+              {% comment %} {% if prod.price_varies or prod.compare_at_price_varies or has_null_compare_at_price %}
                 {%- assign sale_price = prod.price | money -%}
 
                 <span class="sale">
@@ -318,7 +326,7 @@
                 </span>
               {% else %}
                 <span class="sale">{{ prod.price | money }}</span>
-              {% endif %}
+              {% endif %} {% endcomment %}
 
             {% else %}
               {% if prod.price_varies %}
