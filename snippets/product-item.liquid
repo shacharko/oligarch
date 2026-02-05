@@ -306,9 +306,9 @@
                 endfor
               %}
 
-              {% unless prod.compare_at_price_varies or has_null_compare_at_price %}
+              {% comment %} {% unless prod.compare_at_price_varies or has_null_compare_at_price %}
                 <s class="t-subdued">{{ prod.compare_at_price | money }}</s>
-              {% endunless %}
+              {% endunless %} {% endcomment %}
               {% if prod.compare_at_price > prod.price %}
                 <span class="text_price"> החל מ- </span>  
                 <span class="old_price">{{ prod.compare_at_price | money }}</span>  
