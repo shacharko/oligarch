@@ -42,7 +42,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "slide_tHcika": {
@@ -75,7 +75,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "slide_atm8xD": {
@@ -108,7 +108,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "slide_J9PAED": {
@@ -141,7 +141,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "slide_fnbBfN": {
@@ -174,7 +174,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         }
       },
@@ -206,53 +206,6 @@
       "settings": {
         "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 80, gap_px: 80, link_to_collections: true %}",
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "video_hero_VY4jBe": {
-      "type": "video-hero",
-      "blocks": {
-        "accent_rJjFCP": {
-          "type": "accent",
-          "settings": {
-            "accent": ""
-          }
-        },
-        "play_button_PzAGEr": {
-          "type": "play-button",
-          "disabled": true,
-          "settings": {
-            "video_source": "external",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "aspect_ratio": "square",
-            "text": "Watch now",
-            "icon_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "accent_rJjFCP",
-        "play_button_PzAGEr"
-      ],
-      "disabled": true,
-      "name": "t:sections.video_hero.presets.name",
-      "settings": {
-        "image_aspect": "custom",
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "video": "shopify://files/videos/ScreenRecording_01-07-2026 01-44-25_1.mp4",
-        "media_link": "",
-        "focal_point": "center",
-        "focal_point_mobile": "center",
-        "text_position": "center_center",
-        "text_position_mobile": "center_center",
-        "text_color": "#ffffff",
-        "button_background_color": "#ffffff",
-        "button_text_color": "#000000",
-        "color_overlay": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 40,
-        "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
       }
     },
@@ -1218,7 +1171,6 @@
   "order": [
     "slideshow_iTpG6H",
     "custom_liquid_Yhm46m",
-    "video_hero_VY4jBe",
     "rich_text_dmzFYM",
     "image_hero_rhEJhE",
     "collection_list_slider_X66xn8",
