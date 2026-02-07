@@ -235,17 +235,17 @@
         "disabled": false,
         "settings": {}
       },
-      "12120936241911852800": {
-        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-          "position": "right"
-        }
-      },
       "13549935337288218858": {
         "type": "shopify://apps/labeler/blocks/app-embed/38a5b8ec-f58a-4fa4-8faa-69ddd0f10a60",
         "disabled": false,
         "settings": {}
+      },
+      "12120936241911852800": {
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {
+          "position": "bottom"
+        }
       }
     }
   },
