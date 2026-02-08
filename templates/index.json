@@ -282,8 +282,8 @@
       ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
-        "image_aspect": "custom",
-        "desktop_height": 70,
+        "image_aspect": "original",
+        "desktop_height": 100,
         "mobile_height": 70,
         "image": "shopify://shop_images/AF8D2908-C693-4FA1-A0DD-CB0159C5F571.jpg",
         "image_mobile": "shopify://shop_images/5y6.jpg",
