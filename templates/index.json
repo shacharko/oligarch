@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Feb_8_2026_05_51_26_PM-1650x800.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_8_2026_06_08_09_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/widian",
@@ -48,6 +49,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Feb_8_2026_06_01_59_PM-1650x800.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_8_2026_06_07_03_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/sospiro",
