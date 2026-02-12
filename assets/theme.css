@@ -19296,6 +19296,7 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
   font-size: large;
+  font-weight: bold;
   /* gap: 8px !important; */
 }
 .product__price s,
