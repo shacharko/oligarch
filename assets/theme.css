@@ -4032,6 +4032,7 @@ html.no-js .product__media-show-more{
   height:32px;
   display:flex;
   flex-shrink:0;
+  padding: 5px;
 }
 .product__callouts-item-icon svg,
   .product__callouts-item-icon img,
