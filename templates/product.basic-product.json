@@ -190,6 +190,8 @@
             "text_5": "",
             "icon_6": "none",
             "text_6": "",
+            "icon_7": "none",
+            "text_7": "",
             "display_as_collapsible_row": false,
             "expand_by_default": false
           }
@@ -213,6 +215,8 @@
             "text_5": "<p><strong>רכישות מאובטחות </strong></p>",
             "icon_6": "moving-truck",
             "text_6": "<p><strong>החזרות\\החלפות  </strong><a href=\"/pages/shipping_info\" title=\"shipping\"><strong> מדיניות החזרות</strong></a></p>",
+            "icon_7": "money-bills",
+            "text_7": "<p><strong>עד 6 תשלומים ללא ריבית</strong></p>",
             "display_as_collapsible_row": false,
             "expand_by_default": true
           }
