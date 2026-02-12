@@ -19295,7 +19295,8 @@ button:focus-visible {
 .product__price {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px !important;
+  font-size: large;
+  /* gap: 8px !important; */
 }
 .product__price s,
 .product__price [data-price] {
