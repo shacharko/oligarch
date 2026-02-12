@@ -10565,6 +10565,9 @@ html.no-js .product-tabs__tab-item{
 .product-item__price .old_price {
   text-decoration: line-through;
 }  
+.product-item__price {
+  font-weight: bold;
+}
 button{
   border:0;
   border-radius:0;
