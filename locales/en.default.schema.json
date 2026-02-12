@@ -64,19 +64,6 @@
         }
       }
     },
-    "product_callouts": {
-      "type": "product_section_shachar", 
-      "blocks": {
-        "callout": {
-          "type": "callout",
-          "settings": {
-            "text": "<p>Free Shipping on orders over $50</p>",
-            "icon": "truck"
-          }
-        }
-      },
-      "settings": {}
-    },
     "apps": {
       "name": "Apps",
       "presets": {
