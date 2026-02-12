@@ -45,14 +45,14 @@
             "overlay_opacity": 0
           }
         },
-        "slide_DFMiVC": {
+        "slide_zMRHxc": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_55_17_PM-1650x800.png",
-            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_44_PM.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_54_11_PM-1650x800.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_48_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/fragrance-de-bois",
+            "media_link": "shopify://collections/memo-paris",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
@@ -111,14 +111,14 @@
             "overlay_opacity": 0
           }
         },
-        "slide_zMRHxc": {
+        "slide_DFMiVC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_54_11_PM-1650x800.png",
-            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_48_PM.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_55_17_PM-1650x800.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_44_PM.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/memo-paris",
+            "media_link": "shopify://collections/fragrance-de-bois",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
@@ -345,9 +345,9 @@
       },
       "block_order": [
         "slide_JRNLUT",
-        "slide_DFMiVC",
-        "slide_atm8xD",
         "slide_zMRHxc",
+        "slide_atm8xD",
+        "slide_DFMiVC",
         "slide_rLeWcV",
         "slide_bwBNqb",
         "slide_tHcika",
