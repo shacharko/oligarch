@@ -128,7 +128,7 @@
         "alignment": "left_left",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none",
+        "section_padding": "section--vertical-padding-bottom-only",
         "content_width": "custom",
         "custom_content_width": 700
       }
