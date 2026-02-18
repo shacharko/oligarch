@@ -441,7 +441,7 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only",
+        "section_padding": "section--vertical-padding-none",
         "content_width": "custom",
         "custom_content_width": 400
       }
@@ -476,6 +476,7 @@
         "heading_DRPFUT",
         "text_MiD8xL"
       ],
+      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
