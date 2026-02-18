@@ -19,7 +19,7 @@
           "settings": {
             "title": "<h2><strong>15% על כל האתר לזמן -מוגבל !</strong></h2>",
             "title_mobile": "",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/sampels"
           }
         },
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
@@ -27,7 +27,7 @@
           "settings": {
             "title": "<h2>משלוח חינם בהזמנה מעל 299₪</h2>",
             "title_mobile": "",
-            "link": "shopify://collections/all"
+            "link": "shopify://collections/sampels"
           }
         }
       },
