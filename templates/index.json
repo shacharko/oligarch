@@ -416,10 +416,17 @@
     "rich_text_dmzFYM": {
       "type": "rich-text",
       "blocks": {
+        "text_AnWwED": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>OLIGARCH NICHE PERFUMERY</strong></h3>",
+            "text_font_class": "fs-body-100"
+          }
+        },
         "text_4CTBzy": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>OLIGARCH NICHE PERFUMERY</strong></h2><p>...Fragrance Speaks Louder Than Words</p><p>Discover over 500+ niche perfumes from 50+ luxury brands<br/><br/>Express Yourself. Leave an Unforgettable Impression</p>",
+            "text": "<p><strong>...Fragrance Speaks Louder Than Words</strong></p><p><strong>Discover over 500+ niche perfumes from 50+ luxury brands<br/><br/>Express Yourself. Leave an Unforgettable Impression</strong></p>",
             "text_font_class": "fs-body-75"
           }
         },
@@ -433,6 +440,7 @@
         }
       },
       "block_order": [
+        "text_AnWwED",
         "text_4CTBzy",
         "button_FymrAL"
       ],
