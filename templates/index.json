@@ -766,11 +766,45 @@
       "blocks": {
         "video_card_7czYHn": {
           "type": "video_card",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/v09044g40000cbelqlrc77ufretu4thg.MP4",
             "video_url": "",
             "poster": "shopify://shop_images/IMG_5232.jpg",
             "product_ref": "כריסטיאן-דיור-בויס-דרזה-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_UVbDix": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v0f044gc0000ch21j63c77u62vbsd33g.MP4",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_6401.jpg",
+            "product_ref": "כריסטיאן-דיור-גריס-דיור-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_q7fwd3": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v0f025gc0000cnvfgt7og65tbp9e16bg.mov",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_6402.jpg",
+            "product_ref": "לואי-ויטון-אימגיניישן-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_ceUYd9": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v09044g40000cnjubt7og65ph0d2uasg.MP4",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_6400.jpg",
+            "product_ref": "גרובואם-גוזו-יוניסקס",
             "product_link": "",
             "product_title": ""
           }
@@ -785,47 +819,14 @@
             "product_link": "",
             "product_title": ""
           }
-        },
-        "video_card_UVbDix": {
-          "type": "video_card",
-          "settings": {
-            "video": "shopify://files/videos/ScreenRecording_10-29-2025 16-55-24_1.mov",
-            "video_url": "",
-            "poster": "shopify://shop_images/IMG_4426.jpg",
-            "product_ref": "byredo-blanche",
-            "product_link": "",
-            "product_title": ""
-          }
-        },
-        "video_card_q7fwd3": {
-          "type": "video_card",
-          "settings": {
-            "video": "shopify://files/videos/v09044g40000co01q67og65ubetnrbbg.MP4",
-            "video_url": "",
-            "poster": "shopify://shop_images/IMG_4427.jpg",
-            "product_ref": "ממו-פריז-מארפה-יוניסקס",
-            "product_link": "",
-            "product_title": ""
-          }
-        },
-        "video_card_ceUYd9": {
-          "type": "video_card",
-          "settings": {
-            "video": "shopify://files/videos/v24044gl0000cv8ss8fog65mnge7nm20 2.MP4",
-            "video_url": "",
-            "poster": "shopify://shop_images/IMG_4422.jpg",
-            "product_ref": "creed-eladaria",
-            "product_link": "",
-            "product_title": ""
-          }
         }
       },
       "block_order": [
         "video_card_7czYHn",
-        "video_card_AiLj6G",
         "video_card_UVbDix",
         "video_card_q7fwd3",
-        "video_card_ceUYd9"
+        "video_card_ceUYd9",
+        "video_card_AiLj6G"
       ],
       "name": "Behind the brands",
       "settings": {
