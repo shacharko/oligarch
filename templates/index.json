@@ -1009,6 +1009,7 @@
         "subheading_iMFGaV",
         "button_KBh3UD"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
         "image_position": "right",
@@ -1083,6 +1084,7 @@
         "subheading_xtyHwd",
         "button_VNneiR"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_split.presets.name",
       "settings": {
         "image_position": "left",
