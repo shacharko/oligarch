@@ -18,61 +18,6 @@
         "custom_content_width": 700
       }
     },
-    "rich_text_n6BE6k": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_g6jrtk": {
-          "type": "heading",
-          "settings": {
-            "title": "מי אנחנו ?",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-2-base"
-          }
-        },
-        "text_DrDDfM": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>אוליגארך – Niche Perfumery היא הרבה יותר מחנות בשמים . <br/>זו תפיסת עולם, חוויה,הצהרה . <br/><br/>המותג נולד מתוך אהבה אובססיבית לאומנות הבישום, ומתוך חזון ברור: להביא לישראל תרבות של ניחוחות - לא כטרנד, אלא כדרך חיים . <br/>מקום שבו כל בושם הוא יצירה, וכל לקוח הוא מסע .<br/><br/>מאחורי המותג עומדים ירין ואור, חברים ושותפים לדרך, שחיים ונושמים בשמי נישה, ומאמינים שבושם אינו רק ריח - הוא זיכרון שמתעורר, רגש שמתעצם, ונוכחות שנשארת הרבה אחרי שהרגע חלף . <br/><br/>אנחנו מתמחים בקולקציות בוטיק נדירות ממותגי הנישה הנחשקים בעולם, שנבחרו בקפידה בלתי מתפשרת - <br/>איכות חומרי גלם, עומק ארומטי, שובל ממכר ועמידות שמספרת סיפור .<br/><br/>חוויית הגילוי שלנו<br/><br/>ב־אוליגארך, אתם לא “קונים בושם”. אתם מגלים אותו . <br/><br/>אנו מציעים מארזי Discovery יוקרתיים שמעניקים לכם את החופש להתנסות, להעמיק, וליצור חיבור אמיתי עם מגוון רחב של בשמי יוקרה - לכל סגנון ולכל תקציב . <br/>זוהי הדרך האלגנטית והבטוחה לבחור את הניחוח המושלם עבורכם - בלי ניחושים, בלי פשרות . <br/><br/>לפני רכישת הבקבוק המלא, אתם חווים,בודקים,חיים את הבושם <br/>כך אנחנו מבטיחים לכם רכישה מדויקת - ובחירה מתוך ביטחון מוחלט . <br/><br/>בנוסף, אנו מציעים:<br/>- דוגמיות אקסקלוסיביות בנפח 2 מ״ל<br/>- מארזי טראבל יוקרתיים בנפחים 5 מ״ל ו־10 מ״ל<br/>שמאפשרים לכם לקחת את הניחוח שלכם לכל מקום — באלגנטיות, בנוכחות, בסטייל . <br/><br/>החוויה בחנות<br/><br/>החלל של אוליגארך נבנה כמקדש קטן לאמנות הבישום . <br/>מקום שבו הזמן מאט, החושים מתחדדים, ואתם נמצאים במרכז . <br/><br/>התאמה אישית מדויקת, ייעוץ מקצועי, ליווי אישי, ושירות שמכוון לשלמות - לא כסטנדרט, אלא כהתחייבות . <br/><br/>אנחנו כאן כדי ליצור עבורכם חוויה <br/>לא עוד בושם - אלא חתימה אישית . <br/><br/>ברוכים הבאים לעולם של אוליגארך . <br/><br/>את חנות הבוטיק שלנו תוכלו למצוא ברחוב : </strong></p><p><strong>ההסתדרות 4, פתח תקווה <br/><br/>ומבטיחים לכם - כבר מהשנייה הראשונה, תרגישו את הקסם .</strong></p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "heading_g6jrtk",
-        "text_DrDDfM"
-      ],
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "custom",
-        "custom_content_width": 700
-      }
-    },
-    "rich_text_HkGzGj": {
-      "type": "rich-text",
-      "blocks": {
-        "border_4K9zLW": {
-          "type": "border",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "border_4K9zLW"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "alignment": "left_left",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "full",
-        "custom_content_width": 700
-      }
-    },
     "slideshow_zDeHqh": {
       "type": "slideshow",
       "blocks": {
@@ -126,6 +71,61 @@
         "navigation_background_opacity": 100,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_n6BE6k": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_g6jrtk": {
+          "type": "heading",
+          "settings": {
+            "title": "מי אנחנו ?",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_DrDDfM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>אוליגארך – Niche Perfumery היא הרבה יותר מחנות בשמים . <br/>זו תפיסת עולם, חוויה,הצהרה . <br/><br/>המותג נולד מתוך אהבה אובססיבית לאומנות הבישום, ומתוך חזון ברור: להביא לישראל תרבות של ניחוחות - לא כטרנד, אלא כדרך חיים . <br/>מקום שבו כל בושם הוא יצירה, וכל לקוח הוא מסע .<br/><br/>מאחורי המותג עומדים ירין ואור, חברים ושותפים לדרך, שחיים ונושמים בשמי נישה, ומאמינים שבושם אינו רק ריח - הוא זיכרון שמתעורר, רגש שמתעצם, ונוכחות שנשארת הרבה אחרי שהרגע חלף . <br/><br/>אנחנו מתמחים בקולקציות בוטיק נדירות ממותגי הנישה הנחשקים בעולם, שנבחרו בקפידה בלתי מתפשרת - <br/>איכות חומרי גלם, עומק ארומטי, שובל ממכר ועמידות שמספרת סיפור .<br/><br/>חוויית הגילוי שלנו<br/><br/>ב־אוליגארך, אתם לא “קונים בושם”. אתם מגלים אותו . <br/><br/>אנו מציעים מארזי Discovery יוקרתיים שמעניקים לכם את החופש להתנסות, להעמיק, וליצור חיבור אמיתי עם מגוון רחב של בשמי יוקרה - לכל סגנון ולכל תקציב . <br/>זוהי הדרך האלגנטית והבטוחה לבחור את הניחוח המושלם עבורכם - בלי ניחושים, בלי פשרות . <br/><br/>לפני רכישת הבקבוק המלא, אתם חווים,בודקים,חיים את הבושם <br/>כך אנחנו מבטיחים לכם רכישה מדויקת - ובחירה מתוך ביטחון מוחלט . <br/><br/>בנוסף, אנו מציעים:<br/>- דוגמיות אקסקלוסיביות בנפח 2 מ״ל<br/>- מארזי טראבל יוקרתיים בנפחים 5 מ״ל ו־10 מ״ל<br/>שמאפשרים לכם לקחת את הניחוח שלכם לכל מקום — באלגנטיות, בנוכחות, בסטייל . <br/><br/>החוויה בחנות<br/><br/>החלל של אוליגארך נבנה כמקדש קטן לאמנות הבישום . <br/>מקום שבו הזמן מאט, החושים מתחדדים, ואתם נמצאים במרכז . <br/><br/>התאמה אישית מדויקת, ייעוץ מקצועי, ליווי אישי, ושירות שמכוון לשלמות - לא כסטנדרט, אלא כהתחייבות . <br/><br/>אנחנו כאן כדי ליצור עבורכם חוויה <br/>לא עוד בושם - אלא חתימה אישית . <br/><br/>ברוכים הבאים לעולם של אוליגארך . <br/><br/>את חנות הבוטיק שלנו תוכלו למצוא ברחוב : </strong></p><p><strong>ההסתדרות 4, פתח תקווה <br/><br/>ומבטיחים לכם - כבר מהשנייה הראשונה, תרגישו את הקסם .</strong></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_g6jrtk",
+        "text_DrDDfM"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_HkGzGj": {
+      "type": "rich-text",
+      "blocks": {
+        "border_4K9zLW": {
+          "type": "border",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "border_4K9zLW"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
       }
     },
     "rich-text-1": {
@@ -226,9 +226,9 @@
   },
   "order": [
     "main",
+    "slideshow_zDeHqh",
     "rich_text_n6BE6k",
     "rich_text_HkGzGj",
-    "slideshow_zDeHqh",
     "rich-text-1",
     "contact-form"
   ]
