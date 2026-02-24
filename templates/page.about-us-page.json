@@ -62,6 +62,7 @@
       "block_order": [
         "border_4K9zLW"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "alignment": "left_left",
@@ -105,7 +106,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         }
       },
