@@ -113,6 +113,7 @@
         },
         "slide_bwBNqb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/4_-1650x800.jpg",
             "image_mobile": "shopify://shop_images/6_40358a16-40b0-4de9-b468-a570f1e96870.jpg",
