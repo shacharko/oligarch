@@ -111,6 +111,39 @@
             "overlay_opacity": 0
           }
         },
+        "slide_bwBNqb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/7_8_8.jpg",
+            "image_mobile": "shopify://shop_images/32.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/widian",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 0
+          }
+        },
         "slide_JRNLUT": {
           "type": "slide",
           "settings": {
@@ -276,39 +309,6 @@
             "overlay_opacity": 0
           }
         },
-        "slide_bwBNqb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Feb_8_2026_05_51_26_PM-1650x800.png",
-            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_8_2026_06_08_09_PM.png",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/widian",
-            "text_position": "center_center",
-            "text_position_mobile": "center_center",
-            "accent": "",
-            "title": "",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2",
-            "subheading": "",
-            "subheading_tag": "h2",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "",
-            "text_font_class": "fs-body-100",
-            "link_1": "",
-            "link_text_1": "",
-            "button_style_1": "btn--primary",
-            "link_2": "",
-            "link_text_2": "Read more",
-            "button_style_2": "btn--primary",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
-          }
-        },
         "slide_fnbBfN": {
           "type": "slide",
           "settings": {
@@ -380,12 +380,12 @@
         "slide_gNqtda",
         "slide_atm8xD",
         "slide_rLeWcV",
+        "slide_bwBNqb",
         "slide_JRNLUT",
         "slide_tHcika",
         "slide_fmbqKE",
         "slide_zMRHxc",
         "slide_DFMiVC",
-        "slide_bwBNqb",
         "slide_fnbBfN",
         "slide_J9PAED"
       ],
