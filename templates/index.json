@@ -387,14 +387,14 @@
         "text_AnWwED": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>OLIGARCH NICHE PERFUMERY</strong></h3>",
+            "text": "<h3><strong>יש אנשים שנכנסים לחדר ויש כאלה שמשאירים חותם</strong></h3>",
             "text_font_class": "fs-body-100"
           }
         },
         "text_4CTBzy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>...Fragrance Speaks Louder Than Words</strong></p><p><strong>Discover over 500+ niche perfumes from 50+ luxury brands<br/><br/>Express Yourself. Leave an Unforgettable Impression</strong></p>",
+            "text": "<h5><strong>ניחוחות יוצאי דופן מבתי הבושם המובילים בעולם שהופכים כל הופעה לזיכרון.<br/>אוסף בוטיק של למעלה מ-500 יצירות ניחוח נדירות מ-50+ מותגי נישה בינלאומיים.</strong></h5>",
             "text_font_class": "fs-body-75"
           }
         },
