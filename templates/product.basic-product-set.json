@@ -41,7 +41,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><strong>⭐ למה כדאי לקנות את המארז?</strong></p><p><strong>✔ חוסכים 18% לעומת רכישת בקבוקים בודדים</strong></p><p><strong>✔ מגיע באריזת פרימיום</strong></p><p><strong>✔ זמין במלאי ומשלוח מהיר</strong></p><p><strong>✔ מושלם כמתנה / להתנסות בקולקציה</strong></p>",
+            "text": "<p><strong>⭐ למה כדאי לקנות את המארז?</strong></p><p><strong>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</strong></p><p><strong>✔ מגיע באריזת פרימיום</strong></p><p><strong>✔ זמין במלאי ומשלוח מהיר</strong></p><p><strong>✔ מושלם כמתנה / להתנסות בקולקציה</strong></p>",
             "column_placement": "right"
           }
         },
@@ -194,6 +194,8 @@
             "text_5": "",
             "icon_6": "none",
             "text_6": "",
+            "icon_7": "none",
+            "text_7": "",
             "display_as_collapsible_row": false,
             "expand_by_default": false
           }
@@ -217,6 +219,8 @@
             "text_5": "<p><strong>רכישות מאובטחות </strong></p>",
             "icon_6": "moving-truck",
             "text_6": "<p><strong>החזרות\\החלפות  </strong><a href=\"/pages/shipping_info\" title=\"shipping\"><strong> מדיניות החזרות</strong></a></p>",
+            "icon_7": "none",
+            "text_7": "",
             "display_as_collapsible_row": false,
             "expand_by_default": true
           }
