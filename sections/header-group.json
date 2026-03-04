@@ -14,11 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_JEcktn": {
+          "type": "announcement",
+          "settings": {
+            "title": "<h2><strong>10% על כל הטרבלים והדוגמיות !</strong></h2>",
+            "title_mobile": "",
+            "link": ""
+          }
+        },
         "announcement_ez6fEr": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "title": "<h2><strong>15% על כל האתר לזמן -מוגבל !</strong></h2>",
+            "title": "<h2><strong>15% על כל המארזים לזמן -מוגבל ! </strong></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -33,6 +40,7 @@
         }
       },
       "block_order": [
+        "announcement_JEcktn",
         "announcement_ez6fEr",
         "5a2005ed-4438-4c3e-9549-f61724bea26f"
       ],
