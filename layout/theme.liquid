@@ -30,6 +30,12 @@
 
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://connect.facebook.net">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://cdn.judge.me">
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+    <link rel="dns-prefetch" href="https://i.ytimg.com">
 
     {%- if settings.favicon != blank -%}
       <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
@@ -103,8 +109,9 @@
       {% render 'back-to-top' %}
     </div>
 
-    {{ '//www.youtube.com/iframe_api' | script_tag }}
-    {{ '//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css' | stylesheet_tag }}
+    <script defer src="//www.youtube.com/iframe_api"></script>
+    <link rel="preload" fetchpriority="low" href="//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="//cdn.shopify.com/shopifycloud/shopify-plyr/v1.0/shopify-plyr.css"></noscript>
   <!--Whatup -->
 
   {%- comment -%}
@@ -195,6 +202,7 @@
   <noscript><link rel="stylesheet" href="{{ 'theme-deferred.css' | asset_url }}"></noscript>
   <!-- ה-CSS המותאם שלך – נטען אחרון -->
 
-  <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}" media="all">
+  <link rel="preload" fetchpriority="low" href="{{ 'custom.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ 'custom.css' | asset_url }}"></noscript>
 
 </html>
