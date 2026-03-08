@@ -35,93 +35,6 @@
             "show_untracked_quantity": false
           }
         },
-        "product_callouts-1": {
-          "type": "product_callouts",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "title_tag": "h3",
-            "add_box": true,
-            "add_dividers": true,
-            "icon_1": "package-closed",
-            "text_1": "<p>Free shipping over $50</p>",
-            "icon_2": "paper-airplane",
-            "text_2": "<p>Free Returns & Exchanges</p>",
-            "icon_3": "chat",
-            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
-            "icon_4": "none",
-            "text_4": "",
-            "icon_5": "none",
-            "text_5": "",
-            "icon_6": "none",
-            "text_6": "",
-            "display_as_collapsible_row": false,
-            "expand_by_default": false
-          }
-        },
-        "product_callouts-2": {
-          "type": "product_callouts",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "title_tag": "h3",
-            "add_box": true,
-            "add_dividers": true,
-            "icon_1": "package-closed",
-            "text_1": "<p>Free shipping over $50</p>",
-            "icon_2": "paper-airplane",
-            "text_2": "<p>Free Returns & Exchanges</p>",
-            "icon_3": "chat",
-            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
-            "icon_4": "none",
-            "text_4": "",
-            "icon_5": "none",
-            "text_5": "",
-            "icon_6": "none",
-            "text_6": "",
-            "display_as_collapsible_row": false,
-            "expand_by_default": false
-          }
-        },
-        "product_callouts": {
-          "type": "product_callouts",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "title_tag": "h3",
-            "add_box": true,
-            "add_dividers": true,
-            "icon_1": "package-closed",
-            "text_1": "<p>Free shipping over $50</p>",
-            "icon_2": "paper-airplane",
-            "text_2": "<p>Free Returns & Exchanges</p>",
-            "icon_3": "chat",
-            "text_3": "<p>Need help? <a href=\"/pages/contact\">Contact us</a></p>",
-            "icon_4": "none",
-            "text_4": "",
-            "icon_5": "none",
-            "text_5": "",
-            "icon_6": "none",
-            "text_6": "",
-            "display_as_collapsible_row": false,
-            "expand_by_default": false
-          }
-        },
-        "featured_products": {
-          "type": "featured_products",
-          "disabled": true,
-          "settings": {
-            "heading": "Customers also love",
-            "heading_tag": "h3",
-            "column_placement": "left",
-            "max_products": 3,
-            "product_source": "custom-product-list",
-            "product_list": [],
-            "enable_swiper_mobile": true,
-            "display_as_collapsible_row": true,
-            "expand_by_default": true
-          }
-        },
         "quantity_selector_MXiHF": {
           "type": "quantity_selector",
           "settings": {
@@ -198,10 +111,6 @@
       "block_order": [
         "product_header_3RafWG",
         "inventory_counter_FFa7z",
-        "product_callouts-1",
-        "product_callouts-2",
-        "product_callouts",
-        "featured_products",
         "quantity_selector_MXiHF",
         "custom_liquid_r8aaL",
         "variant_picker_GqjkAV",
@@ -235,7 +144,7 @@
       "type": "recommended-products",
       "name": "t:sections.recommended_products.presets.name",
       "settings": {
-        "title": "Recommended products",
+        "title": "המלצות מארזים",
         "heading_tag": "h2",
         "subheading": "",
         "maximum_products": 8,
