@@ -143,7 +143,7 @@
       },
       "14197025361042770389": {
         "type": "shopify://apps/swish-wishlist-king/blocks/app-settings-main/194f5011-a43c-4b22-b12e-eaf20dc4506a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "theme_preset": "stiletto",
           "color_accent_1": "#000000",
@@ -172,7 +172,7 @@
       },
       "4139971114690857691": {
         "type": "shopify://apps/swish-wishlist-king/blocks/wishlist-button-collection/194f5011-a43c-4b22-b12e-eaf20dc4506a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "button_style": "plain_accent_1",
           "button_placement": "top-end",
@@ -192,7 +192,7 @@
       },
       "3915993389370480168": {
         "type": "shopify://apps/swish-wishlist-king/blocks/wishlist-link-floating/194f5011-a43c-4b22-b12e-eaf20dc4506a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "button_style": "solid_accent_1",
           "button_mode": "always_show",
@@ -216,7 +216,7 @@
       },
       "6680288666557934739": {
         "type": "shopify://apps/swish-wishlist-king/blocks/wishlist-page/194f5011-a43c-4b22-b12e-eaf20dc4506a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "column_width": "md",
           "wishlist_empty_link": "shopify://collections/all",
@@ -242,7 +242,7 @@
       },
       "13655089695959051254": {
         "type": "shopify://apps/swish-wishlist-king/blocks/code-access/194f5011-a43c-4b22-b12e-eaf20dc4506a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "version": "main"
         }
