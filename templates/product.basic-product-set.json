@@ -302,10 +302,10 @@
     "recommendations": {
       "type": "recommended-products",
       "settings": {
-        "title": "מומלצים",
+        "title": "מארזים מומלצים",
         "heading_tag": "h2",
         "subheading": "",
-        "maximum_products": 8,
+        "maximum_products": 12,
         "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
