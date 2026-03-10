@@ -14,6 +14,7 @@
       "blocks": {
         "slide_gNqtda": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/q123s-1650x800.jpg",
             "image_mobile": "shopify://shop_images/2344C117-B3BE-4ECC-BB8A-9CBDAF5966A1.png",
@@ -183,6 +184,7 @@
         },
         "slide_tHcika": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_5250.jpg",
             "image_mobile": "shopify://shop_images/4544.png",
@@ -216,13 +218,12 @@
         },
         "slide_zMRHxc": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_54_11_PM-1650x800.png",
-            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_48_PM.png",
+            "image": "shopify://shop_images/q123s-1650x800.jpg",
+            "image_mobile": "shopify://shop_images/A3B606D4-9D6C-44D8-810E-DF66D666077E.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/memo-paris",
+            "media_link": "shopify://collections/mes-bisous",
             "text_position": "center_center",
             "text_position_mobile": "center_center",
             "accent": "",
@@ -284,6 +285,7 @@
         },
         "slide_fnbBfN": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_5251.jpg",
             "image_mobile": "shopify://shop_images/ChatGPT_Image_Jan_13_2026_06_35_09_PM.png",
