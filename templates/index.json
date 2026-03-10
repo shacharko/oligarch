@@ -374,7 +374,7 @@
         "navigation_color_background": "",
         "navigation_background_opacity": 100,
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-only"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "custom_liquid_Yhm46m": {
