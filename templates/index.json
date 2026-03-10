@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/q123s-1650x800.jpg",
-            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_26_2026_02_28_56_PM.png",
+            "image_mobile": "shopify://shop_images/2344C117-B3BE-4ECC-BB8A-9CBDAF5966A1.png",
             "focal_point": "image_presentation",
             "mobile_focal_point": "image_presentation",
             "media_link": "shopify://collections/mes-bisous",
@@ -47,6 +47,7 @@
         },
         "slide_atm8xD": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/53_-1650x800.jpg",
             "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_26_2026_02_28_54_PM.png",
@@ -80,6 +81,7 @@
         },
         "slide_rLeWcV": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/w2sh-1650x800.jpg",
             "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_26_2026_02_28_51_PM.png",
@@ -147,6 +149,7 @@
         },
         "slide_JRNLUT": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/54y46-1650x800.png",
             "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_12_2026_10_09_39_PM.png",
@@ -213,6 +216,7 @@
         },
         "slide_zMRHxc": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_54_11_PM-1650x800.png",
             "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_48_PM.png",
@@ -246,6 +250,7 @@
         },
         "slide_DFMiVC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_55_17_PM-1650x800.png",
             "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_10_2026_11_56_44_PM.png",
@@ -1202,7 +1207,7 @@
         "text_grB76m": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>הפתרון המושלם למי שמחפש את המתנה האידיאלית, בלחיצה אחת בלבד.</strong></p>",
+            "text": "<p>הפתרון המושלם למי שמחפש את המתנה האידיאלית, בלחיצה אחת בלבד.</p>",
             "text_font_class": "fs-body-100"
           }
         },
