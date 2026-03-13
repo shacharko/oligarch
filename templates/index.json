@@ -64,15 +64,6 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "custom_liquid_Yhm46m": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 80, gap_px: 80, link_to_collections: true %}",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
     "rich_text_dmzFYM": {
       "type": "rich-text",
       "blocks": {
@@ -109,9 +100,18 @@
         "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none",
+        "section_padding": "section--vertical-padding-bottom-only",
         "content_width": "custom",
         "custom_content_width": 400
+      }
+    },
+    "custom_liquid_Yhm46m": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% render 'brand-logos-marquee', speed_s: 30, logo_h: 80, gap_px: 80, link_to_collections: true %}",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "image_hero_rhEJhE": {
@@ -1038,8 +1038,8 @@
   },
   "order": [
     "slideshow_iTpG6H",
-    "custom_liquid_Yhm46m",
     "rich_text_dmzFYM",
+    "custom_liquid_Yhm46m",
     "image_hero_rhEJhE",
     "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
