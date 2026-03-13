@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": true,
         "show_collection_description": true,
@@ -27,6 +28,95 @@
         "overlay_opacity": 30,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "slideshow_zzqVPn": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_QpdJtB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/w2sh-1650x800.jpg",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Feb_26_2026_02_28_51_PM.png",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/attar-al-has",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_MXVUKQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_-1650x800.jpg",
+            "image_mobile": "shopify://shop_images/6_40358a16-40b0-4de9-b468-a570f1e96870.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "shopify://collections/widian",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "Slide",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Use this section to make a bold statement</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_QpdJtB",
+        "slide_MXVUKQ"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#FFFFFF",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "main-collection-product-grid": {
@@ -55,6 +145,7 @@
   },
   "order": [
     "banner",
+    "slideshow_zzqVPn",
     "main-collection-product-grid"
   ]
 }
