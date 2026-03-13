@@ -153,6 +153,39 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "rich_text_mXDHzb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_L9E6yD": {
+          "type": "heading",
+          "settings": {
+            "title": "כל המוצרים",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_hAMY46": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>קולקציית כל המוצרים שלנו מזמינה אתכם לגלות עולם של בשמי נישה ויוקרה, שנבחרו בקפידה לאוהבי ריח ייחודיים.  <br/>כל ניחוח מבטא איכות בלתי מתפשרת, עומק חושי ונוכחות אלגנטית.  <br/>זהו מסע אל אמנות הבישום – שבו כל בקבוק מספר סיפור ומעורר חוויה.  <br/>בחרו את החתימה האישית שלכם מתוך מגוון יצירות ריח נדירות ומעודנות.</strong></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L9E6yD",
+        "text_hAMY46"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
     "main-collection-product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -180,6 +213,7 @@
   "order": [
     "banner",
     "slideshow_zzqVPn",
+    "rich_text_mXDHzb",
     "main-collection-product-grid"
   ]
 }
