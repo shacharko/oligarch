@@ -50,7 +50,7 @@
             "subheading": "",
             "subheading_tag": "h2",
             "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>Use this section to make a bold statement</p>",
+            "text": "",
             "text_font_class": "fs-body-100",
             "link_1": "",
             "link_text_1": "Read more",
@@ -63,7 +63,7 @@
             "button_text_color": "#000000",
             "color_overlay": "#000000",
             "color_overlay_gradient": "",
-            "overlay_opacity": 40
+            "overlay_opacity": 0
           }
         },
         "slide_MXVUKQ": {
