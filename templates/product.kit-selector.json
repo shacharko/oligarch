@@ -35,19 +35,6 @@
             "show_untracked_quantity": false
           }
         },
-        "quantity_selector_MXiHF": {
-          "type": "quantity_selector",
-          "settings": {
-            "show_labels": true
-          }
-        },
-        "custom_liquid_r8aaL": {
-          "type": "custom_liquid",
-          "settings": {
-            "column_placement": "right",
-            "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
-          }
-        },
         "variant_picker_GqjkAV": {
           "type": "variant_picker",
           "settings": {
@@ -57,6 +44,19 @@
             "variant_popup_page": "",
             "swatch_size": "medium",
             "chip_layout": "3col"
+          }
+        },
+        "custom_liquid_r8aaL": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
+          }
+        },
+        "quantity_selector_MXiHF": {
+          "type": "quantity_selector",
+          "settings": {
+            "show_labels": true
           }
         },
         "accordion_edidn": {
@@ -111,9 +111,9 @@
       "block_order": [
         "product_header_3RafWG",
         "inventory_counter_FFa7z",
-        "quantity_selector_MXiHF",
-        "custom_liquid_r8aaL",
         "variant_picker_GqjkAV",
+        "custom_liquid_r8aaL",
+        "quantity_selector_MXiHF",
         "accordion_edidn",
         "accordion_tNUMwN",
         "accordion_cjJX3",
