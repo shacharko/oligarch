@@ -9,57 +9,54 @@
  */
 {
   "sections": {
-    "slideshow_iTpG6H": {
-      "type": "slideshow",
+    "image_hero_AtCjjn": {
+      "type": "image-hero",
       "blocks": {
-        "slide_zMRHxc": {
-          "type": "slide",
+        "accent_FzQQAT": {
+          "type": "accent",
           "settings": {
-            "image": "shopify://shop_images/9F16380B-5D6F-4A87-805E-FC15F14EC28C.jpg",
-            "image_mobile": "shopify://shop_images/A3B606D4-9D6C-44D8-810E-DF66D666077E.png",
-            "focal_point": "image_presentation",
-            "mobile_focal_point": "image_presentation",
-            "media_link": "shopify://collections/mes-bisous",
-            "text_position": "center_center",
-            "text_position_mobile": "center_center",
-            "accent": "",
+            "accent": ""
+          }
+        },
+        "heading_reTPbA": {
+          "type": "heading",
+          "settings": {
             "title": "",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2",
-            "subheading": "",
-            "subheading_tag": "h2",
-            "subheading_font_class": "fs-heading-5-base",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_86mPUL": {
+          "type": "text",
+          "settings": {
             "text": "",
-            "text_font_class": "fs-body-100",
-            "link_1": "",
-            "link_text_1": "Read more",
-            "button_style_1": "btn--primary",
-            "link_2": "",
-            "link_text_2": "Read more",
-            "button_style_2": "btn--primary",
-            "text_color": "#ffffff",
-            "button_background_color": "#ffffff",
-            "button_text_color": "#000000",
-            "color_overlay": "#000000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 0
+            "text_font_class": "fs-body-100"
           }
         }
       },
       "block_order": [
-        "slide_zMRHxc"
+        "accent_FzQQAT",
+        "heading_reTPbA",
+        "text_86mPUL"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
         "desktop_height": 100,
         "mobile_height": 100,
-        "enable_autoplay": true,
-        "duration_autoplay": 4,
-        "navigation_alignment": "center",
-        "navigation_color_foreground": "#ffffff",
-        "navigation_color_background": "",
-        "navigation_background_opacity": 100,
+        "image": "shopify://shop_images/9F16380B-5D6F-4A87-805E-FC15F14EC28C.jpg",
+        "image_mobile": "shopify://shop_images/A3B606D4-9D6C-44D8-810E-DF66D666077E.png",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "shopify://collections/mes-bisous",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
       }
@@ -1036,9 +1033,9 @@
     }
   },
   "order": [
-    "slideshow_iTpG6H",
-    "rich_text_dmzFYM",
+    "image_hero_AtCjjn",
     "custom_liquid_Yhm46m",
+    "rich_text_dmzFYM",
     "image_hero_rhEJhE",
     "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
