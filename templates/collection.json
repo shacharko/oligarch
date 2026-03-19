@@ -34,7 +34,7 @@
       "type": "image-hero",
       "name": "t:sections.image_hero.presets.name",
       "settings": {
-        "image_aspect": "custom",
+        "image_aspect": "original",
         "desktop_height": 75,
         "mobile_height": 80,
         "image": "shopify://shop_images/ChatGPT_Image_Mar_19_2026_09_22_15_PM.png",
