@@ -414,7 +414,7 @@
         "overlay_title_background": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "behind_brands_9YJ8yF": {
