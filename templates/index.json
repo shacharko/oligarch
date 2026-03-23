@@ -537,7 +537,17 @@
           "settings": {
             "show_sample_reviews": true,
             "reviews_selection": "all",
-            "products": [],
+            "products": [
+              "מס-ביסוס-א-וונדראוס-פילגט-יוניסקס",
+              "מס-ביסוס-פאסיון-איסלנד-יוניסקס",
+              "לחואי",
+              "לואי-ויטון-מטאור-לגבר",
+              "לואי-ויטון-אימגיניישן-יוניסקס",
+              "לואי-ויטון-אומברה-נומאד-יוניסקס",
+              "אטר-אל-חאס-וולווט-מורגניט-יוניסקס",
+              "attar-al-has-leather-effecto",
+              "attar-al-has-skin-musk"
+            ],
             "star_rating": "all",
             "max_reviews": 20,
             "quote_marks_size": "small",
@@ -567,10 +577,10 @@
         "judge_me_reviews_testimonials_carousel_abnDyC"
       ],
       "settings": {
-        "heading": "App section",
+        "heading": "",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "quote_LdCLgk": {
