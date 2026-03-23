@@ -435,16 +435,18 @@
         "video_card_UVbDix": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/v0f044gc0000ch21j63c77u62vbsd33g.MP4",
+            "video": "shopify://files/videos/v14044g50000d6hvlufog65j29cf44m0.MP4",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_6401.jpg",
-            "product_ref": "כריסטיאן-דיור-גריס-דיור-יוניסקס",
-            "product_link": "",
-            "product_title": ""
+            "poster": "shopify://shop_images/IMG_7252.jpg",
+            "product_ref": "",
+            "product_link": "shopify://collections/mes-bisous",
+            "product_image": "shopify://shop_images/hy.png",
+            "product_title": "Mes Biosus Collection"
           }
         },
         "video_card_q7fwd3": {
           "type": "video_card",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/v0f025gc0000cnvfgt7og65tbp9e16bg.mov",
             "video_url": "",
@@ -456,6 +458,7 @@
         },
         "video_card_ceUYd9": {
           "type": "video_card",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/v09044g40000cnjubt7og65ph0d2uasg.MP4",
             "video_url": "",
@@ -467,6 +470,7 @@
         },
         "video_card_AiLj6G": {
           "type": "video_card",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/v12044gd0000co24iv7og65n0a13kejg.MP4",
             "video_url": "",
@@ -490,59 +494,6 @@
         "subheading": "<h1><strong>BEHIND THE BRANDS</strong></h1>",
         "centered": true,
         "loop": true
-      }
-    },
-    "rich_text_arA9fN": {
-      "type": "rich-text",
-      "blocks": {
-        "button_3eGfiy": {
-          "type": "button",
-          "settings": {
-            "link": "",
-            "link_text": "גלו עכשיו",
-            "button_style": "btn--primary"
-          }
-        },
-        "border_cJcrgm": {
-          "type": "border",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "button_3eGfiy",
-        "border_cJcrgm"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "alignment": "center_center",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom",
-        "content_width": "full",
-        "custom_content_width": 700
-      }
-    },
-    "rich_text_qF8Ria": {
-      "type": "rich-text",
-      "blocks": {
-        "border_GgWGF6": {
-          "type": "border",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "border_GgWGF6"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.name",
-      "settings": {
-        "alignment": "left_left",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none",
-        "content_width": "full",
-        "custom_content_width": 700
       }
     },
     "blogs_slider_description_QNtjM8": {
@@ -605,157 +556,6 @@
         "desc_lines": 3,
         "show_read_more": true,
         "read_more_label": "קרא/י עוד"
-      }
-    },
-    "image_with_text_split_XQD3a6": {
-      "type": "image-with-text-split",
-      "blocks": {
-        "accent_X6CKeW": {
-          "type": "accent",
-          "disabled": true,
-          "settings": {
-            "accent": ""
-          }
-        },
-        "heading_X3NDEq": {
-          "type": "heading",
-          "settings": {
-            "title": "Zoologist Perfumes",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
-          }
-        },
-        "text_q7Ctmk": {
-          "type": "text",
-          "settings": {
-            "text": "<h4><strong>בשמים נישתיים שמספרים סיפור כל בקבוק הוא חוויה חושית ייחודית</strong></h4>",
-            "text_font_class": "fs-body-100"
-          }
-        },
-        "text_Dknewh": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ריחות יוצאי דופן, יוקרתיים ומקוריים שמובילים אתכם למסע אישי ומסתורי.תנו לעצמכם להיסחף – כל תו, כל ניחוח, כל מארז מזמין אתכם לגלות עולם שאין שני לו.התחילו עכשיו את החוויה – כיבואן הרשמי של Zoologist Perfumes בישראל, אנחנו מביאים את הבשמים האותנטיים ישירות אליכם.</strong></p>",
-            "text_font_class": "fs-body-100"
-          }
-        },
-        "subheading_iMFGaV": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "ריחות יוצאי דופן, יוקרתיים ומקוריים שמובילים אתכם למסע אישי ומסתורי.תנו לעצמכם להיסחף – כל תו, כל ניחוח, כל מארז מזמין אתכם לגלות עולם שאין שני לו.התחילו עכשיו את החוויה – כיבואן הרשמי של Zoologist Perfumes בישראל, אנחנו מביאים את הבשמים האותנטיים ישירות אליכם",
-            "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-6-base"
-          }
-        },
-        "button_KBh3UD": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://collections/zoologist-1",
-            "link_text": "גלו את הקולקציה",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "accent_X6CKeW",
-        "heading_X3NDEq",
-        "text_q7Ctmk",
-        "text_Dknewh",
-        "subheading_iMFGaV",
-        "button_KBh3UD"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text_split.presets.name",
-      "settings": {
-        "image_position": "right",
-        "image_mobile_position": "above-content",
-        "image_padding": "none",
-        "image": "shopify://shop_images/IMG_7546.heic",
-        "aspect_ratio": "square",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "image_with_text_split_pcVmAB": {
-      "type": "image-with-text-split",
-      "blocks": {
-        "accent_3dqFUL": {
-          "type": "accent",
-          "settings": {
-            "accent": ""
-          }
-        },
-        "heading_CybfiF": {
-          "type": "heading",
-          "settings": {
-            "title": "Attar Al Has",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-1-base"
-          }
-        },
-        "text_wfzQFk": {
-          "type": "text",
-          "settings": {
-            "text": "<h4><strong>היוקרה שמסתתרת בכל טיפה</strong></h4>",
-            "text_font_class": "fs-body-100"
-          }
-        },
-        "text_q8biPD": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ניחוחות נדירים, עמוקים ומסעירים שנוגעים בנשמה ומחכים להתעורר על העור שלכם.הקולקציה מגיעה אליכם ישירות מהמותג, בייבוא רשמי ובלעדי שלנו בישראל, כדי להעניק חוויית בישום נקייה, אמיתית ומלאת עוצמה.התחילו את המסע שלכם עם Attar Al Has.</strong></p>",
-            "text_font_class": "fs-body-100"
-          }
-        },
-        "subheading_xtyHwd": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "ניחוחות נדירים, עמוקים ומסעירים שנוגעים בנשמה ומחכים להתעורר על העור שלכם.הקולקציה מגיעה אליכם ישירות מהמותג, בייבוא רשמי ובלעדי שלנו בישראל, כדי להעניק חוויית בישום נקייה, אמיתית ומלאת עוצמה.התחילו את המסע שלכם עם Attar Al Has.",
-            "subheading_tag": "h4",
-            "subheading_font_class": "fs-heading-6-base"
-          }
-        },
-        "button_VNneiR": {
-          "type": "button",
-          "settings": {
-            "link": "shopify://collections/attar-al-has",
-            "link_text": "גלו את הקולקציה",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "accent_3dqFUL",
-        "heading_CybfiF",
-        "text_wfzQFk",
-        "text_q8biPD",
-        "subheading_xtyHwd",
-        "button_VNneiR"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text_split.presets.name",
-      "settings": {
-        "image_position": "left",
-        "image_mobile_position": "above-content",
-        "image_padding": "none",
-        "image": "shopify://shop_images/IMG_5920.heic",
-        "aspect_ratio": "square",
-        "focal_point": "image_presentation",
-        "content_alignment": "center",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "quote_LdCLgk": {
@@ -1045,11 +845,7 @@
     "collection_list_slider_mR8grQ",
     "collection_list_slider_FWw4BR",
     "behind_brands_9YJ8yF",
-    "rich_text_arA9fN",
-    "rich_text_qF8Ria",
     "blogs_slider_description_QNtjM8",
-    "image_with_text_split_XQD3a6",
-    "image_with_text_split_pcVmAB",
     "quote_LdCLgk",
     "rich_text_HYfzAm",
     "image_with_text_LTRzQN",
