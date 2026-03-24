@@ -341,7 +341,7 @@
         "heading": "",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only"
+        "section_padding": "section--vertical-padding-none"
       }
     }
   },
