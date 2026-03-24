@@ -293,16 +293,6 @@
         "enable_animation": true
       }
     },
-    "custom_liquid_NcDEVc": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% render 'dynamic-price-per-100ml' %}",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "custom_liquid_cCEPFd": {
       "type": "custom-liquid",
       "name": "t:sections.custom_liquid.presets.name",
@@ -310,45 +300,6 @@
         "custom_liquid": "{% render 'aroma-notes-slider' %}",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only"
-      }
-    },
-    "1765108798e420838a": {
-      "type": "apps",
-      "blocks": {
-        "google_reviews_google_carousel_one_YCc9Kh": {
-          "type": "shopify://apps/google-reviews/blocks/google-carousel-one/4eeaae1c-902b-481c-bec5-3f32291a58d5",
-          "settings": {
-            "rank": "1",
-            "photo_size": "large",
-            "auto_scroll": true,
-            "auto_scroll_interval": 3,
-            "rating": true,
-            "submit_review_button": true,
-            "business_info": true,
-            "review_photo": true,
-            "review_card_shadow": false,
-            "corner_radius": 20,
-            "star_color": "#f6ab00",
-            "review_card_background": "#f3f6f9",
-            "content_color": "#000000",
-            "name_color": "#000000",
-            "date_color": "#7a7a7a",
-            "more_color": "#1a73e8",
-            "submit_button_background_color": "#0084ff",
-            "submit_button_text": "#ffffff",
-            "business_info_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "google_reviews_google_carousel_one_YCc9Kh"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "App section",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "recommendations": {
@@ -365,34 +316,13 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "1763928931e420ca2d": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_iJe6KW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_iJe6KW"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "App section",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
     "17660146559414553a": {
       "type": "apps",
       "blocks": {
+        "judge_me_reviews_review_snippet_widget_i7bjYT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "judge_me_reviews_review_widget_bWPLBe": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -404,6 +334,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_review_snippet_widget_i7bjYT",
         "judge_me_reviews_review_widget_bWPLBe"
       ],
       "settings": {
@@ -412,63 +343,12 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-only"
       }
-    },
-    "quote_y9BE8A": {
-      "type": "quote",
-      "blocks": {
-        "quote_aDyiWV": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>אתר מרהיב שמשדר יוקרה ודיוק עד הפרט האחרון. הבשמים מרגישים כמו יצירות אמנות – עמוקים, ייחודיים ובלתי נשכחים. והמארזי דיסקברי הם חוויה מושלמת למי שרוצה לגלות ניחוחות נישה אמיתיים בקצב אישי ואלגנטי.</p><p>⭐⭐⭐⭐⭐</p>",
-            "title": "הלן חדד",
-            "quote_tag": "h2",
-            "font_size": "medium"
-          }
-        },
-        "quote_EGfF8n": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>חוויה חושית יוצאת דופן. כבר מהכניסה לאתר מרגישים שמדובר בעולם של בישום עילי – ניחוחות מתוחכמים, סיפור מאחורי כל בושם, ועיצוב שמשלים את החוויה. </p><p>⭐⭐⭐⭐⭐</p>",
-            "title": "ליאור מזרחי",
-            "quote_tag": "h2",
-            "font_size": "medium"
-          }
-        },
-        "quote_H4U9xr": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>כל ניחוח מרגיש מוקפד, עשיר ויוקרתי, עם נוכחות שמבדילה אותו מכל מה שמוכר. מארזי הדיסקברי מאפשרים להכיר את הקולקציה לעומק – חוויה אינטימית, אישית וממכרת.</p><p>⭐⭐⭐⭐⭐</p>",
-            "title": "כרמל דגן",
-            "quote_tag": "h2",
-            "font_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "quote_aDyiWV",
-        "quote_EGfF8n",
-        "quote_H4U9xr"
-      ],
-      "name": "t:sections.quotes.presets.name",
-      "settings": {
-        "autoplay_enabled": true,
-        "autoplay_delay": 7,
-        "pagination_style": "dots",
-        "font_choice": "ff-heading",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-only"
-      }
     }
   },
   "order": [
     "main",
-    "custom_liquid_NcDEVc",
     "custom_liquid_cCEPFd",
-    "1765108798e420838a",
     "recommendations",
-    "1763928931e420ca2d",
-    "17660146559414553a",
-    "quote_y9BE8A"
+    "17660146559414553a"
   ]
 }
