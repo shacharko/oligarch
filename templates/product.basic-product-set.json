@@ -125,6 +125,10 @@
             "icon_offset_vertical": 0
           }
         },
+        "judge_me_reviews_review_snippet_widget_wnbMrk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "accordion_XpdCx": {
           "type": "accordion",
           "settings": {
@@ -266,6 +270,7 @@
         "text_w3G6kr",
         "share",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
+        "judge_me_reviews_review_snippet_widget_wnbMrk",
         "accordion_XpdCx",
         "accordion_fHfiW",
         "accordion_3q6Rn",
