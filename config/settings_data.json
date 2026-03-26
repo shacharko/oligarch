@@ -124,19 +124,6 @@
           "position": "bottom"
         }
       },
-      "12613470449828698166": {
-        "type": "shopify://apps/tabnav-web-accessibility/blocks/app/6e7da68b-b18e-4550-b9fe-b12dd1396395",
-        "disabled": false,
-        "settings": {
-          "widget_position": "right",
-          "widget_language": "he",
-          "button_size": "small",
-          "color": "#8e56dc",
-          "use_default_widget_color": false,
-          "button_color": "#8e56dc",
-          "use_default_button_color": false
-        }
-      },
       "4705145147225299685": {
         "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/widget-block/06fa8282-42ff-403e-b67c-1936776aed11",
         "disabled": true,
@@ -259,6 +246,19 @@
           "flag_style": "2d",
           "wrapper_selector": "",
           "custom_css": ""
+        }
+      },
+      "12613470449828698166": {
+        "type": "shopify://apps/tabnav-web-accessibility/blocks/app/6e7da68b-b18e-4550-b9fe-b12dd1396395",
+        "disabled": false,
+        "settings": {
+          "widget_position": "right",
+          "widget_language": "he",
+          "button_size": "small",
+          "color": "#000000",
+          "use_default_widget_color": false,
+          "button_color": "#000000",
+          "use_default_button_color": false
         }
       }
     }
