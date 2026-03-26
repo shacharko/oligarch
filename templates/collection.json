@@ -76,6 +76,7 @@
         "heading_L9E6yD",
         "text_hAMY46"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.name",
       "settings": {
         "alignment": "center_center",
