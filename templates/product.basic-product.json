@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product--default",
       "blocks": {
+        "judge_me_reviews_preview_badge_ECh4zK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "product_header": {
           "type": "product_header",
           "settings": {
@@ -25,29 +29,6 @@
             "show_custom_badges": true
           }
         },
-        "judge_me_reviews_preview_badge_ECh4zK": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "inventory_counter_nnj7H": {
-          "type": "inventory-counter",
-          "disabled": true,
-          "settings": {
-            "label": "זמינות",
-            "inventory_max": "100",
-            "low_inventory_threshold": "40",
-            "show_status_bar": false,
-            "show_untracked_quantity": false
-          }
-        },
-        "text_YLEgV": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299₪ </strong></p><p><strong>עד 3 ימי עסקים מרגע אישור ההזמנה .</strong></p>",
-            "column_placement": "right"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -59,10 +40,15 @@
             "chip_layout": "natural"
           }
         },
-        "tolstoy_shoppable_video_quiz_stories_block_pxCG4": {
-          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+        "inventory_counter_nnj7H": {
+          "type": "inventory-counter",
+          "disabled": true,
           "settings": {
-            "publishId": "publishId"
+            "label": "זמינות",
+            "inventory_max": "100",
+            "low_inventory_threshold": "40",
+            "show_status_bar": false,
+            "show_untracked_quantity": false
           }
         },
         "quantity_selector": {
@@ -85,6 +71,20 @@
             "enable_sticky_atc_bar_desktop": true,
             "enable_sticky_atc_bar_mobile": true,
             "divider_width": "shadow--small"
+          }
+        },
+        "tolstoy_shoppable_video_quiz_stories_block_pxCG4": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "publishId"
+          }
+        },
+        "text_YLEgV": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299₪ </strong></p><p><strong>עד 3 ימי עסקים מרגע אישור ההזמנה .</strong></p>",
+            "column_placement": "right"
           }
         },
         "judge_me_reviews_review_snippet_widget_VnGUy7": {
@@ -253,15 +253,15 @@
         }
       },
       "block_order": [
-        "product_header",
         "judge_me_reviews_preview_badge_ECh4zK",
-        "inventory_counter_nnj7H",
-        "text_YLEgV",
+        "product_header",
         "variant_picker",
-        "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
+        "inventory_counter_nnj7H",
         "quantity_selector",
         "custom_liquid_aQhpT",
         "buy_buttons",
+        "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
+        "text_YLEgV",
         "judge_me_reviews_review_snippet_widget_VnGUy7",
         "share",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
