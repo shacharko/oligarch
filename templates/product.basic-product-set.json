@@ -12,6 +12,17 @@
     "main": {
       "type": "main-product--default",
       "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "chip_layout": "natural"
+          }
+        },
         "product_header": {
           "type": "product_header",
           "settings": {
@@ -33,7 +44,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><strong>המחיר כולל מע״מ.<br/>משלוח חינם עד הבית בעת הזמנה מעל 299 ש״ח</strong></p><p><strong>עד 3 ימי עסקים מרגע אישור ההזמנה.</strong></p>",
+            "text": "<p><em>משלוח מהיר עד הבית • עד 3 ימי עסקים • 30₪ (חינם בקנייה מעל 299₪)</em></p>",
             "column_placement": "right"
           }
         },
@@ -41,7 +52,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><strong>⭐ למה כדאי לקנות את המארז?</strong></p><p><strong>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</strong></p><p><strong>✔ מגיע באריזת פרימיום</strong></p><p><strong>✔ זמין במלאי ומשלוח מהיר</strong></p><p><strong>✔ מושלם כמתנה / להתנסות בקולקציה</strong></p>",
+            "text": "<p><em><strong>⭐ למה כדאי לקנות את המארז?</strong></em></p><p><em>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</em></p><p><em>✔ מגיע באריזת פרימיום</em></p><p><em>✔ זמין במלאי ומשלוח מהיר</em></p><p><em>✔ מושלם כמתנה / להתנסות בקולקציה</em></p>",
             "column_placement": "right"
           }
         },
@@ -53,17 +64,6 @@
             "low_inventory_threshold": "40",
             "show_status_bar": false,
             "show_untracked_quantity": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_popup_option": "",
-            "variant_popup_icon": "none",
-            "variant_popup_text": "Size guide",
-            "variant_popup_page": "",
-            "swatch_size": "medium",
-            "chip_layout": "natural"
           }
         },
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4": {
@@ -257,12 +257,12 @@
         }
       },
       "block_order": [
+        "variant_picker",
         "product_header",
         "judge_me_reviews_preview_badge_9p4LFQ",
         "text_YLEgV",
         "text_44R9J9",
         "inventory_counter_nnj7H",
-        "variant_picker",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
         "quantity_selector",
         "custom_liquid_6eTRz",
