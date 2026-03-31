@@ -373,22 +373,12 @@
             "product_link": "",
             "product_title": ""
           }
-        },
-        "video_card_wKBcph": {
-          "type": "video_card",
-          "settings": {
-            "video_url": "",
-            "product_ref": "",
-            "product_link": "",
-            "product_title": ""
-          }
         }
       },
       "block_order": [
         "video_card_LpqPLX",
         "video_card_AVL3nN",
-        "video_card_fKezrK",
-        "video_card_wKBcph"
+        "video_card_fKezrK"
       ],
       "name": "Behind the brands",
       "settings": {
