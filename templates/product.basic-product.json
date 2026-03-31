@@ -80,6 +80,13 @@
             "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
+        "custom_liquid_br664t": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "{% render 'aroma-notes-slider' %}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -277,6 +284,7 @@
         "inventory_counter_nnj7H",
         "quantity_selector",
         "custom_liquid_aQhpT",
+        "custom_liquid_br664t",
         "buy_buttons",
         "text_W7KiNg",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
@@ -314,15 +322,6 @@
         "hide_mobile_carousel_dots": false,
         "enable_gift_card_recipient": true,
         "enable_animation": true
-      }
-    },
-    "custom_liquid_cCEPFd": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% render 'aroma-notes-slider' %}",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-bottom-only"
       }
     },
     "recommendations": {
@@ -365,7 +364,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_cCEPFd",
     "recommendations",
     "17660146559414553a"
   ]
