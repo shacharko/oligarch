@@ -44,7 +44,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p>משלוח מהיר עד הבית • 30₪ (חינם מעל 299₪) • עד 3 ימי עסקים</p>",
+            "text": "<p><em>משלוח מהיר עד הבית • 30₪ (חינם מעל 299₪) • עד 3 ימי עסקים</em></p>",
             "column_placement": "right"
           }
         },
