@@ -44,7 +44,15 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><em>🔥 מלאי מוגבל זמין •  📦 משלוח: ₪30 • (משלוח חינם בהזמנות מעל ₪299)</em></p>",
+            "text": "<p><em>🔥 מלאי מוגבל זמין •  📦 עלות משלוח : ₪30 </em></p>",
+            "column_placement": "right"
+          }
+        },
+        "text_wnAzKT": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><em>• (משלוח חינם בהזמנות מעל ₪299)</em></p>",
             "column_placement": "right"
           }
         },
@@ -280,6 +288,7 @@
         "product_header",
         "judge_me_reviews_preview_badge_ECh4zK",
         "text_hDqDqL",
+        "text_wnAzKT",
         "text_pPYGfR",
         "inventory_counter_nnj7H",
         "quantity_selector",
