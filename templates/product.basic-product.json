@@ -338,6 +338,66 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "behind_brands_7wzL97": {
+      "type": "behind-brands",
+      "blocks": {
+        "video_card_LpqPLX": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/6666668 (1).MOV",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_7253_2.jpg",
+            "product_ref": "zoologist-squid-deluxe-bottle",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_AVL3nN": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v14044g50000d6hvlufog65j29cf44m0.MP4",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_7252.jpg",
+            "product_ref": "מס-ביסוס-א-וונדראוס-פילגט-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_fKezrK": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/IMG_5547.MOV",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_7256.jpg",
+            "product_ref": "מס-ביסוס-פאסיון-איסלנד-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_wKBcph": {
+          "type": "video_card",
+          "settings": {
+            "video_url": "",
+            "product_ref": "",
+            "product_link": "",
+            "product_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_card_LpqPLX",
+        "video_card_AVL3nN",
+        "video_card_fKezrK",
+        "video_card_wKBcph"
+      ],
+      "name": "Behind the brands",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "centered": false,
+        "loop": true
+      }
+    },
     "17660146559414553a": {
       "type": "apps",
       "blocks": {
@@ -365,6 +425,7 @@
   "order": [
     "main",
     "recommendations",
+    "behind_brands_7wzL97",
     "17660146559414553a"
   ]
 }
