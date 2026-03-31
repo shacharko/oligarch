@@ -12,6 +12,17 @@
     "main": {
       "type": "main-product-kit-selector",
       "blocks": {
+        "variant_picker_GqjkAV": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "Size",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "chip_layout": "3col"
+          }
+        },
         "product_header_3RafWG": {
           "type": "product_header",
           "settings": {
@@ -25,25 +36,23 @@
             "show_custom_badges": true
           }
         },
+        "text_cxjzbW": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><em>משלוח מהיר עד הבית • עד 3 ימי עסקים • 30₪ (חינם בקנייה מעל 299₪)</em></p>",
+            "column_placement": "right"
+          }
+        },
         "inventory_counter_FFa7z": {
           "type": "inventory-counter",
+          "disabled": true,
           "settings": {
             "label": "זמינות",
             "inventory_max": "100",
             "low_inventory_threshold": "40",
             "show_status_bar": false,
             "show_untracked_quantity": false
-          }
-        },
-        "variant_picker_GqjkAV": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_popup_option": "Size",
-            "variant_popup_icon": "none",
-            "variant_popup_text": "Size guide",
-            "variant_popup_page": "",
-            "swatch_size": "medium",
-            "chip_layout": "3col"
           }
         },
         "custom_liquid_r8aaL": {
@@ -109,9 +118,10 @@
         }
       },
       "block_order": [
-        "product_header_3RafWG",
-        "inventory_counter_FFa7z",
         "variant_picker_GqjkAV",
+        "product_header_3RafWG",
+        "text_cxjzbW",
+        "inventory_counter_FFa7z",
         "custom_liquid_r8aaL",
         "quantity_selector_MXiHF",
         "accordion_edidn",
