@@ -44,23 +44,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><em>🔥 מלאי מוגבל זמין •  📦 עלות משלוח : ₪30 </em></p>",
-            "column_placement": "right"
-          }
-        },
-        "text_wnAzKT": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>• (משלוח חינם בהזמנות מעל ₪299)</em></p>",
-            "column_placement": "right"
-          }
-        },
-        "text_pPYGfR": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>• עד 3 ימי עסקים מרגע אישור ההזמנה </em></p>",
+            "text": "<p>משלוח מהיר עד הבית • 30₪ (חינם מעל 299₪) • עד 3 ימי עסקים</p>",
             "column_placement": "right"
           }
         },
@@ -108,7 +92,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p><em>100% אותנטי • מוצרים מקוריים • תשלום מאובטח</em></p>",
+            "text": "<p><em>100% אותנטי • משלוח מהיר • תשלום מאובטח</em></p>",
             "column_placement": "right"
           }
         },
@@ -288,8 +272,6 @@
         "product_header",
         "judge_me_reviews_preview_badge_ECh4zK",
         "text_hDqDqL",
-        "text_wnAzKT",
-        "text_pPYGfR",
         "inventory_counter_nnj7H",
         "quantity_selector",
         "custom_liquid_aQhpT",
