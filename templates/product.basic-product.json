@@ -382,6 +382,47 @@
     "17660146559414553a": {
       "type": "apps",
       "blocks": {
+        "judge_me_reviews_cards_carousel_BLnj4i": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [
+              "fragrance-de-bois-lucius",
+              "מס-ביסוס-טובקו-פלירטניג-וויט-ונילה-יוניסקס",
+              "מס-ביסוס-פאסיון-איסלנד-יוניסקס",
+              "נישאנה-מינט-טו-סין-לאישה",
+              "parfums-de-marly-delina",
+              "parfums-de-marly-valaya",
+              "ex-nihilo-blue-talisman",
+              "attar-al-has-exquisite",
+              "bdk-gris-charnel-extrait"
+            ],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 30,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1.33",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#ececec",
+            "stars_color": "#f2bd00",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "לקוחות מפרגנים",
+            "show_average_rating": true
+          }
+        },
         "judge_me_reviews_review_widget_bWPLBe": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -393,6 +434,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_cards_carousel_BLnj4i",
         "judge_me_reviews_review_widget_bWPLBe"
       ],
       "settings": {
