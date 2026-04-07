@@ -398,7 +398,7 @@
               "attar-al-has-exquisite",
               "bdk-gris-charnel-extrait"
             ],
-            "star_rating": "all",
+            "star_rating": "4_to_5_star",
             "show_review_media": true,
             "display_order": "media_first",
             "no_image_fallback": "review_text_only",
@@ -411,7 +411,7 @@
             "show_product_name": true,
             "hide_arrows_mobile": true,
             "arrows_position": "sides",
-            "max_width": 1600,
+            "max_width": 1200,
             "corner_styling": "soft",
             "header_text_color": "#000000",
             "text_color": "#000000",
