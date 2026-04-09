@@ -12,16 +12,9 @@
     "main": {
       "type": "main-product--default",
       "blocks": {
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_popup_option": "",
-            "variant_popup_icon": "none",
-            "variant_popup_text": "Size guide",
-            "variant_popup_page": "",
-            "swatch_size": "medium",
-            "chip_layout": "natural"
-          }
+        "judge_me_reviews_preview_badge_ECh4zK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "product_header": {
           "type": "product_header",
@@ -36,9 +29,16 @@
             "show_custom_badges": true
           }
         },
-        "judge_me_reviews_preview_badge_ECh4zK": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "none",
+            "variant_popup_text": "Size guide",
+            "variant_popup_page": "",
+            "swatch_size": "medium",
+            "chip_layout": "natural"
+          }
         },
         "text_hDqDqL": {
           "type": "text",
@@ -48,15 +48,12 @@
             "column_placement": "right"
           }
         },
-        "inventory_counter_nnj7H": {
-          "type": "inventory-counter",
-          "disabled": true,
+        "text_W7KiNg": {
+          "type": "text",
           "settings": {
-            "label": "זמינות",
-            "inventory_max": "100",
-            "low_inventory_threshold": "40",
-            "show_status_bar": false,
-            "show_untracked_quantity": false
+            "text_font_class": "fs-body-100",
+            "text": "<p><em>100% אותנטי • משלוח מהיר • תשלום מאובטח</em></p>",
+            "column_placement": "right"
           }
         },
         "quantity_selector": {
@@ -72,11 +69,15 @@
             "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
-        "custom_liquid_br664t": {
-          "type": "custom_liquid",
+        "inventory_counter_nnj7H": {
+          "type": "inventory-counter",
+          "disabled": true,
           "settings": {
-            "column_placement": "right",
-            "custom_liquid": "{% render 'aroma-notes-slider' %}"
+            "label": "זמינות",
+            "inventory_max": "100",
+            "low_inventory_threshold": "40",
+            "show_status_bar": false,
+            "show_untracked_quantity": false
           }
         },
         "buy_buttons": {
@@ -88,12 +89,27 @@
             "divider_width": "shadow--small"
           }
         },
-        "text_W7KiNg": {
-          "type": "text",
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "custom_liquid_br664t": {
+          "type": "custom_liquid",
           "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>100% אותנטי • משלוח מהיר • תשלום מאובטח</em></p>",
-            "column_placement": "right"
+            "column_placement": "right",
+            "custom_liquid": "{% render 'aroma-notes-slider' %}"
+          }
+        },
+        "accordion_XpdCx": {
+          "type": "accordion",
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "right",
+            "heading": "זמני שילוח",
+            "heading_tag": "h3",
+            "content": "<p><strong>הזמנות שיבוצעו עד השעה 12:00 יטופלו ויישלחו באותו יום עסקים. </strong></p><p><strong>זמן אספקת משלוח סטנדרטי: עד 3 ימי עסקים מרגע אישור ההזמנה.</strong></p>",
+            "page_for_content": "",
+            "custom_liquid": ""
           }
         },
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4": {
@@ -104,10 +120,6 @@
         },
         "judge_me_reviews_review_snippet_widget_VnGUy7": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
           "settings": {}
         },
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6": {
@@ -127,18 +139,6 @@
             "icon_size": 18,
             "icon_stroke_width": 1,
             "icon_offset_vertical": 0
-          }
-        },
-        "accordion_XpdCx": {
-          "type": "accordion",
-          "settings": {
-            "expand_by_default": false,
-            "column_placement": "right",
-            "heading": "זמני שילוח",
-            "heading_tag": "h3",
-            "content": "<p><strong>הזמנות שיבוצעו עד השעה 12:00 יטופלו ויישלחו באותו יום עסקים. </strong></p><p><strong>זמן אספקת משלוח סטנדרטי: עד 3 ימי עסקים מרגע אישור ההזמנה.</strong></p>",
-            "page_for_content": "",
-            "custom_liquid": ""
           }
         },
         "accordion_fHfiW": {
@@ -268,21 +268,21 @@
         }
       },
       "block_order": [
-        "variant_picker",
-        "product_header",
         "judge_me_reviews_preview_badge_ECh4zK",
+        "product_header",
+        "variant_picker",
         "text_hDqDqL",
-        "inventory_counter_nnj7H",
+        "text_W7KiNg",
         "quantity_selector",
         "custom_liquid_aQhpT",
-        "custom_liquid_br664t",
+        "inventory_counter_nnj7H",
         "buy_buttons",
-        "text_W7KiNg",
+        "share",
+        "custom_liquid_br664t",
+        "accordion_XpdCx",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
         "judge_me_reviews_review_snippet_widget_VnGUy7",
-        "share",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",
-        "accordion_XpdCx",
         "accordion_fHfiW",
         "accordion_3q6Rn",
         "accordion_BqCY9",
@@ -322,7 +322,7 @@
         "heading_tag": "h2",
         "subheading": "",
         "maximum_products": 15,
-        "columns": "4",
+        "columns": "5",
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "none",
@@ -411,11 +411,11 @@
             "show_product_name": true,
             "hide_arrows_mobile": true,
             "arrows_position": "sides",
-            "max_width": 1200,
+            "max_width": 600,
             "corner_styling": "soft",
             "header_text_color": "#000000",
-            "text_color": "#ffffff",
-            "card_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f3f3f3",
             "stars_color": "#f2bd00",
             "arrows_color": "#000000",
             "transition_speed": 5,
