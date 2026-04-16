@@ -704,14 +704,6 @@
   {% render 'product-block-variant-picker', prod: product, current_variant: current_variant %}
 {% endif %}
 
-{%- comment -%} Fallback: Buy buttons (product-form-k) {%- endcomment -%}
-{% liquid
-  assign has_buy_buttons = section.blocks | where: 'type', 'buy_buttons'
-%}
-{% if has_buy_buttons == blank %}
-  {% render 'product-form-k', prod: product, current_variant: current_variant %}
-{% endif %}
-
       {%- comment -%} 1) איתור הקולקציה לפי metaobject → פולבאק לפי handle של ה-vendor {%- endcomment -%}
 {% assign vendor_handle    = product.vendor | handleize %}
 {% assign brand_meta       = shop.metaobjects.brand_info[vendor_handle] %}
@@ -767,7 +759,14 @@
           variants_map: variants_map_json,
           required: 5
         %}
-
+        
+        {%- comment -%} Fallback: Buy buttons (product-form-k) {%- endcomment -%}
+        {% liquid
+          assign has_buy_buttons = section.blocks | where: 'type', 'buy_buttons'
+        %}
+        {% if has_buy_buttons == blank %}
+          {% render 'product-form-k', prod: product, current_variant: current_variant %}
+        {% endif %}
         {% comment -%}
           Live region for announcing updated price and availability to screen readers
         {% endcomment -%}
