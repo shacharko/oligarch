@@ -36,11 +36,10 @@
       ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
-        "image_aspect": "custom",
+        "image_aspect": "original",
         "desktop_height": 50,
         "mobile_height": 50,
         "image": "{{ collection.metafields.custom.banner_img.value }}",
-        "image_mobile": "{{ collection.metafields.custom.banner_img.value }}",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
         "media_link": "",
