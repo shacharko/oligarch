@@ -151,7 +151,7 @@
         "show_swatch_filters": true,
         "show_chip_filters": true,
         "chip_layout": "3col",
-        "pagination": "paginated",
+        "pagination": "click",
         "enable_animation": true,
         "divider_style": "solid"
       }
