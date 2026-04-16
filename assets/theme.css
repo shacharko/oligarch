@@ -12086,7 +12086,7 @@ html.sticky-header-enabled[data-enable-sticky-announcement-bar*="mobile"]
 }
 .product-thumbnails[data-scroll-container][data-axis="vertical"],
     .product-thumbnails[data-scroll-container][data-axis="vertical"] .product-thumbnails__viewport{
-      max-height:730px;
+      max-height:400px;
     }
 .product-thumbnails[data-scroll-container][data-axis="horizontal"]
     .product-thumbnails__viewport{
