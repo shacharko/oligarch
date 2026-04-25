@@ -743,7 +743,7 @@
       "settings": {
         "image_position": "left",
         "image": "shopify://shop_images/9121BF17-5CFD-4AB4-A6C6-543586D69182.png",
-        "aspect_ratio": "square",
+        "aspect_ratio": "portrait",
         "focal_point": "center",
         "image_caption": "",
         "text_alignment": "center",
