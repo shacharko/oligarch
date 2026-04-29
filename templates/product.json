@@ -29,7 +29,7 @@
           "type": "text",
           "settings": {
             "text_font_class": "fs-body-100",
-            "text": "<p>Add some text to tell customers more about your product.</p>",
+            "text": "<p><strong>המתנה המושלמת </strong></p>",
             "column_placement": "right"
           }
         },
@@ -42,16 +42,6 @@
             "variant_popup_page": "size-guide",
             "swatch_size": "medium",
             "chip_layout": "natural"
-          }
-        },
-        "inventory-counter": {
-          "type": "inventory-counter",
-          "settings": {
-            "label": "",
-            "inventory_max": "40",
-            "low_inventory_threshold": "8",
-            "show_status_bar": true,
-            "show_untracked_quantity": true
           }
         },
         "quantity_selector": {
@@ -69,8 +59,19 @@
             "divider_width": "border--thin"
           }
         },
+        "inventory-counter": {
+          "type": "inventory-counter",
+          "settings": {
+            "label": "",
+            "inventory_max": "40",
+            "low_inventory_threshold": "8",
+            "show_status_bar": true,
+            "show_untracked_quantity": true
+          }
+        },
         "product_callouts-1": {
           "type": "product_callouts",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_tag": "h3",
@@ -94,6 +95,7 @@
         },
         "product_callouts-2": {
           "type": "product_callouts",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_tag": "h3",
@@ -117,6 +119,7 @@
         },
         "product_callouts": {
           "type": "product_callouts",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_tag": "h3",
@@ -174,9 +177,9 @@
         "product_header",
         "text",
         "variant_picker",
-        "inventory-counter",
         "quantity_selector",
         "buy_buttons",
+        "inventory-counter",
         "product_callouts-1",
         "product_callouts-2",
         "product_callouts",
@@ -286,6 +289,7 @@
         "one_column_8gLpCt",
         "two_column_tab_QmTHWe"
       ],
+      "disabled": true,
       "settings": {
         "tab_alignment": "left",
         "tab_spacing": 40,
@@ -351,6 +355,7 @@
         "column-2",
         "column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_tag": "h2",
@@ -426,6 +431,7 @@
         "testimonial-2",
         "testimonial-3"
       ],
+      "disabled": true,
       "settings": {
         "image_size": "large",
         "quote_font": "heading",
@@ -458,6 +464,7 @@
         "accent",
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "image_aspect": "custom",
         "desktop_height": 70,
@@ -507,6 +514,7 @@
       "block_order": [
         "collection_BaeF4G"
       ],
+      "disabled": true,
       "name": "t:sections.featured_collection_slider.presets.name",
       "settings": {
         "heading": "עוד מוצרים מהמותג",
@@ -547,6 +555,7 @@
         "collection_7zPQgT",
         "collection_RAH4L9"
       ],
+      "disabled": true,
       "name": "t:sections.featured_collection_slider.presets.name",
       "settings": {
         "heading": "Featured collection",
@@ -603,6 +612,7 @@
         "text_izGRTC",
         "image_kN83bd"
       ],
+      "disabled": true,
       "settings": {
         "font_choice": "ff-heading",
         "text_font_class": "fs-heading-2-base",
