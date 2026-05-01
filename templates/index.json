@@ -135,7 +135,7 @@
           "settings": {
             "link": "shopify://collections/zoologist-1",
             "link_text": "גלו את הקולקציה",
-            "button_style": "btn--primary"
+            "button_style": "btn--callout"
           }
         }
       },
