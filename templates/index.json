@@ -234,11 +234,11 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "scent-profiles",
           "brands",
-          "notes",
           "seasons",
-          "mood"
+          "mood",
+          "scent-profiles",
+          "notes"
         ],
         "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
