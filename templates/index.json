@@ -111,6 +111,60 @@
         "custom_content_width": 400
       }
     },
+    "image_with_text_g7pwnR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xmVxUT": {
+          "type": "heading",
+          "settings": {
+            "title": "ZOOLOGIST COLLECTION",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "subheading_Q7cyxV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "היא אחת מבתי הבישום הנישתיים המסקרנים והיצירתיים בעולם, המציעה חוויית ריח יוצאת דופן בהשראת עולם החי. כל ניחוח בקולקציה הוא סיפור ייחודי, עשיר ומלא עומק, שנרקח בקפידה על ידי בשמים מובילים. עם למעלה מ־20 דגמים שונים, זו הזדמנות לגלות עולמות חדשים של ריח ואופי.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "button_k79xdf": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/zoologist-1",
+            "link_text": "גלו את הקולקציה",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xmVxUT",
+        "subheading_Q7cyxV",
+        "button_k79xdf"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "image_position": "right",
+        "image": "shopify://shop_images/45.png",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "text_alignment": "center",
+        "show_small_image": false,
+        "image_small": "shopify://shop_images/D2.png",
+        "image_small_aspect": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "image_hero_rhEJhE": {
       "type": "image-hero",
       "blocks": {
@@ -141,6 +195,7 @@
         "heading_DRPFUT",
         "text_MiD8xL"
       ],
+      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
@@ -862,6 +917,7 @@
     "image_hero_AtCjjn",
     "custom_liquid_Yhm46m",
     "rich_text_dmzFYM",
+    "image_with_text_g7pwnR",
     "image_hero_rhEJhE",
     "collection_list_slider_X66xn8",
     "custom_liquid_97CHAd",
