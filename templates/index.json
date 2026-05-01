@@ -250,7 +250,7 @@
         "link": "shopify://collections/קולקציית-מארזים-כללית",
         "link_text": "המארזים הנמכרים ביותר",
         "button_style": "btn--callout",
-        "maximum_products": 8,
+        "maximum_products": 15,
         "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
