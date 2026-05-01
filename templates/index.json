@@ -92,7 +92,7 @@
           "settings": {
             "link": "shopify://collections/all",
             "link_text": "למעבר לכל המוצרים",
-            "button_style": "btn--secondary"
+            "button_style": "btn--primary"
           }
         }
       },
