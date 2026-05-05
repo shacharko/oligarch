@@ -217,6 +217,324 @@
 
       {%- when 'secure_payment' -%}
         {%- render 'product-block-secure-payment', product: prod, block: block, block_settings: block.settings -%}
+
+      {%- when 'best_value' -%}
+        {%- if prod != blank -%}
+          {%- liquid
+            assign bv_spray_entries = shop.metaobjects['spray_info'].values | default: empty
+            assign bv_max_price = 0
+            for bv_v in prod.variants
+              if bv_v.compare_at_price > bv_v.price and bv_v.compare_at_price > bv_max_price
+                 assign bv_max_price = bv_v.compare_at_price
+              else if bv_v.price > bv_max_price
+                assign bv_max_price = bv_v.price
+              endif
+            endfor
+            assign bv_show_for = block.settings.show_for_sizes | default: '2ml,5ml,10ml'
+            assign bv_show_sizes = bv_show_for | split: ','
+          -%}
+
+          {%- assign bv_variant_map = '{' -%}
+          {%- assign bv_show_ids = '' -%}
+          {%- assign bv_first = true -%}
+
+          {%- for bv_v in prod.variants -%}
+            {%- assign bv_spray = 0 -%}
+            {%- assign bv_ref = bv_v.metafields.custom.spray_info -%}
+            {%- if bv_ref and bv_ref.value -%}
+              {%- assign bv_spray = bv_ref.value.sprays_count | default: 0 | plus: 0 -%}
+            {%- endif -%}
+            {%- if bv_spray == 0 and bv_spray_entries != empty -%}
+              {%- assign bv_size_key = bv_v.title | downcase | strip -%}
+              {%- for bv_entry in bv_spray_entries -%}
+                {%- assign bv_entry_key = bv_entry.size | default: bv_entry.fields['size'].value | downcase | strip -%}
+                {%- if bv_entry_key == bv_size_key -%}
+                  {%- assign bv_spray = bv_entry.sprays_count | default: bv_entry.fields['sprays_count'].value | plus: 0 -%}
+                  {%- break -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+            {%- if bv_spray == 0 -%}
+              {%- assign bv_vol = bv_v.title | remove: 'ml' | remove: 'ML' | strip | plus: 0 -%}
+              {%- if bv_vol > 0 -%}{%- assign bv_spray = bv_vol | times: 10 -%}{%- endif -%}
+            {%- endif -%}
+
+            {%- assign bv_title_low = bv_v.title | downcase | strip | remove: ' ' -%}
+            {%- assign bv_matches = false -%}
+            {%- for bv_size in bv_show_sizes -%}
+              {%- assign bv_size_clean = bv_size | strip | downcase | remove: ' ' -%}
+              {%- if bv_title_low == bv_size_clean -%}
+                {%- assign bv_matches = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if bv_matches -%}
+              {%- unless bv_show_ids == '' -%}{%- assign bv_show_ids = bv_show_ids | append: ',' -%}{%- endunless -%}
+              {%- assign bv_show_ids = bv_show_ids | append: bv_v.id -%}
+            {%- endif -%}
+
+            {%- assign bv_cap = bv_v.compare_at_price | default: 0 -%}
+            {%- unless bv_first -%}{%- assign bv_variant_map = bv_variant_map | append: ',' -%}{%- endunless -%}
+            {%- assign bv_variant_map = bv_variant_map
+              | append: '"' | append: bv_v.id | append: '":'
+              | append: '{"p":' | append: bv_v.price
+              | append: ',"cap":' | append: bv_cap
+              | append: ',"s":' | append: bv_spray
+              | append: '}'
+            -%}
+            {%- assign bv_first = false -%}
+          {%- endfor -%}
+          {%- assign bv_variant_map = bv_variant_map | append: '}' -%}
+
+          {%- assign bv_right_bullet_1 = block.settings.right_bullet_1 | default: 'נסו לפני שמשקיעים בבקבוק מלא' -%}
+          {%- assign bv_right_bullet_2 = block.settings.right_bullet_2 | default: 'ללא התחייבות, פשוט גלו' -%}
+          {%- assign bv_bottom_text_1 = block.settings.bottom_text_1 | default: 'מושלם לניסיון לפני רכישה' -%}
+          {%- assign bv_bottom_text_2 = block.settings.bottom_text_2 | default: 'אידיאלי לנסיעות ושימוש יומיומי' -%}
+
+          <div
+            class="bv-block product__block product__block--medium"
+            dir="rtl"
+            data-bv-variants='{{ bv_variant_map }}'
+            data-bv-max-price="{{ bv_max_price }}"
+            data-bv-show-ids="{{ bv_show_ids }}"
+            style="display:none"
+            {{ block.shopify_attributes }}
+          >
+            <div class="bv-inner">
+              <div class="bv-top">
+
+                <div class="bv-top-left">
+                  <span class="bv-badge">הכי משתלם</span>
+                  <p class="bv-main-title">נסו בושם יוקרתי שעולה כ-<span class="bv-ref-price">{{ bv_max_price | money_without_trailing_zeros }}</span>+</p>
+                  <div class="bv-price-row">
+                    <span class="bv-price-label">רק ב-</span>
+                    <strong class="bv-current-price"></strong>
+                  </div>
+                </div>
+
+                <div class="bv-top-right">
+                  <div class="bv-bullet">
+                    <svg class="bv-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/>
+                    </svg>
+                    <span>{{ bv_right_bullet_1 }}</span>
+                  </div>
+                  <div class="bv-bullet-sep"></div>
+                  <div class="bv-bullet">
+                    <svg class="bv-bullet-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/>
+                    </svg>
+                    <span>{{ bv_right_bullet_2 }}</span>
+                  </div>
+                </div>
+
+              </div>
+              <div class="bv-bottom">
+                <div class="bv-feature">
+                  <img src="{{ 'spray.png' | asset_url }}" class="bv-spray-img" alt="" width="22" height="22">
+                  <span>~<span class="bv-spray-count"></span> ריסוסים<br>כלולים</span>
+                </div>
+                <div class="bv-feature">
+                  <svg class="bv-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/>
+                  </svg>
+                  <span>{{ bv_bottom_text_1 }}</span>
+                </div>
+                <div class="bv-feature">
+                  <svg class="bv-travel-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="1" y="6" width="22" height="15" rx="2" ry="2"/>
+                    <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+                    <line x1="12" y1="12" x2="12" y2="16"/>
+                    <line x1="10" y1="14" x2="14" y2="14"/>
+                  </svg>
+                  <span>{{ bv_bottom_text_2 }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <style>
+            .bv-block { margin: 0; }
+            .bv-inner {
+              border: 1.5px solid #e0d0b8;
+              border-radius: 12px;
+              overflow: hidden;
+              background: #f7f2eb;
+            }
+            .bv-top {
+              display: flex;
+              border-bottom: 1px solid #e0d0b8;
+            }
+            .bv-top-left {
+              flex: 1.8;
+              padding: 14px 16px;
+              border-inline-start: 1px solid #e0d0b8;
+            }
+            .bv-badge {
+              display: inline-block;
+              background: #1c1008;
+              color: #f0e8d5;
+              font-size: 9px;
+              font-weight: 700;
+              letter-spacing: .05em;
+              text-transform: uppercase;
+              padding: 3px 8px;
+              border-radius: 4px;
+              margin-bottom: 6px;
+            }
+            .bv-main-title {
+              font-size: 17px;
+              font-weight: 700;
+              color: #1c1008;
+              margin: 0 0 3px;
+              line-height: 1.2;
+            }
+            .bv-price-row {
+              display: flex;
+              align-items: baseline;
+              gap: 6px;
+              margin: 2px 0 0;
+            }
+            .bv-price-label {
+              font-size: 13px;
+              color: #1c1008;
+              white-space: nowrap;
+            }
+            .bv-current-price {
+              color: #B8860B;
+              font-size: 30px;
+              font-weight: 700;
+              letter-spacing: -0.01em;
+            }
+            .bv-top-right {
+              flex: 1;
+              padding: 12px 12px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              gap: 8px;
+            }
+            .bv-bullet {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              gap: 7px;
+              font-size: 11px;
+              color: #1c1008;
+              line-height: 1.35;
+            }
+            .bv-bullet-icon {
+              width: 22px;
+              height: 22px;
+              color: #1a6b35;
+              flex-shrink: 0;
+              margin-top: 1px;
+            }
+            .bv-bottom {
+              display: flex;
+              padding: 8px 0;
+            }
+            .bv-feature {
+              flex: 1;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              text-align: right;
+              padding: 0 10px;
+              font-size: 11px;
+              color: #1c1008;
+              line-height: 1.35;
+              gap: 7px;
+            }
+            .bv-feature + .bv-feature { border-inline-start: 1px solid #e0d0b8; }
+            .bv-spray-img {
+              width: 26px;
+              height: 26px;
+              object-fit: contain;
+              opacity: 0.75;
+              flex-shrink: 0;
+            }
+            .bv-check-icon {
+              width: 24px;
+              height: 24px;
+              color: #1a6b35;
+              flex-shrink: 0;
+            }
+            .bv-travel-icon {
+              width: 24px;
+              height: 24px;
+              color: #1a6b35;
+              flex-shrink: 0;
+            }
+            @media (max-width: 480px) {
+              .bv-top-left { padding: 8px 10px; }
+              .bv-top-right { padding: 8px 10px; gap: 6px; }
+              .bv-main-title { font-size: 15px; }
+              .bv-feature { font-size: 10px; padding: 0 6px; gap: 5px; }
+            }
+          </style>
+
+          <script>
+            (function () {
+              function bvInit(block) {
+                var variants = JSON.parse(block.getAttribute('data-bv-variants') || '{}');
+                var showIds  = (block.getAttribute('data-bv-show-ids') || '').split(',').filter(Boolean);
+
+                function fmt(cents) {
+                  return '₪' + (cents / 100).toFixed(2).replace('.', '.');
+                }
+
+                function getForm() {
+                  return block.closest('form')
+                      || document.querySelector('form[action="/cart/add"]')
+                      || document.querySelector('form[action*="/cart/add"]');
+                }
+
+                function getVid() {
+                  var form = getForm();
+                  var scope = form || document;
+                  var el = scope.querySelector('[data-variant-select]')
+                          || scope.querySelector('select[name="id"]')
+                          || scope.querySelector('input[name="id"]:checked')
+                          || scope.querySelector('input[name="id"]');
+                  return el ? el.value : null;
+                }
+
+                function update() {
+                  var vid  = getVid();
+                  var data = vid ? variants[vid] : null;
+
+                  if (!data || showIds.indexOf(vid) === -1) {
+                    block.style.display = 'none';
+                    return;
+                  }
+                  block.style.display = 'block';
+
+                  block.querySelector('.bv-current-price').textContent = fmt(data.p);
+                  block.querySelector('.bv-spray-count').textContent   = data.s || 0;
+                }
+
+                update();
+                var _form = getForm();
+                if (_form) _form.addEventListener('change', update);
+                var _varSel = (_form || document).querySelector('[data-variant-select]');
+                if (_varSel) _varSel.addEventListener('change', update);
+                document.addEventListener('product:variant-change', update);
+              }
+
+              function ready(fn) {
+                if (document.readyState !== 'loading') { fn(); }
+                else { document.addEventListener('DOMContentLoaded', fn); }
+              }
+
+              ready(function () {
+                document.querySelectorAll('.bv-block').forEach(bvInit);
+              });
+            })();
+          </script>
+
+        {%- endif -%}
+
     {%- endcase -%}
   {% endif %}
 {%- endfor -%}

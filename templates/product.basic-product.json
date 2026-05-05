@@ -40,6 +40,16 @@
             "chip_layout": "natural"
           }
         },
+        "best_value_block": {
+          "type": "best_value",
+          "settings": {
+            "show_for_sizes": "2ml,5ml,10ml",
+            "right_bullet_1": "נסו לפני שמשקיעים בבקבוק מלא",
+            "right_bullet_2": "ללא התחייבות, פשוט גלו",
+            "bottom_text_1": "מושלם לניסיון לפני רכישה",
+            "bottom_text_2": "אידיאלי לנסיעות ושימוש יומיומי"
+          }
+        },
         "text_hDqDqL": {
           "type": "text",
           "settings": {
@@ -271,6 +281,7 @@
         "judge_me_reviews_preview_badge_ECh4zK",
         "product_header",
         "variant_picker",
+        "best_value_block",
         "text_hDqDqL",
         "text_W7KiNg",
         "quantity_selector",
