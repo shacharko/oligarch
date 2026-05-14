@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product--default",
       "blocks": {
-        "judge_me_reviews_preview_badge_ECh4zK": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "product_header": {
           "type": "product_header",
           "settings": {
@@ -27,6 +23,26 @@
             "show_product_rating": false,
             "show_sale_badge": true,
             "show_custom_badges": true
+          }
+        },
+        "judge_me_reviews_preview_badge_ECh4zK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "text_hDqDqL": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><em>משלוח מהיר עד הבית • 30₪ (חינם מעל 299₪) • עד 3 ימי עסקים</em></p>",
+            "column_placement": "right"
+          }
+        },
+        "text_W7KiNg": {
+          "type": "text",
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><em>100% אותנטי • משלוח מהיר • תשלום מאובטח</em></p>",
+            "column_placement": "right"
           }
         },
         "variant_picker": {
@@ -48,22 +64,6 @@
             "right_bullet_2": "ללא התחייבות, פשוט גלו",
             "bottom_text_1": "מושלם לניסיון לפני רכישה",
             "bottom_text_2": "אידיאלי לנסיעות ושימוש יומיומי"
-          }
-        },
-        "text_hDqDqL": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>משלוח מהיר עד הבית • 30₪ (חינם מעל 299₪) • עד 3 ימי עסקים</em></p>",
-            "column_placement": "right"
-          }
-        },
-        "text_W7KiNg": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>100% אותנטי • משלוח מהיר • תשלום מאובטח</em></p>",
-            "column_placement": "right"
           }
         },
         "quantity_selector": {
@@ -251,12 +251,12 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_preview_badge_ECh4zK",
         "product_header",
-        "variant_picker",
-        "best_value_block",
+        "judge_me_reviews_preview_badge_ECh4zK",
         "text_hDqDqL",
         "text_W7KiNg",
+        "variant_picker",
+        "best_value_block",
         "quantity_selector",
         "custom_liquid_aQhpT",
         "inventory_counter_nnj7H",
