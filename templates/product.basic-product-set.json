@@ -40,30 +40,29 @@
             "chip_layout": "natural"
           }
         },
+        "discount_badge_1": {
+          "type": "discount_badge",
+          "settings": {}
+        },
+        "whats_inside_box_1": {
+          "type": "whats-inside-box",
+          "settings": {}
+        },
         "best_value_block": {
           "type": "best_value",
           "settings": {
-            "show_for_sizes": "2ml,5ml,10ml",
-            "right_bullet_1": "נסו לפני שמשקיעים בבקבוק מלא",
-            "right_bullet_2": "ללא התחייבות, פשוט גלו",
-            "bottom_text_1": "מושלם לניסיון לפני רכישה",
-            "bottom_text_2": "אידיאלי לנסיעות ושימוש יומיומי"
-          }
-        },
-        "text_YLEgV": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>משלוח מהיר עד הבית • עד 3 ימי עסקים • 30₪ (חינם בקנייה מעל 299₪)</em></p>",
-            "column_placement": "right"
-          }
-        },
-        "text_44R9J9": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em><strong>⭐ למה כדאי לקנות את המארז?</strong></em></p><p><em>✔ חוסכים 15% לעומת רכישת בקבוקים בודדים</em></p><p><em>✔ מגיע באריזת פרימיום</em></p><p><em>✔ זמין במלאי ומשלוח מהיר</em></p><p><em>✔ מושלם כמתנה / להתנסות בקולקציה</em></p>",
-            "column_placement": "right"
+            "show_for_sizes": "",
+            "badge_text": "הערך המשתלם ביותר",
+            "badge_star": true,
+            "main_title": "גלו 5 בשמי נישה יוקרתיים",
+            "price_label": "חוו את כל החמישיה ב-",
+            "right_bullet_1": "נסו לפני שאתם משקיעים בבקבוק מלא",
+            "right_bullet_2": "ללא התחייבות – פשוט לגלות",
+            "right_bullet_3": "מצאו את הבושם הבא שיהפוך לחתימה שלכם",
+            "bottom_text_1": "מושלם לגילוי ניחוחות חדשים",
+            "bottom_text_2": "אידיאלי לנסיעות ולשימוש יומיומי",
+            "spray_label": "הזזות",
+            "spray_suffix": "בסך הכל"
           }
         },
         "inventory_counter_nnj7H": {
@@ -103,6 +102,13 @@
             "enable_sticky_atc_bar_desktop": true,
             "enable_sticky_atc_bar_mobile": true,
             "divider_width": "shadow--small"
+          }
+        },
+        "trust_callouts_mini": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "<style>.trust-bar{display:flex;width:100%;gap:6px;margin-top:-8px;direction:rtl;}.trust-bar-item{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 6px;font-size:11px;line-height:1.3;color:#1c1008;text-align:right;background:#f7f2eb;}.trust-bar-emoji{flex-shrink:0;font-size:18px;line-height:1;}.trust-bar-item strong{display:block;font-size:11px;font-weight:700;}@media(max-width:600px){.trust-bar-item{font-size:9px;padding:6px 4px;gap:5px;}.trust-bar-emoji{font-size:13px;}.trust-bar-item strong{font-size:9px;}}</style><div class=\"trust-bar\"><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🛡️</span><span><strong>100% אותנטי</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🎁</span><span><strong>דוגמיות חינם מעל 299₪</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🚚</span><span><strong>משלוח חינם מעל ₪299</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🔒</span><span><strong>תשלום מאובטח</strong></span></div></div>"
           }
         },
         "text_w3G6kr": {
@@ -272,14 +278,15 @@
         "judge_me_reviews_preview_badge_9p4LFQ",
         "product_header",
         "variant_picker",
+        "discount_badge_1",
+        "whats_inside_box_1",
         "best_value_block",
-        "text_YLEgV",
-        "text_44R9J9",
         "inventory_counter_nnj7H",
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4",
         "quantity_selector",
         "custom_liquid_6eTRz",
         "buy_buttons",
+        "trust_callouts_mini",
         "text_w3G6kr",
         "share",
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6",

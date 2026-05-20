@@ -29,22 +29,6 @@
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "text_hDqDqL": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>משלוח מהיר עד הבית • 30₪ (חינם מעל 299₪) • עד 3 ימי עסקים</em></p>",
-            "column_placement": "right"
-          }
-        },
-        "text_W7KiNg": {
-          "type": "text",
-          "settings": {
-            "text_font_class": "fs-body-100",
-            "text": "<p><em>100% אותנטי • משלוח מהיר • תשלום מאובטח</em></p>",
-            "column_placement": "right"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -253,8 +237,6 @@
       "block_order": [
         "product_header",
         "judge_me_reviews_preview_badge_ECh4zK",
-        "text_hDqDqL",
-        "text_W7KiNg",
         "variant_picker",
         "best_value_block",
         "quantity_selector",

@@ -1,0 +1,116 @@
+{%- liquid
+  assign kit_products = prod.metafields.custom.sample_kit_products.value
+-%}
+
+{%- if kit_products != blank -%}
+
+  {%- style -%}
+    .whats-inside { margin: 6px 0; }
+    .whats-inside__box {
+      display: flex;
+      flex-direction: column;
+      border: 1.5px solid #e0d0b8;
+      border-radius: 12px;
+      background: #f7f2eb;
+      overflow: hidden;
+      padding: 10px 14px;
+    }
+    .whats-inside__label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      color: #9a8878;
+      margin-bottom: 8px;
+      direction: rtl;
+    }
+    .whats-inside__scroll {
+      display: flex;
+      align-items: stretch;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      gap: 0;
+      direction: rtl;
+    }
+    .whats-inside__scroll::-webkit-scrollbar { display: none; }
+    .whats-inside__item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      flex-shrink: 0;
+      text-decoration: none;
+      color: inherit;
+    }
+    .whats-inside__item:hover { opacity: .75; }
+    .whats-inside__item + .whats-inside__item {
+      border-inline-start: 1px solid #e0d0b8;
+    }
+    .whats-inside__img-wrap {
+      width: 40px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .whats-inside__img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .whats-inside__name {
+      line-height: 1.3;
+      text-align: right;
+    }
+    .whats-inside__vendor {
+      display: block;
+      font-size: 10px;
+      color: #9a8878;
+    }
+    .whats-inside__title {
+      display: block;
+      font-size: 10px;
+      font-weight: 600;
+      color: #1c1008;
+    }
+    .whats-inside__more {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 14px;
+      border-inline-start: 1px solid #e0d0b8;
+      font-size: 13px;
+      font-weight: 700;
+      color: #1c1008;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  {%- endstyle -%}
+
+  <div class="product__block product__block--medium whats-inside" {{ block.shopify_attributes }}>
+    <div class="whats-inside__box">
+      <span class="whats-inside__label">מה כלול</span>
+
+      <div class="whats-inside__scroll">
+        {%- for p in kit_products -%}
+          <a class="whats-inside__item" href="{{ p.url }}">
+            {%- if p.featured_image -%}
+              <div class="whats-inside__img-wrap">
+                {{- p.featured_image | image_url: width: 120 | image_tag: loading: 'lazy', alt: p.title -}}
+              </div>
+            {%- else -%}
+              <div class="whats-inside__img-wrap" style="background:#e0d0b8; border-radius:4px;"></div>
+            {%- endif -%}
+            <div class="whats-inside__name">
+              <span class="whats-inside__vendor">{{ p.vendor | truncate: 10, '' }}</span>
+              <span class="whats-inside__title">{{ p.title | truncate: 10, '' }}</span>
+            </div>
+          </a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+{%- endif -%}

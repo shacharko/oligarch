@@ -4851,6 +4851,12 @@
       ]
     },
     {
+      "type": "discount_badge",
+      "name": "תג הנחה",
+      "limit": 1,
+      "settings": []
+    },
+    {
       "type": "best_value",
       "name": "באנר הכי משתלם",
       "limit": 1,
@@ -4860,7 +4866,35 @@
           "id": "show_for_sizes",
           "label": "הצג לגדלי וריאנט",
           "default": "2ml,5ml,10ml",
-          "info": "רשימה מופרדת בפסיקים של כותרות וריאנט (לא תלוי רישיות) שיציגו בלוק זה."
+          "info": "רשימה מופרדת בפסיקים. השאר ריק להצגה לכל הוריאנטים."
+        },
+        {
+          "type": "text",
+          "id": "badge_text",
+          "label": "טקסט תג",
+          "default": "הכי משתלם"
+        },
+        {
+          "type": "checkbox",
+          "id": "badge_star",
+          "label": "הצג כוכב בתג",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "main_title",
+          "label": "כותרת ראשית (ריק = כותרת דינמית)"
+        },
+        {
+          "type": "text",
+          "id": "price_label",
+          "label": "תווית מחיר",
+          "default": "רק ב-"
+        },
+        {
+          "type": "text",
+          "id": "savings_text",
+          "label": "טקסט חיסכון (אופציונלי)"
         },
         {
           "type": "text",
@@ -4876,6 +4910,11 @@
         },
         {
           "type": "text",
+          "id": "right_bullet_3",
+          "label": "כדור ימין 3 (אופציונלי)"
+        },
+        {
+          "type": "text",
           "id": "bottom_text_1",
           "label": "טקסט תחתון 1",
           "default": "מושלם לניסיון לפני רכישה"
@@ -4885,6 +4924,18 @@
           "id": "bottom_text_2",
           "label": "טקסט תחתון 2",
           "default": "אידיאלי לנסיעות ושימוש יומיומי"
+        },
+        {
+          "type": "text",
+          "id": "spray_label",
+          "label": "תווית ריסוסים",
+          "default": "ריסוסים"
+        },
+        {
+          "type": "text",
+          "id": "spray_suffix",
+          "label": "סיומת ריסוסים",
+          "default": "כלולים"
         }
       ]
     }

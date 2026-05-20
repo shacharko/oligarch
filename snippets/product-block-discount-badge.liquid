@@ -1,0 +1,107 @@
+{%- comment -%} Build variant → {price, compare_at_price} map {%- endcomment -%}
+{%- assign db_variant_map = '{' -%}
+{%- assign db_first = true -%}
+{%- for db_v in prod.variants -%}
+  {%- unless db_first -%}{%- assign db_variant_map = db_variant_map | append: ',' -%}{%- endunless -%}
+  {%- assign db_cap = db_v.compare_at_price | default: 0 -%}
+  {%- assign db_variant_map = db_variant_map
+    | append: '"' | append: db_v.id | append: '":'
+    | append: '{"p":' | append: db_v.price
+    | append: ',"c":' | append: db_cap
+    | append: '}'
+  -%}
+  {%- assign db_first = false -%}
+{%- endfor -%}
+{%- assign db_variant_map = db_variant_map | append: '}' -%}
+
+<div
+  class="db-block product__block product__block--medium"
+  data-db-variants='{{ db_variant_map }}'
+  style="display:none"
+  {{ block.shopify_attributes }}
+>
+  <div class="db-badge">
+    <svg class="db-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+      <line x1="7" y1="7" x2="7.01" y2="7"/>
+    </svg>
+    <span class="db-text">—</span>
+  </div>
+</div>
+
+<style>
+  .db-block { margin: 0; }
+  .db-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: #f7f2eb;
+    border: 1.5px solid #e0d0b8;
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1c1008;
+    direction: rtl;
+  }
+  .db-icon {
+    width: 16px;
+    height: 16px;
+    color: #B8860B;
+    flex-shrink: 0;
+  }
+</style>
+
+<script>
+(function () {
+  function dbInit(block) {
+    var variants = JSON.parse(block.getAttribute('data-db-variants') || '{}');
+
+    function getForm() {
+      return block.closest('form')
+          || document.querySelector('form[action="/cart/add"]')
+          || document.querySelector('form[action*="/cart/add"]');
+    }
+
+    function getVid() {
+      var form  = getForm();
+      var scope = form || document;
+      var el = scope.querySelector('[data-variant-select]')
+              || scope.querySelector('select[name="id"]')
+              || scope.querySelector('input[name="id"]:checked')
+              || scope.querySelector('input[name="id"]');
+      return el ? el.value : null;
+    }
+
+    function update() {
+      var vid  = getVid();
+      var data = vid ? variants[vid] : null;
+
+      if (!data || !data.c || data.c <= data.p) {
+        block.style.display = 'none';
+        return;
+      }
+
+      var pct = Math.round((data.c - data.p) / data.c * 100);
+      block.querySelector('.db-text').textContent = 'הטבת ' + pct + '% כבר הופעלה עבורך';
+      block.style.display = 'block';
+    }
+
+    update();
+    var _form = getForm();
+    if (_form) _form.addEventListener('change', update);
+    var _varSel = (_form || document).querySelector('[data-variant-select]');
+    if (_varSel) _varSel.addEventListener('change', update);
+    document.addEventListener('product:variant-change', update);
+  }
+
+  function ready(fn) {
+    if (document.readyState !== 'loading') { fn(); }
+    else { document.addEventListener('DOMContentLoaded', fn); }
+  }
+
+  ready(function () {
+    document.querySelectorAll('.db-block').forEach(dbInit);
+  });
+})();
+</script>
