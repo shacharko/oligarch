@@ -226,6 +226,252 @@
       {%- when 'whats-inside-box' -%}
         {%- render 'product-block-whats-inside', prod: prod, block: block -%}
 
+      {%- when 'mix_match_banner' -%}
+        {%- if prod != blank -%}
+          {%- liquid
+            assign mmb_show_for   = block.settings.show_for_sizes | default: '2ml,5ml,10ml'
+            assign mmb_show_sizes = mmb_show_for | split: ','
+            assign mmb_show_ids   = ''
+          -%}
+          {%- for mmb_v in prod.variants -%}
+            {%- assign mmb_title_low = mmb_v.title | downcase | strip | remove: ' ' -%}
+            {%- assign mmb_matches  = false -%}
+            {%- for mmb_size in mmb_show_sizes -%}
+              {%- assign mmb_size_clean = mmb_size | strip | downcase | remove: ' ' -%}
+              {%- if mmb_title_low == mmb_size_clean -%}
+                {%- assign mmb_matches = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if mmb_matches -%}
+              {%- unless mmb_show_ids == '' -%}{%- assign mmb_show_ids = mmb_show_ids | append: ',' -%}{%- endunless -%}
+              {%- assign mmb_show_ids = mmb_show_ids | append: mmb_v.id -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- assign mmb_l1_before = block.settings.line_1_before   | default: 'קנו 5 דוגמיות או יותר' -%}
+          {%- assign mmb_l1_hl     = block.settings.line_1_highlight | default: 'באותו גודל' -%}
+          {%- assign mmb_l2_before = block.settings.line_2_before   | default: 'וקבלו' -%}
+          {%- assign mmb_l2_hl     = block.settings.line_2_highlight | default: 'מארז יוקרתי במתנה' -%}
+
+          <div
+            class="mmb-block product__block product__block--medium"
+            data-mmb-show-ids="{{ mmb_show_ids }}"
+            style="display:none"
+            {{ block.shopify_attributes }}
+          >
+            <div class="mmb-inner">
+              <div class="mmb-icon-wrap">
+                <svg class="mmb-gift-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="4" y="13" width="24" height="16" rx="2" stroke="#c8860a" stroke-width="1.8" fill="none"/>
+                  <rect x="2" y="9" width="28" height="5" rx="1.5" stroke="#c8860a" stroke-width="1.8" fill="none"/>
+                  <line x1="16" y1="9" x2="16" y2="29" stroke="#c8860a" stroke-width="1.8"/>
+                  <path d="M16 9 C16 9 12 7 11 4.5 C10.2 2.6 11.5 1 13 1.5 C14.5 2 15 5 16 9Z" stroke="#c8860a" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+                  <path d="M16 9 C16 9 20 7 21 4.5 C21.8 2.6 20.5 1 19 1.5 C17.5 2 17 5 16 9Z" stroke="#c8860a" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="mmb-text-wrap">
+                <svg class="mmb-sparkle mmb-sparkle--left" viewBox="0 0 20 20" fill="#c8860a" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M10 0 L11.5 8.5 L20 10 L11.5 11.5 L10 20 L8.5 11.5 L0 10 L8.5 8.5 Z"/>
+                </svg>
+                <p class="mmb-text" dir="rtl">
+                  {{ mmb_l1_before }} <span class="mmb-hl">{{ mmb_l1_hl }}</span><br>
+                  {{ mmb_l2_before }} <span class="mmb-hl">{{ mmb_l2_hl }}</span>
+                </p>
+                <svg class="mmb-sparkle mmb-sparkle--right" viewBox="0 0 20 20" fill="#c8860a" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M10 0 L11.5 8.5 L20 10 L11.5 11.5 L10 20 L8.5 11.5 L0 10 L8.5 8.5 Z"/>
+                </svg>
+                <svg class="mmb-sparkle mmb-sparkle--right-small" viewBox="0 0 20 20" fill="#c8860a" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M10 0 L11.5 8.5 L20 10 L11.5 11.5 L10 20 L8.5 11.5 L0 10 L8.5 8.5 Z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <style>
+            .mmb-block { margin: 0; }
+            .mmb-inner {
+              display: flex;
+              align-items: center;
+              gap: 14px;
+              padding: 14px 16px;
+              background: #fdf8f2;
+              border: 1.5px solid #e8d9c4;
+              border-radius: 16px;
+            }
+            .mmb-icon-wrap {
+              flex-shrink: 0;
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              background: #fff;
+              border: 1.5px solid #e8d9c4;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .mmb-gift-icon { width: 28px; height: 28px; }
+            .mmb-text-wrap {
+              flex: 1;
+              display: flex;
+              align-items: center;
+              gap: 6px;
+              min-width: 0;
+            }
+            .mmb-text {
+              flex: 1;
+              margin: 0;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 1.5;
+              color: #1c1008;
+              text-align: center;
+            }
+            .mmb-hl {
+              color: #c8860a;
+              font-weight: 700;
+              white-space: nowrap;
+            }
+            .mmb-sparkle { flex-shrink: 0; }
+            .mmb-sparkle--left  { width: 16px; height: 16px; }
+            .mmb-sparkle--right { width: 16px; height: 16px; }
+            .mmb-sparkle--right-small {
+              width: 10px;
+              height: 10px;
+              margin-left: -4px;
+              align-self: flex-end;
+              margin-bottom: 4px;
+            }
+            @media (max-width: 480px) {
+              .mmb-inner { padding: 12px; gap: 10px; }
+              .mmb-icon-wrap { width: 42px; height: 42px; }
+              .mmb-gift-icon { width: 22px; height: 22px; }
+              .mmb-text { font-size: 11px; }
+              .mmb-sparkle--left, .mmb-sparkle--right { width: 13px; height: 13px; }
+              .mmb-sparkle--right-small { width: 8px; height: 8px; }
+            }
+          </style>
+          <script>
+            (function () {
+              function mmbInit(block) {
+                var showIds = (block.getAttribute('data-mmb-show-ids') || '').split(',').filter(Boolean);
+                function getForm() {
+                  return block.closest('form')
+                      || document.querySelector('form[action="/cart/add"]')
+                      || document.querySelector('form[action*="/cart/add"]');
+                }
+                function getVid() {
+                  var form = getForm();
+                  var scope = form || document;
+                  var el = scope.querySelector('[data-variant-select]')
+                          || scope.querySelector('select[name="id"]')
+                          || scope.querySelector('input[name="id"]:checked')
+                          || scope.querySelector('input[name="id"]');
+                  return el ? el.value : null;
+                }
+                function update() {
+                  var vid = getVid();
+                  block.style.display = (vid && showIds.indexOf(vid) !== -1) ? 'block' : 'none';
+                }
+                update();
+                var _form = getForm();
+                if (_form) _form.addEventListener('change', update);
+                var _varSel = (_form || document).querySelector('[data-variant-select]');
+                if (_varSel) _varSel.addEventListener('change', update);
+                document.addEventListener('product:variant-change', update);
+              }
+              function ready(fn) {
+                if (document.readyState !== 'loading') { fn(); }
+                else { document.addEventListener('DOMContentLoaded', fn); }
+              }
+              ready(function () { document.querySelectorAll('.mmb-block').forEach(mmbInit); });
+            })();
+          </script>
+        {%- endif -%}
+
+      {%- when 'authenticity_badge' -%}
+        {%- if prod != blank -%}
+          {%- liquid
+            assign ab_show_for   = block.settings.show_for_sizes | default: '2ml,5ml,10ml'
+            assign ab_show_sizes = ab_show_for | split: ','
+            assign ab_show_ids   = ''
+          -%}
+          {%- for ab_v in prod.variants -%}
+            {%- assign ab_title_low = ab_v.title | downcase | strip | remove: ' ' -%}
+            {%- assign ab_matches  = false -%}
+            {%- for ab_size in ab_show_sizes -%}
+              {%- assign ab_size_clean = ab_size | strip | downcase | remove: ' ' -%}
+              {%- if ab_title_low == ab_size_clean -%}
+                {%- assign ab_matches = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if ab_matches -%}
+              {%- unless ab_show_ids == '' -%}{%- assign ab_show_ids = ab_show_ids | append: ',' -%}{%- endunless -%}
+              {%- assign ab_show_ids = ab_show_ids | append: ab_v.id -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- assign ab_text  = block.settings.badge_text  | default: '100% מקורי – נמזג ידנית ישירות מהבקבוק המקורי' -%}
+          {%- assign ab_color = block.settings.badge_color | default: '#c8860a' -%}
+
+          <div
+            class="ab-block product__block"
+            data-ab-show-ids="{{ ab_show_ids }}"
+            style="display:none"
+            {{ block.shopify_attributes }}
+          >
+            <div class="ab-inner" style="--ab-color: {{ ab_color }};" dir="rtl">
+              <svg class="ab-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 2L4 5.5V11C4 15.418 7.582 19.527 12 21C16.418 19.527 20 15.418 20 11V5.5L12 2Z" stroke="var(--ab-color)" stroke-width="1.8" stroke-linejoin="round" fill="none"/>
+                <polyline points="8.5 12 11 14.5 15.5 9.5" stroke="var(--ab-color)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="ab-text">{{ ab_text }}</span>
+            </div>
+          </div>
+          <style>
+            .ab-block { margin: 0; }
+            .ab-inner { display: flex; align-items: center; gap: 7px; }
+            .ab-icon { flex-shrink: 0; width: 18px; height: 18px; }
+            .ab-text { font-size: 13px; font-weight: 500; color: var(--ab-color); line-height: 1.3; }
+          </style>
+          <script>
+            (function () {
+              function abInit(block) {
+                var showIds = (block.getAttribute('data-ab-show-ids') || '').split(',').filter(Boolean);
+                function getForm() {
+                  return block.closest('form')
+                      || document.querySelector('form[action="/cart/add"]')
+                      || document.querySelector('form[action*="/cart/add"]');
+                }
+                function getVid() {
+                  var form = getForm();
+                  var scope = form || document;
+                  var el = scope.querySelector('[data-variant-select]')
+                          || scope.querySelector('select[name="id"]')
+                          || scope.querySelector('input[name="id"]:checked')
+                          || scope.querySelector('input[name="id"]');
+                  return el ? el.value : null;
+                }
+                function update() {
+                  var vid = getVid();
+                  block.style.display = (vid && showIds.indexOf(vid) !== -1) ? 'block' : 'none';
+                }
+                update();
+                var _form = getForm();
+                if (_form) _form.addEventListener('change', update);
+                var _varSel = (_form || document).querySelector('[data-variant-select]');
+                if (_varSel) _varSel.addEventListener('change', update);
+                document.addEventListener('product:variant-change', update);
+              }
+              function ready(fn) {
+                if (document.readyState !== 'loading') { fn(); }
+                else { document.addEventListener('DOMContentLoaded', fn); }
+              }
+              ready(function () { document.querySelectorAll('.ab-block').forEach(abInit); });
+            })();
+          </script>
+        {%- endif -%}
+
       {%- when 'best_value' -%}
         {%- if prod != blank -%}
           {%- liquid

@@ -40,6 +40,16 @@
             "chip_layout": "natural"
           }
         },
+        "mix_match_banner_block": {
+          "type": "mix_match_banner",
+          "settings": {
+            "show_for_sizes": "2ml,5ml,10ml",
+            "line_1_before": "קנו 5 דוגמיות או יותר",
+            "line_1_highlight": "באותו גודל",
+            "line_2_before": "וקבלו",
+            "line_2_highlight": "מארז יוקרתי במתנה"
+          }
+        },
         "best_value_block": {
           "type": "best_value",
           "settings": {
@@ -54,6 +64,14 @@
           "type": "quantity_selector",
           "settings": {
             "show_labels": true
+          }
+        },
+        "authenticity_badge_block": {
+          "type": "authenticity_badge",
+          "settings": {
+            "show_for_sizes": "2ml,5ml,10ml",
+            "badge_text": "100% מקורי – נמזג ידנית ישירות מהבקבוק המקורי",
+            "badge_color": "#c8860a"
           }
         },
         "custom_liquid_aQhpT": {
@@ -238,11 +256,13 @@
         "product_header",
         "judge_me_reviews_preview_badge_ECh4zK",
         "variant_picker",
+        "mix_match_banner_block",
         "best_value_block",
         "quantity_selector",
-        "custom_liquid_aQhpT",
+        "authenticity_badge_block",
         "inventory_counter_nnj7H",
         "buy_buttons",
+        "custom_liquid_aQhpT",
         "share",
         "custom_liquid_br664t",
         "accordion_XpdCx",
