@@ -44,9 +44,9 @@
           "type": "mix_match_banner",
           "settings": {
             "show_for_sizes": "2ml,5ml,10ml",
-            "line_1_before": "קנו 5 דוגמיות או יותר",
+            "line_1_before": "הזמינו 5 דוגמיות ומעלה",
             "line_1_highlight": "באותו גודל",
-            "line_2_before": "וקבלו",
+            "line_2_before": "ממגוון המותגים באתר וקבלו",
             "line_2_highlight": "מארז יוקרתי במתנה"
           }
         },
@@ -54,10 +54,18 @@
           "type": "best_value",
           "settings": {
             "show_for_sizes": "2ml,5ml,10ml",
+            "badge_text": "הכי משתלם",
+            "badge_star": false,
+            "main_title": "",
+            "price_label": "רק ב-",
+            "savings_text": "",
             "right_bullet_1": "נסו לפני שמשקיעים בבקבוק מלא",
             "right_bullet_2": "ללא התחייבות, פשוט גלו",
+            "right_bullet_3": "",
             "bottom_text_1": "מושלם לניסיון לפני רכישה",
-            "bottom_text_2": "אידיאלי לנסיעות ושימוש יומיומי"
+            "bottom_text_2": "אידיאלי לנסיעות ושימוש יומיומי",
+            "spray_label": "ריסוסים",
+            "spray_suffix": "כלולים"
           }
         },
         "quantity_selector": {
@@ -72,13 +80,6 @@
             "show_for_sizes": "2ml,5ml,10ml",
             "badge_text": "100% מקורי – נמזג ידנית ישירות מהבקבוק המקורי",
             "badge_color": "#c8860a"
-          }
-        },
-        "custom_liquid_aQhpT": {
-          "type": "custom_liquid",
-          "settings": {
-            "column_placement": "right",
-            "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
         "inventory_counter_nnj7H": {
@@ -99,6 +100,13 @@
             "enable_sticky_atc_bar_desktop": true,
             "enable_sticky_atc_bar_mobile": true,
             "divider_width": "shadow--small"
+          }
+        },
+        "custom_liquid_aQhpT": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "{% render 'gift-wrap-checkbox' %}"
           }
         },
         "share": {
