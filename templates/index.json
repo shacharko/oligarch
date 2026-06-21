@@ -44,8 +44,8 @@
         "image_aspect": "original",
         "desktop_height": 100,
         "mobile_height": 100,
-        "image": "shopify://shop_images/D5CBD659-0630-4CB5-AB24-9BCA312D9EF3.png",
-        "image_mobile": "shopify://shop_images/D5CBD659-0630-4CB5-AB24-9BCA312D9EF3.png",
+        "image": "shopify://shop_images/67E27157-B35A-4EE9-9284-CF2045A35466.png",
+        "image_mobile": "shopify://shop_images/C19B9B51-9649-4293-B269-40EC3E341632.png",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
         "media_link": "shopify://collections/ipiccirilli",
@@ -655,7 +655,8 @@
             "show_drop_shadow": true,
             "transition_speed": 5,
             "header_text": "לקוחות מפרגנים",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
