@@ -571,30 +571,6 @@
           {%- endfor -%}
           {%- assign bv_variant_map = bv_variant_map | append: '}' -%}
 
-          <!-- DEBUG BV SPRAY -->
-          <pre style="font-size:11px;background:#f9f9f9;padding:10px;margin:8px 0;border:1px solid #aaa;white-space:pre-wrap;line-height:1.6;">
-=== spray_info entries ({{ bv_spray_entries.size }} total) ===
-{%- for e in bv_spray_entries %}
-  [{{ forloop.index0 }}] size="{{ e.size }}" | fields['size']="{{ e.fields['size'].value }}" | sprays_count={{ e.sprays_count }}
-{%- endfor %}
-
-=== per-variant matching ===
-{%- for bv_v in prod.variants %}
-  {%- assign dbg_key = bv_v.title | split: ' / ' | first | downcase | strip %}
-  {%- assign dbg_match = 'NO MATCH → fallback' %}
-  {%- for e in bv_spray_entries %}
-    {%- assign dbg_ekey = e.size | default: e.fields['size'].value | downcase | strip %}
-    {%- assign dbg_key_spaced = dbg_key | append: ' ' -%}{%- assign dbg_ekey_spaced = dbg_ekey | append: ' ' -%}
-    {%- if dbg_ekey == dbg_key or dbg_key contains dbg_ekey_spaced or dbg_ekey contains dbg_key_spaced %}{%- assign dbg_match = e.sprays_count | prepend: 'MATCHED → sprays=' %}{%- break %}{%- endif %}
-  {%- endfor %}
-  title="{{ bv_v.title }}" → key="{{ dbg_key }}" → {{ dbg_match }}
-{%- endfor %}
-
-=== bv_variant_map ===
-{{ bv_variant_map }}
-          </pre>
-          <!-- END DEBUG -->
-
           {%- assign bv_badge_text    = block.settings.badge_text    | default: 'הכי משתלם' -%}
           {%- assign bv_badge_star    = block.settings.badge_star -%}
           {%- assign bv_main_title    = block.settings.main_title -%}
