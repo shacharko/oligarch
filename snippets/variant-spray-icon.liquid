@@ -25,11 +25,13 @@
 
     {%- comment -%} 2) התאמה לפי size בטבלת spray_info {%- endcomment -%}
     {%- if count == 0 and spray_entries != empty -%}
-      {%- assign variant_size_clean = v.title | downcase | strip -%}
+      {%- assign variant_size_clean = v.title | split: ' / ' | first | downcase | strip -%}
       {%- for entry in spray_entries -%}
         {%- assign entry_size = entry.size | default: entry.fields['size'].value -%}
         {%- assign entry_size_clean = entry_size | downcase | strip -%}
-        {%- if entry_size_clean == variant_size_clean -%}
+        {%- assign entry_size_clean_spaced = entry_size_clean | append: ' ' -%}
+        {%- assign variant_size_clean_spaced = variant_size_clean | append: ' ' -%}
+        {%- if entry_size_clean == variant_size_clean or variant_size_clean contains entry_size_clean_spaced or entry_size_clean contains variant_size_clean_spaced -%}
           {%- assign count = entry.sprays_count | default: entry.fields['sprays_count'].value | plus: 0 -%}
           {%- break -%}
         {%- endif -%}
