@@ -148,7 +148,7 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>לכל שאלה או בקשה </strong></p><p><strong>טלפון : 03-505-6100</strong></p><p><strong>וואצפ - 052-3311-312</strong></p><p><strong>ימים א' - ה' : 19:00 - 10:00</strong></p><p><strong>יום ו' : 13:30 - 10:00</strong></p>",
+            "text": "<p><strong>לכל שאלה או בקשה </strong></p><p><strong>טלפון : 03-505-6100</strong></p><p><strong>וואצפ - 052-3311-312</strong></p><p><strong>ימים א' - ה' : 20:00 - 10:00</strong></p><p><strong>יום ו' : 15:00 - 10:00</strong></p>",
             "text_font_class": "fs-body-100"
           }
         },
