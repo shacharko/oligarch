@@ -38,7 +38,7 @@
         "desktop_height": 65,
         "mobile_height": 65,
         "image": "shopify://shop_images/970F2FAE-DC6B-42C0-B894-2C2671F28562.png",
-        "image_mobile": "shopify://shop_images/23CD10E7-AFFB-44B7-9776-A7580E7D2E66.png",
+        "image_mobile": "shopify://shop_images/970F2FAE-DC6B-42C0-B894-2C2671F28562.png",
         "focal_point": "center",
         "mobile_focal_point": "center",
         "media_link": "",
@@ -49,7 +49,7 @@
         "button_text_color": "#000000",
         "color_overlay": "#000000",
         "color_overlay_gradient": "",
-        "overlay_opacity": 40,
+        "overlay_opacity": 0,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
       }
