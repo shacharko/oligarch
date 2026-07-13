@@ -388,6 +388,9 @@
           </script>
         {%- endif -%}
 
+      {%- when 'best_value_kit' -%}
+        {%- render 'product-block-best-value-kit', prod: prod, block: block -%}
+
       {%- when 'authenticity_badge' -%}
         {%- if prod != blank -%}
           {%- liquid

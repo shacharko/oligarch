@@ -4606,5 +4606,15 @@
       "recaptcha_terms_html": "אתר זה מוגן על ידי reCAPTCHA <a href=\"https://policies.google.com/privacy\">ומדיניות הפרטיות</a> <a href=\"https://policies.google.com/terms\">ותנאי השירות</a> של גוגל חלים עליו.",
       "submit": "שלח"
     }
+  },
+  "kit": {
+    "choose_title": "בחר/י את {{ count }} הדוגמיות שלך",
+    "selected_label": "נבחרו: {{ count }}/{{ total }}",
+    "select_placeholder": "אנא בחר/י דוגמית",
+    "search_placeholder": "חיפוש דוגמיות...",
+    "no_samples": "אין דוגמיות זמינות",
+    "out_of_stock": "אזל מהמלאי",
+    "remaining": "(נותרו {{ count }})",
+    "already_selected": "כבר נבחר"
   }
 }

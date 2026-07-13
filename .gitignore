@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Playwright test output
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/

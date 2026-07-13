@@ -1,0 +1,347 @@
+{%- comment -%}
+  Kit-selector "Best Value" card (ported from afrodit, Hebrew/RTL + ₪).
+  Right (RTL start): badge, title, description, size line, big price + crossed-out
+  compare price + save pill. Left: 4 check bullets. Bottom: 3 trust badges.
+  Price/compare follow the kit product's selected variant. Compare price comes from
+  the variant's compare_at_price — strikethrough and save pill are hidden when it's
+  not set. Any "Nml" token in the size line / trust badges follows the selected
+  variant's size (e.g. 5mlx5 → 5ml) — keep size tokens in latin "ml" for that.
+{%- endcomment -%}
+
+{%- liquid
+  assign bvk_badge       = block.settings.badge_text | default: 'הכי משתלם'
+  assign bvk_title       = block.settings.title | default: 'ערכת היכרות בהרכבה אישית'
+  assign bvk_description = block.settings.description | default: 'בחר/י 5 דוגמיות מהקולקציה שלנו.'
+  assign bvk_size_line   = block.settings.size_line | default: '5 × 2ml'
+  assign bvk_only_label  = block.settings.only_label | default: 'רק'
+  assign bvk_instead_of  = block.settings.instead_of_label | default: 'במקום'
+  assign bvk_save_format = block.settings.save_badge_format | default: 'חיסכון של [amount] • [percent]% הנחה'
+-%}
+
+{%- comment -%} Build variant → {price, compare_at} map for the kit product itself {%- endcomment -%}
+{%- assign bvk_variant_map = '{' -%}
+{%- assign bvk_first = true -%}
+{%- for bvk_v in prod.variants -%}
+  {%- unless bvk_first -%}{%- assign bvk_variant_map = bvk_variant_map | append: ',' -%}{%- endunless -%}
+  {%- assign bvk_compare = bvk_v.compare_at_price | default: 0 -%}
+  {%- assign bvk_vtitle = bvk_v.title | json -%}
+  {%- assign bvk_variant_map = bvk_variant_map
+    | append: '"' | append: bvk_v.id | append: '":'
+    | append: '{"p":' | append: bvk_v.price
+    | append: ',"c":' | append: bvk_compare
+    | append: ',"t":' | append: bvk_vtitle
+    | append: '}'
+  -%}
+  {%- assign bvk_first = false -%}
+{%- endfor -%}
+{%- assign bvk_variant_map = bvk_variant_map | append: '}' -%}
+
+<div
+  class="bvk-block product__block product__block--medium"
+  data-bvk-variants='{{ bvk_variant_map }}'
+  data-bvk-save-format="{{ bvk_save_format | escape }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="bvk-inner">
+
+    <div class="bvk-top">
+
+      <div class="bvk-top-left">
+        <span class="bvk-badge">{{ bvk_badge }}</span>
+        <p class="bvk-main-title">{{ bvk_title }}</p>
+        <p class="bvk-description">{{ bvk_description }}</p>
+        <p class="bvk-size-line">{{ bvk_size_line }}</p>
+        <p class="bvk-only-label">{{ bvk_only_label }}</p>
+        <strong class="bvk-current-price">—</strong>
+        <p class="bvk-compare-row" hidden>
+          {{ bvk_instead_of }} <s class="bvk-compare-price"></s>
+        </p>
+        <span class="bvk-save-badge" hidden></span>
+      </div>
+
+      <div class="bvk-top-right">
+        {%- for bvk_i in (1..4) -%}
+          {%- assign bvk_h_key = 'bullet_' | append: bvk_i | append: '_heading' -%}
+          {%- assign bvk_t_key = 'bullet_' | append: bvk_i | append: '_text' -%}
+          {%- assign bvk_h = block.settings[bvk_h_key] -%}
+          {%- assign bvk_t = block.settings[bvk_t_key] -%}
+          {%- if bvk_h != blank or bvk_t != blank -%}
+            {%- unless forloop.first -%}<div class="bvk-bullet-sep"></div>{%- endunless -%}
+            <div class="bvk-bullet">
+              <svg class="bvk-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8.5 12.5 11 15 15.5 9.5"/></svg>
+              <span class="bvk-bullet-text">
+                {%- if bvk_h != blank -%}<strong>{{ bvk_h }}</strong>{%- endif -%}
+                {%- if bvk_t != blank -%}<span>{{ bvk_t }}</span>{%- endif -%}
+              </span>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+    </div>
+
+    <div class="bvk-bottom">
+      {%- assign bvk_trust_1 = block.settings.trust_1 | default: 'בשמים 100% מקוריים' -%}
+      {%- assign bvk_trust_2 = block.settings.trust_2 | default: 'בקבוקוני 2ml נוחים לנסיעות' -%}
+      {%- assign bvk_trust_3 = block.settings.trust_3 | default: 'משלוח מהיר ואמין' -%}
+      {%- if bvk_trust_1 != blank -%}
+        <div class="bvk-feature">
+          <svg class="bvk-trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><polyline points="8.5 12 11 14.5 15.5 9.5"/></svg>
+          <span>{{ bvk_trust_1 }}</span>
+        </div>
+      {%- endif -%}
+      {%- if bvk_trust_2 != blank -%}
+        <div class="bvk-feature">
+          <svg class="bvk-trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg>
+          <span>{{ bvk_trust_2 }}</span>
+        </div>
+      {%- endif -%}
+      {%- if bvk_trust_3 != blank -%}
+        <div class="bvk-feature">
+          <svg class="bvk-trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="13" height="12" rx="1"/><path d="M14 9h4l3 3v5h-7"/><circle cx="6" cy="19" r="1.8"/><circle cx="17.5" cy="19" r="1.8"/></svg>
+          <span>{{ bvk_trust_3 }}</span>
+        </div>
+      {%- endif -%}
+    </div>
+
+  </div>
+</div>
+
+<style>
+  .bvk-block { margin: 0; }
+  .bvk-inner {
+    border: 1.5px solid #e0d0b8;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f7f2eb;
+    direction: ltr;
+  }
+  [dir="rtl"] .bvk-inner { direction: rtl; }
+  .bvk-top {
+    display: flex;
+    border-bottom: 1px solid #e0d0b8;
+  }
+  .bvk-top-left {
+    flex: 1.15;
+    padding: 16px;
+    border-inline-end: 1px solid #e0d0b8;
+  }
+  .bvk-badge {
+    display: inline-block;
+    background: #1c1008;
+    color: #f0e8d5;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: 4px 9px;
+    border-radius: 3px;
+    margin-bottom: 9px;
+  }
+  .bvk-main-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #1c1008;
+    margin: 0 0 6px;
+    line-height: 1.15;
+  }
+  .bvk-description {
+    font-size: 12px;
+    color: #7d6f5f;
+    margin: 0 0 8px;
+    line-height: 1.4;
+  }
+  .bvk-size-line {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1c1008;
+    margin: 0 0 10px;
+  }
+  .bvk-only-label {
+    font-size: 12px;
+    color: #7d6f5f;
+    margin: 0;
+  }
+  .bvk-current-price {
+    color: #B8860B;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    display: block;
+    line-height: 1.1;
+  }
+  .bvk-compare-row {
+    font-size: 12px;
+    color: #9a8878;
+    margin: 2px 0 10px;
+  }
+  .bvk-compare-price { color: #9a8878; }
+  .bvk-save-badge {
+    display: inline-block;
+    background: #1c1008;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+  .bvk-top-right {
+    flex: 1;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bvk-bullet {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 0;
+  }
+  .bvk-bullet-sep {
+    height: 1px;
+    background: rgba(0,0,0,.06);
+  }
+  .bvk-bullet-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    color: #7d6f5f;
+    line-height: 1.35;
+  }
+  .bvk-bullet-text strong {
+    font-size: 12px;
+    color: #1c1008;
+  }
+  .bvk-check {
+    width: 22px;
+    height: 22px;
+    color: #B8860B;
+    flex-shrink: 0;
+  }
+  .bvk-bottom {
+    display: flex;
+    padding: 10px 0;
+  }
+  .bvk-feature {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #1c1008;
+    line-height: 1.35;
+  }
+  .bvk-feature + .bvk-feature { border-inline-start: 1px solid #e0d0b8; }
+  .bvk-trust-icon {
+    width: 22px;
+    height: 22px;
+    color: #B8860B;
+    flex-shrink: 0;
+  }
+  @media (max-width: 480px) {
+    .bvk-top-left { padding: 12px; }
+    .bvk-top-right { padding: 10px 12px; }
+    .bvk-main-title { font-size: 18px; }
+    .bvk-current-price { font-size: 27px; }
+    .bvk-feature { font-size: 10px; padding: 0 8px; gap: 6px; }
+  }
+</style>
+
+<script>
+(function () {
+  function bvkInit(block) {
+    var variants = JSON.parse(block.getAttribute('data-bvk-variants') || '{}');
+    var saveFormat = block.getAttribute('data-bvk-save-format') || 'חיסכון של [amount] • [percent]% הנחה';
+
+    var priceEl   = block.querySelector('.bvk-current-price');
+    var compareRow = block.querySelector('.bvk-compare-row');
+    var compareEl  = block.querySelector('.bvk-compare-price');
+    var saveEl     = block.querySelector('.bvk-save-badge');
+
+    // texts whose "Nml" token follows the selected variant size (e.g. 5mlx5 → 5ml)
+    var sizeEls = Array.prototype.slice.call(
+      block.querySelectorAll('.bvk-size-line, .bvk-feature span')
+    );
+    sizeEls.forEach(function (el) { el.setAttribute('data-bvk-tpl', el.textContent); });
+
+    function variantSize(title) {
+      var norm = String(title || '').toLowerCase()
+        .replace(/מ״ל|מ"ל|מל/g, 'ml')
+        .replace(/\s+/g, '');
+      var m = norm.match(/(\d+(?:[.,]\d+)?)ml/);
+      return m ? m[1] + 'ml' : null;
+    }
+
+    function updateSize(size) {
+      if (!size) return;
+      sizeEls.forEach(function (el) {
+        var tpl = el.getAttribute('data-bvk-tpl') || '';
+        if (/\d+(?:[.,]\d+)?\s*ml/i.test(tpl)) {
+          el.textContent = tpl.replace(/\d+(?:[.,]\d+)?\s*ml/gi, size);
+        }
+      });
+    }
+
+    function fmt(cents) {
+      var n = cents / 100;
+      return '₪' + (n % 1 ? n.toFixed(2) : n.toFixed(0));
+    }
+
+    function getForm() {
+      return block.closest('form')
+          || document.querySelector('form[action="/cart/add"]')
+          || document.querySelector('form[action*="/cart/add"]');
+    }
+
+    function getVid() {
+      var form  = getForm();
+      var scope = form || document;
+      var el = scope.querySelector('[data-variant-select]')
+              || scope.querySelector('select[name="id"]')
+              || scope.querySelector('input[name="id"]:checked')
+              || scope.querySelector('input[name="id"]');
+      return el ? el.value : null;
+    }
+
+    function updatePrice() {
+      var vid  = getVid();
+      var data = vid ? variants[vid] : null;
+      if (!data) return;
+      priceEl.textContent = fmt(data.p);
+      updateSize(variantSize(data.t));
+
+      var hasCompare = data.c && data.c > data.p;
+      compareRow.hidden = !hasCompare;
+      saveEl.hidden = !hasCompare;
+      if (hasCompare) {
+        compareEl.textContent = fmt(data.c);
+        var saveAmount = data.c - data.p;
+        var savePercent = Math.round((saveAmount / data.c) * 100);
+        saveEl.textContent = saveFormat
+          .replace(/\[\s*amount\s*\]/g, fmt(saveAmount))
+          .replace(/\[\s*percent\s*\]/g, savePercent);
+      }
+    }
+
+    updatePrice();
+    var _form = getForm();
+    if (_form) _form.addEventListener('change', updatePrice);
+    var _varSel = (_form || document).querySelector('[data-variant-select]');
+    if (_varSel) _varSel.addEventListener('change', updatePrice);
+    document.addEventListener('product:variant-change', updatePrice);
+  }
+
+  function ready(fn) {
+    if (document.readyState !== 'loading') { fn(); }
+    else { document.addEventListener('DOMContentLoaded', fn); }
+  }
+
+  ready(function () {
+    document.querySelectorAll('.bvk-block').forEach(bvkInit);
+  });
+})();
+</script>

@@ -115,6 +115,29 @@
             "page_for_content": "",
             "custom_liquid": ""
           }
+        },
+        "best_value_kit_1": {
+          "type": "best_value_kit",
+          "settings": {
+            "badge_text": "הכי משתלם",
+            "title": "ערכת היכרות בהרכבה אישית",
+            "description": "בחר/י 5 דוגמיות מהקולקציה שלנו.",
+            "size_line": "5 × 2ml",
+            "only_label": "רק",
+            "instead_of_label": "במקום",
+            "save_badge_format": "חיסכון של [amount] • [percent]% הנחה",
+            "bullet_1_heading": "חיסכון של 15%",
+            "bullet_1_text": "לעומת קנייה בנפרד",
+            "bullet_2_heading": "אריזת מתנה יוקרתית",
+            "bullet_2_text": "כלולה במחיר",
+            "bullet_3_heading": "5 לבחירתך",
+            "bullet_3_text": "מכל דוגמיות המותג",
+            "bullet_4_heading": "מולא ידנית",
+            "bullet_4_text": "מבקבוקים מקוריים",
+            "trust_1": "בשמים 100% מקוריים",
+            "trust_2": "בקבוקוני 2ml נוחים לנסיעות",
+            "trust_3": "משלוח מהיר ואמין"
+          }
         }
       },
       "block_order": [
@@ -127,7 +150,8 @@
         "accordion_edidn",
         "accordion_tNUMwN",
         "accordion_cjJX3",
-        "accordion_L7d3X"
+        "accordion_L7d3X",
+        "best_value_kit_1"
       ],
       "custom_css": [],
       "settings": {

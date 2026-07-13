@@ -621,5 +621,15 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "kit": {
+    "choose_title": "Choisissez vos {{ count }} parfums",
+    "selected_label": "Sélectionnés : {{ count }}/{{ total }}",
+    "select_placeholder": "Sélectionnez un parfum",
+    "search_placeholder": "Rechercher des parfums...",
+    "no_samples": "Aucun échantillon disponible",
+    "out_of_stock": "Épuisé",
+    "remaining": "({{ count }} restants)",
+    "already_selected": "Déjà sélectionné"
   }
 }

@@ -704,6 +704,9 @@
   {% render 'product-block-variant-picker', prod: product, current_variant: current_variant %}
 {% endif %}
 
+{%- comment -%} === Kit selector (multi-select picker) — right after the last right-column block === {%- endcomment -%}
+{% render 'kit-selector', required: 5 %}
+
 {%- comment -%} Fallback: Buy buttons (product-form-k) {%- endcomment -%}
 {% liquid
   assign has_buy_buttons = section.blocks | where: 'type', 'buy_buttons'
@@ -761,13 +764,6 @@
             render 'product-form-k', prod: product, current_variant: current_variant, hidden: true
           endif
         -%}
-        {%- comment -%} === Kit selector (dropdowns) === {%- endcomment -%}
-        {% render 'kit-selector',
-          kit_data_all: kit_data_all_json,
-          variants_map: variants_map_json,
-          required: 5
-        %}
-
         {% comment -%}
           Live region for announcing updated price and availability to screen readers
         {% endcomment -%}
@@ -4998,6 +4994,131 @@
         {
           "type": "paragraph",
           "content": "t:shared.settings.heading_tag.title.info"
+        }
+      ]
+    },
+    {
+      "type": "best_value_kit",
+      "name": "Best Value Banner — Kit",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "badge_text",
+          "label": "Badge text",
+          "default": "הכי משתלם"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "ערכת היכרות בהרכבה אישית"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "בחר/י 5 דוגמיות מהקולקציה שלנו."
+        },
+        {
+          "type": "text",
+          "id": "size_line",
+          "label": "Size line",
+          "default": "5 × 2ml"
+        },
+        {
+          "type": "text",
+          "id": "only_label",
+          "label": "Price prefix label",
+          "default": "רק"
+        },
+        {
+          "type": "text",
+          "id": "instead_of_label",
+          "label": "Compare price prefix",
+          "default": "במקום",
+          "info": "Shown with the variant's compare-at price. Hidden when no compare-at price is set."
+        },
+        {
+          "type": "text",
+          "id": "save_badge_format",
+          "label": "Save badge format",
+          "default": "חיסכון של [amount] • [percent]% הנחה",
+          "info": "Placeholders: [amount], [percent]. Hidden when no compare-at price is set."
+        },
+        {
+          "type": "header",
+          "content": "Benefit bullets"
+        },
+        {
+          "type": "text",
+          "id": "bullet_1_heading",
+          "label": "Bullet 1 heading",
+          "default": "חיסכון של 15%"
+        },
+        {
+          "type": "text",
+          "id": "bullet_1_text",
+          "label": "Bullet 1 text",
+          "default": "לעומת קנייה בנפרד"
+        },
+        {
+          "type": "text",
+          "id": "bullet_2_heading",
+          "label": "Bullet 2 heading",
+          "default": "אריזת מתנה יוקרתית"
+        },
+        {
+          "type": "text",
+          "id": "bullet_2_text",
+          "label": "Bullet 2 text",
+          "default": "כלולה במחיר"
+        },
+        {
+          "type": "text",
+          "id": "bullet_3_heading",
+          "label": "Bullet 3 heading",
+          "default": "5 לבחירתך"
+        },
+        {
+          "type": "text",
+          "id": "bullet_3_text",
+          "label": "Bullet 3 text",
+          "default": "מכל דוגמיות המותג"
+        },
+        {
+          "type": "text",
+          "id": "bullet_4_heading",
+          "label": "Bullet 4 heading",
+          "default": "מולא ידנית"
+        },
+        {
+          "type": "text",
+          "id": "bullet_4_text",
+          "label": "Bullet 4 text",
+          "default": "מבקבוקים מקוריים"
+        },
+        {
+          "type": "header",
+          "content": "Trust badges (bottom row)"
+        },
+        {
+          "type": "text",
+          "id": "trust_1",
+          "label": "Trust badge 1",
+          "default": "בשמים 100% מקוריים"
+        },
+        {
+          "type": "text",
+          "id": "trust_2",
+          "label": "Trust badge 2",
+          "default": "בקבוקוני 2ml נוחים לנסיעות"
+        },
+        {
+          "type": "text",
+          "id": "trust_3",
+          "label": "Trust badge 3",
+          "default": "משלוח מהיר ואמין"
         }
       ]
     }
