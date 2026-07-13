@@ -35,10 +35,10 @@
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
-        "desktop_height": 60,
+        "desktop_height": 65,
         "mobile_height": 65,
-        "image": "shopify://shop_images/579E04DD-10E8-442C-AA2B-021B6B0C096E.jpg",
-        "image_mobile": "shopify://shop_images/579E04DD-10E8-442C-AA2B-021B6B0C096E.jpg",
+        "image": "shopify://shop_images/970F2FAE-DC6B-42C0-B894-2C2671F28562.png",
+        "image_mobile": "shopify://shop_images/23CD10E7-AFFB-44B7-9776-A7580E7D2E66.png",
         "focal_point": "center",
         "mobile_focal_point": "center",
         "media_link": "",
