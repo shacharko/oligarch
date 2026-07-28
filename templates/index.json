@@ -117,7 +117,7 @@
         "heading_xmVxUT": {
           "type": "heading",
           "settings": {
-            "title": "ZOOLOGIST COLLECTION",
+            "title": "BYBOZO COLLECTION",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-display-3"
           }
@@ -125,7 +125,7 @@
         "subheading_Q7cyxV": {
           "type": "subheading",
           "settings": {
-            "subheading": "היא אחת מבתי הבישום הנישתיים המסקרנים והיצירתיים בעולם, המציעה חוויית ריח יוצאת דופן בהשראת עולם החי. כל ניחוח בקולקציה הוא סיפור ייחודי, עשיר ומלא עומק, שנרקח בקפידה על ידי בשמים מובילים. עם למעלה מ־20 דגמים שונים, זו הזדמנות לגלות עולמות חדשים של ריח ואופי.",
+            "subheading": "יוקרה אינה נמדדת במה שרואים, אלא במה שזוכרים. ברוכים הבאים לעולם של בייבוזו בית בישום צרפתי המציע ניחוחות עוצמתיים, אלגנטיים  ובלתי נשכחים .",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-6-base"
           }
@@ -147,7 +147,7 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
-        "image": "shopify://shop_images/C7FA9046-011E-4AA7-9BF4-3F8F1C1F40FA.png",
+        "image": "shopify://shop_images/CCB6AE89-2815-480E-8052-A25164B4C52C.png",
         "aspect_ratio": "natural",
         "focal_point": "image_presentation",
         "image_caption": "",
