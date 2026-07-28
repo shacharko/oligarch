@@ -414,7 +414,7 @@
         "collection_6NdMxx": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals",
+            "collection": "bybozo",
             "collection_name": "חדש כל המדף",
             "show_view_all": true
           }
@@ -422,6 +422,37 @@
       },
       "block_order": [
         "collection_6NdMxx"
+      ],
+      "name": "t:sections.featured_collection_slider.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_tag": "h5",
+        "subheading": "",
+        "link": "shopify://collections/bybozo",
+        "link_text": "",
+        "button_style": "btn--callout",
+        "maximum_products": 15,
+        "columns": "5",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "featured_collection_slider_XGaJkm": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "collection_GpDXTg": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "collection_name": "חדש כל המדף",
+            "show_view_all": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_GpDXTg"
       ],
       "name": "t:sections.featured_collection_slider.presets.name",
       "settings": {
@@ -952,13 +983,14 @@
     "custom_liquid_Yhm46m",
     "rich_text_dmzFYM",
     "image_with_text_g7pwnR",
+    "featured_collection_slider_iJpRtV",
     "custom_liquid_97CHAd",
     "image_hero_rhEJhE",
     "featured_collection_slider_6bqncV",
     "collection_list_slider_X66xn8",
     "featured_collection_slider_aE4DjX",
     "grid_JtqcCU",
-    "featured_collection_slider_iJpRtV",
+    "featured_collection_slider_XGaJkm",
     "collection_list_slider_mR8grQ",
     "collection_list_slider_FWw4BR",
     "behind_brands_9YJ8yF",
