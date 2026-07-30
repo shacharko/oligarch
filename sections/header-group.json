@@ -17,7 +17,7 @@
         "announcement_JEcktn": {
           "type": "announcement",
           "settings": {
-            "title": "<h2>15% <em><strong>הנחה על כל האתר </strong></em>ובבוטיק </h2>",
+            "title": "<h2><em><strong>15% הנחה על כל האתר ובבוטיק </strong></em></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -25,7 +25,7 @@
         "announcement_ez6fEr": {
           "type": "announcement",
           "settings": {
-            "title": "<h2>100% בשמים מקוריים !</h2>",
+            "title": "<h2><em><strong>100% בשמים מקוריים !</strong></em></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -33,7 +33,7 @@
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><strong>יבואן רשמי של מותגי נישה מובילים</strong></h2>",
+            "title": "<h2><em><strong>יבואן רשמי של מותגי נישה מובילים</strong></em></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
