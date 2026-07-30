@@ -17,7 +17,7 @@
         "announcement_JEcktn": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><em><strong>15% הנחה על כל האתר ובבוטיק </strong></em></h2>",
+            "title": "<h2><em><strong>15% - הנחה על כל האתר ובבוטיק </strong></em></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
