@@ -9,6 +9,57 @@
  */
 {
   "sections": {
+    "video_hero_7wGcMG": {
+      "type": "video-hero",
+      "blocks": {
+        "accent_MMMQM3": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "heading_hDXdqE": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_YriHPD": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_MMMQM3",
+        "heading_hDXdqE",
+        "text_YriHPD"
+      ],
+      "name": "t:sections.video_hero.presets.name",
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "video": "shopify://files/videos/ScreenRecording_07-30-2026 23-41-24_1.mov",
+        "media_link": "shopify://collections/bybozo",
+        "focal_point": "bottom",
+        "focal_point_mobile": "bottom",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "image_hero_AtCjjn": {
       "type": "image-hero",
       "blocks": {
@@ -39,6 +90,7 @@
         "heading_reTPbA",
         "text_86mPUL"
       ],
+      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
@@ -667,6 +719,9 @@
               "attar-al-has-leather-effecto",
               "attar-al-has-skin-musk"
             ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "all",
             "max_reviews": 20,
             "quote_marks_size": "small",
@@ -979,6 +1034,7 @@
     }
   },
   "order": [
+    "video_hero_7wGcMG",
     "image_hero_AtCjjn",
     "custom_liquid_Yhm46m",
     "rich_text_dmzFYM",
