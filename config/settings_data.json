@@ -42,7 +42,7 @@
     "product_listing_title_letter_spacing": 0,
     "capitalize_buttons": false,
     "buttons_letter_spacing": 0,
-    "enable_section_animations": true,
+    "enable_section_animations": false,
     "swatch_shape": "rectangle",
     "swatch_image_fit": "cover",
     "sold_out_product_price_display": "show",
@@ -269,11 +269,6 @@
       "2200952712151285029": {
         "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": true,
-        "settings": {}
-      },
-      "11042885144372945983": {
-        "type": "shopify://apps/brandye/blocks/brandye/ca924a18-2ca7-4994-994e-6759b060cd78",
-        "disabled": false,
         "settings": {}
       }
     }
