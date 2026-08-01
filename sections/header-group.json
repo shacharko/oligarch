@@ -25,7 +25,7 @@
         "announcement_ez6fEr": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><em><strong>100% בשמים מקוריים !</strong></em></h2>",
+            "title": "<h2><em><strong>משלוח חינם מעל 299₪</strong></em></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -53,7 +53,7 @@
         "autoplay_enabled": true,
         "autoplay_delay": 3,
         "color_background": "#040300",
-        "color_text": "#F1F1F1"
+        "color_text": "#f1f1f1"
       }
     },
     "header": {
