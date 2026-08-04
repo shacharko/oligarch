@@ -23,6 +23,7 @@
 
 <html class="no-js" lang="he" dir="rtl" style="--announcement-height: 1px;">
   <head>
+ {%- capture ecom_header_content -%}{%- render 'ecom_header' -%}{%- endcapture -%}{%- unless ecom_header_content contains 'Liquid error' -%}{{ ecom_header_content }}{%- endunless -%}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -190,7 +191,7 @@
   });
 </script>
 
-  </body>
+  {%- capture ecom_footer_content -%}{%- render 'ecom_footer' -%}{%- endcapture -%}{%- unless ecom_footer_content contains 'Liquid error' -%}{{ ecom_footer_content }}{%- endunless -%}</body>
   <link
     rel="preload"
     fetchpriority="low"
