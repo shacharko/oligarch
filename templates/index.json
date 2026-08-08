@@ -595,33 +595,33 @@
         "video_card_q7fwd3": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/6666668 (1).MOV",
+            "video": "shopify://files/videos/v24025gl0000d6jea87og65lh4ta6c2g.mp4",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_7253_2.jpg",
-            "product_ref": "",
-            "product_link": "",
+            "poster": "shopify://shop_images/IMG_9577.jpg",
+            "product_ref": "קריד-ווילד-וטיבר-יוניסקס",
+            "product_link": "shopify://products/קריד-ווילד-וטיבר-יוניסקס",
             "product_title": ""
           }
         },
         "video_card_UVbDix": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/v14044g50000d6hvlufog65j29cf44m0.MP4",
+            "video": "shopify://files/videos/v15044gf0000d4mpnrnog65t2tp39o10.mp4",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_7252.jpg",
-            "product_ref": "",
-            "product_link": "shopify://collections/mes-bisous",
+            "poster": "shopify://shop_images/IMG_9578.jpg",
+            "product_ref": "bybozo-habibi",
+            "product_link": "shopify://products/bybozo-habibi",
             "product_title": ""
           }
         },
         "video_card_xGzqYt": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/IMG_5547.MOV",
+            "video": "shopify://files/videos/v1c044g50000d8msicfog65u79tnptgg.mp4",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_7256.jpg",
-            "product_ref": "",
-            "product_link": "",
+            "poster": "shopify://shop_images/IMG_9579.jpg",
+            "product_ref": "נסומטו-מיקודליריו-יוניסקס",
+            "product_link": "shopify://products/נסומטו-מיקודליריו-יוניסקס",
             "product_title": ""
           }
         }
