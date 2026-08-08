@@ -32,9 +32,8 @@
         },
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "title": "",
+            "title": "<h2><strong>15% הנחה על כל המארזים </strong></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
