@@ -358,11 +358,11 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "notes",
-          "seasons",
-          "scent-profiles",
           "brands",
-          "mood"
+          "mood",
+          "seasons",
+          "notes",
+          "scent-profiles"
         ],
         "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
