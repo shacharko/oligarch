@@ -153,13 +153,33 @@ Usage:
       });
     }
 
+    // build() reparses `base`, which destroys and recreates every <img>. Wiring that
+    // straight to a ResizeObserver creates a feedback loop now that the logos are lazy:
+    // each image that lands can resize the track, which rebuilds, which recreates the
+    // images, which load again. Only rebuild when the viewport width — the sole input
+    // build() actually depends on — has really changed, and coalesce bursts into one frame.
+    var lastWidth = -1;
+    var frame = 0;
+
+    function scheduleBuild(force){
+      if(frame) cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(function(){
+        frame = 0;
+        var w = vp.clientWidth || 0;
+        if(!force && w === lastWidth) return;
+        lastWidth = w;
+        build();
+      });
+    }
+
+    lastWidth = vp.clientWidth || 0;
     build();
 
     // התאמה לשינויי גודל/טעינה בעורך
-    new ResizeObserver(build).observe(vp);
-    document.addEventListener('shopify:section:load',   function(e){ if(e && e.target && e.target.contains(root)) build(); });
-    document.addEventListener('shopify:section:select', function(e){ if(e && e.target && e.target.contains(root)) build(); });
-    document.addEventListener('shopify:block:select',   function(e){ if(e && e.target && e.target.contains(root)) build(); });
+    new ResizeObserver(function(){ scheduleBuild(false); }).observe(vp);
+    document.addEventListener('shopify:section:load',   function(e){ if(e && e.target && e.target.contains(root)) scheduleBuild(true); });
+    document.addEventListener('shopify:section:select', function(e){ if(e && e.target && e.target.contains(root)) scheduleBuild(true); });
+    document.addEventListener('shopify:block:select',   function(e){ if(e && e.target && e.target.contains(root)) scheduleBuild(true); });
   }
 
   document.querySelectorAll('[data-af-logos]').forEach(init);
