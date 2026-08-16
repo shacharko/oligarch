@@ -71,33 +71,100 @@
 >
   <div class="image-hero__inner">
     <div class="image-hero__image-container">
-      {%- if section.settings.image_mobile != blank -%}
+      {%- if section.settings.image_mobile != blank and section.settings.image != blank -%}
+        {%- comment -%}
+          Both images are rendered as one <picture> so the browser downloads only the one it
+          will display. Two separate <img> elements hidden with `display:none` are still both
+          fetched — and with prioritize_loading both were fetched at fetchpriority="high",
+          so the desktop hero competed directly with the mobile LCP image on phones.
+        {%- endcomment -%}
+        {%- liquid
+          assign hero_focal = section.settings.focal_point
+          if hero_focal == 'image_presentation' and section.settings.image.presentation.focal_point == '50.0% 50.0%'
+            assign hero_focal = 'center'
+          endif
+          if hero_focal == 'image_presentation'
+            assign hero_alignment = section.settings.image.presentation.focal_point
+          else
+            assign hero_alignment = hero_focal | replace: '_', ' '
+          endif
+
+          assign hero_focal_mobile = section.settings.mobile_focal_point
+          if hero_focal_mobile == 'image_presentation' and section.settings.image_mobile.presentation.focal_point == '50.0% 50.0%'
+            assign hero_focal_mobile = 'center'
+          endif
+          if hero_focal_mobile == 'image_presentation'
+            assign hero_alignment_mobile = section.settings.image_mobile.presentation.focal_point
+          else
+            assign hero_alignment_mobile = hero_focal_mobile | replace: '_', ' '
+          endif
+        -%}
+        <div
+          class="image image-hero__image image--animate animation--lazy-load"
+          data-hero-picture
+        >
+          <picture>
+            {%-
+              render 'responsive-image' with
+              image: section.settings.image_mobile,
+              sizes: "100vw",
+              tag_name: "source",
+              media: "(max-width: 719px)",
+              focal_point: section.settings.mobile_focal_point,
+              focal_alignment: hero_alignment_mobile,
+              src_set_type: "full-width",
+              prioritize_loading: prioritize_loading
+            -%}
+            {%-
+              render 'responsive-image' with
+              image: section.settings.image,
+              sizes: "100vw",
+              focal_point: section.settings.focal_point,
+              focal_alignment: hero_alignment,
+              src_set_type: "full-width",
+              prioritize_loading: prioritize_loading
+            -%}
+          </picture>
+        </div>
+        <style>
+          /* The theme sizes hero images with `.image > *` (theme.css). Inserting <picture>
+             makes the <img> a grandchild, so that rule no longer reaches it — restate it for
+             the inner <img>. Kept at low specificity (3 classes) so the aspect-ratio rules
+             in theme.css, which are more specific, still win where they apply. */
+          .image-hero__image > picture > .image__img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            object-position: center center;
+            object-position: var(--focal-alignment, center center);
+          }
+          /* Set via stylesheet rather than a style attribute, so the mobile value below
+             can actually override it — an inline style would always win. */
+          #shopify-section-{{ section.id }} [data-hero-picture] {
+            --focal-alignment: {{ hero_alignment }};
+          }
+          @media (max-width: 719px) {
+            #shopify-section-{{ section.id }} [data-hero-picture] {
+              --focal-alignment: {{ hero_alignment_mobile }};
+            }
+          }
+        </style>
+      {%- else -%}
         {%-
           render 'image' with
-          wrapper_class: "image-hero__image image-hero__image--mobile",
-          image: section.settings.image_mobile,
+          wrapper_class: "image-hero__image",
+          image: section.settings.image,
           sizes: "100vw",
-          focal_point: section.settings.mobile_focal_point,
+          focal_point: section.settings.focal_point,
+          include_placeholder: true,
+          placeholder_natural_fallback_ratio: placeholder_aspect_ratio,
           placeholder_name: "lifestyle-2",
           animate: true,
           src_set_type: "full-width",
           prioritize_loading: prioritize_loading
         -%}
       {%- endif -%}
-
-      {%-
-        render 'image' with
-        wrapper_class: "image-hero__image",
-        image: section.settings.image,
-        sizes: "100vw",
-        focal_point: section.settings.focal_point,
-        include_placeholder: true,
-        placeholder_natural_fallback_ratio: placeholder_aspect_ratio,
-        placeholder_name: "lifestyle-2",
-        animate: true,
-        src_set_type: "full-width",
-        prioritize_loading: prioritize_loading
-      -%}
     </div>
     <div class="image-hero__overlay"></div>
 

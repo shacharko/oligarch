@@ -34,25 +34,25 @@
               <video
                 class="bb-video"
                 playsinline
-                preload="metadata"
+                preload="none"
                 muted
                 {% if section.settings.loop %}loop{% endif %}
-                {% if poster %}poster="{{ poster | image_url: width: 1200 }}"{% endif %}
+                {% if poster %}data-poster="{{ poster | image_url: width: 900 }}"{% endif %}
               >
                 {% for s in shopify_video.sources %}
-                  <source src="{{ s.url }}" type="{{ s.mime_type }}">
+                  <source data-src="{{ s.url }}" type="{{ s.mime_type }}">
                 {% endfor %}
               </video>
             {% elsif external_url != blank %}
               <video
                 class="bb-video"
                 playsinline
-                preload="metadata"
+                preload="none"
                 muted
                 {% if section.settings.loop %}loop{% endif %}
-                {% if poster %}poster="{{ poster | image_url: width: 1200 }}"{% endif %}
+                {% if poster %}data-poster="{{ poster | image_url: width: 900 }}"{% endif %}
               >
-                <source src="{{ external_url }}" type="video/mp4">
+                <source data-src="{{ external_url }}" type="video/mp4">
               </video>
             {% else %}
               <div class="bb-ph"></div>

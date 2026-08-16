@@ -60,6 +60,23 @@
     });
   };
 
+  /* Defer all video bytes (poster + media) until the card is near the viewport.
+     Without this the section — 16th on the homepage — pulls ~2.9MB during initial load. */
+  const hydrate = (video) => {
+    if (!video || video.dataset.bbHydrated) return;
+    video.dataset.bbHydrated = "1";
+    if (video.dataset.poster) video.poster = video.dataset.poster;
+    let hasSource = false;
+    qsa(video, "source[data-src]").forEach(s => {
+      s.src = s.dataset.src;
+      hasSource = true;
+    });
+    if (hasSource) {
+      video.preload = "metadata";
+      video.load();
+    }
+  };
+
   const pauseAllExcept = (exceptVideo, root) => {
     qsa(root, SELECTORS.video).forEach(v => { if (v !== exceptVideo) v.pause(); });
     // sync play buttons
@@ -82,6 +99,7 @@
 
     const tryAutoplay = () => {
       if (!startVid) return;
+      hydrate(startVid);
       startVid.muted = true;
       pauseAllExcept(startVid, sec);
       startVid.play().catch(()=>{});
@@ -89,7 +107,20 @@
     };
 
     scrollToCard(track, startCard, "auto");
-    requestAnimationFrame(() => setTimeout(tryAutoplay, 80));
+
+    // Only hydrate/autoplay once the section actually approaches the viewport.
+    if ("IntersectionObserver" in window) {
+      const io = new IntersectionObserver((entries) => {
+        if (!entries.some(e => e.isIntersecting)) return;
+        io.disconnect();
+        qsa(sec, SELECTORS.video).forEach(hydrate);
+        requestAnimationFrame(() => setTimeout(tryAutoplay, 80));
+      }, { rootMargin: "200px 0px" });
+      io.observe(sec);
+    } else {
+      qsa(sec, SELECTORS.video).forEach(hydrate);
+      requestAnimationFrame(() => setTimeout(tryAutoplay, 80));
+    }
 
     // sync UI with media events
     qsa(sec, SELECTORS.video).forEach(v => {
@@ -110,6 +141,7 @@
       const card  = e.target.closest(SELECTORS.card);
       const video = card?.querySelector(SELECTORS.video);
       if (!video) return;
+      hydrate(video);
 
       const { first, last } = visibleRange(track, cards, perView());
       const idx = parseInt(card.dataset.index || "0", 10);
@@ -171,6 +203,7 @@
         scrollToCard(track, nextCard);
         const v = nextCard.querySelector(SELECTORS.video);
         if (v) {
+          hydrate(v);
           pauseAllExcept(v, sec);
           v.muted = true;
           v.play().catch(()=>{});
@@ -206,6 +239,7 @@
           const mid = Math.min(l, Math.max(f, f + 1));
           const v = cards[mid]?.querySelector(SELECTORS.video);
           if (v) {
+            hydrate(v);
             v.muted = true;
             pauseAllExcept(v, sec);
             v.play().catch(()=>{});
@@ -214,6 +248,7 @@
         } else if (isSingle()) {
           const v = cards[0]?.querySelector(SELECTORS.video);
           if (v) {
+            hydrate(v);
             v.muted = true;
             pauseAllExcept(v, sec);
             v.play().catch(()=>{});

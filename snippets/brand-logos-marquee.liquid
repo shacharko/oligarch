@@ -22,10 +22,10 @@ Usage:
           <li class="af-logos__item" role="listitem">
             {%- if link_to_collections -%}
               <a href="/collections/{{ b.brand_name | handleize }}" aria-label="{{ b.brand_name }}">
-                {{ b.brand_logo | image_url: width: 280 | image_tag: alt: b.brand_name, loading: 'eager', class: 'af-logos__img' }}
+                {{ b.brand_logo | image_url: width: 280 | image_tag: alt: b.brand_name, loading: 'lazy', class: 'af-logos__img' }}
               </a>
             {%- else -%}
-              {{ b.brand_logo | image_url: width: 280 | image_tag: alt: b.brand_name, loading: 'eager', class: 'af-logos__img' }}
+              {{ b.brand_logo | image_url: width: 280 | image_tag: alt: b.brand_name, loading: 'lazy', class: 'af-logos__img' }}
             {%- endif -%}
           </li>
         {%- endif -%}
