@@ -21,6 +21,11 @@
   <script type="module" src="{{ 'theme.min.js' | asset_url }}"></script>
 {% endif %}
 
+{% # Storefront API quick search — replaces native predictive search (no Hebrew partial matching) %}
+{% if settings.enable_quick_search %}
+  <script type="module" src="{{ 'custom-predictive-search.js' | asset_url }}"></script>
+{% endif %}
+
 {% # Set the following line to true to import custom-events.js %}
 {% assign useCustomEvents = false %}
 

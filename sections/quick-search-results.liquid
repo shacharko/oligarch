@@ -1,0 +1,135 @@
+{%- comment -%}
+  Quick search results, fetched by assets/custom-predictive-search.js through the
+  Section Rendering API:
+
+    /search?q=<term>*&type=product&section_id=quick-search-results
+
+  Shopify's native predictive search (/search/suggest) returns nothing for partial
+  Hebrew terms. The regular search endpoint does match them once a trailing wildcard
+  is added, so the quick search queries that instead and renders this section.
+
+  Markup mirrors sections/predictive-search.liquid so the theme's own quick-search
+  styles apply unchanged.
+{%- endcomment -%}
+
+{%- liquid
+  assign sizes = '80px'
+  if settings.quick_search_product_style == 'columns'
+    assign sizes = '200px'
+  endif
+
+  assign terms = search.terms | remove_last: '*'
+-%}
+
+{%- paginate search.results by 10 -%}
+  {%- if search.performed -%}
+    {%- if search.results_count > 0 -%}
+      <h4 class="quick-search__header ff-body fs-body-100">
+        <span class="t-subdued">{{ 'search.headings.products' | t }}</span>
+      </h4>
+
+      {%- for product in search.results -%}
+        {%- if product.object_type != 'product' -%}
+          {%- continue -%}
+        {%- endif -%}
+
+        <a
+          class="quick-search__result quick-search__result--product quick-search__result--{{ settings.quick_search_product_style }}"
+          href="{{ product.url }}"
+          dir="auto"
+        >
+          {%- if settings.quick_search_product_style != 'list' -%}
+            <div class="quick-search__result-image-wrapper">
+              {%
+                render 'image' with
+                image: product.featured_media,
+                wrapper_class: 'quick-search__result-image',
+                aspect_ratio: settings.product_listing_aspect_ratio,
+                object_fit: settings.product_listing_media_fit,
+                include_placeholder: true,
+                sizes: sizes
+              %}
+            </div>
+          {%- endif -%}
+
+          <div class="quick-search__result-details ff-body fs-body-75">
+            <div class="quick-search__result-info">
+              <div class="quick-search__result-heading fs-product-card-title">{{ product.title }}</div>
+              {%- if settings.quick_search_show_vendor and product.vendor -%}
+                <span class="quick-search__result-vendor t-subdued">{{ product.vendor }}</span>
+              {%- endif -%}
+            </div>
+
+            {% liquid
+              assign price_content_type = 'price'
+
+              if settings.quick_search_show_price
+                if product.available
+                  if product.price == 0 and product.price_varies == false
+                    if settings.zero_dollar_listing_price_display == 'replace'
+                      assign price_content_type = 'custom'
+                      assign custom_price_content = 'products.inventory.zero_price_custom_label' | t
+                    elsif settings.zero_dollar_listing_price_display == 'hide'
+                      assign price_content_type = 'hide'
+                      assign custom_price_content = blank
+                    endif
+                  endif
+                else
+                  if settings.sold_out_listing_price_display == 'hide'
+                    assign price_content_type = 'hide'
+                    assign custom_price_content = blank
+                  elsif settings.sold_out_listing_price_display == 'replace'
+                    assign price_content_type = 'custom'
+                    assign custom_price_content = 'products.inventory.sold_out_price_custom_label' | t
+                  endif
+                endif
+              else
+                assign price_content_type = 'hide'
+              endif
+            %}
+            {% if price_content_type == 'price' %}
+              <span class="quick-search__result-price">
+                {% if product.compare_at_price > product.price %}
+                  <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+                  <s>{{ product.compare_at_price | money }}</s>
+
+                  {%- if product.price_varies -%}
+                    {%- assign sale_price = product.price | money -%}
+
+                    <span class="sale">
+                      {{- 'products.product.on_sale_from_html' | t: price: sale_price -}}
+                    </span>
+                  {%- else -%}
+                    <span class="sale">{{ product.price | money }}</span>
+                  {%- endif -%}
+                {%- else -%}
+                  {%- if product.price_varies -%}
+                    {%- assign price = product.price | money -%}
+                    {{ 'products.product.from_lowest_price_html' | t: lowest_price: price }}
+                  {%- else -%}
+                    <span>{{ product.price | money }}</span>
+                  {%- endif -%}
+                {% endif %}
+
+                {%- render 'unit-price', item: product.selected_or_first_available_variant -%}
+              </span>
+            {% elsif price_content_type == 'custom' %}
+              {% if product.price_varies and product.price == 0 %}
+                {%- assign sale_price = product.price | money -%}
+                {%- assign custom_price_content = 'products.inventory.zero_price_custom_label' | t -%}
+                {{ 'products.product.from_lowest_price_html' | t: lowest_price: custom_price_content }}
+              {% else %}
+                <span>{{ custom_price_content }}</span>
+              {% endif %}
+            {% endif %}
+          </div>
+        </a>
+      {%- endfor -%}
+    {%- else -%}
+      <h4 class="quick-search__no-results-header ff-body fs-body-200" dir="auto">
+        {{ 'search.no_results_html' | t: terms: terms }}
+      </h4>
+      <p class="quick-search__no-results t-subdued">{{ 'search.check_spelling' | t }}</p>
+    {%- endif -%}
+  {%- endif -%}
+{%- endpaginate -%}
