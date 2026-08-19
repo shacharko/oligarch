@@ -594,6 +594,7 @@
       "blocks": {
         "video_card_kbUyQD": {
           "type": "video_card",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/68e78c28-efea-4a00-907f-9037822e7bbf.mov",
             "video_url": "",
