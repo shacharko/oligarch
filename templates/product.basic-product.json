@@ -140,7 +140,28 @@
         },
         "judge_me_reviews_review_snippet_widget_VnGUy7": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "reviews_selection": "auto",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "min_star_rating": "inherit",
+            "show_review_media": true,
+            "max_reviews": 5,
+            "review_length": "medium",
+            "text_size": "medium",
+            "max_width": 1100,
+            "max_image_size": "small",
+            "arrows_visibility": "always_shown",
+            "transition_speed": 5,
+            "corner_styling": "inherit",
+            "text_color": "",
+            "card_color": "",
+            "stars_color": "",
+            "arrows_color": "",
+            "arrows_background_color": ""
+          }
         },
         "swish_formerly_wishlist_king_wishlist_button_block_7fgk6": {
           "type": "shopify://apps/swish-wishlist-king/blocks/wishlist-button-block/194f5011-a43c-4b22-b12e-eaf20dc4506a",
@@ -325,13 +346,13 @@
     "behind_brands_7wzL97": {
       "type": "behind-brands",
       "blocks": {
-        "video_card_LpqPLX": {
+        "video_card_LJUBeL": {
           "type": "video_card",
           "settings": {
-            "video": "shopify://files/videos/6666668 (1).MOV",
+            "video": "shopify://files/videos/68e78c28-efea-4a00-907f-9037822e7bbf.mov",
             "video_url": "",
-            "poster": "shopify://shop_images/IMG_7253_2.jpg",
-            "product_ref": "zoologist-squid-deluxe-bottle",
+            "poster": "shopify://shop_images/IMG_9775.jpg",
+            "product_ref": "bybozo-immoral",
             "product_link": "",
             "product_title": ""
           }
@@ -343,6 +364,17 @@
             "video_url": "",
             "poster": "shopify://shop_images/IMG_7252.jpg",
             "product_ref": "מס-ביסוס-א-וונדראוס-פילגט-יוניסקס",
+            "product_link": "",
+            "product_title": ""
+          }
+        },
+        "video_card_LpqPLX": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/6666668 (1).MOV",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_7253_2.jpg",
+            "product_ref": "zoologist-squid-deluxe-bottle",
             "product_link": "",
             "product_title": ""
           }
@@ -360,8 +392,9 @@
         }
       },
       "block_order": [
-        "video_card_LpqPLX",
+        "video_card_LJUBeL",
         "video_card_AVL3nN",
+        "video_card_LpqPLX",
         "video_card_fKezrK"
       ],
       "name": "Behind the brands",
@@ -391,6 +424,9 @@
               "attar-al-has-exquisite",
               "bdk-gris-charnel-extrait"
             ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "4_to_5_star",
             "show_review_media": true,
             "display_order": "media_first",
@@ -413,7 +449,8 @@
             "arrows_color": "#000000",
             "transition_speed": 5,
             "header_text": "לקוחות מפרגנים",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         },
         "judge_me_reviews_review_widget_bWPLBe": {
