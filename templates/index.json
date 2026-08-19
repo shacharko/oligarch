@@ -536,11 +536,11 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "gourmand-collection",
-          "chypre-collection",
-          "sweet-collection",
           "woody-collection",
           "fruity-collection",
+          "gourmand-collection",
+          "sweet-collection",
+          "chypre-collection",
           "aquatic-collection"
         ],
         "collection_listing_aspect_ratio": "square",
@@ -566,18 +566,18 @@
         "columns": "4",
         "mobile_columns": "2",
         "collection_list": [
+          "virgo",
+          "libra",
+          "scorpio",
+          "gemini",
           "aquarius",
-          "aries",
           "cancer",
           "capricorn",
-          "gemini",
           "leo",
-          "libra",
           "pisces",
           "sagittarius",
-          "virgo",
           "taurus",
-          "scorpio"
+          "aries"
         ],
         "collection_listing_aspect_ratio": "portrait",
         "label_style": "overlay",
