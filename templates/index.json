@@ -592,6 +592,16 @@
     "behind_brands_9YJ8yF": {
       "type": "behind-brands",
       "blocks": {
+        "video_card_kbUyQD": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/68e78c28-efea-4a00-907f-9037822e7bbf.mov",
+            "video_url": "",
+            "product_ref": "bybozo-immoral",
+            "product_link": "shopify://collections/bybozo",
+            "product_title": ""
+          }
+        },
         "video_card_q7fwd3": {
           "type": "video_card",
           "settings": {
@@ -627,11 +637,11 @@
         }
       },
       "block_order": [
+        "video_card_kbUyQD",
         "video_card_q7fwd3",
         "video_card_UVbDix",
         "video_card_xGzqYt"
       ],
-      "disabled": true,
       "name": "Behind the brands",
       "settings": {
         "heading": "",
