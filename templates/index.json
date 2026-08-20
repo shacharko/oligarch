@@ -170,7 +170,7 @@
         "heading_xmVxUT": {
           "type": "heading",
           "settings": {
-            "title": "BYBOZO PARIS",
+            "title": "Andy Tauer",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-display-3"
           }
@@ -186,7 +186,7 @@
         "button_k79xdf": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/bybozo",
+            "link": "shopify://collections/andy-tauer",
             "link_text": "גלו את הקולקציה",
             "button_style": "btn--callout"
           }
