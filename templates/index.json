@@ -602,6 +602,17 @@
             "product_title": ""
           }
         },
+        "video_card_xGzqYt": {
+          "type": "video_card",
+          "settings": {
+            "video": "shopify://files/videos/v1c044g50000d8msicfog65u79tnptgg.mp4",
+            "video_url": "",
+            "poster": "shopify://shop_images/IMG_9579.jpg",
+            "product_ref": "נסומטו-מיקודליריו-יוניסקס",
+            "product_link": "shopify://products/נסומטו-מיקודליריו-יוניסקס",
+            "product_title": ""
+          }
+        },
         "video_card_q7fwd3": {
           "type": "video_card",
           "settings": {
@@ -623,24 +634,13 @@
             "product_link": "shopify://products/bybozo-habibi",
             "product_title": ""
           }
-        },
-        "video_card_xGzqYt": {
-          "type": "video_card",
-          "settings": {
-            "video": "shopify://files/videos/v1c044g50000d8msicfog65u79tnptgg.mp4",
-            "video_url": "",
-            "poster": "shopify://shop_images/IMG_9579.jpg",
-            "product_ref": "נסומטו-מיקודליריו-יוניסקס",
-            "product_link": "shopify://products/נסומטו-מיקודליריו-יוניסקס",
-            "product_title": ""
-          }
         }
       },
       "block_order": [
         "video_card_kbUyQD",
+        "video_card_xGzqYt",
         "video_card_q7fwd3",
-        "video_card_UVbDix",
-        "video_card_xGzqYt"
+        "video_card_UVbDix"
       ],
       "name": "Behind the brands",
       "settings": {
