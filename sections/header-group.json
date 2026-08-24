@@ -53,7 +53,7 @@
         "autoplay_enabled": true,
         "autoplay_delay": 3,
         "color_background": "#000000",
-        "color_text": "#FFFFFF"
+        "color_text": "#ffffff"
       }
     },
     "header": {
@@ -154,7 +154,7 @@
         "enable_country_selector": false,
         "show_social_media": false,
         "show_social_media_mobile": true,
-        "logo": "shopify://shop_images/84380B6E-B202-46ED-A3CA-2A51CD9A308A.png",
+        "logo": "shopify://shop_images/3548EA23-9CD4-4BBF-810A-50B972AC98F1.png",
         "logo_width": 180,
         "mobile_logo_width": 140,
         "menu": "hadermenu",
