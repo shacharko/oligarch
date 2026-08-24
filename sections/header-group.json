@@ -17,7 +17,15 @@
         "announcement_JEcktn": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><em><strong>10%  הנחה על כל האתר </strong></em></h2>",
+            "title": "<h2><em><strong>מתחדשים לשנה החדשה עם אוליגרך</strong></em></h2>",
+            "title_mobile": "",
+            "link": "shopify://collections/sampels"
+          }
+        },
+        "5a2005ed-4438-4c3e-9549-f61724bea26f": {
+          "type": "announcement",
+          "settings": {
+            "title": "<h2><strong>15% הנחה על כל האתר </strong></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -29,20 +37,12 @@
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
-        },
-        "5a2005ed-4438-4c3e-9549-f61724bea26f": {
-          "type": "announcement",
-          "settings": {
-            "title": "<h2><strong>15% הנחה על כל המארזים </strong></h2>",
-            "title_mobile": "",
-            "link": "shopify://collections/sampels"
-          }
         }
       },
       "block_order": [
         "announcement_JEcktn",
-        "announcement_ez6fEr",
-        "5a2005ed-4438-4c3e-9549-f61724bea26f"
+        "5a2005ed-4438-4c3e-9549-f61724bea26f",
+        "announcement_ez6fEr"
       ],
       "custom_css": [
         ".ui-overlap-wrap .fader {display: none !important;}",
