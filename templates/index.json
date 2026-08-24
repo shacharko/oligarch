@@ -39,14 +39,13 @@
         "heading_hDXdqE",
         "text_YriHPD"
       ],
-      "disabled": true,
       "name": "t:sections.video_hero.presets.name",
       "settings": {
         "image_aspect": "custom",
         "desktop_height": 100,
         "mobile_height": 100,
-        "video": "shopify://files/videos/ScreenRecording_07-30-2026 23-41-24_1_38aaaacf-9129-4dd1-a86c-147ebcdf8c9d.mov",
-        "video_mobile": "shopify://files/videos/ScreenRecording_07-30-2026 23-41-24_1_38aaaacf-9129-4dd1-a86c-147ebcdf8c9d.mov",
+        "video": "shopify://files/videos/Video.mp4",
+        "video_mobile": "shopify://files/videos/Video.mp4",
         "media_link": "shopify://collections/bybozo",
         "focal_point": "center",
         "focal_point_mobile": "center",
@@ -92,6 +91,7 @@
         "heading_reTPbA",
         "text_86mPUL"
       ],
+      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
