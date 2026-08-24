@@ -25,7 +25,7 @@
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
           "settings": {
-            "title": "<h2><strong>15% הנחה על כל האתר </strong></h2>",
+            "title": "<h2><strong>15% הנחה על כל הטרבלים והדוגמיות</strong> </h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -52,8 +52,8 @@
         "enable_sticky_announcement_bar": "never",
         "autoplay_enabled": true,
         "autoplay_delay": 3,
-        "color_background": "#040300",
-        "color_text": "#f1f1f1"
+        "color_background": "#000000",
+        "color_text": "#FFFFFF"
       }
     },
     "header": {
