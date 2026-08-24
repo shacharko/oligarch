@@ -91,7 +91,6 @@
         "heading_reTPbA",
         "text_86mPUL"
       ],
-      "disabled": true,
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
@@ -1049,9 +1048,9 @@
   },
   "order": [
     "video_hero_7wGcMG",
-    "image_hero_AtCjjn",
     "custom_liquid_Yhm46m",
     "rich_text_dmzFYM",
+    "image_hero_AtCjjn",
     "collection_list_slider_X66xn8",
     "image_with_text_g7pwnR",
     "featured_collection_slider_iJpRtV",
