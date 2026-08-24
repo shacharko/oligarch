@@ -46,61 +46,9 @@
         "mobile_height": 100,
         "video": "shopify://files/videos/Video.mp4",
         "video_mobile": "shopify://files/videos/Video.mp4",
-        "media_link": "shopify://collections/bybozo",
+        "media_link": "",
         "focal_point": "center",
         "focal_point_mobile": "center",
-        "text_position": "center_center",
-        "text_position_mobile": "center_center",
-        "text_color": "#ffffff",
-        "button_background_color": "#ffffff",
-        "button_text_color": "#000000",
-        "color_overlay": "#000000",
-        "color_overlay_gradient": "",
-        "overlay_opacity": 0,
-        "enable_animation": true,
-        "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "image_hero_AtCjjn": {
-      "type": "image-hero",
-      "blocks": {
-        "accent_FzQQAT": {
-          "type": "accent",
-          "settings": {
-            "accent": ""
-          }
-        },
-        "heading_reTPbA": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2"
-          }
-        },
-        "text_86mPUL": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "accent_FzQQAT",
-        "heading_reTPbA",
-        "text_86mPUL"
-      ],
-      "name": "t:sections.image_hero.presets.name",
-      "settings": {
-        "image_aspect": "original",
-        "desktop_height": 100,
-        "mobile_height": 100,
-        "image": "shopify://shop_images/FD74D6A1-D67A-4DDB-BBD1-77A6D03B5D59.png",
-        "image_mobile": "shopify://shop_images/23646B7B-540F-42DC-828D-39370AB31FAE.png",
-        "focal_point": "image_presentation",
-        "mobile_focal_point": "image_presentation",
-        "media_link": "shopify://collections/bybozo",
         "text_position": "center_center",
         "text_position_mobile": "center_center",
         "text_color": "#ffffff",
@@ -161,6 +109,58 @@
         "section_padding": "section--vertical-padding-bottom-only",
         "content_width": "custom",
         "custom_content_width": 400
+      }
+    },
+    "image_hero_AtCjjn": {
+      "type": "image-hero",
+      "blocks": {
+        "accent_FzQQAT": {
+          "type": "accent",
+          "settings": {
+            "accent": ""
+          }
+        },
+        "heading_reTPbA": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_86mPUL": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_FzQQAT",
+        "heading_reTPbA",
+        "text_86mPUL"
+      ],
+      "name": "t:sections.image_hero.presets.name",
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/FD74D6A1-D67A-4DDB-BBD1-77A6D03B5D59.png",
+        "image_mobile": "shopify://shop_images/23646B7B-540F-42DC-828D-39370AB31FAE.png",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "shopify://collections/bybozo",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "collection_list_slider_X66xn8": {
