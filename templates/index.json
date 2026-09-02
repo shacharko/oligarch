@@ -557,6 +557,7 @@
     },
     "collection_list_slider_mR8grQ": {
       "type": "collection-list-slider",
+      "disabled": true,
       "name": "t:sections.collection_list_slider.presets.name",
       "settings": {
         "heading": "דיסקברי סט לפי משפחות ריח",
@@ -587,6 +588,7 @@
     },
     "collection_list_slider_FWw4BR": {
       "type": "collection-list-slider",
+      "disabled": true,
       "name": "t:sections.collection_list_slider.presets.name",
       "settings": {
         "heading": "דיסקברי סט לפי מזלות",
