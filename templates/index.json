@@ -114,9 +114,22 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "collection_list_slider_UmUYEr": {
-      "type": "collection-list-slider",
-      "name": "t:sections.collection_list_slider.presets.name",
+    "featured_collection_slider_fnjGVH": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "collection_EzyAP8": {
+          "type": "collection",
+          "settings": {
+            "collection": "מארזים-לפי-מדינות",
+            "collection_name": "First collection",
+            "show_view_all": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_EzyAP8"
+      ],
+      "name": "t:sections.featured_collection_slider.presets.name",
       "settings": {
         "heading": "",
         "heading_tag": "h2",
@@ -124,16 +137,9 @@
         "link": "shopify://collections/מארזים-לפי-מדינות",
         "link_text": "",
         "button_style": "btn--callout",
-        "columns": "4",
+        "maximum_products": 15,
+        "columns": "5",
         "mobile_columns": "2",
-        "collection_list": [
-          "מארזים-לפי-מדינות"
-        ],
-        "collection_listing_aspect_ratio": "portrait",
-        "label_style": "beneath",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#FFFFFF",
-        "overlay_title_background": "#000000",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
@@ -1075,7 +1081,7 @@
   "order": [
     "image_hero_AtCjjn",
     "video_hero_7wGcMG",
-    "collection_list_slider_UmUYEr",
+    "featured_collection_slider_fnjGVH",
     "custom_liquid_Yhm46m",
     "rich_text_dmzFYM",
     "collection_list_slider_X66xn8",
