@@ -25,7 +25,7 @@
           "settings": {
             "subheading": "צאו למסע מסביב לעולם דרך עולם הניחוחות. מלילות הזהב של דובאי ועד לחופים הלבנים של מיקונוס, כל דיסקברי סט נוצר בהשראת האווירה, האנרגיה והאופי הריחני של יעד אייקוני אחר. 14 יעדים, 14 עולמות ריח שונים וכל מארז מזמין אתכם לגלות מקום חדש דרך הבשמים שבתוכו.",
             "subheading_tag": "h3",
-            "subheading_font_class": "fs-heading-5-base"
+            "subheading_font_class": "fs-heading-6-base"
           }
         },
         "button_hjjTjK": {
@@ -56,7 +56,7 @@
         "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
