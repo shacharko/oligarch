@@ -17,7 +17,7 @@
           "settings": {
             "title": "מארזי דיסקברי סט לפי מדינות",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
+            "heading_font_class": "fs-heading-1-base"
           }
         },
         "subheading_iGzdUn": {
@@ -236,7 +236,7 @@
           "settings": {
             "title": "Andy Tauer",
             "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-3"
+            "heading_font_class": "fs-heading-1-base"
           }
         },
         "subheading_Q7cyxV": {
