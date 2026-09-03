@@ -11,34 +11,6 @@
   "sections": {
     "image_hero_UiqdNR": {
       "type": "image-hero",
-      "blocks": {
-        "accent_UPgReq": {
-          "type": "accent",
-          "settings": {
-            "accent": "Accent"
-          }
-        },
-        "heading_U9FRzL": {
-          "type": "heading",
-          "settings": {
-            "title": "Image hero",
-            "heading_tag": "h2",
-            "heading_font_class": "fs-heading-display-2"
-          }
-        },
-        "text_LCUjk6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
-            "text_font_class": "fs-body-100"
-          }
-        }
-      },
-      "block_order": [
-        "accent_UPgReq",
-        "heading_U9FRzL",
-        "text_LCUjk6"
-      ],
       "name": "t:sections.image_hero.presets.name",
       "settings": {
         "image_aspect": "original",
@@ -48,7 +20,7 @@
         "image_mobile": "shopify://shop_images/F949AE77-0CB8-4CF3-82A8-D9773EFBBAF8.png",
         "focal_point": "image_presentation",
         "mobile_focal_point": "image_presentation",
-        "media_link": "",
+        "media_link": "shopify://collections/sampels",
         "text_position": "center_center",
         "text_position_mobile": "center_center",
         "text_color": "#ffffff",
