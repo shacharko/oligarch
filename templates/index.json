@@ -56,7 +56,7 @@
           "type": "button",
           "settings": {
             "link": "shopify://collections/מארזים-לפי-מדינות",
-            "link_text": "גלו את הקולקציה",
+            "link_text": "גלו את היעדים",
             "button_style": "btn--primary"
           }
         }
