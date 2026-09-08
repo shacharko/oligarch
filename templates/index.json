@@ -183,8 +183,8 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "notes",
           "seasons",
+          "notes",
           "brands",
           "mood",
           "scent-profiles"
