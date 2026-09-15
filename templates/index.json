@@ -502,7 +502,7 @@
           "type": "collection",
           "settings": {
             "collection": "new-arrivals",
-            "collection_name": "חדש כל המדף",
+            "collection_name": "חדש על המדף",
             "show_view_all": true
           }
         }
