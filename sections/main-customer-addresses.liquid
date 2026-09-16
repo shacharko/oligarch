@@ -45,7 +45,7 @@
             class="addresses__modal-close"
             aria-label="{{ 'general.accessibility.close_modal' | t }}"
           >
-            {% render 'icon-button' with small: true, icon: 'close' %}
+            {% render 'icon-button' with small, small: true, icon: 'close' %}
           </button>
 
           {% form 'customer_address', customer.new_address %}
@@ -217,7 +217,7 @@
                 class="addresses__modal-close"
                 aria-label="{{ 'general.accessibility.close_modal' | t }}"
               >
-                {% render 'icon-button' with small: true, icon: 'close' %}
+                {% render 'icon-button' with small, small: true, icon: 'close' %}
               </button>
 
               {% form 'customer_address', address %}
@@ -415,3 +415,16 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'icon-button' with small: true, icon: 'close' %}"
+  to: "{% render 'icon-button' with small, small: true, icon: 'close' %}"
+  position: 1828..1893
+- from: "{% render 'icon-button' with small: true, icon: 'close' %}"
+  to: "{% render 'icon-button' with small, small: true, icon: 'close' %}"
+  position: 8123..8188
+{% endcomment %}

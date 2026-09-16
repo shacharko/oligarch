@@ -80,14 +80,7 @@
           {%- endunless -%}
 
           {%- if section.settings.link and section.settings.link_text -%}
-            {%-
-              render 'button-block' with
-              wrapper_class: "events__header-button section-introduction__button",
-              link: section.settings.link,
-              label: section.settings.link_text,
-              button_style: section.settings.button_style,
-              button_alignment: section.settings.content_alignment
-            -%}
+            {%- render 'button-block' with wrapper_class, wrapper_class: "events__header-button section-introduction__button", link: section.settings.link, label: section.settings.link_text, button_style: section.settings.button_style, button_alignment: section.settings.content_alignment -%}
           {%- endif -%}
         </div>
       </div>
@@ -711,3 +704,24 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%-
+                  render 'button-block' with
+                  wrapper_class: "events__header-button section-introduction__button",
+                  link: section.settings.link,
+                  label: section.settings.link_text,
+                  button_style: section.settings.button_style,
+                  button_alignment: section.settings.content_alignment
+                -%}
+  to: '{%- render ''button-block'' with wrapper_class, wrapper_class: "events__header-button
+    section-introduction__button", link: section.settings.link, label: section.settings.link_text,
+    button_style: section.settings.button_style, button_alignment: section.settings.content_alignment
+    -%}'
+  position: 3393..3673
+{% endcomment %}

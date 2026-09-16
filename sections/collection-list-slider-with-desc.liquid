@@ -34,15 +34,10 @@
           </div>
         {%- endunless -%}
 
-        {%- render 'button-block' with
-          wrapper_class: "collection-list-slider__button section-introduction__button",
-          link: section.settings.link,
-          label: section.settings.link_text,
-          button_style: section.settings.button_style
-        -%}
+        {%- render 'button-block' with wrapper_class, wrapper_class: "collection-list-slider__button section-introduction__button", link: section.settings.link, label: section.settings.link_text, button_style: section.settings.button_style -%}
       </div>
 
-      {%- render 'carousel-navigation' with wrapper_class: 'animation--controls' %}
+      {%- render 'carousel-navigation' with wrapper_class, wrapper_class: 'animation--controls' %}
     </div>
 
     <div
@@ -57,16 +52,7 @@
       <div class="collection-list-slider__collections carousel__wrapper swiper-wrapper">
         {%- for collection in section.settings.collection_list -%}
           <div class="collection-list-slider__collection carousel__slide swiper-slide">
-            {%
-              render 'collection-item' with
-              collection: collection,
-              aspect_ratio: section.settings.collection_listing_aspect_ratio,
-              label_style: section.settings.label_style,
-              overlay_text_color: section.settings.overlay_text_color,
-              overlay_title_background: section.settings.overlay_title_background,
-              overlay_title_background_style: section.settings.overlay_title_background_style,
-              image_sizes: image_sizes
-            %}
+            {% render 'collection-item' with collection, collection: collection, aspect_ratio: section.settings.collection_listing_aspect_ratio, label_style: section.settings.label_style, overlay_text_color: section.settings.overlay_text_color, overlay_title_background: section.settings.overlay_title_background, overlay_title_background_style: section.settings.overlay_title_background_style, image_sizes: image_sizes %}
 
             {%- if section.settings.show_desc -%}
               {%- assign desc_txt = collection.description | strip_html | strip -%}
@@ -85,16 +71,7 @@
         {%- else -%}
           {%- for i in (1..8) -%}
             <div class="collection-list-slider__collection carousel__slide swiper-slide">
-              {%
-                render 'collection-item' with
-                aspect_ratio: section.settings.collection_listing_aspect_ratio,
-                label_style: section.settings.label_style,
-                overlay_text_color: section.settings.overlay_text_color,
-                overlay_title_background: section.settings.overlay_title_background,
-                overlay_title_background_style: section.settings.overlay_title_background_style,
-                placeholder: true,
-                image_sizes: image_sizes
-              %}
+              {% render 'collection-item' with aspect_ratio, aspect_ratio: section.settings.collection_listing_aspect_ratio, label_style: section.settings.label_style, overlay_text_color: section.settings.overlay_text_color, overlay_title_background: section.settings.overlay_title_background, overlay_title_background_style: section.settings.overlay_title_background_style, placeholder: true, image_sizes: image_sizes %}
               {%- if section.settings.show_desc -%}
                 <div class="collection-list-slider__description" style="--desc-lines: {{ section.settings.desc_lines | default: 3 }};">
                   תיאור קצר לקולקציה יוצג כאן.
@@ -237,3 +214,49 @@
   "presets": [{ "name":"Collection list slider (with description)" }]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'button-block' with\r\n          wrapper_class: \"collection-list-slider__button
+    section-introduction__button\",\r\n          link: section.settings.link,\r\n
+    \         label: section.settings.link_text,\r\n          button_style: section.settings.button_style\r\n
+    \       -%}"
+  to: '{%- render ''button-block'' with wrapper_class, wrapper_class: "collection-list-slider__button
+    section-introduction__button", link: section.settings.link, label: section.settings.link_text,
+    button_style: section.settings.button_style -%}'
+  position: 1603..1838
+- from: "{%- render 'carousel-navigation' with wrapper_class: 'animation--controls'
+    %}"
+  to: "{%- render 'carousel-navigation' with wrapper_class, wrapper_class: 'animation--controls'
+    %}"
+  position: 1862..1954
+- from: "{%\r\n              render 'collection-item' with\r\n              collection:
+    collection,\r\n              aspect_ratio: section.settings.collection_listing_aspect_ratio,\r\n
+    \             label_style: section.settings.label_style,\r\n              overlay_text_color:
+    section.settings.overlay_text_color,\r\n              overlay_title_background:
+    section.settings.overlay_title_background,\r\n              overlay_title_background_style:
+    section.settings.overlay_title_background_style,\r\n              image_sizes:
+    image_sizes\r\n            %}"
+  to: "{% render 'collection-item' with collection, collection: collection, aspect_ratio:
+    section.settings.collection_listing_aspect_ratio, label_style: section.settings.label_style,
+    overlay_text_color: section.settings.overlay_text_color, overlay_title_background:
+    section.settings.overlay_title_background, overlay_title_background_style: section.settings.overlay_title_background_style,
+    image_sizes: image_sizes %}"
+  position: 2477..2887
+- from: "{%\r\n                render 'collection-item' with\r\n                aspect_ratio:
+    section.settings.collection_listing_aspect_ratio,\r\n                label_style:
+    section.settings.label_style,\r\n                overlay_text_color: section.settings.overlay_text_color,\r\n
+    \               overlay_title_background: section.settings.overlay_title_background,\r\n
+    \               overlay_title_background_style: section.settings.overlay_title_background_style,\r\n
+    \               placeholder: true,\r\n                image_sizes: image_sizes\r\n
+    \             %}"
+  to: "{% render 'collection-item' with aspect_ratio, aspect_ratio: section.settings.collection_listing_aspect_ratio,
+    label_style: section.settings.label_style, overlay_text_color: section.settings.overlay_text_color,
+    overlay_title_background: section.settings.overlay_title_background, overlay_title_background_style:
+    section.settings.overlay_title_background_style, placeholder: true, image_sizes:
+    image_sizes %}"
+  position: 3793..4200
+{% endcomment %}

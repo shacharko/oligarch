@@ -77,7 +77,7 @@
             aria-controls="filter-bar-filters"
           {%- endif -%}
         >
-          {% render 'icon' with icon: 'filter' %}
+          {% render 'icon' with icon, icon: 'filter' %}
           <span class="filter-bar__button-text">
             {%- liquid
               if collapse_filter_bar
@@ -91,7 +91,7 @@
             <span class="filter-bar__button-count" data-active-filter-count>{{ active_filter_count }}</span>
           {%- endif -%}
           {% unless filter_location == 'sidebar' %}
-            {% render 'icon' with icon: 'chevron-small' %}
+            {% render 'icon' with icon, icon: 'chevron-small' %}
           {% endunless %}
         </button>
 
@@ -103,7 +103,7 @@
             aria-expanded="{% if collapse_filter_bar == false or active_filter_count > 0 %}true{% else %}false{% endif %}"
             aria-controls="filter-bar-filters"
           >
-            {% render 'icon' with icon: 'filter' %}
+            {% render 'icon' with icon, icon: 'filter' %}
             {{ 'filters.title' | t }}
             {%- if active_filter_count > 0 -%}
               <span class="filter-bar__button-count" data-active-filter-count>{{ active_filter_count }}</span>
@@ -114,7 +114,7 @@
 
       {%- if show_item_count -%}
         <p class="filter-bar__results-count fs-body-75" data-results-count>
-          {% render 'results-count' with results_count: results_count %}
+          {% render 'results-count' with results_count, results_count: results_count %}
         </p>
       {%- endif -%}
 
@@ -138,7 +138,7 @@
             aria-controls="filter-bar-sort"
           >
             <span data-sort-label>{{ 'filters.sort_title' | t }}: {{ sort_by }}</span>
-            {% render 'icon' with icon: 'chevron-small' %}
+            {% render 'icon' with icon, icon: 'chevron-small' %}
           </button>
 
           <div id="filter-bar-sort" class="filter-group__values" data-dropdown="filter-bar-sort" data-sort-values aria-hidden="true">
@@ -221,12 +221,12 @@
                 endif
 
                 case fl_key
-                  when 'price_range'   assign ui_label = 'מחיר'
-                  when 'vendor'        assign ui_label = 'מותג'
-                  when 'seasons'       assign ui_label = 'עונות'
-                  when 'scent_family'  assign ui_label = 'משפחת ריחות'
-                  when 'concentration' assign ui_label = 'ריכוז'
-                  when 'size'          assign ui_label = 'גודל'
+                  when 'price_range'
+                  when 'vendor'
+                  when 'seasons'
+                  when 'scent_family'
+                  when 'concentration'
+                  when 'size'
                 endcase
 
                 assign ui_handle = ui_label | handle
@@ -285,7 +285,7 @@
                     <span class="filter-group__label-count" data-group-active-count>{{ count_content }}</span>
                   {%- endif -%}
 
-                  {% render 'icon' with icon: 'chevron-small' %}
+                  {% render 'icon' with icon, icon: 'chevron-small' %}
                 </button>
 
                 <div
@@ -374,9 +374,60 @@
     {%- endif -%}
 
     <div class="filter-bar__active-filters">
-      {%- render 'active-filters' with results: results, show_swatch_filters: show_swatch_filters, custom_color_key_map: custom_color_key_map, custom_color_value_map: custom_color_value_map -%}
+      {%- render 'active-filters' with results, results: results, show_swatch_filters: show_swatch_filters, custom_color_key_map: custom_color_key_map, custom_color_value_map: custom_color_value_map -%}
     </div>
   {%- endif -%}
 </form>
 
 <div class="filter-bar__wash"></div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'icon' with icon: 'filter' %}"
+  to: "{% render 'icon' with icon, icon: 'filter' %}"
+  position: 2672..2717
+- from: "{% render 'icon' with icon: 'chevron-small' %}"
+  to: "{% render 'icon' with icon, icon: 'chevron-small' %}"
+  position: 3243..3295
+- from: "{% render 'icon' with icon: 'filter' %}"
+  to: "{% render 'icon' with icon, icon: 'filter' %}"
+  position: 3753..3798
+- from: "{% render 'results-count' with results_count: results_count %}"
+  to: "{% render 'results-count' with results_count, results_count: results_count
+    %}"
+  position: 4214..4291
+- from: "{% render 'icon' with icon: 'chevron-small' %}"
+  to: "{% render 'icon' with icon, icon: 'chevron-small' %}"
+  position: 5140..5192
+- from: "                  when 'price_range'   assign ui_label = 'מחיר'\r"
+  to: "                  when 'price_range'"
+  position: 9137..9173
+- from: "                  when 'vendor'        assign ui_label = 'מותג'\r"
+  to: "                  when 'vendor'"
+  position: 9174..9205
+- from: "                  when 'seasons'       assign ui_label = 'עונות'\r"
+  to: "                  when 'seasons'"
+  position: 9206..9238
+- from: "                  when 'scent_family'  assign ui_label = 'משפחת ריחות'\r"
+  to: "                  when 'scent_family'"
+  position: 9239..9276
+- from: "                  when 'concentration' assign ui_label = 'ריכוז'\r"
+  to: "                  when 'concentration'"
+  position: 9277..9315
+- from: "                  when 'size'          assign ui_label = 'גודל'\r"
+  to: "                  when 'size'"
+  position: 9316..9345
+- from: "{% render 'icon' with icon: 'chevron-small' %}"
+  to: "{% render 'icon' with icon, icon: 'chevron-small' %}"
+  position: 11768..11820
+- from: "{%- render 'active-filters' with results: results, show_swatch_filters: show_swatch_filters,
+    custom_color_key_map: custom_color_key_map, custom_color_value_map: custom_color_value_map
+    -%}"
+  to: "{%- render 'active-filters' with results, results: results, show_swatch_filters:
+    show_swatch_filters, custom_color_key_map: custom_color_key_map, custom_color_value_map:
+    custom_color_value_map -%}"
+  position: 17423..17619
+{% endcomment %}

@@ -61,13 +61,7 @@
                 <td scope="row" data-label="{{ 'customer.order.product' | t }}">
                   <div class="order__product">
                     <div class="order__image">
-                      {%-
-                        render 'image' with
-                        image: line_item.product.featured_media,
-                        sizes: "100px",
-                        aspect_ratio: 'square',
-                        include_placeholder: true
-                      -%}
+                      {%- render 'image' with image, image: line_item.product.featured_media, sizes: "100px", aspect_ratio: 'square', include_placeholder: true -%}
                     </div>
                     <div class="order__product-details">
                       <div>
@@ -293,3 +287,21 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%-
+                            render 'image' with
+                            image: line_item.product.featured_media,
+                            sizes: "100px",
+                            aspect_ratio: 'square',
+                            include_placeholder: true
+                          -%}
+  to: '{%- render ''image'' with image, image: line_item.product.featured_media, sizes:
+    "100px", aspect_ratio: ''square'', include_placeholder: true -%}'
+  position: 2857..2998
+{% endcomment %}

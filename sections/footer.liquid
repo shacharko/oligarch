@@ -38,7 +38,7 @@
         {%- assign rendered_image = blank -%}
         {%- if block.settings.image != blank -%}
           {%- capture rendered_image -%}
-            {%- render 'image' with image: block.settings.image, wrapper_class: 'footer__image', sizes_px: block.settings.image_max_width -%}
+            {%- render 'image' with image, image: block.settings.image, wrapper_class: 'footer__image', sizes_px: block.settings.image_max_width -%}
           {%- endcapture -%}
         {%- endif -%}
         <div
@@ -615,3 +615,15 @@ html[dir="rtl"] body .footer__newsletter-consent label {
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'image' with image: block.settings.image, wrapper_class: 'footer__image',
+    sizes_px: block.settings.image_max_width -%}"
+  to: "{%- render 'image' with image, image: block.settings.image, wrapper_class:
+    'footer__image', sizes_px: block.settings.image_max_width -%}"
+  position: 1542..1678
+{% endcomment %}

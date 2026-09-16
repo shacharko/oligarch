@@ -40,15 +40,7 @@
         >
           {%- if settings.quick_search_product_style != 'list' -%}
             <div class="quick-search__result-image-wrapper">
-              {%
-                render 'image' with
-                image: product.featured_media,
-                wrapper_class: 'quick-search__result-image',
-                aspect_ratio: settings.product_listing_aspect_ratio,
-                object_fit: settings.product_listing_media_fit,
-                include_placeholder: true,
-                sizes: sizes
-              %}
+              {% render 'image' with image, image: product.featured_media, wrapper_class: 'quick-search__result-image', aspect_ratio: settings.product_listing_aspect_ratio, object_fit: settings.product_listing_media_fit, include_placeholder: true, sizes: sizes %}
             </div>
           {%- endif -%}
 
@@ -133,3 +125,25 @@
     {%- endif -%}
   {%- endif -%}
 {%- endpaginate -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+                    render 'image' with
+                    image: product.featured_media,
+                    wrapper_class: 'quick-search__result-image',
+                    aspect_ratio: settings.product_listing_aspect_ratio,
+                    object_fit: settings.product_listing_media_fit,
+                    include_placeholder: true,
+                    sizes: sizes
+                  %}
+  to: "{% render 'image' with image, image: product.featured_media, wrapper_class:
+    'quick-search__result-image', aspect_ratio: settings.product_listing_aspect_ratio,
+    object_fit: settings.product_listing_media_fit, include_placeholder: true, sizes:
+    sizes %}"
+  position: 1503..1752
+{% endcomment %}

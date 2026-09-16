@@ -19,7 +19,7 @@
   
   # אם אין נתוני קיט או שהווריאציה הנוכחית לא תומכת בקיט, נצא.
   if kit_data == blank or current_variant == blank
-    render 'product-form' with prod as product, current_variant as current_variant
+    render 'product-form' with prod as product
     
   endif
 
@@ -199,4 +199,13 @@
       ></div>
     </div>
   {% endform %}
-</product-form>
+</product-form>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "    render 'product-form' with prod as product, current_variant as current_variant\r"
+  to: "    render 'product-form' with prod as product"
+  position: 801..847
+{%- endcomment -%}

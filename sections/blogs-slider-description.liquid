@@ -42,15 +42,10 @@ Blog list slider (with description)
           </div>
         {%- endunless -%}
 
-        {%- render 'button-block' with
-          wrapper_class: "collection-list-slider__button section-introduction__button",
-          link: section.settings.link,
-          label: section.settings.link_text,
-          button_style: section.settings.button_style
-        -%}
+        {%- render 'button-block' with wrapper_class, wrapper_class: "collection-list-slider__button section-introduction__button", link: section.settings.link, label: section.settings.link_text, button_style: section.settings.button_style -%}
       </div>
 
-      {%- render 'carousel-navigation' with wrapper_class: 'animation--controls' %}
+      {%- render 'carousel-navigation' with wrapper_class, wrapper_class: 'animation--controls' %}
     </div>
 
     <div
@@ -292,3 +287,23 @@ Blog list slider (with description)
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'button-block' with\r\n          wrapper_class: \"collection-list-slider__button
+    section-introduction__button\",\r\n          link: section.settings.link,\r\n
+    \         label: section.settings.link_text,\r\n          button_style: section.settings.button_style\r\n
+    \       -%}"
+  to: '{%- render ''button-block'' with wrapper_class, wrapper_class: "collection-list-slider__button
+    section-introduction__button", link: section.settings.link, label: section.settings.link_text,
+    button_style: section.settings.button_style -%}'
+  position: 1935..2170
+- from: "{%- render 'carousel-navigation' with wrapper_class: 'animation--controls'
+    %}"
+  to: "{%- render 'carousel-navigation' with wrapper_class, wrapper_class: 'animation--controls'
+    %}"
+  position: 2194..2286
+{% endcomment %}

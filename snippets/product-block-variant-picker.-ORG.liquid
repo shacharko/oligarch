@@ -106,15 +106,7 @@
       {% if option_name != 'brand' %}
       {% if show_popup_trigger %}
         {% capture rendered_popup_trigger %}
-          {%
-            render 'product-block-information-popup' with
-            block: block,
-            popup_page_target: block_settings.variant_popup_page,
-            popup_page: variant_popup_page,
-            icon: block_settings.variant_popup_icon,
-            custom_icon_image: block_settings.custom_icon_image,
-            text: block_settings.variant_popup_text
-          %}
+          {% render 'product-block-information-popup' with block, block: block, popup_page_target: block_settings.variant_popup_page, popup_page: variant_popup_page, icon: block_settings.variant_popup_icon, custom_icon_image: block_settings.custom_icon_image, text: block_settings.variant_popup_text %}
         {% endcapture %}
       {% endif %}
 
@@ -233,7 +225,7 @@
           >
             {{ option_values }}
 
-            {% render 'icon' with icon: 'chevron-small' %}
+            {% render 'icon' with icon, icon: 'chevron-small' %}
           </div>
         {%- endif -%}
       {% endcapture %}
@@ -268,4 +260,23 @@
       </script>
     {%- endif -%}
   </div>
-{% endunless %}
+{% endunless %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%\r\n            render 'product-block-information-popup' with\r\n            block:
+    block,\r\n            popup_page_target: block_settings.variant_popup_page,\r\n
+    \           popup_page: variant_popup_page,\r\n            icon: block_settings.variant_popup_icon,\r\n
+    \           custom_icon_image: block_settings.custom_icon_image,\r\n            text:
+    block_settings.variant_popup_text\r\n          %}"
+  to: "{% render 'product-block-information-popup' with block, block: block, popup_page_target:
+    block_settings.variant_popup_page, popup_page: variant_popup_page, icon: block_settings.variant_popup_icon,
+    custom_icon_image: block_settings.custom_icon_image, text: block_settings.variant_popup_text
+    %}"
+  position: 4153..4445
+- from: "{% render 'icon' with icon: 'chevron-small' %}"
+  to: "{% render 'icon' with icon, icon: 'chevron-small' %}"
+  position: 8667..8719
+{%- endcomment -%}
