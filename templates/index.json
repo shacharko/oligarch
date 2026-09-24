@@ -183,11 +183,11 @@
         "columns": "5",
         "mobile_columns": "2",
         "collection_list": [
-          "seasons",
-          "notes",
           "brands",
           "mood",
-          "scent-profiles"
+          "scent-profiles",
+          "seasons",
+          "notes"
         ],
         "collection_listing_aspect_ratio": "portrait",
         "label_style": "beneath",
@@ -235,7 +235,7 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
-        "image": "shopify://shop_images/675D7703-ED3C-4CF4-81DF-84834158B6E3.png",
+        "image": "shopify://shop_images/D48F4D34-96D1-4DA4-9E1B-01BA4AEA0643.png",
         "aspect_ratio": "natural",
         "focal_point": "image_presentation",
         "image_caption": "",
