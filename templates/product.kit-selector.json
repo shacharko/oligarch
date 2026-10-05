@@ -178,7 +178,7 @@
       "type": "recommended-products",
       "name": "t:sections.recommended_products.presets.name",
       "settings": {
-        "title": "מארזים מומלצים",
+        "title": "מוצרים מומלצים",
         "heading_tag": "h2",
         "subheading": "",
         "maximum_products": 12,
