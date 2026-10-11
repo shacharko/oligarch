@@ -56,6 +56,7 @@
             "badge_star": true,
             "main_title": "גלו 5 בשמי נישה יוקרתיים",
             "price_label": "חוו את כל החמישיה ב-",
+            "savings_text": "",
             "right_bullet_1": "נסו לפני שאתם משקיעים בבקבוק מלא",
             "right_bullet_2": "ללא התחייבות – פשוט לגלות",
             "right_bullet_3": "מצאו את הבושם הבא שיהפוך לחתימה שלכם",
@@ -77,7 +78,7 @@
           }
         },
         "tolstoy_shoppable_video_quiz_stories_block_pxCG4": {
-          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "type": "shopify://apps/tolstoy-ads-image-video/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
           "settings": {
             "publishId": "publishId"
           }
@@ -108,7 +109,7 @@
           "type": "custom_liquid",
           "settings": {
             "column_placement": "right",
-            "custom_liquid": "<style>.trust-bar{display:flex;width:100%;gap:6px;margin-top:-8px;direction:rtl;}.trust-bar-item{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 6px;font-size:11px;line-height:1.3;color:#1c1008;text-align:right;background:#f7f2eb;}.trust-bar-emoji{flex-shrink:0;font-size:18px;line-height:1;}.trust-bar-item strong{display:block;font-size:11px;font-weight:700;}@media(max-width:600px){.trust-bar-item{font-size:9px;padding:6px 4px;gap:5px;}.trust-bar-emoji{font-size:13px;}.trust-bar-item strong{font-size:9px;}}</style><div class=\"trust-bar\"><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🛡️</span><span><strong>100% אותנטי</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🎁</span><span><strong>דוגמיות חינם מעל 299₪</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🚚</span><span><strong>משלוח חינם מעל ₪299</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🔒</span><span><strong>תשלום מאובטח</strong></span></div></div>"
+            "custom_liquid": "<style>.trust-bar{display:flex;width:100%;gap:6px;margin-top:-8px;direction:rtl;}.trust-bar-item{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:8px 6px;font-size:11px;line-height:1.3;color:#1c1008;text-align:right;background:#f7f2eb;}.trust-bar-emoji{flex-shrink:0;font-size:18px;line-height:1;}.trust-bar-item strong{display:block;font-size:11px;font-weight:700;}@media(max-width:600px){.trust-bar-item{font-size:9px;padding:6px 4px;gap:5px;}.trust-bar-emoji{font-size:13px;}.trust-bar-item strong{font-size:9px;}}</style><div class=\"trust-bar\"><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🛡️</span><span><strong>100% אותנטי</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🎁</span><span><strong>דוגמיות חינם מעל 299₪</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🚚</span><span><strong>משלוח חינם מעל ₪249</strong></span></div><div class=\"trust-bar-item\"><span class=\"trust-bar-emoji\">🔒</span><span><strong>תשלום מאובטח</strong></span></div></div>"
           }
         },
         "text_w3G6kr": {
@@ -145,7 +146,28 @@
         },
         "judge_me_reviews_review_snippet_widget_wnbMrk": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "reviews_selection": "auto",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "min_star_rating": "inherit",
+            "show_review_media": true,
+            "max_reviews": 5,
+            "review_length": "medium",
+            "text_size": "medium",
+            "max_width": 1100,
+            "max_image_size": "small",
+            "arrows_visibility": "always_shown",
+            "transition_speed": 5,
+            "corner_styling": "inherit",
+            "text_color": "",
+            "card_color": "",
+            "stars_color": "",
+            "arrows_color": "",
+            "arrows_background_color": ""
+          }
         },
         "accordion_XpdCx": {
           "type": "accordion",
@@ -216,8 +238,6 @@
             "text_5": "",
             "icon_6": "none",
             "text_6": "",
-            "icon_7": "none",
-            "text_7": "",
             "display_as_collapsible_row": false,
             "expand_by_default": false
           }
@@ -241,8 +261,6 @@
             "text_5": "<p><strong>רכישות מאובטחות </strong></p>",
             "icon_6": "moving-truck",
             "text_6": "<p><strong>החזרות\\החלפות  </strong><a href=\"/pages/shipping_info\" title=\"shipping\"><strong> מדיניות החזרות</strong></a></p>",
-            "icon_7": "none",
-            "text_7": "",
             "display_as_collapsible_row": false,
             "expand_by_default": true
           }
