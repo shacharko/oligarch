@@ -14,19 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_JEcktn": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "title": "<h2><em><strong>מתחדשים לשנה החדשה עם אוליגרך</strong></em></h2>",
-            "title_mobile": "",
-            "link": "shopify://collections/sampels"
-          }
-        },
         "5a2005ed-4438-4c3e-9549-f61724bea26f": {
           "type": "announcement",
           "settings": {
             "title": "<h2><strong>10% הנחה על כל הטרבלים והדוגמיות&nbsp;</strong></h2><h2><strong>15% הנחה על כל המארזי דיסקברי סט&nbsp;</strong></h2>",
+            "title_mobile": "",
+            "link": "shopify://collections/sampels"
+          }
+        },
+        "announcement_JEcktn": {
+          "type": "announcement",
+          "settings": {
+            "title": "<h2><em><strong>דוגמיות מתנה בכל רכישה מעל 249₪</strong></em></h2>",
             "title_mobile": "",
             "link": "shopify://collections/sampels"
           }
@@ -41,8 +40,8 @@
         }
       },
       "block_order": [
-        "announcement_JEcktn",
         "5a2005ed-4438-4c3e-9549-f61724bea26f",
+        "announcement_JEcktn",
         "announcement_ez6fEr"
       ],
       "custom_css": [
