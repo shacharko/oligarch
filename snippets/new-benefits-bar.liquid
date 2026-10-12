@@ -4,7 +4,7 @@ Usage: {% render 'benefits-marquee-afrodite' %}
 {%- endcomment -%}
 
 <div class="af-marquee-wrapper">
-  <div class="af-marquee" dir="ltr" data-af-marquee>
+  <div class="af-marquee" dir="ltr" data-af-marquee data-af-speed="55">
     <div class="af-track">
 
       <div class="af-tag">
@@ -155,9 +155,6 @@ Usage: {% render 'benefits-marquee-afrodite' %}
 
 /* מובייל */
 @media (max-width: 600px){
-  .af-marquee.is-running .af-track{
-  animation: af-loop var(--af-speed, 8s) linear infinite;
-}
   .af-track{ gap:36px; }
   .af-img img{ width:32px; height:32px; }
   .af-tag > a{
@@ -188,13 +185,25 @@ Usage: {% render 'benefits-marquee-afrodite' %}
       var left = imgs.length;
 
       var done = function(){
-        var target = (vp.clientWidth || 0) * 2.2, guard = 0;
-        while(track.scrollWidth < target && guard < 30){
+        /* רוחב סט אחד = רוחב התוכן + הרווח שאחריו (ה-gap בין הסטים) */
+        var gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+        var setWidth = track.scrollWidth + gap;
+
+        /* תמיד לפחות 2 עותקים, ומספיק כדי לכסות את המסך + עותק נוסף */
+        var target = (vp.clientWidth || 0) + setWidth;
+        var copies = 1, guard = 0;
+        while((copies < 2 || copies * setWidth < target) && guard < 30){
           track.insertAdjacentHTML('beforeend', base);
-          guard++;
+          copies++; guard++;
         }
-        var distance = Math.ceil(track.scrollWidth / 2);
+
+        /* המרחק = בדיוק סט אחד, כך שהסוף של הלולאה זהה להתחלה */
+        var distance = (track.scrollWidth + gap) / copies;
         root.style.setProperty('--af-distance', distance + 'px');
+
+        /* מהירות קבועה בפיקסלים לשנייה, לא תלויה ברוחב התוכן */
+        var pxPerSec = parseFloat(root.getAttribute('data-af-speed')) || 55;
+        root.style.setProperty('--af-speed', (distance / pxPerSec) + 's');
         void track.offsetWidth;
         track.style.animation = '';
         root.classList.add('is-running');
@@ -218,7 +227,16 @@ Usage: {% render 'benefits-marquee-afrodite' %}
     }
 
     build();
-    new ResizeObserver(build).observe(vp);
+
+    /* בנייה מחדש רק כשהרוחב משתנה (לא בכל שינוי גובה, שגורם לקפיצה) */
+    var lastW = vp.clientWidth, resizeTimer;
+    new ResizeObserver(function(){
+      var w = vp.clientWidth;
+      if(w === lastW) return;
+      lastW = w;
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(build, 150);
+    }).observe(vp);
   }
 
   document.querySelectorAll('[data-af-marquee]').forEach(init);
