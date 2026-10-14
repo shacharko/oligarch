@@ -46,7 +46,7 @@
       ],
       "custom_css": [
         ".ui-overlap-wrap .fader {display: none !important;}",
-        "@media (max-width: 768px) {.announcement-bar__item, .announcement-bar__item-inner, .announcement-bar__text, .announcement-bar__text p {white-space: nowrap !important; text-overflow: clip !important; } .announcement-bar__item, .announcement-bar__item-inner {padding-left: 2px !important; padding-right: 2px !important; } .announcement-bar__text, .announcement-bar__text p {font-size: clamp(9px, 2.8vw, 12px) !important; letter-spacing: -0.2px; }}"
+        "@media (max-width: 768px) {.announcement-bar__item, .announcement-bar__item-inner, .announcement-bar__text, .announcement-bar__text p {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }}"
       ],
       "settings": {
         "enable_sticky_announcement_bar": "never",
