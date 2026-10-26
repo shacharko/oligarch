@@ -214,7 +214,7 @@
         "heading_xmVxUT": {
           "type": "heading",
           "settings": {
-            "title": "Fredric Malle",
+            "title": "Rojd Dove",
             "heading_tag": "h2",
             "heading_font_class": "fs-heading-1-base"
           }
@@ -222,7 +222,7 @@
         "subheading_Q7cyxV": {
           "type": "subheading",
           "settings": {
-            "subheading": "פרדריק מאל הוא בית בישום צרפתי יוקרתי שנוסד בשנת 2000, ומוכר בגישה אמנותית שמציבה את הבשמים עצמם במרכז. הבית מעניק לבשמים מובילים חופש יצירתי רחב, ואף מציג את שמם בגאווה על הבקבוק — בדומה לאמן החותם על יצירתו. התוצאה היא קולקציות מתוחכמות, בעלות אופי ייחודי, חומרי גלם איכותיים ונוכחות אלגנטית ועל-זמנית.",
+            "subheading": "בית הבישום הבריטי ROJA DOVE נוסד מתוך תשוקה לבשמי יוקרה יוצאי דופן, המשלבים אומנות בישום עילית עם חומרי הגלם המשובחים והנדירים בעולם. כל ניחוח נרקח בקפידה ומביא לידי ביטוי אלגנטיות, עושר ועומק בלתי מתפשרים. הקולקציה מציעה יצירות בישום ייחודיות, בעלות נוכחות מרשימה וחתימת ריח בלתי נשכחת.",
             "subheading_tag": "h3",
             "subheading_font_class": "fs-heading-6-base"
           }
@@ -230,7 +230,7 @@
         "button_k79xdf": {
           "type": "button",
           "settings": {
-            "link": "shopify://collections/frederic-mall",
+            "link": "shopify://collections/roja-1",
             "link_text": "גלו את הקולקציה",
             "button_style": "btn--callout"
           }
