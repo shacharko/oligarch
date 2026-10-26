@@ -244,7 +244,7 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
-        "image": "shopify://shop_images/D48F4D34-96D1-4DA4-9E1B-01BA4AEA0643.png",
+        "image": "shopify://shop_images/C607D7B1-8A48-47B9-B587-D1CB6D3DFFEB.png",
         "aspect_ratio": "natural",
         "focal_point": "image_presentation",
         "image_caption": "",
@@ -268,7 +268,7 @@
         "collection_6NdMxx": {
           "type": "collection",
           "settings": {
-            "collection": "frederic-mall",
+            "collection": "roja-1",
             "collection_name": "",
             "show_view_all": true
           }
@@ -282,7 +282,7 @@
         "heading": "",
         "heading_tag": "h5",
         "subheading": "",
-        "link": "shopify://collections/bybozo",
+        "link": "",
         "link_text": "",
         "button_style": "btn--callout",
         "maximum_products": 15,
