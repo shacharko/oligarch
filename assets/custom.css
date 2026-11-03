@@ -347,7 +347,31 @@ button.product-form__cart-submit.btn:disabled {
     width: 70px;
   }
 }
+/* Product badges below image */
+.product-card-wrapper .card__inner {
+  margin-bottom: 36px !important;
+}
 
+.product-card-wrapper .card_inner .card_badge {
+  position: absolute !important;
+  top: calc(100% + 8px) !important;
+  bottom: auto !important;
+  left: 8px !important;
+  right: auto !important;
+  display: flex !important;
+  gap: 6px !important;
+  z-index: 2;
+}
+
+.product-card-wrapper .card__badge .badge {
+  border-radius: 999px !important;
+  padding: 6px 16px !important;
+  background: #fff !important;
+  color: #111 !important;
+  border: 1px solid #111 !important;
+  font-size: 12px !important;
+  white-space: nowrap;
+}
 
 
 
