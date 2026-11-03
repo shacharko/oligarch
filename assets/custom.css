@@ -351,7 +351,6 @@ button.product-form__cart-submit.btn:disabled {
 .product-card-wrapper .card__inner {
   margin-bottom: 36px !important;
 }
-
 .product-card-wrapper .card_inner .card_badge {
   position: absolute !important;
   top: calc(100% + 8px) !important;
@@ -362,7 +361,6 @@ button.product-form__cart-submit.btn:disabled {
   gap: 6px !important;
   z-index: 2;
 }
-
 .product-card-wrapper .card__badge .badge {
   border-radius: 999px !important;
   padding: 6px 16px !important;
