@@ -244,7 +244,7 @@
       "name": "t:sections.image_with_text.presets.name",
       "settings": {
         "image_position": "right",
-        "image": "shopify://shop_images/C607D7B1-8A48-47B9-B587-D1CB6D3DFFEB.png",
+        "image": "shopify://shop_images/AABDB6A5-2D8B-45C0-A3F1-989243EE4F49.png",
         "aspect_ratio": "natural",
         "focal_point": "image_presentation",
         "image_caption": "",
@@ -268,7 +268,7 @@
         "collection_6NdMxx": {
           "type": "collection",
           "settings": {
-            "collection": "roja-1",
+            "collection": "zoologist-1",
             "collection_name": "",
             "show_view_all": true
           }
