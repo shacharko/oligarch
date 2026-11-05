@@ -347,6 +347,13 @@ button.product-form__cart-submit.btn:disabled {
     width: 70px;
   }
 }
+/* Rounded buttons - Homepage only */
+body.template-index .button,
+body.template-index .btn,
+body.template-index a.button,
+body.template-index button:not(.shopify-payment-button__button) {
+  border-radius: 999px !important;
+}
 
 
 
