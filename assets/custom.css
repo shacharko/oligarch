@@ -354,18 +354,67 @@ body.template-index a.button,
 body.template-index button:not(.shopify-payment-button__button) {
   border-radius: 999px !important;
 }
-/* OLIGARCH - Rounded Product Buttons */
+/* 1. Product size / variant buttons */
+.template-product .product-form__input input[type="radio"] + label,
+.template-product .product-form__input--pill label,
+.template-product .variant-input label,
+.template-product .variant-wrapper label,
+.template-product .block-swatch,
+.template-product .size-selector label,
+.template-product .swatch-element label,
+.template-product .variant-picker__option-values button {
+  border-radius: 999px !important;
+}
 
+/* 2. All main purchase buttons */
 .template-product .product-form__submit,
+.template-product .product-form__buttons .button,
 .template-product .shopify-payment-button__button,
-.template-product .shopify-payment-button__button--unbranded {
+.template-product .shopify-payment-button__button--unbranded,
+.template-product button[name="add"] {
   border-radius: 999px !important;
   overflow: hidden;
 }
 
-/* Keep rounded shape on button pseudo-elements */
-.template-product .product-form__submit::before,
-.template-product .product-form__submit::after {
+/* 3. Quantity selector */
+.template-product .quantity,
+.template-product quantity-input,
+.template-product .quantity-selector,
+.template-product .quantity-input {
+  border-radius: 999px !important;
+}
+
+.template-product .quantity::before,
+.template-product .quantity::after {
+  border-radius: 999px !important;
+}
+
+/* 4. Sticky / floating purchase buttons */
+.sticky-atc button,
+.sticky-add-to-cart button,
+.sticky-cart button,
+.product-sticky-form button,
+.sticky-product-bar button,
+.product-sticky-atc button,
+.sticky-add-to-cart__button {
+  border-radius: 999px !important;
+}
+
+/* 5. Homepage shopping buttons */
+.template-index a.button,
+.template-index .button,
+.template-index .btn,
+.template-index .banner__buttons a {
+  border-radius: 999px !important;
+}
+
+/* 6. Button borders and overlays */
+.product-form__submit::before,
+.product-form__submit::after,
+.shopify-payment-button__button::before,
+.shopify-payment-button__button::after,
+.button::before,
+.button::after {
   border-radius: 999px !important;
 }
 
