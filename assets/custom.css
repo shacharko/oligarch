@@ -417,29 +417,6 @@ body.template-index button:not(.shopify-payment-button__button) {
 .button::after {
   border-radius: 999px !important;
 }
-/* OLIGARCH - Rounded Size Selectors */
-
-.template-product .product-form__input label,
-.template-product .product-form__input--pill label,
-.template-product .variant-picker label,
-.template-product .variant-picker__option label,
-.template-product .variant-option label,
-.template-product .variant-input label,
-.template-product .product-variants label,
-.template-product .variant-wrapper .variant__button-label,
-.template-product .product-options label,
-.template-product .product-option label,
-.template-product .swatch-input__label {
-  border-radius: 999px !important;
-}
-
-/* Size buttons using custom elements */
-.template-product .variant-picker button,
-.template-product .variant-selects button,
-.template-product .variant-option button,
-.template-product .variant__button-label {
-  border-radius: 999px !important;
-}
 
 
 
