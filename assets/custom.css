@@ -354,6 +354,20 @@ body.template-index a.button,
 body.template-index button:not(.shopify-payment-button__button) {
   border-radius: 999px !important;
 }
+/* OLIGARCH - Rounded Product Buttons */
+
+.template-product .product-form__submit,
+.template-product .shopify-payment-button__button,
+.template-product .shopify-payment-button__button--unbranded {
+  border-radius: 999px !important;
+  overflow: hidden;
+}
+
+/* Keep rounded shape on button pseudo-elements */
+.template-product .product-form__submit::before,
+.template-product .product-form__submit::after {
+  border-radius: 999px !important;
+}
 
 
 
