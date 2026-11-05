@@ -263,7 +263,7 @@
           "settings": {
             "link": "shopify://collections/roja-1",
             "link_text": "גלו את הקולקציה",
-            "button_style": "btn--callout"
+            "button_style": "btn--primary"
           }
         }
       },
