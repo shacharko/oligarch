@@ -76,25 +76,11 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
-    "collection-list-slider": {
-      "type": "collection-list-slider",
-      "disabled": true,
+    "custom_liquid_CCGYUK": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
       "settings": {
-        "heading": "Subcollections",
-        "heading_tag": "h2",
-        "subheading": "",
-        "link": "",
-        "link_text": "View all collections",
-        "button_style": "btn--callout",
-        "columns": "4",
-        "mobile_columns": "2",
-        "collection_list": [],
-        "collection_listing_aspect_ratio": "square",
-        "label_style": "overlay",
-        "overlay_title_background_style": "gradient",
-        "overlay_text_color": "#ffffff",
-        "overlay_title_background": "#000000",
-        "enable_animation": true,
+        "custom_liquid": "{% if collection.description != blank %}\n<div class=\"oligarch-desc\" dir=\"rtl\">\n  <input\n    type=\"checkbox\"\n    id=\"desc-{{ section.id }}\"\n    class=\"desc-toggle\"\n  >\n\n  <div class=\"desc-content rte\">\n    {{ collection.description }}\n  </div>\n\n  <label\n    for=\"desc-{{ section.id }}\"\n    class=\"desc-button\"\n  >\n    <span class=\"desc-more\">הצג עוד ↓</span>\n    <span class=\"desc-less\">הצג פחות ↑</span>\n  </label>\n</div>\n{% endif %}\n\n<style>\n.oligarch-desc {\n  max-width: 700px;\n  margin: 25px auto;\n  padding: 0 18px;\n  text-align: center;\n}\n\n.oligarch-desc .desc-toggle {\n  position: absolute;\n  opacity: 0;\n  width: 1px;\n  height: 1px;\n}\n\n.oligarch-desc .desc-content {\n  max-height: 18em;\n  overflow: hidden;\n  line-height: 1.6;\n}\n\n.oligarch-desc .desc-toggle:checked\n~ .desc-content {\n  max-height: none;\n}\n\n.oligarch-desc .desc-button {\n  display: inline-block;\n  cursor: pointer;\n  padding: 14px 25px;\n  font-size: 16px;\n  font-weight: 600;\n  text-decoration: underline;\n}\n\n.oligarch-desc .desc-less {\n  display: none;\n}\n\n.oligarch-desc .desc-toggle:checked\n~ .desc-button .desc-more {\n  display: none;\n}\n\n.oligarch-desc .desc-toggle:checked\n~ .desc-button .desc-less {\n  display: inline;\n}\n</style>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
       }
@@ -122,6 +108,7 @@
         "heading_gnQqnC",
         "text_3GN7Q6"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "t:sections.rich_text.presets.name",
       "settings": {
@@ -160,7 +147,7 @@
   "order": [
     "image_hero_hhamkD",
     "banner",
-    "collection-list-slider",
+    "custom_liquid_CCGYUK",
     "rich_text_RKn9HR",
     "main-collection-product-grid"
   ]
