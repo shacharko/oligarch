@@ -57,7 +57,7 @@
     "custom_product_badge_group_4_tag_names": "",
     "custom_product_badge_group_4_color": "#df0a0a",
     "uppercase_badges": true,
-    "product_listing_show_vendor": false,
+    "product_listing_show_vendor": true,
     "enable_border_on_hover": false,
     "enable_quick_add": true,
     "enable_quick_view": true,
